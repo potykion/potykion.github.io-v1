@@ -13,34 +13,37 @@
         }
     </style>
 
-        <link type="text/css" rel="stylesheet" href="static/common.css">
+    <link type="text/css" rel="stylesheet" href="static/common.css">
 
 </head>
 <body>
 
 <div class="container">
-<h3><a href="index.html">Блог из-под палки</a></h3>
+    <h3><a href="index.html">Блог из-под палки</a></h3>
 
-<h2>Тесты на питоне</h2>
+    <h2>Тесты на питоне</h2>
 
-<p>Все просто:</p>
+    <p>Все просто:</p>
 
-<ul>
-    <li>ставим <a href="https://docs.pytest.org/en/stable/">pytest</a></li>
-    <li>
-        юзаем <a href="https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock">моки</a> из стандартной
-        библиотеки
-        (или <a href="https://docs.python.org/3/library/unittest.mock.html#unittest.mock.AsyncMock">асинхронный мок</a>,
-        доступный с версии питона 3.8)
-    </li>
-</ul>
+    <ul>
+        <li>ставим <a href="https://docs.pytest.org/en/stable/">pytest</a></li>
+        <li>
+            юзаем <a href="https://docs.python.org/3/library/unittest.mock.html#unittest.mock.Mock">моки</a> из
+            стандартной
+            библиотеки
+            (или <a href="https://docs.python.org/3/library/unittest.mock.html#unittest.mock.AsyncMock">асинхронный
+            мок</a>,
+            доступный с версии питона 3.8)
+        </li>
+    </ul>
 
-<h3>Моки</h3>
+    <h3>Моки</h3>
 
-<p>
-    Зачем нужны моки? Чтобы не обращаться на прямую к бд, интернету, другим сервисам во время выполнения тестов:
-</p>
+    <p>
+        Зачем нужны моки? Чтобы не обращаться на прямую к бд, интернету, другим сервисам во время выполнения тестов:
+    </p>
 
+    <div style="overflow-x: auto">
 <pre class="prettyprint">
 @pytest.mark.asyncio
 async def test_parse_lamoda_clothing(
@@ -69,18 +72,20 @@ async def test_parse_lamoda_clothing(
 
     assert actual_clothing == clothing_with_color
 </pre>
+    </div>
 
-<p>
-    Здесь представлен класс, который по ссылке на ламода-шмотку отдает типизированную инфу о ней.<br/>
-    По ссылке получаем html-содержимое, затем достаем из html картинки и загружаем их.<br/>
-    С помощью моков, реальных запросов на скачивание html и картинок не производится и тесты выполняются быстро.
-</p>
+    <p>
+        Здесь представлен класс, который по ссылке на ламода-шмотку отдает типизированную инфу о ней.<br/>
+        По ссылке получаем html-содержимое, затем достаем из html картинки и загружаем их.<br/>
+        С помощью моков, реальных запросов на скачивание html и картинок не производится и тесты выполняются быстро.
+    </p>
 
 
-<p>
-    Для моканья определенных методов класса, передаем словарик:
-</p>
+    <p>
+        Для моканья определенных методов класса, передаем словарик:
+    </p>
 
+    <div style="overflow-x: auto">
 <pre class="prettyprint">
 async def test_config_parse(open_json: OpenJsonFunction, mock_container: AppContainer) -> None:
     with override_container_with_objects(
@@ -101,13 +106,14 @@ async def test_config_parse(open_json: OpenJsonFunction, mock_container: AppCont
             config, NamespaceConfig(**cast(dict, open_json("config/parsed_tashiriiko.json")))
         )
 </pre>
+    </div>
 
-<p>
-    Здесь <code>side_effect</code> обозначает, что при вызове
-    <code>namespace_config_repo.update_or_insert_many_by_external_id</code>
-    будет вызван метод <code>fake_insert_many</code>.<br/>
-    А <code>return_value</code> обозначает, что вызов метода <code>venue_repo.get_legacy_id_map</code> вернет <code>{}</code>
-</p>
+    <p>
+        Здесь <code>side_effect</code> обозначает, что при вызове
+        <code>update_or_insert_many_by_external_id</code>
+        будет вызван метод <code>fake_insert_many</code>.<br/>
+        А <code>return_value</code> обозначает, что вызов метода <code>venue_repo.get_legacy_id_map</code> вернет <code>{}</code>
+    </p>
 
 </div>
 
