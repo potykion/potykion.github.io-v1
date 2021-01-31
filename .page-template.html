@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <!--    TODO TITLE -->
     <title>TODO TITLE</title>
+
+    <link type="text/css" rel="stylesheet" href="static/lightgallery/css/lightgallery.css"/>
     <link type="text/css" rel="stylesheet" href="static/common.css">
 </head>
 <body>
@@ -16,5 +18,18 @@
     <h2>TODO TITLE</h2>
 
 </div>
+
+
+<script src="static/lightgallery/js/lightgallery.min.js"></script>
+<script src="static/lightgallery/js/lg-zoom.min.js"></script>
+<script src="static/lightgallery/js/lg-video.min.js"></script>
+
+<script type="text/javascript">
+    <!-- Подключаем просмотр картинок -->
+    // noinspection JSUnresolvedVariable
+    document.querySelectorAll(".img-container").forEach(lightGallery);
+</script>
+
+
 </body>
 </html>
