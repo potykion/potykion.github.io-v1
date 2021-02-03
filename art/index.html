@@ -23,11 +23,14 @@
         <a href="progress.jpg"><img src="progress.jpg" alt="progress"></a>
     </div>
 
-    <p>
-        Наблюдать за моим прогрессом можно <a href="https://www.instagram.com/poty_risovach/">тут</a>.
-    </p>
+    <ul>
+        <li><a href="#school">Художка</a></li>
+        <li><a href="#purchase-what">Что закупать</a></li>
+        <li><a href="#purchase-where">Где закупать</a></li>
+        <li><a href="#inst">Инстуха</a></li>
+    </ul>
 
-    <h3>Художка</h3>
+    <h3 id="school">Художка</h3>
 
     <p>
         Рисовать дома самому может быть лень, поэтому стоит ходить в художку:
@@ -65,7 +68,7 @@
         </li>
     </ul>
 
-    <h3>Что закупать</h3>
+    <h3 id="purchase-what">Что закупать</h3>
 
     <div class="img-container">
         <a href="inventory.jpg"><img src="inventory.jpg" alt="inventory"></a>
@@ -131,7 +134,7 @@
     </ul>
 
 
-    <h3>Где закупать</h3>
+    <h3 id="purchase-where">Где закупать</h3>
 
     <ul>
         <li>
@@ -154,20 +157,122 @@
             </ul>
 
         </li>
-
     </ul>
 
+    <h3 id="inst">Инстуха</h3>
+
+    <p>
+        Можно выкладывать <a href="https://www.instagram.com/poty_risovach/">свои рисунки</a> в инстуху, собирая лайки.
+    </p>
+    <p>
+        Просто так выкладывать рисунки бессмысленно - нужно ставить теги.
+        Я ставлю теги по такой схеме: 4 тега на английском, 4 на русском, теги имеют много публикаций + описывают
+        материал и тематику. Например, для пейзажа маслом использую такие теги:
+    </p>
+    <p>
+        #art #drawing #oilpainting #landscape #арт #рисунок #масло #пейзаж
+    </p>
+
+    <p>Ниже представлен мини-генератор тегов:</p>
+
+    <form id="tag-form">
+        <span>Материал:</span><br/>
+        <label><input type="radio" name="material" value="oil"/> Масло</label><br/>
+        <label><input type="radio" name="material" value="watercolor"/> Акварель</label><br/>
+        <label><input type="radio" name="material" value="pencil"/> Карандаш</label><br/>
+        <label><input type="radio" name="material" value="ink"/> Тушь / чернила</label><br/>
+        <label><input type="radio" name="material" value="pen"/> Ручка</label><br/>
+        <label><input type="radio" name="material" value="coal"/> Уголь</label><br/>
+        <label><input type="radio" name="material" value="sanguine"/> Сангина</label><br/>
+
+        <br/>
+
+        <span>Тематика:</span><br/>
+        <label><input type="radio" name="theme" value="landscape"/> Пейзаж</label><br/>
+        <label><input type="radio" name="theme" value="stilllife"/> Натюрморт</label><br/>
+        <label><input type="radio" name="theme" value="portrait"/> Портрет</label><br/>
+        <label><input type="radio" name="theme" value="sketch"/> Скетч</label><br/>
+
+        <br/>
+
+        <button type="submit">Сгенерить</button>
+    </form>
+
+    <br/>
+    <div>
+        <p id="tags"></p>
+        <button id="copy-tags" hidden data-clipboard-target="#tags">Скопировать</button>
+    </div>
 
 </div>
 
 <script src="../static/lightgallery/js/lightgallery.min.js"></script>
 <script src="../static/lightgallery/js/lg-zoom.min.js"></script>
 <script src="../static/lightgallery/js/lg-video.min.js"></script>
+<script src="../static/clipboard/clipboard.min.js"></script>
 
 <script type="text/javascript">
     <!-- Подключаем просмотр картинок -->
     // noinspection JSUnresolvedVariable
     document.querySelectorAll(".img-container").forEach(lightGallery);
+
+    // Подключаем копирование тегов
+    new ClipboardJS("#copy-tags");
+
+    document.querySelector("#tag-form").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        let tags = ["#art", "#арт", "#drawing", "#рисунок"];
+
+        let material = document.querySelector('[name="material"]:checked').value;
+        switch (material) {
+            case "oil":
+                tags.push("#oilpainting", "#масло");
+                break;
+            case "watercolor":
+                tags.push("#watercolor", "#акварель");
+                break;
+            case "pencil":
+                tags.push("#pencildrawing", "#карандаш");
+                break;
+            case "ink":
+                tags.push("#ink", "#тушь");
+                break;
+            case "pen":
+                tags.push("#pen", "#ручка");
+                break;
+            case "coal":
+                tags.push("#coal", "#уголь");
+                break;
+            case "sanguine":
+                tags.push("#sanguine", "#сангина");
+                break;
+            default:
+                break;
+        }
+
+        let theme = document.querySelector("[name='theme']:checked").value;
+        switch (theme) {
+            case "portrait":
+                tags.push("#portrait", "#портрет");
+                break;
+            case "stilllife":
+                tags.push("#stilllife", "#натюрморт");
+                break;
+            case "landscape":
+                tags.push("#landscape", "#пейзаж");
+                break;
+            case "sketch":
+                tags.push("#sketching", "#скетч");
+                break;
+            default:
+                break;
+        }
+
+        document.querySelector("#tags").innerHTML = tags.join(" ");
+        document.querySelector("#copy-tags").hidden = false;
+    });
+
 </script>
 
 
