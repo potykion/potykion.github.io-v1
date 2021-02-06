@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Норм отображение на мобилке    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Кодиров очка    -->
+    <meta charset="UTF-8">
+
+    <!-- Favicon    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicon/site.webmanifest">
+
+    <title>SQL-запросы на питоне</title>
+
+    <!-- Стили для lightgallery -->
+    <link type="text/css" rel="stylesheet" href="static/lightgallery/css/lightgallery.css"/>
+
+    <!-- Общие стили -->
+    <link type="text/css" rel="stylesheet" href="static/common.css">
+
+     <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+    <style>
+        pre.prettyprint {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <h3><a href="index.html">Блог из-под палки</a></h3>
+
+    <h2>SQL-запросы на питоне</h2>
+    <p>
+        По умолчанию sql-запросы рендерятся без конкретных значений. Чтобы получить полный sql-запрос с конкретными
+        значениями:
+    </p>
+    <pre class="prettyprint">query.compile(compile_kwargs={"literal_binds": True})</pre>
+
+</div>
+
+<!-- lightgallery скрипты -->
+<script src="static/lightgallery/js/lightgallery.min.js"></script>
+<script src="static/lightgallery/js/lg-zoom.min.js"></script>
+<script src="static/lightgallery/js/lg-video.min.js"></script>
+
+<script type="text/javascript">
+    <!-- Подключаем просмотр картинок -->
+    // noinspection JSUnresolvedVariable
+    document.querySelectorAll(".img-container").forEach(lightGallery);
+</script>
+
+
+</body>
+</html>
