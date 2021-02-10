@@ -34,15 +34,15 @@
   }
 
   ul {
-    @apply list-inside ml-4;
+    @apply list-inside ;
   }
 
   ul div {
-    @apply ml-4;
+    @apply ml-2;
   }
 
   ul ul {
-    @apply ml-4;
+    @apply ml-2;
   }
 
   hr {
