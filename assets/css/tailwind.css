@@ -1,0 +1,95 @@
+@tailwind base;
+
+@layer base {
+  h2 {
+    @apply text-2xl my-4 font-bold;
+  }
+
+  h3 {
+    @apply text-xl my-4 font-bold;
+  }
+
+  h4 {
+    @apply text-lg my-4 font-bold;
+  }
+
+  a {
+    @apply text-blue-600 visited:text-purple-600 underline;
+  }
+
+  p {
+    @apply my-2;
+  }
+
+  img {
+    @apply inline-block max-w-full max-h-96;
+  }
+
+  .emote {
+    @apply h-8;
+  }
+
+  li {
+    @apply list-disc;
+  }
+
+  ul {
+    @apply list-inside ml-4;
+  }
+
+  ul div {
+    @apply ml-4;
+  }
+
+  ul ul {
+    @apply ml-4;
+  }
+
+  hr {
+    @apply border-solid my-2;
+  }
+
+  iframe {
+    @apply h-96;
+
+  }
+
+  video {
+    @apply h-96;
+  }
+
+  button {
+    @apply px-3 py-1 bg-blue-600 text-white rounded;
+  }
+
+  code {
+    @apply bg-gray-100;
+  }
+
+  /*!* На мобилке высоту iframe делаем меньше *!*/
+  /*@media only screen and (max-width: 600px) {*/
+  /*  iframe {*/
+  /*    height: 200px;*/
+  /*  }*/
+  /*  video {*/
+  /*    width: 100%;*/
+  /*  }*/
+  /*}*/
+  /*.img-container {*/
+  /*  display: flex;*/
+  /*  overflow-x: auto;*/
+  /*}*/
+  /*.img-container a {*/
+  /*  padding-left: 5px;*/
+  /*}*/
+  /*.emote {*/
+  /*  max-height: 28px;*/
+  /*}*/
+  /*pre.prettyprint {*/
+  /*  border: none;*/
+  /*}*/
+}
+
+@tailwind components;
+
+@tailwind utilities;

@@ -1,80 +1,90 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        potykion.github.io
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+
+  <div>
+
+    <p>
+      Привет, я
+      <nuxt-link to="/me">Никита</nuxt-link>
+      и ето мой бложек.
+    </p>
+
+    <p>Здесь будут кулстори, заметки про разработку и экспериенс жизненный.</p>
+
+    <h3>
+      Кулстори
+      <!--
+      todo перенести в how.vue
+      Чвич эмоуты тут
+      https://www.streamscheme.com/resources/twitch-emotes-meaning-complete-list-monkas-pogchamp-omegalul-kappa/
+      -->
+
+      <img src="~/assets/coolstorybob.png.webp" class="emote" alt="coolstorybob">
+    </h3>
+    <ul>
+      <li>
+        <nuxt-link to="/cooking">Кукинг</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/small">Свалка маленьких кулстори</nuxt-link>
+      </li>
+    </ul>
+
+    <h3>
+      Экспериенс жизненный
+      <img src="~/assets/5Head-Emote.png.webp" class="emote" alt="5Head-Emote">
+    </h3>
+    <ul>
+      <li>
+        <nuxt-link to="/art">Рисовач</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/dance">Денс</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/sleep">Слипинг</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/cooking-guide">Готовка-гайд</nuxt-link>
+      </li>
+    </ul>
+
+    <h3>
+      Заметки про разработку
+      <img src="~/assets/Vohiyo.png.webp" class="emote" alt="Vohiyo">
+    </h3>
+    <ul>
+      <li>
+        <nuxt-link to="/python-testing">Тесты на питоне</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/python-sqlalchemy">SQL-запросы на питоне</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/flutter-firebase">Flutter + Firebase</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/how">Как блог делается</nuxt-link>
+      </li>
+    </ul>
   </div>
+
+
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
 
-export default Vue.extend({})
+import {
+  Component,
+  Prop,
+  Vue,
+} from "nuxt-property-decorator"
+
+@Component({
+  head: () => ({
+    title: "Блог из-под палки"
+  })
+})
+export default class index extends Vue {
+
+}
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
