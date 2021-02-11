@@ -1,7 +1,14 @@
 <template>
 
-  <div >
-    <h2>Тесты на питоне</h2>
+  <div>
+    <h2>Python</h2>
+
+    <p>
+      Здесь будут заметки про питончик.
+    </p>
+
+
+    <h3>Тесты на питоне</h3>
 
     <p>Все просто:</p>
 
@@ -17,7 +24,7 @@
       </li>
     </ul>
 
-    <h3>Моки</h3>
+    <h4>Моки</h4>
 
     <p>
       Зачем нужны моки? Чтобы не обращаться на прямую к бд, интернету, другим сервисам во время выполнения тестов:
@@ -97,6 +104,17 @@ async def test_config_parse(open_json: OpenJsonFunction, mock_container: AppCont
       <code>{}</code>
     </p>
 
+    <h4>
+      SQL-запросы на питоне
+    </h4>
+
+    <p>
+      По умолчанию sql-запросы рендерятся без конкретных значений. Чтобы получить полный sql-запрос с конкретными
+      значениями:
+    </p>
+    <pre><code v-highlight class="python">query.compile(compile_kwargs={"literal_binds": True})</code></pre>
+
+
   </div>
 </template>
 <script lang="ts">
@@ -109,7 +127,7 @@ import {
 
 @Component({
   head: () => ({
-    title: "Тесты на питоне"
+    title: "Python"
   })
 })
 export default class index extends Vue {

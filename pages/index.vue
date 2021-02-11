@@ -54,13 +54,10 @@
     </h3>
     <ul>
       <li>
-        <nuxt-link to="/python-testing">Тесты на питоне</nuxt-link>
+        <nuxt-link to="/python">Python</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/python-sqlalchemy">SQL-запросы на питоне</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="/flutter-firebase">Flutter + Firebase</nuxt-link>
+        <nuxt-link to="/flutter">Flutter</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/how">Как блог делается</nuxt-link>
