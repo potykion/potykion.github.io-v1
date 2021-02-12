@@ -9,6 +9,7 @@
       <li><a HREF="https://www.citilink.ru/catalog/computers_and_notebooks/hdd/ssd_in/1134605/">SSD</a></li>
       <li>Сертик на <a href="https://www.ozon.ru/category/podarochnye-sertifikaty-32060/">Ozon</a></li>
       <li>Сертик на <a href="https://www.lamoda.ru/giftcertificate/">Lamoda</a></li>
+      <li>Постельное (подушка, одеяло, матрас)</li>
     </ul>
 
   </div>
