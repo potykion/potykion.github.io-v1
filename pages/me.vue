@@ -28,21 +28,21 @@
         <a href="https://www.instagram.com/potykion/">алкоголь</a>,
         <nuxt-link to="/cooking">готовка</nuxt-link>
       </li>
-<!--      <li> шоппинг</li>-->
-<!--      <li> психология</li>-->
-<!--      <li> книги</li>-->
-<!--      <li> спорт</li>-->
+      <!--      <li> шоппинг</li>-->
+      <!--      <li> психология</li>-->
+      <!--      <li> книги</li>-->
+      <!--      <li> спорт</li>-->
+      <li> танцы</li>
       <li><a href="https://open.spotify.com/user/1srdxgefrloip7wopd30dntkd?si=1nyoyb-fQOi4OIq6s9IHmA">музычка</a></li>
       <li><a href="https://www.kinopoisk.ru/user/4445656/">кинчики</a></li>
       <li><a href="https://steamcommunity.com/id/potykion">игрушки</a></li>
     </ul>
 
-<!--    <h3>В планах</h3>-->
-<!--    <ul>-->
-<!--      <li> инвестирование</li>-->
-<!--      <li> танцы</li>-->
-<!--      <li> английский</li>-->
-<!--    </ul>-->
+    <!--    <h3>В планах</h3>-->
+    <!--    <ul>-->
+    <!--      <li> инвестирование</li>-->
+    <!--      <li> английский</li>-->
+    <!--    </ul>-->
 
 
     <h3>Cсылочки</h3>

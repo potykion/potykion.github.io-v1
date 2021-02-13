@@ -31,11 +31,17 @@
       <li>Не надо думать что рисовать — препод сам тебе предложит варики</li>
       <li>
         И другие плюшки, например, возможность
-        <span class="relative border-dotted border-b-2 group img-tooltip">бахнуть</span>
+        <span class="relative border-dotted border-b-2 group  cursor-pointer"
+              @click="showYobnemImg = !showYobnemImg">бахнуть</span>
         =)
       </li>
     </ul>
 
+    <template v-if="showYobnemImg">
+      <div>
+        <img-row :images="['/art/yobnem.jpg']"/>
+      </div>
+    </template>
 
     <!--    <h3 id="school">Художка</h3>-->
 
@@ -319,10 +325,11 @@ export default class art extends Vue {
     this.tagsStr = tags.join(" ");
   }
 
+  showYobnemImg = false;
 }
 </script>
 
-<style>
+<style scoped>
 
 h1 {
   @apply uppercase my-4 text-5xl tracking-widest  font-serif ;
@@ -334,16 +341,4 @@ h2 {
 }
 
 
-.img-tooltip:hover:after {
-  display: block;
-  position: absolute;
-
-  content: url(~assets/art/yobnem.jpg);
-  /*background-image: url('~assets/art/yobnem.jpg');*/
-  /*background-size: 10px 20px;*/
-  /*width: 10px;*/
-  /*height: 20px;*/
-  /*content:"";*/
-
-}
 </style>
