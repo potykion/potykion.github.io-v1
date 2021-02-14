@@ -1,7 +1,16 @@
 <template>
-  <div class="flex space-x-1 overflow-x-auto justify-center">
+  <div class="flex space-x-1 overflow-x-auto ">
     <template v-for="img in images">
-      <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
+      <template v-if="imgIsObj(img)">
+        <div>
+          <img v-img="{group: imgGroup}" :src="require(`~/assets${img.img}`)" :alt="img.img">
+          <div class="text-sm italic">{{ img.caption }}</div>
+        </div>
+      </template>
+      <template v-else>
+        <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
+      </template>
+
     </template>
   </div>
 </template>
@@ -18,11 +27,15 @@ import {strToHash} from "~/logic/core/utils/hash";
 
 @Component
 export default class ImgRow extends Vue {
-  @Prop() images!: string[];
+  @Prop() images!: string[] | { img: string, caption: string }[];
 
 
   get imgGroup() {
     return strToHash(this.images.join());
+  }
+
+  imgIsObj(img: any): boolean {
+    return typeof img !== "string";
   }
 }
 </script>

@@ -90,8 +90,7 @@
       <li>
         Пишем обычный класс:
 
-        <pre>
-          <code v-highlight class="data">
+        <pre><code v-highlight class="data">
 // example.dart
 class Person {
   final String firstName;
@@ -99,15 +98,13 @@ class Person {
   final DateTime dateOfBirth;
   Person({this.firstName, this.lastName, this.dateOfBirth});
 }
-          </code>
-        </pre>
+          </code></pre>
       </li>
 
       <li>
         Вешаем декоратор + добавляем пару методов:
 
-        <pre>
-          <code v-highlight class="data">
+        <pre><code v-highlight class="data">
 // example.dart
 import 'package:json_annotation/json_annotation.dart';
 
@@ -120,15 +117,13 @@ class Person {
   factory Person.fromJson(Map&lt;String, dynamic> json) => _$PersonFromJson(json);
   Map&lt;String, dynamic> toJson() => _$PersonToJson(this);
 }
-          </code>
-        </pre>
+</code></pre>
 
       </li>
         <li>
         Импортируем part-файл - файл, в котором будет сгенерерированный код, реализующий методы определенные выше:
 
-        <pre>
-          <code v-highlight class="data">
+<pre><code v-highlight class="data">
 // example.dart
 import 'package:json_annotation/json_annotation.dart';
 
@@ -143,18 +138,15 @@ class Person {
   factory Person.fromJson(Map&lt;String, dynamic> json) => _$PersonFromJson(json);
   Map&lt;String, dynamic> toJson() => _$PersonToJson(this);
 }
-          </code>
-        </pre>
+</code></pre>
       </li>
 
       <li>
         Запускаем команду кодогенерации:
 
-        <pre>
-  <code v-highlight class="bash">
+<pre><code v-highlight class="bash">
 flutter packages pub run build_runner build --delete-conflicting-outputs
-  </code>
-</pre>
+</code></pre>
 
         Команда выше работает для всех кодогенерирующих либ.
 

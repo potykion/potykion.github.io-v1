@@ -1,7 +1,7 @@
 <template>
 
 
-  <div class="flex flex-col h-screen w-screen">
+  <div class="flex flex-col h-screen ">
     <nav class="bg-pink-400">
       <div class="mx-auto px-4 ">
         <div class="h-12 flex items-center">
@@ -21,7 +21,7 @@
     </nav>
 
     <main class="flex-grow">
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4 lg:px-96">
         <Nuxt/>
       <!-- Чуток спейса для удобства -->
       <div class="h-4">
@@ -32,7 +32,7 @@
     </main>
 
     <footer>
-        <div class="container mx-auto px-4 ">
+        <div class="container mx-auto px-4 lg:px-96 ">
           <hr />
           <div class="  h-12 flex ">
             Все права защищены законом © 2021

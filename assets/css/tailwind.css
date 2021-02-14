@@ -80,28 +80,11 @@
     @apply bg-gray-100;
   }
 
-  /*!* На мобилке высоту iframe делаем меньше *!*/
-  /*@media only screen and (max-width: 600px) {*/
-  /*  iframe {*/
-  /*    height: 200px;*/
-  /*  }*/
-  /*  video {*/
-  /*    width: 100%;*/
-  /*  }*/
-  /*}*/
-  /*.img-container {*/
-  /*  display: flex;*/
-  /*  overflow-x: auto;*/
-  /*}*/
-  /*.img-container a {*/
-  /*  padding-left: 5px;*/
-  /*}*/
-  /*.emote {*/
-  /*  max-height: 28px;*/
-  /*}*/
-  /*pre.prettyprint {*/
-  /*  border: none;*/
-  /*}*/
+
+  pre {
+    @apply my-2;
+  }
+
 }
 
 @tailwind components;
