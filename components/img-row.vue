@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-1 overflow-x-auto">
+  <div class="flex space-x-1 overflow-x-auto justify-center">
     <template v-for="img in images">
       <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
     </template>
