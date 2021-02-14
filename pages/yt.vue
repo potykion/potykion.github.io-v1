@@ -35,12 +35,26 @@
         <a href="https://www.youtube.com/channel/UCIvkS0o7Csl6EuA7gCmdgqg">Karmik Koala </a> - разборчики спидранов и
         прикольчики, напр. про <a href="https://www.youtube.com/watch?v=helf7_fBGQA">ЧАС ПЯТНАДЦАТЬ</a>
       </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCPDQObYqflaenLFgOAAw9Zg">ksani ez</a> - монтажики про стримеров
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/CrowbCat">Crowbcat</a> - сравнение игр, напр. на тизере и на релизе; <a
+        href="https://www.youtube.com/watch?v=omyoJ7onNrg">про киберпук</a> просто пушка
+      </li>
 
       <!-- Ржака      -->
       <li>
         <a href="https://www.youtube.com/channel/UClGmWE9J0jQVwiiATgNe-YA">Ramson</a> - видосы на различную тематику,
         прикольного характера; канал начинающий, но уже каждый видос с кафом смотрю, например про <a
         href="https://www.youtube.com/watch?v=zDvi0p378O8">похудение</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/EgorVoronov">Adeq</a> - кажется, единственный нормальный живой пупер
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/Deadlymanyak">Copypaster</a> - г-мод машинимы; создатель легендарной <a
+        href="https://www.youtube.com/watch?v=_U9JjGseXIs">CRIMINAL POORUSHQUE</a>
       </li>
 
 
@@ -49,7 +63,7 @@
         популярными личностями
       </li>
 
-      <!-- Саморазвитие      -->
+      <!-- Всякое      -->
       <li>
         <a href="https://www.youtube.com/channel/UCNSkhjIGs63VfGVLQQu2bzA">Хулиномика</a> - канал автора книги
         Хулиномика;
@@ -62,6 +76,14 @@
         -
         лох</a>
       </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCiQo406SKypmtAQXIHdZ6mA">birchpunk</a> - <a
+        href="https://www.youtube.com/watch?v=8HZ4DnVfWYQ">РУССКАЯ КИБЕРДЕРЕВНЯ</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCVqlknx5llGHCrbocuhB8jQ">CFNSLR</a> - вью со всякими известными в
+        узких кругах личностями
+      </li>
 
       <!-- Около айти     -->
       <li><a href="https://www.youtube.com/channel/UCr9qCdqXLm2SU0BIs6d_68Q">yegor256 a.k.a. Yegor Bugayenko</a> - канал
@@ -71,6 +93,17 @@
       <li>
         <a href="https://www.youtube.com/channel/UCUSbYJK87rpBUJ5KGQd7oHA">Мы обречены</a> - подкаст с известными
         личностями из айти на разные темы, зачастую несвязанными с айти
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/99baddawg">Ben Awad</a> - ~20-летний чел делает прикольные проекты и
+        рассказывает кулстори про них, напр. расширение для VSCode для поиска пары - <a
+        href="https://www.youtube.com/watch?v=bfd8RyAJh6c">VSinder</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC28GNXIYdBiI1zTBySZEoRw">Bookademy</a> - обзоры книг по развитию сомов
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC9hBi-d-CKFU55XRd1JP3LA">IT.Высер</a> - ведущий встречается с айтишным челиком, расспрашивает про айти и не только под пивко
       </li>
 
       <!-- Прога      -->
@@ -91,7 +124,54 @@
         <a href="https://www.youtube.com/user/Firebase">Firebase</a> - новости, туториалы по Firebase - BAAS решение от
         гугла
       </li>
-
+      <li>
+        <a href="https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA">Reso Coder</a> - оч крутые туториалы по
+        Flutter + обзоры либ
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/404fest">404fest</a> - докладики с айти-конфы <a
+        href="https://404fest.ru/">404</a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCpMh_XSn7yGPabFBYzY5hKg">Antida software</a> - докладики с
+        Python-митапчика
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCO2w0cpl1wxygHjQH6eEfEg">AvitoTech</a> - докладики от Avito
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/codefestru">CodeFest Russia</a> - докладики с айти-конфы <a
+        href="https://11.codefest.ru/">CodeFest </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCRva5jH_39U-rLt6S9JJyUw">DART SIDE</a> - стримы по Flutter от русских
+        челов
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC1nDIT9thqoFSSxvLyPHF5w">DevOps Channel</a> - докладики с конфы про
+        DevOps - DevOpsConf
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCGQRn0aTnJK-zHFAdT9Nm1A">Frontend Channel</a> - докладики с конфы про фронтенд - FrontendConf
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCM8qsVZh9pLKL-7uD8nmb0A">Fidev - Make Beautiful Apps</a> - дезигн на флаттере
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCOoJkGYV00nr3EpZOUeuN1Q">Flutter Europe</a> - докладики с конфы по Flutter - Flutter Europe
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC_a-vGdkAIRMKT1zzZ4I2ag">FlutterLDN</a> - докладики с конфы по Flutter - FlutterLDN
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCU8Mj6LLoNBXqqeoOD64tFg">Fun with Flutter</a> - аналог ResoCoder - обзор либ + туториалы
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCxKXx-eVWNib87Wst7nv_KQ">GDG Russia</a> - докладики от Google для разрабов на русском
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/profyclub">HighLoad Channel</a> - докладики с конфы HighLoad++
+      </li>
 
       <!-- Готовка -->
       <li>
@@ -136,6 +216,64 @@
         подписаться каждому ТЫ ОДНА ТЫ ТАКАААЯ!
       </li>
 
+      <li>
+        <a href="https://www.youtube.com/channel/UCVdlcqbM4oh0xJIQAxiaV5Q">100 gecs</a> - ебанутая электроника, как
+        обычно
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/channel/UCLOIl_b0C-eJw8VwgXuj_ug">Agar Agar</a> - лайтовая французкая
+        электроника
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCcwLVJ0hC4YnSfMRlolkVDw">Boy Harsher</a> - мрачная качевая
+        электроника
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/boysnoize">BOYS NOIZE</a> - классика техно
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/officialcharlixcx">Charli XCX</a> - Чарличка, поп-королева
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/user/clppng">clppng </a> - clipping - экспериментальный репчик
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/user/bobgnarlynbd">DOOMSHOP RECORDS</a> - меинстримный фонк лейбл; на нем записывался <a href="https://www.youtube.com/channel/UC2l38bev0xgHr65Tz4jZ32w">Freddie Dredd</a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/channel/UCS9Rx7Thy7lnTBlt1TATZlw">DOPECLVBWORLD</a> - i61 - популярный рус
+        экспериментал репчик <a href="https://www.youtube.com/watch?v=OGCESZEzqbs">ЛИСТЬЯ И САЛАТ У МЕНЯ ЕСТЬ ЧТО У МЕНЯ
+        ЕСТЬ ПЛАГИН
+      </a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/user/officialEDREC">Ed Banger Records</a> - популярный лейбл европейской
+        электроники; тут вышли такие хиты, как <a href="https://www.youtube.com/watch?v=6okxuiiHx2w">Baby I'm Yours</a>
+        и <a href="https://www.youtube.com/watch?v=NazVKnD-_sQ">I Love U So</a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/user/GesaffelsteinChannel">GesaffelsteinChannel </a> - еще классика техно
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/user/GusGusOfficial">Gusgus</a> - электроника из Исландии; любимцы в России, даж <a href="https://www.youtube.com/watch?v=1mYgRkO_YQ0">на Урганте были</a>
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/user/HO99O9">Ho99o9 </a> - панкуха + репчик + электроника = заебись
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/channel/UCp8dfFa6a5dZkmod_FLarog">Jessica Winter</a> - лайтовая электроника с мрачным визуалом
+      </li>
+
+
     </ul>
 
 
@@ -145,76 +283,6 @@
 
 
       <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li>https://www.youtube.com/channel/UCPDQObYqflaenLFgOAAw9Zg</li>
-      <li>https://www.youtube.com/channel/UCSIvrn68cUk8CS8MbtBmBkA</li>
-      <li>https://www.youtube.com/user/1T1immy</li>
-      <li>https://www.youtube.com/channel/UCVdlcqbM4oh0xJIQAxiaV5Q</li>
-      <li>https://www.youtube.com/user/404fest</li>
-      <li>https://www.youtube.com/user/EgorVoronov</li>
-      <li>https://www.youtube.com/channel/UCLOIl_b0C-eJw8VwgXuj_ug</li>
-      <li>https://www.youtube.com/channel/UCvL4LRGuPmQM2PC9gXaX7uQ</li>
-      <li>https://www.youtube.com/channel/UCpHdc3ijPmYOPeBWA5_8I1A</li>
-      <li>https://www.youtube.com/channel/UCuUUXq4lSFBm_1QcF70kKtQ</li>
-      <li>https://www.youtube.com/channel/UCpMh_XSn7yGPabFBYzY5hKg</li>
-      <li>https://www.youtube.com/channel/UCO2w0cpl1wxygHjQH6eEfEg</li>
-      <li>https://www.youtube.com/channel/UCSUH167lF9uWy08BxFwUjzw</li>
-      <li>https://www.youtube.com/user/99baddawg</li>
-      <li>https://www.youtube.com/user/BigBlackDelta</li>
-      <li>https://www.youtube.com/channel/UCiQo406SKypmtAQXIHdZ6mA</li>
-      <li>https://www.youtube.com/channel/UC28GNXIYdBiI1zTBySZEoRw</li>
-      <li>https://www.youtube.com/channel/UCcwLVJ0hC4YnSfMRlolkVDw</li>
-      <li>https://www.youtube.com/user/boysnoize</li>
-      <li>https://www.youtube.com/user/BromanceRec</li>
-      <li>https://www.youtube.com/channel/UC0ttE_trlrwYPoZGk9I8XHA</li>
-      <li>https://www.youtube.com/channel/UCVqlknx5llGHCrbocuhB8jQ</li>
-      <li>https://www.youtube.com/user/officialcharlixcx</li>
-      <li>https://www.youtube.com/channel/UCswNAhhsm1RSeb3E3n9XgUQ</li>
-      <li>https://www.youtube.com/user/clppng</li>
-      <li>https://www.youtube.com/user/codefestru</li>
-      <li>https://www.youtube.com/user/Comradeus3</li>
-      <li>https://www.youtube.com/user/Deadlymanyak</li>
-      <li>https://www.youtube.com/user/CrowbCat</li>
-      <li>https://www.youtube.com/channel/UCRva5jH_39U-rLt6S9JJyUw</li>
-      <li>https://www.youtube.com/user/deaddynastyofficial</li>
-      <li>https://www.youtube.com/channel/UC1nDIT9thqoFSSxvLyPHF5w</li>
-      <li>https://www.youtube.com/channel/UC0yY6a79pPY9J0ShIHRf6yw</li>
-      <li>https://www.youtube.com/user/bobgnarlynbd</li>
-      <li>https://www.youtube.com/channel/UCS9Rx7Thy7lnTBlt1TATZlw</li>
-      <li>https://www.youtube.com/channel/UCzOKZV5U2QLdRZhxspbW01A</li>
-      <li>https://www.youtube.com/channel/UCL_lMjVi52LlmXA7mXO-99w</li>
-      <li>https://www.youtube.com/user/officialEDREC</li>
-      <li>https://www.youtube.com/user/Ggurdezz</li>
-      <li>https://www.youtube.com/channel/UC32NZJBZfwcDENk4Z_eHRVw</li>
-      <li>https://www.youtube.com/channel/UCM8qsVZh9pLKL-7uD8nmb0A</li>
-      <li>https://www.youtube.com/channel/UCOoJkGYV00nr3EpZOUeuN1Q</li>
-      <li>https://www.youtube.com/channel/UC_a-vGdkAIRMKT1zzZ4I2ag</li>
-      <li>https://www.youtube.com/channel/UC2l38bev0xgHr65Tz4jZ32w</li>
-      <li>https://www.youtube.com/channel/UCGQRn0aTnJK-zHFAdT9Nm1A</li>
-      <li>https://www.youtube.com/channel/UC6Dm56chboeSWQ_XXkmpU1Q</li>
-      <li>https://www.youtube.com/channel/UCU8Mj6LLoNBXqqeoOD64tFg</li>
-      <li>https://www.youtube.com/channel/UCxKXx-eVWNib87Wst7nv_KQ</li>
-      <li>https://www.youtube.com/user/GesaffelsteinChannel</li>
-      <li>https://www.youtube.com/user/gfoint</li>
-      <li>https://www.youtube.com/user/GitHubGuides</li>
-      <li>https://www.youtube.com/user/GusGusOfficial</li>
-      <li>https://www.youtube.com/user/Kebabnostic</li>
-      <li>https://www.youtube.com/user/Vooldeeck</li>
-      <li>https://www.youtube.com/user/profyclub</li>
-      <li>https://www.youtube.com/user/HO99O9</li>
-      <li>https://www.youtube.com/user/hobosti</li>
-      <li>https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA</li>
-      <li>https://www.youtube.com/channel/UCV5HbDU0QirvBPbOQWzue6g</li>
-      <li>https://www.youtube.com/channel/UC9hBi-d-CKFU55XRd1JP3LA</li>
-      <li>https://www.youtube.com/channel/UCn7RcPTr5VkKQ8GYSS8-kGg</li>
-      <li>https://www.youtube.com/channel/UCp8dfFa6a5dZkmod_FLarog</li>
-      <li>https://www.youtube.com/channel/UC9nlx58J04mx9zNm_-rpBBA</li>
       <li>https://www.youtube.com/channel/UCL4BwOrBEKggPyqsdVpraFg</li>
       <li>https://www.youtube.com/user/GENERATlONY1989</li>
       <li>https://www.youtube.com/channel/UC4OQwFvLMPVFTqb0hyqknSw</li>
