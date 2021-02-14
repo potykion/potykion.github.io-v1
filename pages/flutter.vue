@@ -18,7 +18,7 @@
 
 
     <p>
-      Для флаттера есть <a href="https://firebase.flutter.dev/">набор либ</a> для работы с фаербейз
+      Для флаттера есть <a href="https://firebase.flutter.dev/">набор либ</a> для работы с фаербейз.
     </p>
 
     <h4>Эмулик</h4>
@@ -29,7 +29,7 @@
       Ниже описано как запустить эмулик для <a href="https://firebase.google.com/docs/firestore">FireStore</a>:
     </p>
 
-    <ul>
+    <ol>
       <li>Поставить <a href="https://firebase.google.com/docs/cli#install-cli-windows">firebase-cli</a>:
         <ul>
           <li><code>npm install -g firebase-tools</code></li>
@@ -57,7 +57,7 @@
         Подключиться к эмулику из <a
         href="https://firebase.flutter.dev/docs/firestore/usage/#emulator-usage">аппа</a>
       </li>
-    </ul>
+    </ol>
 
     <h5>Выключение эмулика</h5>
 
@@ -73,6 +73,97 @@
       <li><code>Get-Process -Id (Get-NetTCPConnection -LocalPort 8080).OwningProcess</code></li>
       <li><code>taskkill /PID {PID} /F </code></li>
     </ul>
+
+    <h3>Кодогенерация</h3>
+
+    <p>
+      Многое во Flutter разработке делается через кодогенерацию, потому что рефлекшена нет.
+    </p>
+
+    <p>
+      Разберем процесс кодогенерации на процессе генерации джсон сериализаторов с помощью <a
+      href="https://pub.dev/packages/json_serializable">json_serializable</a>.
+
+    </p>
+
+    <ol>
+      <li>
+        Пишем обычный класс:
+
+        <pre>
+          <code v-highlight class="data">
+// example.dart
+class Person {
+  final String firstName;
+  final String lastName;
+  final DateTime dateOfBirth;
+  Person({this.firstName, this.lastName, this.dateOfBirth});
+}
+          </code>
+        </pre>
+      </li>
+
+      <li>
+        Вешаем декоратор + добавляем пару методов:
+
+        <pre>
+          <code v-highlight class="data">
+// example.dart
+import 'package:json_annotation/json_annotation.dart';
+
+@JsonSerializable(nullable: false)
+class Person {
+  final String firstName;
+  final String lastName;
+  final DateTime dateOfBirth;
+  Person({this.firstName, this.lastName, this.dateOfBirth});
+  factory Person.fromJson(Map&lt;String, dynamic> json) => _$PersonFromJson(json);
+  Map&lt;String, dynamic> toJson() => _$PersonToJson(this);
+}
+          </code>
+        </pre>
+
+      </li>
+        <li>
+        Импортируем part-файл - файл, в котором будет сгенерерированный код, реализующий методы определенные выше:
+
+        <pre>
+          <code v-highlight class="data">
+// example.dart
+import 'package:json_annotation/json_annotation.dart';
+
+part 'example.g.dart';
+
+@JsonSerializable(nullable: false)
+class Person {
+  final String firstName;
+  final String lastName;
+  final DateTime dateOfBirth;
+  Person({this.firstName, this.lastName, this.dateOfBirth});
+  factory Person.fromJson(Map&lt;String, dynamic> json) => _$PersonFromJson(json);
+  Map&lt;String, dynamic> toJson() => _$PersonToJson(this);
+}
+          </code>
+        </pre>
+      </li>
+
+      <li>
+        Запускаем команду кодогенерации:
+
+        <pre>
+  <code v-highlight class="bash">
+flutter packages pub run build_runner build --delete-conflicting-outputs
+  </code>
+</pre>
+
+        Команда выше работает для всех кодогенерирующих либ.
+
+      </li>
+
+
+    </ol>
+
+
 
   </div>
 
@@ -91,6 +182,8 @@ import {
   })
 })
 export default class flutter extends Vue {
-
+  mounted() {
+    document.querySelectorAll("code").forEach(e => e.innerHTML = e.innerHTML.trim());
+  }
 }
 </script>

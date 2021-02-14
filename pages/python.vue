@@ -131,6 +131,9 @@ import {
   })
 })
 export default class index extends Vue {
+  mounted() {
+    document.querySelectorAll("code").forEach(e => e.innerHTML = e.innerHTML.trim());
+  }
 
 }
 </script>

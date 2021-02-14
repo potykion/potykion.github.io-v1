@@ -37,20 +37,26 @@
     @apply h-8;
   }
 
-  li {
-    @apply list-disc;
-  }
 
   ul {
-    @apply list-inside ;
+    @apply list-inside list-disc;
+  }
+
+  ol {
+    @apply list-decimal list-inside;
   }
 
   ul div {
-    @apply ml-2;
+    @apply ml-5;
   }
 
   ul ul {
-    @apply ml-2;
+    @apply ml-5;
+  }
+
+  ol ul {
+    @apply ml-5;
+
   }
 
   hr {
