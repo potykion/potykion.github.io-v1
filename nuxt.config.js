@@ -51,7 +51,10 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://www.npmjs.com/package/nuxt-highlightjs
-    'nuxt-highlightjs',
+    [
+      'nuxt-highlightjs',
+      {style: "atom-one-light"},
+    ],
 
   ],
 
