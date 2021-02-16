@@ -21,7 +21,7 @@
     </nav>
 
     <main class="flex-grow">
-      <div class="container mx-auto px-4 lg:px-96">
+      <div class="container mx-auto px-4 lg:px-72">
         <Nuxt/>
       <!-- Чуток спейса для удобства -->
       <div class="h-4">
@@ -32,7 +32,7 @@
     </main>
 
     <footer>
-        <div class="container mx-auto px-4 lg:px-96 ">
+        <div class="container mx-auto px-4 lg:px-72">
           <hr />
           <div class="  h-12 flex ">
             Все права защищены законом © 2021
