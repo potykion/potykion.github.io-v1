@@ -73,7 +73,7 @@
   }
 
   button {
-    @apply px-3 py-1 bg-blue-600 text-white rounded;
+    @apply px-3 py-1 bg-pink-400 text-white rounded;
   }
 
   code {

@@ -20,7 +20,7 @@
     </p>
 
     <p>
-      Помогает <span class="uppercase tracking-widest font-bold">Художка</span>.
+      Помогает <span class="uppercase tracking-widest font-light">Художка</span>.
     </p>
 
     <p>Художка закрывает пласт проблем:</p>
@@ -56,6 +56,51 @@
     <h2>Какой график?</h2>
 
     <p> 1 занятие в неделю длительностью 2.5 часа + домашки.</p>
+
+    <h2>А как ещё мотивировать себя?</h2>
+
+    <p>
+      Социальное одобрение через инстуху, главное –  <a class="cursor-pointer" @click="showTagGen = true">теги</a>
+      выставить
+    </p>
+
+    <template v-if="showTagGen">
+      <h3>Генератор тегов</h3>
+
+      <div>
+        <div class="flex space-x-8 items-center">
+          <div>
+            <select v-model="material" class="border  py-1 rounded">
+              <option disabled value="">Материал</option>
+              <option value="oil"> Масло</option>
+              <option value="watercolor"> Акварель</option>
+              <option value="pencil"> Карандаш</option>
+              <option value="ink"> Тушь / чернила</option>
+              <option value="pen"> Ручка</option>
+              <option value="coal"> Уголь</option>
+              <option value="sanguine"> Сангина</option>
+            </select>
+          </div>
+          <div>
+            <select v-model="theme" class="border  py-1 rounded">
+              <option disabled value="">Тематика</option>
+              <option value="landscape"> Пейзаж</option>
+              <option value="stilllife"> Натюрморт</option>
+              <option value="portrait"> Портрет</option>
+              <option value="sketch"> Скетч</option>
+            </select>
+          </div>
+          <div>
+            <button @click="generateTags">Сгенерить</button>
+          </div>
+        </div>
+
+        <div v-if="showTags">
+            <div class="my-2 font-bold">{{ tagsStr }}</div>
+            <button class="" v-clipboard:copy="tagsStr">Скопировать</button>
+        </div>
+      </div>
+    </template>
 
     <!--    <h3 id="school">Художка</h3>-->
 
@@ -234,36 +279,6 @@
 
     <!--    <p>Ниже представлен мини-генератор тегов:</p>-->
 
-    <!--    <div class="flex space-x-4">-->
-    <!--      <div>-->
-    <!--        <b>Материал</b><br/>-->
-    <!--        <label><input type="radio" v-model="material" value="oil"/> Масло</label><br/>-->
-    <!--        <label><input type="radio" v-model="material" value="watercolor"/> Акварель</label><br/>-->
-    <!--        <label><input type="radio" v-model="material" value="pencil"/> Карандаш</label><br/>-->
-    <!--        <label><input type="radio" v-model="material" value="ink"/> Тушь / чернила</label><br/>-->
-    <!--        <label><input type="radio" v-model="material" value="pen"/> Ручка</label><br/>-->
-    <!--        <label><input type="radio" v-model="material" value="coal"/> Уголь</label><br/>-->
-    <!--        <label><input type="radio" v-model="material" value="sanguine"/> Сангина</label><br/>-->
-
-    <!--      </div>-->
-    <!--      <div>-->
-    <!--        <b>Тематика</b><br/>-->
-    <!--        <label><input type="radio" v-model="theme" value="landscape"/> Пейзаж</label><br/>-->
-    <!--        <label><input type="radio" v-model="theme" value="stilllife"/> Натюрморт</label><br/>-->
-    <!--        <label><input type="radio" v-model="theme" value="portrait"/> Портрет</label><br/>-->
-    <!--        <label><input type="radio" v-model="theme" value="sketch"/> Скетч</label><br/>-->
-    <!--      </div>-->
-    <!--    </div>-->
-
-    <!--    <div class="my-2">-->
-    <!--      <button @click="generateTags">Сгенерить</button>-->
-    <!--    </div>-->
-
-    <!--    <div v-if="showTags">-->
-    <!--      <div class="mr-2">{{ tagsStr }}</div>-->
-    <!--      <button class="my-2" v-clipboard:copy="tagsStr">Скопировать</button>-->
-    <!--    </div>-->
-
 
   </div>
 </template>
@@ -282,9 +297,10 @@ import ImgRow from "~/components/img-row.vue";
   })
 })
 export default class art extends Vue {
-  material: string | null = null;
-  theme: string | null = null;
+  material: string = "";
+  theme: string = "";
 
+  showTagGen = false;
   showTags = false;
   tagsStr = "";
 
@@ -351,7 +367,10 @@ h1 {
 
 h2 {
   @apply my-2 text-2xl font-serif;
+}
 
+h3 {
+  @apply my-2 text-xl font-serif;
 }
 
 
