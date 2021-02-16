@@ -82,6 +82,21 @@
       <li>
         <a href="https://www.youtube.com/channel/UCqpcO047_wiKpaThyjHQSrg">RX4D </a> - переозвучка про комплектующие компов
       </li>
+      <li>
+        <a href="https://www.youtube.com/user/XAAPAKTEP">XAAPAKTEP</a> - суб андер контр культура
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC1DjDHroLdWawdNj7EJi7xg">Демьян</a> - тоже ноги от хумаса растут
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCgISDXr5ZVZzTPnFYSMXTVA">#Качественный Саунд</a> - очень качественные мешапы
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UC5Aln3eK41wovAQggcQj0dQ">Мемут</a> - тоже около хумаса
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/ogomk">Михаил МК</a> - ебанутые мультики
+      </li>
 
 
       <!-- Попс      -->
@@ -92,6 +107,7 @@
         <a href="https://www.youtube.com/channel/UCbhMGG0ZievPtK8mzLH5jhQ">Parfenon </a> - блог Леонида Парфенова; стоит
         внимания Намедни - события, люди, явления определившие образ жизни
       </li>
+
 
       <!-- Всякое      -->
       <li>
@@ -117,6 +133,15 @@
       <li>
         <a href="https://www.youtube.com/channel/UCI_10IRftFes3lxlTVEjTzg">RationalAnswer</a> - принятие решений,
         инвестиции и все такое
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/MultiDepr">Депрсна</a> - аьмосферныеее вью с андерами
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/kinopoisk">КиноПоиск </a> - видики про кино
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCERxUjmqL6mvu0E6VbbLGAA">Кухня на районе</a> - канал приложухи по доставке еды, бывает ржекабельно
       </li>
 
       <!-- Около айти     -->
@@ -378,6 +403,9 @@
       <li>
         <a href="https://www.youtube.com/channel/UCz4Yz77YvHQ_kL5R0l28IAQ">SebastiAn </a> - легенда с Ed Banger
       </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCiTQ6lyKRtsfd9RSNI0OrdA">Мой Бумажный Пакет</a> - депресивный репчик
+      </li>
 
 
     </ul>
@@ -388,123 +416,6 @@
     <ul id="wip">
 
 
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li>https://www.youtube.com/user/XAAPAKTEP</li>
-      <li>https://www.youtube.com/user/XiuXiuForLife</li>
-      <li>https://www.youtube.com/channel/UCCG0_rOGqzcs85BexeTx4MQ</li>
-      <li>https://www.youtube.com/user/YOUWILLLOVEEACHOTHER</li>
-      <li>https://www.youtube.com/user/ZebraFuckingKatz</li>
-      <li>https://www.youtube.com/user/MrWhooy</li>
-      <li>https://www.youtube.com/user/djifointie</li>
-      <li>https://www.youtube.com/channel/UC25Ol81YfP1wvJG37mTdYww</li>
-      <li>https://www.youtube.com/channel/UCTUyoZMfksbNIHfWJjwr5aQ</li>
-      <li>https://www.youtube.com/channel/UCSa8TRcoSLujiYFh_kCavxQ</li>
-      <li>https://www.youtube.com/user/andrekabo</li>
-      <li>https://www.youtube.com/channel/UCeVC9vItGoMh0T_0Kn6vYDg</li>
-      <li>https://www.youtube.com/channel/UCtUBTVHESXXcyi72ggbXoQQ</li>
-      <li>https://www.youtube.com/channel/UCdAsMEhr_9ZmwZo3ZJ9YMYA</li>
-      <li>https://www.youtube.com/user/BiZSekrety</li>
-      <li>https://www.youtube.com/user/videoitpeople</li>
-      <li>https://www.youtube.com/channel/UClJyWcfMtyqbkWCHx9rXJMw</li>
-      <li>https://www.youtube.com/user/Gufovicky</li>
-      <li>https://www.youtube.com/channel/UCDdU92nbc3FGxEbOvxpNfUQ</li>
-      <li>https://www.youtube.com/channel/UC1DjDHroLdWawdNj7EJi7xg</li>
-      <li>https://www.youtube.com/channel/UC1mbfseW4WdZsku-6hCz1NA</li>
-      <li>https://www.youtube.com/user/MultiDepr</li>
-      <li>https://www.youtube.com/user/DmitryMalikov</li>
-      <li>https://www.youtube.com/channel/UCmhLAusKEdo8JF8WnU-KhFA</li>
-      <li>https://www.youtube.com/channel/UC7I96JhjLaEEphHyhYLINfw</li>
-      <li>https://www.youtube.com/user/Ze6ypo</li>
-      <li>https://www.youtube.com/channel/UCgISDXr5ZVZzTPnFYSMXTVA</li>
-      <li>https://www.youtube.com/user/kinopoisk</li>
-      <li>https://www.youtube.com/user/Scstudio58</li>
-      <li>https://www.youtube.com/channel/UCERxUjmqL6mvu0E6VbbLGAA</li>
-      <li>https://www.youtube.com/channel/UCSJ27QZvhCZskbsj59s76nA</li>
-      <li>https://www.youtube.com/channel/UC5Aln3eK41wovAQggcQj0dQ</li>
-      <li>https://www.youtube.com/channel/UC6OTDVVAvYHPku3LbhLIeBA</li>
-      <li>https://www.youtube.com/user/MikhailZakirov</li>
-      <li>https://www.youtube.com/user/ogomk</li>
-      <li>https://www.youtube.com/user/slooowblog</li>
-      <li>https://www.youtube.com/channel/UCiTQ6lyKRtsfd9RSNI0OrdA</li>
       <li>https://www.youtube.com/channel/UCiGQaUe3Y7S5RNsbfiM0ZQQ</li>
       <li>https://www.youtube.com/channel/UCSULE2ZIuwBFJRPhVGkrUHQ</li>
       <li>https://www.youtube.com/channel/UCAm2pZHnwqUoXTRZA1aF7tw</li>
