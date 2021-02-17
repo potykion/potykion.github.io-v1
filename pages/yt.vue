@@ -42,8 +42,17 @@
         <a href="https://www.youtube.com/user/CrowbCat">Crowbcat</a> - сравнение игр, напр. на тизере и на релизе; <a
         href="https://www.youtube.com/watch?v=omyoJ7onNrg">про киберпук</a> просто пушка
       </li>
-
+      <li>
+        <a href="https://www.youtube.com/channel/UC8HnwuT88qHrixEJPdlJMvQ">Сашка Кроп</a> - обзоры олдовых игр
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/MrShpigun">Шпигун</a> - обзоры игор с приколами
+      </li>
       <!-- Ржака      -->
+
+      <li>
+        <a href="https://www.youtube.com/channel/UCdga1n7C6EJfoS0lYxDpeoA">Хумас </a> - прикольные монтажи
+      </li>
       <li>
         <a href="https://www.youtube.com/channel/UClGmWE9J0jQVwiiATgNe-YA">Ramson</a> - видосы на различную тематику,
         прикольного характера; канал начинающий, но уже каждый видос с кафом смотрю, например про <a
@@ -80,7 +89,8 @@
         <a href="https://vk.com/peplix">мемблексы от пепликсов</a>
       </li>
       <li>
-        <a href="https://www.youtube.com/channel/UCqpcO047_wiKpaThyjHQSrg">RX4D </a> - переозвучка про комплектующие компов
+        <a href="https://www.youtube.com/channel/UCqpcO047_wiKpaThyjHQSrg">RX4D </a> - переозвучка про комплектующие
+        компов
       </li>
       <li>
         <a href="https://www.youtube.com/user/XAAPAKTEP">XAAPAKTEP</a> - суб андер контр культура
@@ -89,13 +99,22 @@
         <a href="https://www.youtube.com/channel/UC1DjDHroLdWawdNj7EJi7xg">Демьян</a> - тоже ноги от хумаса растут
       </li>
       <li>
-        <a href="https://www.youtube.com/channel/UCgISDXr5ZVZzTPnFYSMXTVA">#Качественный Саунд</a> - очень качественные мешапы
+        <a href="https://www.youtube.com/channel/UCgISDXr5ZVZzTPnFYSMXTVA">#Качественный Саунд</a> - очень качественные
+        мешапы
       </li>
       <li>
         <a href="https://www.youtube.com/channel/UC5Aln3eK41wovAQggcQj0dQ">Мемут</a> - тоже около хумаса
       </li>
       <li>
         <a href="https://www.youtube.com/user/ogomk">Михаил МК</a> - ебанутые мультики
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCopMiHFAAp5fcow9h5lg-Mg">Ну как там с деньгами?</a> - автор
+        легендарного одноименного пранка
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCdAsMEhr_9ZmwZo3ZJ9YMYA">Бизнес Бобурин™</a> - актер из ХААРАКТЕР
+        сделал свой канал со своими видео приколами
       </li>
 
 
@@ -141,7 +160,8 @@
         <a href="https://www.youtube.com/user/kinopoisk">КиноПоиск </a> - видики про кино
       </li>
       <li>
-        <a href="https://www.youtube.com/channel/UCERxUjmqL6mvu0E6VbbLGAA">Кухня на районе</a> - канал приложухи по доставке еды, бывает ржекабельно
+        <a href="https://www.youtube.com/channel/UCERxUjmqL6mvu0E6VbbLGAA">Кухня на районе</a> - канал приложухи по
+        доставке еды, бывает ржекабельно
       </li>
 
       <!-- Около айти     -->
@@ -285,7 +305,8 @@
         РИТ++
       </li>
       <li>
-        <a href="https://www.youtube.com/channel/UCu-RrZ8JmADlGZGO8d3OW5w">Wrike TechClub</a> - докладики с митапов Wrike
+        <a href="https://www.youtube.com/channel/UCu-RrZ8JmADlGZGO8d3OW5w">Wrike TechClub</a> - докладики с митапов
+        Wrike
       </li>
 
       <!-- Готовка -->
@@ -406,38 +427,16 @@
       <li>
         <a href="https://www.youtube.com/channel/UCiTQ6lyKRtsfd9RSNI0OrdA">Мой Бумажный Пакет</a> - депресивный репчик
       </li>
-
-
+      <li>
+        <a href="https://www.youtube.com/channel/UC82pNmq0U4rn2fK34qCGhhQ">Овсянкин</a> - еще депрессивный репчик с
+        приколами
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/vkarabas">Х.. Забей</a> - канал легендарной группы Хуй Забей (жаль
+        распались)
+      </li>
     </ul>
 
-
-    <h2>В процессе</h2>
-
-    <ul id="wip">
-
-
-      <li>https://www.youtube.com/channel/UCiGQaUe3Y7S5RNsbfiM0ZQQ</li>
-      <li>https://www.youtube.com/channel/UCSULE2ZIuwBFJRPhVGkrUHQ</li>
-      <li>https://www.youtube.com/channel/UCAm2pZHnwqUoXTRZA1aF7tw</li>
-      <li>https://www.youtube.com/channel/UCopMiHFAAp5fcow9h5lg-Mg</li>
-      <li>https://www.youtube.com/channel/UC82pNmq0U4rn2fK34qCGhhQ</li>
-      <li>https://www.youtube.com/channel/UC07oDeXWH9dGQiwqleS5mAw</li>
-      <li>https://www.youtube.com/channel/UCNuItlOR3qXZBtMRwb4GoBg</li>
-      <li>https://www.youtube.com/channel/UC8HnwuT88qHrixEJPdlJMvQ</li>
-      <li>https://www.youtube.com/channel/UCDOrpCcQPK-WwVJDPLXs3mg</li>
-      <li>https://www.youtube.com/user/StudeyaBashmaK</li>
-      <li>https://www.youtube.com/channel/UCQmAuu6V3kSzdIfrszr5iKg</li>
-      <li>https://www.youtube.com/channel/UCMtlICYxr6Dz_PG9_SVqRYQ</li>
-      <li>https://www.youtube.com/user/vkarabas</li>
-      <li>https://www.youtube.com/channel/UCdga1n7C6EJfoS0lYxDpeoA</li>
-      <li>https://www.youtube.com/user/MrShpigun</li>
-      <li>https://www.youtube.com/channel/UC9U987n6vmTPgp4jvlltSfQ</li>
-      <li>https://www.youtube.com/channel/UCuvqwnf3_PNgpdgEzV2xBag</li>
-      <li>https://www.youtube.com/user/yandexmovie</li>
-      <li>https://www.youtube.com/channel/UCbM9qPgIZo9xAVbAYyJEtOw</li>
-      <li>https://www.youtube.com/channel/UCDgPChLUlnH5pE2HETNxidw</li>
-      <li>https://www.youtube.com/channel/UC-sJ3gJcnipb8kE9TtuV-mQ</li>
-    </ul>
   </div>
 
 
