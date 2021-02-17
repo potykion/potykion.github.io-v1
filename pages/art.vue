@@ -60,15 +60,14 @@
     <h2>А как ещё мотивировать себя?</h2>
 
     <p>
-      Социальное одобрение через инстуху, главное –  <a class="cursor-pointer" @click="showTagGen = true">теги</a>
-      выставить
+      Социальное одобрение, например, через инстуху. Важно в этом деле проставлять <a class="cursor-pointer" @click="showTagGen = true">теги</a>.
     </p>
 
     <template v-if="showTagGen">
       <h3>Генератор тегов</h3>
 
       <div>
-        <div class="flex space-x-8 items-center">
+        <div class="flex space-x-4 items-center">
           <div>
             <select v-model="material" class="border  py-1 rounded">
               <option disabled value="">Материал</option>
