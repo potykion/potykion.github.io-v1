@@ -1,9 +1,7 @@
 <template>
   <div>
 
-    <div class="flex justify-center">
-      <h1 class="">Рисование</h1>
-    </div>
+    <h1 class="">Рисование</h1>
 
     <h2>Как научиться рисовать?</h2>
 
@@ -60,7 +58,8 @@
     <h2>А как ещё мотивировать себя?</h2>
 
     <p>
-      Социальное одобрение, например, через инстуху. Важно в этом деле проставлять <a class="cursor-pointer" @click="showTagGen = true">теги</a>.
+      Социальное одобрение, например, через инстуху. Важно в этом деле проставлять <a class="cursor-pointer"
+                                                                                      @click="showTagGen = true">теги</a>.
     </p>
 
     <template v-if="showTagGen">
@@ -95,8 +94,8 @@
         </div>
 
         <div v-if="showTags">
-            <div class="my-2 font-bold">{{ tagsStr }}</div>
-            <button class="" v-clipboard:copy="tagsStr">Скопировать</button>
+          <div class="my-2 font-bold">{{ tagsStr }}</div>
+          <button class="" v-clipboard:copy="tagsStr">Скопировать</button>
         </div>
       </div>
     </template>
@@ -360,9 +359,6 @@ export default class art extends Vue {
 
 <style scoped>
 
-h1 {
-  @apply uppercase my-4 text-5xl tracking-widest  font-serif ;
-}
 
 h2 {
   @apply my-2 text-2xl font-serif;

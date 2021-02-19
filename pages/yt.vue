@@ -3,40 +3,30 @@
   <div>
     <h1>Ютуб</h1>
 
-    <p>
-      На момент записи я обнаружил, что подписан на 200 каналов на ютубе. Бывает меня спрашивают, что порекоммендуешь
-      посмотреть на ютубе, и мне ничо в голову не приходит.
-    </p>
 
     <img-row :images="['/yt.png']"></img-row>
 
     <p>
-      В этой статье я постараюсь систематизировать каналы, которые мне интересны, паралелльно отписываясь от
-      неинтересных каналов.
+      На момент записи я обнаружил, что подписан на 200 каналов на ютубе. Бывает меня спрашивают, что порекоммендуешь
+      посмотреть на ютубе, и мне ничо в голову не приходит. В этой статье я постараюсь систематизировать каналы, которые
+      мне интересны, паралелльно отписываясь от неинтересных каналов.
     </p>
 
-    <h2>Отобранные</h2>
+    <h2> Около игры </h2>
+
 
     <ul>
-      <!-- Около игры -->
-      <li><a href="https://www.youtube.com/channel/UCer-uuOOdHHbD_O1BT7kx7g">Disgusting Men</a> - подкаст на тему игор,
-        фильмов, музыки для мужиков
-      </li>
-      <li><a href="https://www.youtube.com/channel/UC0t8dMh13Rl-I-dbBlR0vFA">Стримушка</a> - нарезки популярных
-        стримеров, бывают смешными
-      </li>
+
+
       <li>
         <a href="https://www.youtube.com/channel/UCoTJydABhshW-N_h_tN9rrQ">Vansamaofficial</a> - нарезки со стримов ВЕНА
-        ДАРКХОЛМА; помимо игор, занимается <a
+        ДАРКХОЛМА; помимо игор, занимается кукингом, <a
         href="https://www.youtube.com/watch?v=kmulwybk8hA">спортом</a>, прошел <a
         href="https://youtu.be/Ul9qTts0wo8?t=121">русификацию</a>
       </li>
       <li>
         <a href="https://www.youtube.com/channel/UCIvkS0o7Csl6EuA7gCmdgqg">Karmik Koala </a> - разборчики спидранов и
         прикольчики, напр. про <a href="https://www.youtube.com/watch?v=helf7_fBGQA">ЧАС ПЯТНАДЦАТЬ</a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCPDQObYqflaenLFgOAAw9Zg">ksani ez</a> - монтажики про стримеров
       </li>
       <li>
         <a href="https://www.youtube.com/user/CrowbCat">Crowbcat</a> - сравнение игр, напр. на тизере и на релизе; <a
@@ -48,7 +38,16 @@
       <li>
         <a href="https://www.youtube.com/user/MrShpigun">Шпигун</a> - обзоры игор с приколами
       </li>
-      <!-- Ржака      -->
+    </ul>
+
+    <h2>Ржака</h2>
+    <ul>
+      <li><a href="https://www.youtube.com/channel/UC0t8dMh13Rl-I-dbBlR0vFA">Стримушка</a> - нарезки популярных
+        стримеров, бывают смешными
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCPDQObYqflaenLFgOAAw9Zg">ksani ez</a> - монтажики про стримеров
+      </li>
 
       <li>
         <a href="https://www.youtube.com/channel/UCdga1n7C6EJfoS0lYxDpeoA">Хумас </a> - прикольные монтажи
@@ -116,19 +115,11 @@
         <a href="https://www.youtube.com/channel/UCdAsMEhr_9ZmwZo3ZJ9YMYA">Бизнес Бобурин™</a> - актер из ХААРАКТЕР
         сделал свой канал со своими видео приколами
       </li>
+    </ul>
 
 
-      <!-- Попс      -->
-      <li><a href="https://www.youtube.com/channel/UCMCgOm8GZkHp8zJ6l7_hIuA">Вдудь</a> - ну как бы понятно: интервью с
-        популярными личностями
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCbhMGG0ZievPtK8mzLH5jhQ">Parfenon </a> - блог Леонида Парфенова; стоит
-        внимания Намедни - события, люди, явления определившие образ жизни
-      </li>
-
-
-      <!-- Всякое      -->
+    <h2>Всякое</h2>
+    <ul>
       <li>
         <a href="https://www.youtube.com/channel/UCNSkhjIGs63VfGVLQQu2bzA">Хулиномика</a> - канал автора книги
         Хулиномика;
@@ -163,8 +154,10 @@
         <a href="https://www.youtube.com/channel/UCERxUjmqL6mvu0E6VbbLGAA">Кухня на районе</a> - канал приложухи по
         доставке еды, бывает ржекабельно
       </li>
+    </ul>
 
-      <!-- Около айти     -->
+    <h2> Около айти </h2>
+    <ul>
       <li><a href="https://www.youtube.com/channel/UCr9qCdqXLm2SU0BIs6d_68Q">yegor256 a.k.a. Yegor Bugayenko</a> - канал
         популярного разраба с радикальными взлядами, видео на тему разработки, менеджмента, недавно стали выходить
         <a href="https://www.youtube.com/watch?v=5sTTHU0rJL8">обзоры новостей</a>
@@ -189,14 +182,34 @@
         <a href="https://www.youtube.com/channel/UCL4BwOrBEKggPyqsdVpraFg">Johe News</a> - тупа айтишный блог, но есть
         видео на другие темы, типа <a href="https://www.youtube.com/watch?v=TZn58EKqYFc">финансов</a>
       </li>
+    </ul>
 
+    <h2>Прога</h2>
 
-      <!-- Прога      -->
+    <h3>Вебчик</h3>
+    <ul>
       <li>
         <a href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">Fireship</a> - видосы про разработку и
         технологии обучающего характера; есть постоянная рубрика "X за 100 секунд", где расказывается про технологию за
         100 секунд, например, про <a href="https://www.youtube.com/watch?v=nhBVL41-_Cw">Vue</a>
       </li>
+      <li>
+        <a href="https://www.youtube.com/user/moscowjs">MoscowJS</a> - докладики с митапа по джс
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCp4bYTGrxZ27ifRxm29U5ow">MSK VUE.JS</a> - докладики с митапа по вью
+        джс
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCN9aK6ZG5PS1nnJZqscsmKw">PiterJS</a> - докладики с митапа по джс
+      </li>
+      <li>
+        <a href="https://www.youtube.com/c/PiterPy/videos">PiterPy</a> - докладики с митапа по python
+      </li>
+    </ul>
+
+    <h3>Flutter + Google</h3>
+    <ul>
       <li>
         <a href="https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw">Flutter </a> - офф канал по Flutter, включает
         в себя видосы про Flutter-виджеты, популярные пакеты и туториалы
@@ -214,31 +227,8 @@
         Flutter + обзоры либ
       </li>
       <li>
-        <a href="https://www.youtube.com/user/404fest">404fest</a> - докладики с айти-конфы <a
-        href="https://404fest.ru/">404</a>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCpMh_XSn7yGPabFBYzY5hKg">Antida software</a> - докладики с
-        Python-митапчика
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCO2w0cpl1wxygHjQH6eEfEg">AvitoTech</a> - докладики от Avito
-      </li>
-      <li>
-        <a href="https://www.youtube.com/user/codefestru">CodeFest Russia</a> - докладики с айти-конфы <a
-        href="https://11.codefest.ru/">CodeFest </a>
-      </li>
-      <li>
         <a href="https://www.youtube.com/channel/UCRva5jH_39U-rLt6S9JJyUw">DART SIDE</a> - стримы по Flutter от русских
         челов
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UC1nDIT9thqoFSSxvLyPHF5w">DevOps Channel</a> - докладики с конфы про
-        DevOps - DevOpsConf
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCGQRn0aTnJK-zHFAdT9Nm1A">Frontend Channel</a> - докладики с конфы про
-        фронтенд - FrontendConf
       </li>
       <li>
         <a href="https://www.youtube.com/channel/UCM8qsVZh9pLKL-7uD8nmb0A">Fidev - Make Beautiful Apps</a> - дезигн на
@@ -256,6 +246,35 @@
         <a href="https://www.youtube.com/channel/UCU8Mj6LLoNBXqqeoOD64tFg">Fun with Flutter</a> - аналог ResoCoder -
         обзор либ + туториалы
       </li>
+    </ul>
+
+
+
+    <h3>Айти-конфы</h3>
+    <ul>
+      <li>
+        <a href="https://www.youtube.com/user/404fest">404fest</a> - докладики с айти-конфы 404
+      </li>
+
+
+      <li>
+        <a href="https://www.youtube.com/channel/UCO2w0cpl1wxygHjQH6eEfEg">AvitoTech</a> - докладики от Avito
+      </li>
+      <li>
+        <a href="https://www.youtube.com/user/codefestru">CodeFest Russia</a> - докладики с айти-конфы CodeFest
+      </li>
+
+      <li>
+        <a href="https://www.youtube.com/channel/UC1nDIT9thqoFSSxvLyPHF5w">DevOps Channel</a> - докладики с конфы про
+        DevOps - DevOpsConf
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCGQRn0aTnJK-zHFAdT9Nm1A">Frontend Channel</a> - докладики с конфы про
+        фронтенд - FrontendConf
+      </li>
+
+
+
       <li>
         <a href="https://www.youtube.com/channel/UCxKXx-eVWNib87Wst7nv_KQ">GDG Russia</a> - докладики от Google для
         разрабов на русском
@@ -263,36 +282,14 @@
       <li>
         <a href="https://www.youtube.com/user/profyclub">HighLoad Channel</a> - докладики с конфы HighLoad++
       </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCtpMlizUrJlTtAONzxX6vpQ">Kirill Semaev</a> - чел про реальный девопс
-        рассказывает; еще нашел у него в реках <a href="https://www.youtube.com/channel/UC-sAMvDe7gTmBbub-rWljZg">челика,
-        который учит куберу и ансиблу</a>
-      </li>
+
       <li>
         <a href="https://www.youtube.com/channel/UCP8MtCo2ZcrJc7_Zhcjym9g">Mobile Channel</a> - докладики с конфы по
         мобильной разработке - appsconf
       </li>
-      <li>
-        <a href="https://www.youtube.com/user/moscowjs">MoscowJS</a> - докладики с митапа по джс
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCp4bYTGrxZ27ifRxm29U5ow">MSK VUE.JS</a> - докладики с митапа по вью
-        джс
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCN9aK6ZG5PS1nnJZqscsmKw">PiterJS</a> - докладики с митапа по джс
-      </li>
-      <li>
-        <a href="https://www.youtube.com/c/PiterPy/videos">PiterPy</a> - докладики с митапа по python
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCak6beUTLlVmf0E4AmnQkmw">PyCharm by JetBrains</a> - апдейты IDE
-        PyCharm
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCqC1iSQnRIDz_rOy8LHe69g">Python Channel</a> - докладики с конфы по
-        Python
-      </li>
+
+
+
       <li>
         <a href="https://www.youtube.com/channel/UCCLC8dta4gbG9aCM5ynRIrw">Management Channel</a> - докладики с конфы
         айти менеджеров - TeamLead Conf
@@ -304,138 +301,9 @@
         <a href="https://www.youtube.com/channel/UC7hjrpB81FSipI1oqtOaZqQ">RITFest Channel</a> - докладики с айти конфы
         РИТ++
       </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCu-RrZ8JmADlGZGO8d3OW5w">Wrike TechClub</a> - докладики с митапов
-        Wrike
-      </li>
 
-      <!-- Готовка -->
-      <li>
-        <a href="https://www.youtube.com/channel/UCw3vXvhTS6oolKyOjInA94g">Супер Кулинар</a> - канал с рецептами и
-        тв-передачами про готовку, среди которых мой любимый
-        <nuxt-link to="/cooking#jamie-oliver">Джейми Оливер</nuxt-link>
-      </li>
-      <li>
-        <a href="https://www.youtube.com/user/JamieOliver">Jamie Oliver</a> - канал любимого повара - Джейми Оливера
-      </li>
-
-      <!-- Музычка      -->
-      <li>
-        <a href="https://www.youtube.com/channel/UCFpGI5tOfL1n9oyF8pS9SOg">Partiboi69 </a> - нормальная версия диджея
-        огурца; очень харизматичный челик, исполняющий техно, хаус и все такое, разъебывает (<a
-        href="https://www.youtube.com/watch?v=rZLDBovy9lI">пример разъеба</a>)
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCAAAQDyYsbuJbixvl1Z0k0w">yeule</a> - ебанутый поп с
-        шугейзом, эмбиентом, гличами, чиптюном; внешний вид и <a href="https://www.youtube.com/watch?v=IYky8WReM10">клипы</a>
-        исполнительницы соответствующие - ебанутые татухи, мейк и наряды
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCMx2-6At2Rx0kapbSjKxwJA">Shygirl </a> - жирная найгерша, исполяющая
-        ебанутый хип-хаус; напр. есть трек, где <a href="https://www.youtube.com/watch?v=iMZX24CsGww">бит из кашля</a>
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/user/SacredBonesRecords">Sacred Bones Records</a> - лейб мрачной музычки, типа
-        <a href="https://www.youtube.com/watch?v=T7K61Pdvnd8">Uniform</a>, <a
-        href="https://www.youtube.com/watch?v=gMgx55DdTjg">The Body</a>, <a
-        href="https://www.youtube.com/watch?v=MvwtYaR_ENs">Thou</a>
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCll0t9aJFKgJlTsm0AW0Svg">Vixire Xeon</a> - чел, выкладывает неизданные
-        треки <a href="https://www.youtube.com/watch?v=es9-P1SOeHU">Sophie</a>, но Sophie RIP =/
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCD5F4ujlije0Zn_f2Adq0nw">Дмитрий Маликов</a> - ну на Маликова обязон
-        подписаться каждому ТЫ ОДНА ТЫ ТАКАААЯ!
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCVdlcqbM4oh0xJIQAxiaV5Q">100 gecs</a> - ебанутая электроника, как
-        обычно
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCLOIl_b0C-eJw8VwgXuj_ug">Agar Agar</a> - лайтовая французкая
-        электроника
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCcwLVJ0hC4YnSfMRlolkVDw">Boy Harsher</a> - мрачная качевая
-        электроника
-      </li>
-      <li>
-        <a href="https://www.youtube.com/user/boysnoize">BOYS NOIZE</a> - классика техно
-      </li>
-      <li>
-        <a href="https://www.youtube.com/user/officialcharlixcx">Charli XCX</a> - Чарличка, поп-королева
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/user/clppng">clppng </a> - clipping - экспериментальный репчик
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/user/bobgnarlynbd">DOOMSHOP RECORDS</a> - меинстримный фонк лейбл; на нем
-        записывался <a href="https://www.youtube.com/channel/UC2l38bev0xgHr65Tz4jZ32w">Freddie Dredd</a>
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCS9Rx7Thy7lnTBlt1TATZlw">DOPECLVBWORLD</a> - i61 - популярный рус
-        экспериментал репчик <a href="https://www.youtube.com/watch?v=OGCESZEzqbs">ЛИСТЬЯ И САЛАТ У МЕНЯ ЕСТЬ ЧТО У МЕНЯ
-        ЕСТЬ ПЛАГИН
-      </a>
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/user/officialEDREC">Ed Banger Records</a> - популярный лейбл европейской
-        электроники; тут вышли такие хиты, как <a href="https://www.youtube.com/watch?v=6okxuiiHx2w">Baby I'm Yours</a>
-        и <a href="https://www.youtube.com/watch?v=NazVKnD-_sQ">I Love U So</a>
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/user/GesaffelsteinChannel">GesaffelsteinChannel </a> - еще классика техно
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/user/GusGusOfficial">Gusgus</a> - электроника из Исландии; любимцы в России,
-        даж <a href="https://www.youtube.com/watch?v=1mYgRkO_YQ0">на Урганте были</a>
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/user/HO99O9">Ho99o9 </a> - панкуха + репчик + электроника = заебись
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCp8dfFa6a5dZkmod_FLarog">Jessica Winter</a> - лайтовая электроника с
-        мрачным визуалом
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCOTyzz_DRPIXNaRcp2NcDiQ">Myd</a> - французкая электроника, где
-        исполнитель - маскот
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UC4_fTVmkuYlzcV8OY24UeRg">Primitive Man</a> - мрачная жесткая музычка
-      </li>
-
-      <li>
-        <a href="https://www.youtube.com/channel/UCz4Yz77YvHQ_kL5R0l28IAQ">SebastiAn </a> - легенда с Ed Banger
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCiTQ6lyKRtsfd9RSNI0OrdA">Мой Бумажный Пакет</a> - депресивный репчик
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UC82pNmq0U4rn2fK34qCGhhQ">Овсянкин</a> - еще депрессивный репчик с
-        приколами
-      </li>
-      <li>
-        <a href="https://www.youtube.com/user/vkarabas">Х.. Забей</a> - канал легендарной группы Хуй Забей (жаль
-        распались)
-      </li>
     </ul>
+
 
   </div>
 
@@ -453,16 +321,10 @@ import {
 
 @Component({
   head: () => ({
-    title: "Я ЗАБЫЛ УКАЗАТЬ ЗАГОЛОВОК"
+    title: "ЮТУБ"
   }),
 })
 export default class yt extends Vue {
-  mounted() {
-    document
-      .querySelector("#wip")!
-      .childNodes
-      .forEach(e => (e as HTMLElement).innerHTML = `<a href="${(e as HTMLElement).innerText}">${(e as HTMLElement).innerText}</a>`);
-  }
 }
 </script>
 
