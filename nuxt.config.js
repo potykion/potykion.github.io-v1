@@ -1,6 +1,6 @@
 export default {
   googleAnalytics: {
-    id: 'G-MGBWJM11M4'
+    id: 'UA-190154899-1'
   },
 
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
