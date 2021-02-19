@@ -1,4 +1,8 @@
 export default {
+  googleAnalytics: {
+    id: 'G-MGBWJM11M4'
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -46,6 +50,9 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+
+    '@nuxtjs/google-analytics'
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -56,23 +63,6 @@ export default {
       {style: "atom-one-light"},
     ],
 
-    [
-      '@nuxtjs/firebase',
-      {
-        config: {
-          apiKey: "AIzaSyAuEWF_jdqYiEcIYsN59FvC-JigBuoDs5A",
-          authDomain: "poty-blog.firebaseapp.com",
-          projectId: "poty-blog",
-          storageBucket: "poty-blog.appspot.com",
-          messagingSenderId: "643332836412",
-          appId: "1:643332836412:web:9232bddfd7506e488fc739",
-          measurementId: "G-WCZC1Q5S9D"
-        },
-        services: {
-          collectionEnabled: true
-        }
-      }
-    ]
 
   ],
 

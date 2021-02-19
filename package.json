@@ -11,9 +11,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.1",
-    "@nuxtjs/firebase": "^7.5.0",
     "core-js": "^3.8.3",
-    "firebase": "^8.2.8",
     "nuxt": "^2.14.12",
     "nuxt-highlightjs": "^1.0.1",
     "nuxt-property-decorator": "^2.9.1",
@@ -23,6 +21,7 @@
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
     "@nuxt/typescript-build": "^2.0.4",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "@vue/test-utils": "^1.1.2",
     "autoprefixer": "^9.8.6",
