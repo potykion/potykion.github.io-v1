@@ -56,6 +56,24 @@ export default {
       {style: "atom-one-light"},
     ],
 
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: "AIzaSyAuEWF_jdqYiEcIYsN59FvC-JigBuoDs5A",
+          authDomain: "poty-blog.firebaseapp.com",
+          projectId: "poty-blog",
+          storageBucket: "poty-blog.appspot.com",
+          messagingSenderId: "643332836412",
+          appId: "1:643332836412:web:9232bddfd7506e488fc739",
+          measurementId: "G-WCZC1Q5S9D"
+        },
+        services: {
+          collectionEnabled: true
+        }
+      }
+    ]
+
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
