@@ -75,23 +75,29 @@ async def test_parse_lamoda_clothing(
 
     <div style="overflow-x: auto">
 <pre><code v-highlight class="python">
-async def test_config_parse(open_json: OpenJsonFunction, mock_container: AppContainer) -> None:
+async def test_config_parse(
+  open_json: OpenJsonFunction,
+  mock_container: AppContainer
+) -> None:
     with override_container_with_objects(
         mock_container,
         namespace_config_repo=AsyncMock(
-            **{"update_or_insert_many_by_external_id.side_effect": fake_insert_many}
+          **{"update_or_insert_many_by_external_id.side_effect": fake_insert_many}
         ),
         venue_repo=AsyncMock(**{"get_legacy_id_map.return_value": {}}),
         payment_type_repo=AsyncMock(**{"get_all.return_value": []}),
         legal_repo=AsyncMock(**{"get_legacy_id_map.return_value": {}}),
     ):
         parse: ParseLegacyConfig = mock_container.parse_legacy_config()
-        legacy_config = LegacyConfig(**cast(dict, open_json("config/tashiriiko.json")))
+        legacy_config = LegacyConfig(
+          **cast(dict, open_json("config/tashiriiko.json"))
+        )
 
         config: NamespaceConfig = await parse(legacy_config)
 
         assert_entities_equal(
-            config, NamespaceConfig(**cast(dict, open_json("config/parsed_tashiriiko.json")))
+          config,
+          NamespaceConfig(**cast(dict, open_json("config/parsed_tashiriiko.json")))
         )
 </code></pre>
     </div>

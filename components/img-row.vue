@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-1 overflow-x-auto justify-center">
+  <div class="flex space-x-1 overflow-x-auto ">
     <template v-for="img in images">
       <template v-if="imgIsObj(img)">
         <div>
@@ -39,3 +39,11 @@ export default class ImgRow extends Vue {
   }
 }
 </script>
+
+<style scoped>
+img {
+  @apply max-w-full lg:max-w-3xl;
+  max-height: 48rem;
+
+}
+</style>

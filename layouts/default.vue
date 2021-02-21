@@ -21,7 +21,7 @@
     </nav>
 
     <main class="flex-grow">
-      <div class="container mx-auto px-4 lg:px-72">
+      <div class="article-container">
         <Nuxt/>
       <!-- Чуток спейса для удобства -->
       <div class="h-4">
@@ -32,7 +32,7 @@
     </main>
 
     <footer>
-        <div class="container mx-auto px-4 lg:px-72">
+        <div class="article-container">
           <hr />
           <div class="  h-12 flex ">
             Все права защищены законом © 2021
@@ -46,5 +46,9 @@
 <style>
 .nav-link {
   @apply no-underline text-white visited:text-white;
+}
+
+.article-container {
+  @apply container mx-auto px-4 lg:px-32 xl:px-64 2xl:px-96;
 }
 </style>
