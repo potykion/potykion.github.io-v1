@@ -13,7 +13,6 @@
     </p>
 
 
-
     <ul>
 
 
@@ -38,23 +37,35 @@
     <p>
       Раньше, в году 2010, был <a href="https://www.youtube.com/user/Maddyblog/featured"><b>Maddyson</b></a>, потом
       создали радио,
-      посвященное ему - MaddysonFM. Там была зародилась тусовка
-      RJеев, обзорщиков, блоггеров, в нее входили <a href="https://www.youtube.com/watch?v=4ynC7mOJcaI">Зебуро</a> , <a
-      href="https://www.youtube.com/watch?v=DWqZr9mPUCA">Mostcus</a>, <a
+      посвященное ему - MaddysonFM. Там была тусовка
+      RJеев, обзорщиков, блоггеров, в нее входили <a href="https://www.youtube.com/watch?v=4ynC7mOJcaI">Зебуро</a> ,
+      <a
+        href="https://www.youtube.com/watch?v=DWqZr9mPUCA">Mostcus</a>, <a
       href="https://www.youtube.com/watch?v=E1-imwykJCE">Писюкович</a> и другие.
     </p>
 
+
+    <img src="~/assets/yt/xaa.png" class="streamline-img float-left">
+
     <p>
+
       В той же тусовке был <a
-      href="https://www.youtube.com/user/XAAPAKTEP"><b>XAAPAKTEP</b></a>, который поначалу записывал как ребятки играли
+      href="https://www.youtube.com/user/XAAPAKTEP"><b>XAAPAKTEP</b></a>, который поначалу записывал как ребятки
+      играли
       и делал
-      на все это <a href="https://www.youtube.com/watch?v=WR2puzDDoeQ">ебанутый монтаж</a>. Параллельно был некий Гришка
-      Бобурин, который снимал <a href="https://www.youtube.com/c/StudeyaBashmaK/about">"Тишка и Гришка"</a> - абсурдный
+      на все это <a href="https://www.youtube.com/watch?v=WR2puzDDoeQ">ебанутый монтаж</a>. Параллельно был некий
+      Гришка
+      Бобурин, который снимал <a href="https://www.youtube.com/c/StudeyaBashmaK/about">"Тишка и Гришка"</a> -
+      всратый
       серик про двух пездюков. Потом Гришка и XAAPAKTEP объединились и начали делать <a
-      href="https://www.youtube.com/watch?v=H74jrr7pGFs">абсурд с ебанутым монтажом</a>. В последствии, человек, который
-      монтировал все это дело, закончил проект XAAPAKTEP, а Гришка Бобурин продолжил снимать видики на своем канале - <a
-      href="https://www.youtube.com/channel/UCdAsMEhr_9ZmwZo3ZJ9YMYA">Бизнес Бобурин™</a>.
+      href="https://www.youtube.com/watch?v=H74jrr7pGFs">абсурд с ебанутым монтажом</a>. В последствии, человек,
+      который
+      монтировал все это дело, закончил проект XAAPAKTEP, а Гришка Бобурин продолжил снимать видики на своем канале -
+      <a
+        href="https://www.youtube.com/channel/UCdAsMEhr_9ZmwZo3ZJ9YMYA">Бизнес Бобурин™</a>.
     </p>
+
+    <hr/>
 
     <p>
       Еще в те времена были популярны в узких кругах RYTP - по сути тоже абсурдный юмор, построенный на смешных видосах.
@@ -67,6 +78,8 @@
       href="https://www.youtube.com/watch?v=pP3guab-KVs">всем офисом ржем в вотссаппе</a>).
     </p>
 
+    <img src="~/assets/yt/atmta.png" class="streamline-img float-right">
+
     <p>
       Это дело форсилось в ВК в паблосе <a href="https://vk.com/hynta_atmta"><b>Всякая Атмта</b></a>. Как следует из
       названия,
@@ -76,27 +89,33 @@
       мемами про популярную игру растет +- оттуда.
     </p>
 
-<!-- todo   <li>
-        <a href="https://www.youtube.com/user/CrowbCat">Crowbcat</a> - сравнение игр, напр. на тизере и на релизе; <a
-        href="https://www.youtube.com/watch?v=omyoJ7onNrg">про киберпук</a> просто пушка
-      </li>
 
-      <li>
-        <a href="https://www.youtube.com/user/MrShpigun">Шпигун</a> - обзоры игор с приколами
-      </li>-->
+    <!-- todo   <li>
+            <a href="https://www.youtube.com/user/CrowbCat">Crowbcat</a> - сравнение игр, напр. на тизере и на релизе; <a
+            href="https://www.youtube.com/watch?v=omyoJ7onNrg">про киберпук</a> просто пушка
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/user/MrShpigun">Шпигун</a> - обзоры игор с приколами
+          </li>-->
+
+    <img src="~/assets/yt/gm.png" class="streamline-img float-left">
+
 
     <p>
       Немаловажную часть игровой мем культуры (пиздец сказанул) составляют мемы про <a href="https://vk.com/valvememes">игры
       на движке Source</a> и <a href="https://vk.com/gmvvk"><b>песочницу Garry's Mod</b></a>, построенную на этом
       движке.
-      Garry's Mod позволял делать машинимы - про них даже <a
-      href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0">статья на вики</a> есть.
-      Машинимы в основном делались иностранные приколисты, но были и наши - напр. <a
+      Garry's Mod позволял делать машинимы (про них даже <a
+      href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0">статья на вики</a> есть).
+      Машинимы в основном делались иностранными приколистами, но были и наши. Напр. <a
       href="https://www.youtube.com/user/Deadlymanyak">Copypaster</a> - он является создателем видика <a
       href="https://www.youtube.com/watch?v=_U9JjGseXIs">CRIMINAL POORUSHQUE</a> - который собрал 3кк просмотров, что
       нереально много для такого нишевого жанра как рус г-мод машинима, и
       представляет собой сборную солянку мемов того времени.
     </p>
+
+    <img src="~/assets/yt/mashup.png" class="streamline-img float-right">
 
     <p>
       Среди неигровых форсов Всякой Атмты хочется отметить такой пабос как <a
@@ -121,11 +140,16 @@
 
     <!--  todo  https://www.youtube.com/channel/UCgISDXr5ZVZzTPnFYSMXTVA -->
 
-<!--        <li>
-      <a href="https://www.youtube.com/channel/UCIvkS0o7Csl6EuA7gCmdgqg">Karmik Koala </a> - разборчики спидранов и
-      прикольчики, напр. про <a href="https://www.youtube.com/watch?v=helf7_fBGQA">ЧАС ПЯТНАДЦАТЬ</a>
-    </li>
--->
+    <!--        <li>
+          <a href="https://www.youtube.com/channel/UCIvkS0o7Csl6EuA7gCmdgqg">Karmik Koala </a> - разборчики спидранов и
+          прикольчики, напр. про <a href="https://www.youtube.com/watch?v=helf7_fBGQA">ЧАС ПЯТНАДЦАТЬ</a>
+        </li>
+    -->
+    <hr/>
+
+
+    <img src="~/assets/yt/peplix.png" class="streamline-img float-right">
+
 
     <p>
       В 2019 году в мем игру ворвался паблос <a href="https://vk.com/peplix"><b>мемблексы
@@ -134,13 +158,16 @@
       большая ржака.
 
 
-      Дали вторую жизнь легендарному пранку <a href="https://www.youtube.com/channel/UCopMiHFAAp5fcow9h5lg-Mg">Ну как там с деньгами?</a>.
+      Дали вторую жизнь легендарному пранку <a href="https://www.youtube.com/channel/UCopMiHFAAp5fcow9h5lg-Mg">Ну как
+      там с деньгами?</a>.
     </p>
+
 
     <!--    todo https://vk.com/aminoacid -->
 
 
-    <!-- todo https://www.youtube.com/user/spasiboeva/featured, https://www.youtube.com/user/myducksvision/videos -->
+    <img src="~/assets/yt/humas.png" class="streamline-img float-left">
+
 
     <p>
       На основе всего этого рос я и другие представители молодежи. Самым любимым из них для меня является
@@ -152,7 +179,7 @@
       cuntent-мейкеров, которым я доначу:
     </p>
 
-    <img-row :images="['/yt/humas.png']"></img-row>
+    <img-row :images="['/yt/humas-donate.png']"></img-row>
 
     <p>
       Похожие на Хумаса видео-мейкеры тоже существуют и все они достойны внимания. Он их собственно и пиарит: <a
@@ -164,50 +191,67 @@
       href="https://www.youtube.com/watch?v=_XjSDx2Vhk8">Klio</a>.
     </p>
 
+    <hr/>
+
+    <p>
+      Вернемся снова к Меддисону. Году в 2011 люди с канала <a href="https://www.youtube.com/user/myducksvision">My
+      Duck's Vision</a> создали портал <a href="https://www.youtube.com/user/spasiboeva">"Спасибо", Ева!</a>, где
+      размещались такие блоггеры как <a href="https://www.youtube.com/user/usachevShow">Усачев</a>, <a
+      href="https://www.youtube.com/user/psychodozerLive">Психодозер</a>, там зародились группы <a
+      href="https://www.youtube.com/user/studsovetshow">Хлеб</a>, <a
+      href="https://www.youtube.com/channel/UCu7TZ_ATWgjgD9IrNLdnYDA">Little Big</a>, и Меддисон там делал свою
+      передачу.
+    </p>
+
+    <img src="~/assets/yt/twitch.png" class="streamline-img float-right">
+
+
+    <p>
+      После закрытия Спасибо Ева, из-за вскрытия инфы о том, что <a
+      href="https://click-or-die.ru/2020/04/kremlevskie-dengi-dlya-ilicha-i-poperechnogo-kak-razvalilas-legendarnaya-spasibo-eva/">портал
+      спонсируется Кремлем</a>, Меддисон
+      вскоре
+      ушел в стримерство на <b>Twitch</b>. Там у него появились подсосы - малоизвестные стримеры, которых он пиарил, напр. <a
+      href="https://www.twitch.tv/lasqa">Lasqa</a>, <a href="https://www.twitch.tv/mistafaker">Faker</a>.
+    </p>
+
+
+    <img src="~/assets/yt/stream.png" class="streamline-img float-left">
+
+    <p>
+      А стримеры народ особый: стримеры знают остальных стримеров; стримеры рейдят друг друга - заканчивая трансляцию
+      они перенаправляют зрителей на канал другого стримера; стримеры делают ивенты - напр. СтримХата, HPG - в которых
+      несколько стримеров собираются и проходят игры.
+      И за всем эти уследить трудновато, соответсвенно, существуют каналы, которые занимаются нарезками, напр. <a
+      href="https://www.youtube.com/channel/UC0t8dMh13Rl-I-dbBlR0vFA">Стримушка</a>. Так же про стримеров делают целые
+      мувики, напр. <a href="https://www.youtube.com/channel/UCPDQObYqflaenLFgOAAw9Zg">ksani ez</a>.
+    </p>
+
+
+    <hr />
 
     <!-- todo    https://www.twitch.tv/lasqa https://www.twitch.tv/voodoosh https://www.twitch.tv/karmikkoala -->
 
-<!--    -->
+    <!--    -->
+
+
+    <p>
+      Напоследок напишу о самородках - видео-мейкерах, которые никак не связаны с тем, о чем я писал выше. Они делают
+      видосы сами по себе и имеют неплохую для своей ниши аудиторию:
+    </p>
 
     <ul>
-      <li><a href="https://www.youtube.com/channel/UC0t8dMh13Rl-I-dbBlR0vFA">Стримушка</a> - нарезки популярных
-        стримеров, бывают смешными
-      </li>
-      <li>
-        <a href="https://www.youtube.com/channel/UCPDQObYqflaenLFgOAAw9Zg">ksani ez</a> - монтажики про стримеров
-      </li>
-
-      <li>
-      </li>
-      <li>
-        - видосы на различную тематику,
-        прикольного характера; канал начинающий, но уже каждый видос с кафом смотрю, например про <a
-        href="https://www.youtube.com/watch?v=zDvi0p378O8">похудение</a>
-      </li>
-      <li>
-      </li>
-
-
-<!-- todo самородки -->
-
       <li>
         <a href="https://www.youtube.com/channel/UCqpcO047_wiKpaThyjHQSrg">RX4D </a> - переозвучка про комплектующие
         компов
       </li>
-      <li>
-      </li>
-
-
       <li>
         <a href="https://www.youtube.com/user/ogomk">Михаил МК</a> - мультфильмы для всей семьи
       </li>
       <li>
         <a href="https://www.youtube.com/channel/UC8HnwuT88qHrixEJPdlJMvQ">Сашка Кроп</a> - обзоры олдовых игр
       </li>
-
     </ul>
-
-
 
 
     <h2>Всякое</h2>
@@ -418,4 +462,8 @@ export default class yt extends Vue {
 </script>
 
 <style scoped>
+.streamline-img {
+  @apply w-24 h-24  m-3;
+}
+
 </style>
