@@ -10,6 +10,7 @@
       <li>Сертик на <a href="https://www.ozon.ru/category/podarochnye-sertifikaty-32060/">Ozon</a></li>
       <li>Сертик на <a href="https://www.lamoda.ru/giftcertificate/">Lamoda</a></li>
       <li>Постельное (подушка, одеяло, матрас)</li>
+      <li>Напольные весы</li>
     </ul>
 
   </div>
