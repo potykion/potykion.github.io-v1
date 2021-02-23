@@ -39,9 +39,20 @@
       <li>
         <nuxt-link to="/art">Рисовач</nuxt-link>
       </li>
+
+      <li>
+        <nuxt-link to="/yt">Ютуб</nuxt-link>
+      </li>
+
+
       <li>
         <nuxt-link to="/dance">Денс</nuxt-link>
       </li>
+
+      <li>
+        <nuxt-link to="/nothing-to-do">Нечего делать</nuxt-link>
+      </li>
+
       <li>
         <nuxt-link to="/sleep">Слипинг</nuxt-link>
       </li>
