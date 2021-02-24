@@ -42,6 +42,10 @@
     @apply list-decimal list-inside;
   }
 
+  li {
+    @apply my-1;
+  }
+
   ul div {
     @apply ml-5;
   }
