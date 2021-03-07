@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>О себе</h2>
+    <h1>хто я?</h1>
 
     <div>
       <img src="~/assets/me.jpg" v-img alt="ebalo" class="w-full max-h-52 md:max-h-96"/>
@@ -13,7 +13,7 @@
       <li><b>ФИО:</b> Лейбович Никита Максимович</li>
       <li><b>Дата рождения:</b> 1996-12-18</li>
       <li><b>Место проживания:</b> Москва</li>
-      <li><b>Работа:</b> фулстак разраб в <a href="http://rbcn.mobi/">rbcn</a></li>
+      <li><b>Работа:</b> фулстак разраб в <a href="https://rbcn.mobi/">rbcn</a></li>
       <li><b>Рост:</b> 183 см; <b>вес:</b> 90 кг</li>
       <li><b>Размер одежды:</b> XL / 54; <b>обуви:</b> 45 / 46</li>
     </ul>
