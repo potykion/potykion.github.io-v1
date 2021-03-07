@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Вишлист</h2>
+    <h1>Вишлист</h1>
 
     <ul>
       <li><a HREF="https://www.citilink.ru/catalog/computers_and_notebooks/hdd/ssd_in/1134605/"><b>SSD</b></a></li>
