@@ -33,7 +33,7 @@
       <ul>
         <li><a href="https://github.com/psf/black">black</a> - форматтер кода</li>
         <li><a href="https://github.com/cobrateam/splinter">splinter</a> - более высокоуровневая обертка над Selenium -
-          штукой для управлением браузера
+          штукой для управлением браузера; альтернативы: <a href="https://github.com/mherrmann/selenium-python-helium">helium</a>
         </li>
 
         <li><a href="https://github.com/python/mypy">mypy</a> - чекер типизации; альтернативы: <a
@@ -44,7 +44,8 @@
           с коллекциями
         </li>
         <li>
-          <a href="https://github.com/python-poetry/poetry">poetry</a> - лучший менеджер зависимостей; есть <a href="https://github.com/koxudaxi/poetry-pycharm-plugin">плагин для пайчарма</a>
+          <a href="https://github.com/python-poetry/poetry">poetry</a> - лучший менеджер зависимостей; есть <a
+          href="https://github.com/koxudaxi/poetry-pycharm-plugin">плагин для пайчарма</a>
         </li>
         <li>
           <a href="https://github.com/getsentry/responses">responses</a> - моки для <a
@@ -102,11 +103,12 @@
 
         <li>
           <a href="https://github.com/liiight/notifiers">notifiers</a> - либа для отправки уведомлений, напр. через
-          Pushover
+          Pushover; альтернативы: <a href="https://github.com/caronc/apprise">apprise</a>
         </li>
 
         <li>
-          <a href="https://github.com/pallets/click">click</a> - либа для создания кли приложений
+          <a href="https://github.com/pallets/click">click</a> - либа для создания кли приложений; альтернативы: <a
+          href="https://github.com/tiangolo/typer">typer</a>
         </li>
         <li>
           <a href="https://github.com/sivel/speedtest-cli">speedtest-cli</a> - обертка над <a
@@ -123,6 +125,25 @@
         <li>
           <a href="https://github.com/elapouya/python-docx-template">python-docx-template</a> - jinja2 шаблоны в ворде
         </li>
+
+        <li>
+          <a href="https://github.com/CoatiSoftware/Sourcetrail">Sourcetrail</a> - строит граф зависимостей / иерархию
+          классов; есть <a href="https://github.com/CoatiSoftware/idea-sourcetrail">плагин для пайчарма</a>
+        </li>
+        <li>
+          <a href="https://github.com/ets-labs/python-dependency-injector">python-dependency-injector</a> - норм ioc
+          контейнер
+        </li>
+        <li>
+          <a href="https://github.com/plasma-umass/scalene">scalene</a> - профилировщик
+        </li>
+        <li>
+          <a href="https://github.com/hamcrest/PyHamcrest">PyHamcrest</a> - матчеры для тестов
+        </li>
+        <li>
+          <a href="https://github.com/chriskiehl/Gooey">Gooey</a> - делает юай из кли
+        </li>
+
       </ul>
 
     </section>
@@ -180,11 +201,43 @@
           <a href="https://github.com/SortableJS/Vue.Draggable">Vue.Draggable</a> - нормальный драг-н-дроп
         </li>
         <li>
-          <a href="https://github.com/responsively-org/responsively-app">responsively-app</a> - просмотрщик сайта на браузерах разного размера
+          <a href="https://github.com/responsively-org/responsively-app">responsively-app</a> - просмотрщик сайта на
+          браузерах разного размера
+        </li>
+
+        <li>
+          <a href="https://github.com/sw-yx/spark-joy">spark-joy</a> - подборочка дезигн приколюх
+        </li>
+
+        <li>
+          <a href="https://github.com/iamkun/dayjs">dayjs</a> - лучшая либа для работы с датами
+        </li>
+        <li>
+          <a href="https://github.com/sascha245/vuex-simple">vuex-simple</a> - работа с vuex на классах
         </li>
 
       </ul>
 
+    </section>
+
+    <section>
+      <h2>Dart + Flutter</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/simolus3/moor">moor</a> - nosql орм
+        </li>
+        <li>
+          <a href="https://github.com/rrousselGit/freezed">freezed</a> - юнионы и датаклассы
+        </li>
+        <li>
+          <a href="https://github.com/rrousselGit/river_pod">river_pod</a> - стейт-менеджмент + ioc; альтернативы: <a
+          href="https://github.com/jonataslaw/getx">getx</a>
+        </li>
+        <li>
+          <a href="https://github.com/trevorwang/retrofit.dart">retrofit.dart</a> - типизированный апи клиент
+        </li>
+
+      </ul>
     </section>
 
 
@@ -246,7 +299,7 @@
           удобнее
         </li>
         <li>
-          <a href="https://github.com/microsoft/PowerToys">PowerToys</a> - приколюхи для винды: колор-пикер, поиск,
+          <a href="https://github.com/microsoft/PowerToys">PowerToys</a> - приколюхи для винды: колор-пикер, лаунчер,
           менеджмент расположения окон, превью в файл експлорере
         </li>
 
@@ -263,11 +316,39 @@
           <a href="https://github.com/mermaid-js/mermaid">mermaid</a> - язык для описания диаграмм; есть куча очерток,
           напр. для <a href="https://github.com/mgaitan/sphinxcontrib-mermaid">Sphinx</a>
         </li>
+        <li>
+          <a href="https://github.com/mingrammer/diagrams">diagrams</a> - питон код для описания диаграмм
+        </li>
 
         <li>
           <a href="https://github.com/pyouroboros/ouroboros">ouroboros</a> - автоматически апдейтит докер контейнеры;
           альтернативы:
           <a href="https://github.com/containrrr/watchtower">watchtower</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/docker-slim/docker-slim">docker-slim</a> - уменьшает размер докер имеджа
+        </li>
+
+        <li>
+          <a href="https://github.com/timqian/star-history">star-history</a> - график зведочек по репо
+        </li>
+
+        <li>
+          <a href="https://github.com/kelseyhightower/nocode">nocode</a> - как писать самый лучший код
+        </li>
+        <li>
+          <a href="https://github.com/snooppr/snoop">snoop</a> - штука для деанона
+        </li>
+        <li>
+          <a href="https://github.com/soimort/you-get">you-get</a> - качает видос с ютуба; альтернативы: <a
+          href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a>
+        </li>
+        <li>
+          <a href="https://github.com/Ciphey/Ciphey">Ciphey</a> - декодит хеши
+        </li>
+        <li>
+          <a href="https://github.com/conwnet/github1s">github1s</a> - конвертит гх репо в вскод проект прям в браузере
         </li>
 
       </ul>
@@ -308,7 +389,19 @@
         </li>
         <li>
           <a href="https://github.com/zualex/devmap">devmap</a> - Карта развития веб-разработчика
-
+        </li>
+        <li>
+          <a href="https://github.com/palash25/best-practices-checklist">best-practices-checklist</a> - бест практисы на
+          различных языках
+        </li>
+        <li>
+          <a href="https://github.com/mattmakai/fullstackpython.com">fullstackpython.com</a> - куча инфы про питон
+        </li>
+        <li>
+          <a href="https://github.com/adelf/acwa_book_ru">acwa_book_ru</a> - Архитектура сложных веб-приложений
+        </li>
+        <li>
+          <a href="https://github.com/ksylor/ohshitgit">ohshitgit</a> - решение проблем с гитом
         </li>
       </ul>
 

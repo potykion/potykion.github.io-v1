@@ -67,6 +67,9 @@
     </h3>
     <ul>
       <li>
+        <nuxt-link to="/gh-sort">Сортировка гх</nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/python">Python</nuxt-link>
       </li>
       <li>
