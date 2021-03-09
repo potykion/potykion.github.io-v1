@@ -8,7 +8,7 @@
       ,
       я решил посортировать гх-старс.
     </p>
-    <p>На момент записи у меня 240 звезд, и я бывает ловлю себя на
+    <p>На момент записи у меня 240 звезд, и я, бывает, ловлю себя на
       мысли, что я ставлю звезды просто так, мол когда-нибудь пригодится. По факту, то, что я использую постоянно, я не
       старрю, а то, что в старред, - просто свалка, считай, лайки. </p>
     <p>
@@ -18,12 +18,12 @@
       где можно посмотреть возможные решения.
     </p>
 
-    <p>То чем я здесь занимаюсь - по сути состоявление <a
+    <p>То, чем я здесь занимаюсь, - по сути состоявление <a
       href="https://github.com/sindresorhus/awesome">awesome-списков</a>. На любую популярную технологию есть
       awesome-список - список библиотек для решения различных проблем на этой технологии. Например, есть <a
         href="https://github.com/vinta/awesome-python">список для питона</a>, есть <a
         href="https://github.com/timofurrer/awesome-asyncio">список для асинхронного питона</a>, <a
-        href="https://github.com/dahlia/awesome-sqlalchemy">список для склалхимии</a> - либы для работы с бд в питоне
+        href="https://github.com/dahlia/awesome-sqlalchemy">список для склалхимии</a> - либы для работы с бд в питоне.
     </p>
 
     <section>
@@ -264,8 +264,7 @@
         </li>
 
         <li>
-          <a href="https://github.com/Zettlr/Zettlr">Zettlr</a> - маркдаун редактор; альтернативы:
-          <a href="https://github.com/notable/notable">notable</a>
+          <a href="https://github.com/marktext/marktext">marktext</a> - маркдаун редактор;  альтернативы: <a href="https://github.com/Zettlr/Zettlr">Zettlr</a>
         </li>
 
         <li>
