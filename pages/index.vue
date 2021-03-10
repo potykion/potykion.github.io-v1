@@ -29,6 +29,9 @@
       <li>
         <nuxt-link to="/small">Свалка маленьких кулстори</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/pure">Pure</nuxt-link>
+      </li>
     </ul>
 
     <h3>
