@@ -7,17 +7,10 @@
         <div class="h-12 flex items-center justify-between">
 
 
-          <template v-if="$route.path === '/'">
-            <nuxt-link to="/" class="nav-link">Блог из-под палки</nuxt-link>
-          </template>
-          <template v-else>
-            <nuxt-link to="/" class="nav-link hidden md:block">Блог из-под палки
-            </nuxt-link>
-            <nuxt-link to="/" class="nav-link md:hidden">Би—пП</nuxt-link>
-          </template>
+          <nuxt-link to="/" class="nav-link">Блог из-под палки</nuxt-link>
 
           <nuxt-link to="/changelog" class="nav-link">
-            Версия: 1.0.0
+            v1.1.0
           </nuxt-link>
 
         </div>
@@ -28,21 +21,21 @@
     <main class="flex-grow">
       <div class="article-container">
         <Nuxt/>
-      <!-- Чуток спейса для удобства -->
-      <div class="h-4">
+        <!-- Чуток спейса для удобства -->
+        <div class="h-4">
 
-      </div>
+        </div>
       </div>
 
     </main>
 
     <footer>
-        <div class="article-container">
-          <hr />
-          <div class="  h-12 flex ">
-            Все права защищены законом © 2021
-          </div>
+      <div class="article-container">
+        <hr/>
+        <div class="  h-12 flex ">
+          Все права защищены законом © 2021
         </div>
+      </div>
     </footer>
   </div>
 

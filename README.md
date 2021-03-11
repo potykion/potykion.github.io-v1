@@ -4,9 +4,14 @@
 
 ## Обновление версии
 
-0. Поставить [обновлятор](https://www.npmjs.com/package/version-bump-prompt)
-  
+0. Поставить [обновлятор](https://www.npmjs.com/package/version-bump-prompt):
+
   ```
   npm install -g @jsdevtools/version-bump-prompt
   ```
 
+1. Заинкрементить версию + обновить в хедере:
+
+  ```
+  bump layouts/default.vue
+  ```
