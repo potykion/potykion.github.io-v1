@@ -4,7 +4,7 @@
   <div class="flex flex-col h-screen ">
     <nav class="bg-pink-400">
       <div class="mx-auto px-4 ">
-        <div class="h-12 flex items-center">
+        <div class="h-12 flex items-center justify-between">
 
 
           <template v-if="$route.path === '/'">
@@ -15,6 +15,11 @@
             </nuxt-link>
             <nuxt-link to="/" class="nav-link md:hidden">Би—пП</nuxt-link>
           </template>
+
+          <nuxt-link to="/changelog" class="nav-link">
+            Версия: 1.0.0
+          </nuxt-link>
+
         </div>
       </div>
 
