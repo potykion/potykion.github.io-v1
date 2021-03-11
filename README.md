@@ -4,7 +4,7 @@
 
 ## Обновление версии
 
-0. Поставить обновлятор
+0. Поставить [обновлятор](https://www.npmjs.com/package/version-bump-prompt)
   
   ```
   npm install -g @jsdevtools/version-bump-prompt
