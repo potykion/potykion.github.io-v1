@@ -47,10 +47,15 @@
         <nuxt-link to="/yt">Ютуб</nuxt-link>
       </li>
 
+      <li>
+        <nuxt-link to="/goals2021">Цели 2021</nuxt-link>
+      </li>
 
       <li>
         <nuxt-link to="/dance">Денс</nuxt-link>
       </li>
+
+
 
       <li>
         <nuxt-link to="/nothing-to-do">Нечего делать</nuxt-link>
