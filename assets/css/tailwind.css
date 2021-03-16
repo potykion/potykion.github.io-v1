@@ -46,9 +46,9 @@
     @apply my-1;
   }
 
-  ul div {
-    @apply ml-5;
-  }
+  /*ul div {*/
+  /*  @apply ml-5;*/
+  /*}*/
 
   ul ul {
     @apply ml-5;
