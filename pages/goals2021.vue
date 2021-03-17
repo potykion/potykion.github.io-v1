@@ -29,10 +29,7 @@
             </p>
           </template>
         </spoiler>
-
-
       </li>
-
 
     </ul>
 
@@ -78,12 +75,85 @@
           </template>
         </spoiler>
       </li>
+      <li class="done">Попробовать <nuxt-link to="/pure">pure</nuxt-link></li>
+      <li class="wip">Попробовать вар тиндер</li>
     </ul>
 
     <h2>Научиться денсить </h2>
     <ul>
       <li class="drop">Ну как бы
         <nuxt-link to="/dance">вот</nuxt-link>
+      </li>
+    </ul>
+
+    <h2>Цели на лето</h2>
+    <ul>
+      <li>
+        <spoiler>
+          Вкатиться в дезигн
+
+          <template slot="spoiled">
+            <p>
+              Делаю бложек, приложуху, вообще нравится какой-то фронт делать. Хочется чтобы он был еще и супер
+              сексуальным.
+              Гугл выдает ссылочки на адобе - букв многа:
+            </p>
+
+            <p class="font-mono whitespace-pre-line">how to mobile design
+
+              <a href="https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/">https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/</a>
+
+              <a href="https://xd.adobe.com/ideas/principles/app-design/">https://xd.adobe.com/ideas/principles/app-design/</a>
+
+              How to web design
+
+              <a href="https://xd.adobe.com/ideas/principles/web-design/web-page-design/">https://xd.adobe.com/ideas/principles/web-design/web-page-design/</a>
+
+              <a
+                href="https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2">https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2</a>
+            </p>
+          </template>
+        </spoiler>
+      </li>
+
+      <li>
+        Сгонять почиллить за границу, напр. в Нидерланды
+      </li>
+      <li>
+        <spoiler>
+          Сменить работу
+
+          <template slot="spoiled">
+            <p>На текущей работе ничего не держит: бабос могу получать больше, в офисе ничего не происходит, задачи сам
+              себе придумываю.</p>
+
+            <p>На хх вкусные вакансии имеются:</p>
+
+            <p class="font-mono ">
+              <a href="https://hh.ru/vacancy/42882086">https://hh.ru/vacancy/42882086</a><br>
+              <a href="https://hh.ru/vacancy/41263186">https://hh.ru/vacancy/41263186</a><br>
+              <a href="https://hh.ru/vacancy/42366923">https://hh.ru/vacancy/42366923</a>
+            </p>
+
+          </template>
+        </spoiler>
+      </li>
+      <li>
+        Сдать на права
+      </li>
+      <li>
+        <spoiler>
+          Постановка голоса
+
+          <template slot="spoiled">
+            <p>Вообще не представляю что это такое, но мб интересно.</p>
+            <p>Одна из самых популярных контор - <a
+              href="https://xn--b1abqffracbogz7j.xn--p1ai/">король говорит</a>.</p>
+          </template>
+        </spoiler>
+      </li>
+      <li>
+        Попробовать играть на муз инструменте, напр. гитарка
       </li>
     </ul>
 
@@ -113,8 +183,7 @@ export default class goals2021 extends Vue {
 <style scoped>
 
 li {
-  @apply list-none;
-
+  @apply list-none wip;
 }
 
 

@@ -10,7 +10,7 @@
           <nuxt-link to="/" class="nav-link">Блог из-под палки</nuxt-link>
 
           <nuxt-link to="/changelog" class="nav-link">
-            v1.2.1
+            v1.3.0
           </nuxt-link>
 
         </div>
@@ -43,7 +43,7 @@
 
 <style>
 .nav-link {
-  @apply no-underline text-white visited:text-white;
+  @apply no-underline text-white visited:text-white py-1 font-light ;
 }
 
 .article-container {

@@ -40,6 +40,9 @@
     </h3>
     <ul>
       <li>
+        <nuxt-link to="/wishlist">Вишлист</nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/art">Рисовач</nuxt-link>
       </li>
 

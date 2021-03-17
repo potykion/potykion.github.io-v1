@@ -8,7 +8,7 @@
     </span>
 
     <template v-if="open">
-      <div class="ml-8">
+      <div>
         <slot name="spoiled"></slot>
       </div>
     </template>
