@@ -2,10 +2,22 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h2>1.2.1 - 2021-03-17</h2>
+    <ul>
+      <li>
+        <nuxt-link to="/gigs">/gigs</nuxt-link>
+        : про концики
+      </li>
+      <li>
+        Сжал картинки где имело смысл
+      </li>
+    </ul>
+
     <h2>1.2.0 - 2021-03-16</h2>
     <ul>
       <li>
-        <nuxt-link to="/goals2021">/goals2021</nuxt-link>: про цели на 2021
+        <nuxt-link to="/goals2021">/goals2021</nuxt-link>
+        : про цели на 2021
       </li>
     </ul>
 
