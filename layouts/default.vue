@@ -7,7 +7,7 @@
         <div class="h-12 flex items-center justify-between">
 
 
-          <nuxt-link to="/" class="nav-link">Блог из-под палки</nuxt-link>
+          <nuxt-link to="/" class="nav-link">блог из-под палки</nuxt-link>
 
           <nuxt-link to="/changelog" class="nav-link">
             v1.3.0
