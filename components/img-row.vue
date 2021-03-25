@@ -1,8 +1,7 @@
 <template>
-  <div v-swiper:mySwiper="swiperOptions">
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide" v-for="img in images" :key="img">
+  <swiper ref="mySwiper" :options="swiperOptions">
+    <swiper-slide v-for="img in images" :key="img">
+      <div class=" flex justify-center">
         <template v-if="imgIsObj(img)">
           <div>
             <img v-img="{group: imgGroup}" :src="require(`~/assets${img.img}`)" :alt="img.img">
@@ -13,10 +12,9 @@
           <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
         </template>
       </div>
-
-      <div class="swiper-pagination" slot="pagination"></div>
-    </div>
-  </div>
+    </swiper-slide>
+    <div class="swiper-pagination" slot="pagination"></div>
+  </swiper>
 </template>
 
 

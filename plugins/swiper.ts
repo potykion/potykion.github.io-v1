@@ -1,7 +1,17 @@
 import Vue from 'vue'
-import VueAwesomeSwiper from 'vue-awesome-swiper'
+import {Swiper as SwiperClass, Pagination, Navigation, Mousewheel} from 'swiper/core';
+
 
 import 'swiper/swiper-bundle.css'
 
 
-Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
+import getAwesomeSwiper from 'vue-awesome-swiper/dist/exporter';
+
+SwiperClass.use([
+  Pagination,
+  Navigation,
+  Mousewheel,
+]);
+
+
+Vue.use(getAwesomeSwiper(SwiperClass));
