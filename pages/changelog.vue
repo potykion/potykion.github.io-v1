@@ -2,18 +2,34 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h2>1.3.1 - 2021-03-25</h2>
+    <ul>
+      <li>
+        <nuxt-link to="/small">/small:</nuxt-link>
+        киберпанк
+      </li>
+      <li>
+        <nuxt-link to="/cooking">/cooking:</nuxt-link>
+        терияки с помидорами
+      </li>
+      <li>
+        <nuxt-link to="/goals2021">/goals2021:</nuxt-link>
+        друзья в оригинале
+      </li>
+    </ul>
+
     <h2>1.3.0 - 2021-03-17</h2>
     <ul>
       <li>
         <nuxt-link to="/gigs">/gigs:</nuxt-link>
-         про концики
+        про концики
       </li>
       <li>
         Сжал картинки где имело смысл
       </li>
       <li>
         <nuxt-link to="/dance">/dance:</nuxt-link>
-         пару слов про плейлисты
+        пару слов про плейлисты
       </li>
       <li>
         <nuxt-link to="/goals2021">/goals2021:</nuxt-link>
@@ -29,7 +45,7 @@
     <ul>
       <li>
         <nuxt-link to="/goals2021">/goals2021:</nuxt-link>
-         про цели на 2021
+        про цели на 2021
       </li>
     </ul>
 

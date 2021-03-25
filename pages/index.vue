@@ -70,9 +70,6 @@
       <li>
         <nuxt-link to="/sleep">Слипинг</nuxt-link>
       </li>
-      <li>
-        <nuxt-link to="/cooking-guide">Готовка-гайд</nuxt-link>
-      </li>
     </ul>
 
     <h3>

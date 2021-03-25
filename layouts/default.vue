@@ -10,7 +10,7 @@
           <nuxt-link to="/" class="nav-link">блог из-под палки</nuxt-link>
 
           <nuxt-link to="/changelog" class="nav-link">
-            v1.3.0
+            v1.3.1
           </nuxt-link>
 
         </div>
