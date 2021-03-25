@@ -1,32 +1,33 @@
 <template>
-  <div>
+  <div v-viewer="{title: false, toolbar: false}" class="images">
     <template v-if="images.length === 1">
       <template v-for="img in images">
         <div class=" flex justify-center">
           <template v-if="imgIsObj(img)">
             <div>
-              <img v-img="{group: imgGroup}" :src="require(`~/assets${img.img}`)" :alt="img.img">
+              <img :src="require(`~/assets${img.img}`)" :alt="img.img">
               <div class="text-sm italic">{{ img.caption }}</div>
             </div>
           </template>
           <template v-else>
-            <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
+            <img :src="require(`~/assets${img}`)" :alt="img">
           </template>
         </div>
       </template>
     </template>
     <template v-else>
+
       <swiper ref="mySwiper" :options="swiperOptions">
         <swiper-slide v-for="img in images" :key="img">
-          <div class=" flex justify-center">
+          <div class=" flex justify-center ">
             <template v-if="imgIsObj(img)">
               <div>
-                <img v-img="{group: imgGroup}" :src="require(`~/assets${img.img}`)" :alt="img.img">
+                <img :src="require(`~/assets${img.img}`)" :alt="img.img">
                 <div class="text-sm italic">{{ img.caption }}</div>
               </div>
             </template>
             <template v-else>
-              <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
+              <img :src="require(`~/assets${img}`)" :alt="img">
             </template>
           </div>
         </swiper-slide>
@@ -59,9 +60,6 @@ export default class ImgRow extends Vue {
     },
   };
 
-  get imgGroup() {
-    return strToHash(this.images.join());
-  }
 
   imgIsObj(img: any): boolean {
     return typeof img !== "string";
