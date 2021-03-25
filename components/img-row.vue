@@ -1,20 +1,41 @@
 <template>
-  <swiper ref="mySwiper" :options="swiperOptions">
-    <swiper-slide v-for="img in images" :key="img">
-      <div class=" flex justify-center">
-        <template v-if="imgIsObj(img)">
-          <div>
-            <img v-img="{group: imgGroup}" :src="require(`~/assets${img.img}`)" :alt="img.img">
-            <div class="text-sm italic">{{ img.caption }}</div>
+  <div>
+    <template v-if="images.length === 1">
+      <template v-for="img in images">
+        <div class=" flex justify-center">
+          <template v-if="imgIsObj(img)">
+            <div>
+              <img v-img="{group: imgGroup}" :src="require(`~/assets${img.img}`)" :alt="img.img">
+              <div class="text-sm italic">{{ img.caption }}</div>
+            </div>
+          </template>
+          <template v-else>
+            <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
+          </template>
+        </div>
+      </template>
+    </template>
+    <template v-else>
+      <swiper ref="mySwiper" :options="swiperOptions">
+        <swiper-slide v-for="img in images" :key="img">
+          <div class=" flex justify-center">
+            <template v-if="imgIsObj(img)">
+              <div>
+                <img v-img="{group: imgGroup}" :src="require(`~/assets${img.img}`)" :alt="img.img">
+                <div class="text-sm italic">{{ img.caption }}</div>
+              </div>
+            </template>
+            <template v-else>
+              <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
+            </template>
           </div>
-        </template>
-        <template v-else>
-          <img v-img="{group: imgGroup}" :src="require(`~/assets${img}`)" :alt="img">
-        </template>
-      </div>
-    </swiper-slide>
-    <div class="swiper-pagination" slot="pagination"></div>
-  </swiper>
+        </swiper-slide>
+        <div class="swiper-pagination" slot="pagination"></div>
+      </swiper>
+    </template>
+  </div>
+
+
 </template>
 
 
@@ -26,17 +47,17 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 import {strToHash} from "~/logic/core/utils/hash";
+import {SwiperOptions} from "swiper";
 
 @Component
 export default class ImgRow extends Vue {
   @Prop() images!: string[] | { img: string, caption: string }[];
 
-  swiperOptions = {
+  swiperOptions: SwiperOptions = {
     pagination: {
-      el: '.swiper-pagination'
+      el: '.swiper-pagination',
     },
-    // Some Swiper option/callback...
-  }
+  };
 
   get imgGroup() {
     return strToHash(this.images.join());
@@ -54,4 +75,5 @@ img {
   max-height: 48rem;
 
 }
+
 </style>

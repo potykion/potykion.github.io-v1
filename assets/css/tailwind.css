@@ -49,7 +49,6 @@
   /*ul div {*/
   /*  @apply ml-5;*/
   /*}*/
-
   ul ul {
     @apply ml-5;
   }
@@ -85,6 +84,9 @@
     @apply my-2;
   }
 
+  .swiper-pagination-bullet-active {
+    @apply bg-pink-400 !important;
+  }
 }
 
 @tailwind components;
