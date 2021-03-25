@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div>
 
 
     <h2>Как блог делается</h2>
@@ -26,13 +26,17 @@
     </ul>
 
 
-    <h3>Просмотр картинок</h3>
+    <h3>Картинки</h3>
 
     <ul>
       <li>
-        <a href="https://github.com/crowdbotics/v-img">
-          https://github.com/crowdbotics/v-img
-        </a>
+        <a href="https://github.com/mirari/v-viewer">https://github.com/mirari/v-viewer</a> - крутой просмотрщик
+        картинок
+      </li>
+      <li>
+        <a
+          href="https://github.com/surmon-china/vue-awesome-swiper">https://github.com/surmon-china/vue-awesome-swiper</a>
+        - крутой свайпер
       </li>
     </ul>
 
