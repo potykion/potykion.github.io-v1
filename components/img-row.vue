@@ -1,5 +1,5 @@
 <template>
-  <div v-viewer="{title: false, toolbar: false}" class="images">
+  <div v-viewer="{title: false, toolbar: false, navbar: false}" class="images">
     <template v-if="images.length === 1">
       <template v-for="img in images">
         <div class=" flex justify-center">

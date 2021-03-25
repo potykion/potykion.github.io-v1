@@ -63,12 +63,12 @@
   }
 
   iframe {
-    @apply h-96;
+    @apply h-96 w-full;
 
   }
 
   video {
-    @apply h-96;
+    @apply h-96 w-full;
   }
 
   button {

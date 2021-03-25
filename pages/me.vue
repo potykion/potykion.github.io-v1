@@ -3,7 +3,7 @@
     <h1>хто я?</h1>
 
     <div>
-      <img src="~/assets/me.jpg" v-img alt="ebalo" class="w-full max-h-52 md:max-h-96"/>
+      <img src="~/assets/me.jpg" alt="ebalo" class="w-full max-h-52 md:max-h-96"/>
       <span class="text-sm italic">Це Їбало</span>
     </div>
 
