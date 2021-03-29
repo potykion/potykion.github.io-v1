@@ -7,10 +7,16 @@
         <div class="h-12 flex items-center justify-between">
 
 
-          <nuxt-link to="/" class="nav-link">блог из-под палки</nuxt-link>
+          <nuxt-link to="/" class="nav-link">
+            <div class="nav-link-text">
+              блог из-под палки
+            </div>
+          </nuxt-link>
 
           <nuxt-link to="/changelog" class="nav-link">
-            v1.3.1
+            <div class="nav-link-text">
+              v1.3.2
+            </div>
           </nuxt-link>
 
         </div>
@@ -41,9 +47,29 @@
 
 </template>
 
+<script lang="ts">
+
+import {
+  Component,
+  Prop,
+  Vue,
+} from "nuxt-property-decorator"
+
+import {annotate, annotationGroup} from 'rough-notation';
+
+@Component
+export default class Default extends Vue {
+  mounted() {
+    annotationGroup([...document.querySelectorAll(".nav-link-text")]
+      .map(l => annotate(l, {type: 'underline'})))
+      .show();
+  }
+}
+</script>
+
 <style>
 .nav-link {
-  @apply no-underline text-white visited:text-white py-1 font-light ;
+  @apply no-underline text-white visited:text-white py-2 ;
 }
 
 .article-container {

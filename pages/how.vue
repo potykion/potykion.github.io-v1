@@ -12,16 +12,22 @@
       <li><a href="https://tailwindcss.com/">Tailwindcss</a></li>
     </ul>
 
+    <h3>Текст</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/rough-stuff/rough-notation">https://github.com/rough-stuff/rough-notation </a> -
+        анимашка подчеркивания
+      </li>
+    </ul>
+
 
     <h3>Подсветка кода</h3>
     <ul>
       <li>
-        <a href="https://highlightjs.org/">https://highlightjs.org/</a>
-      </li>
-      <li>
         <a href="https://www.npmjs.com/package/nuxt-highlightjs">
           https://www.npmjs.com/package/nuxt-highlightjs
-        </a>
+        </a> - обертка над <a href="https://highlightjs.org/">highlightjs/</a>
+
       </li>
     </ul>
 
@@ -44,10 +50,8 @@
 
     <ul>
       <li>
-        <a href="https://clipboardjs.com/">https://clipboardjs.com/</a>
-      </li>
-      <li>
-        <a href="https://www.npmjs.com/package/vue-clipboard2">https://www.npmjs.com/package/vue-clipboard2</a>
+        <a href="https://www.npmjs.com/package/vue-clipboard2">https://www.npmjs.com/package/vue-clipboard2</a> -
+        обертка над <a href="https://clipboardjs.com/">clipboardjs/</a>
       </li>
     </ul>
 
