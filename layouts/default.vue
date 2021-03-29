@@ -60,8 +60,10 @@ import {annotate, annotationGroup} from 'rough-notation';
 @Component
 export default class Default extends Vue {
   mounted() {
-    annotationGroup([...document.querySelectorAll(".nav-link-text")]
-      .map(l => annotate(l, {type: 'underline'})))
+    annotationGroup(
+      Array.from(document.querySelectorAll(".nav-link-text"))
+        .map(l => annotate(l as HTMLElement, {type: 'underline'}))
+    )
       .show();
   }
 }
@@ -69,7 +71,11 @@ export default class Default extends Vue {
 
 <style>
 .nav-link {
-  @apply no-underline text-white visited:text-white py-2 ;
+  @apply no-underline text-white visited:text-white py-1 ;
+}
+
+.nav-link-text {
+  @apply leading-none;
 }
 
 .article-container {
