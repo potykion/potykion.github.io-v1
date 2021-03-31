@@ -1,7 +1,7 @@
 <template>
   <article>
 
-    <h1>Сортировка гх</h1>
+    <h1>ГХ старс</h1>
 
     <p>Аналогично
       <nuxt-link to="/yt">ютубу</nuxt-link>
@@ -422,7 +422,7 @@ import {
 
 @Component({
   head: () => ({
-    title: "Сортировка гх"
+    title: "ГХ старс"
   }),
 })
 export default class GitHubSortPage

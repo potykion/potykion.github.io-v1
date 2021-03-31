@@ -79,6 +79,6 @@ export default class Default extends Vue {
 }
 
 .article-container {
-  @apply container mx-auto px-4 lg:px-32 xl:px-64 2xl:px-96;
+  @apply container mx-auto px-3 lg:px-32 xl:px-64 2xl:px-96;
 }
 </style>

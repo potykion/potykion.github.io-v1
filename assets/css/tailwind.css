@@ -6,7 +6,7 @@
   }
 
   h2 {
-    @apply text-3xl my-4 font-bold;
+    @apply text-3xl my-4 font-bold font-serif;
   }
 
   h3 {
