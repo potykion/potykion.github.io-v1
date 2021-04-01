@@ -12,6 +12,10 @@
         <nuxt-link to="/">/:</nuxt-link>
         приписочка про ченжлог
       </li>
+      <li>
+        <nuxt-link to="/gh-sort">/gh-sort:</nuxt-link>
+        nvm, mocktail, appwrite
+      </li>
     </ul>
 
 

@@ -224,10 +224,15 @@
       <h2>Dart + Flutter</h2>
       <ul>
         <li>
-          <a href="https://github.com/simolus3/moor">moor</a> - nosql орм
+          <a href="https://github.com/felangel/mocktail">mocktail</a> - либа для моков; апи похож на <a
+          href="https://pub.dev/packages/mockito">mockito</a>, но нет кодогенерации - что упрощает использование; еще
+          есть возможность мокать <code>Image.network</code>
         </li>
         <li>
-          <a href="https://github.com/rrousselGit/freezed">freezed</a> - юнионы и датаклассы
+          <a href="https://github.com/simolus3/moor">moor</a> - sqlite орм
+        </li>
+        <li>
+          <a href="https://github.com/rrousselGit/freezed">freezed</a> - юнионы и иммутабельные датаклассы
         </li>
         <li>
           <a href="https://github.com/rrousselGit/river_pod">river_pod</a> - стейт-менеджмент + ioc; альтернативы: <a
@@ -264,7 +269,15 @@
         </li>
 
         <li>
-          <a href="https://github.com/marktext/marktext">marktext</a> - маркдаун редактор;  альтернативы: <a href="https://github.com/Zettlr/Zettlr">Zettlr</a>
+          <a href="https://github.com/nvm-sh/nvm">nvm</a> (<a href="https://github.com/coreybutler/nvm-windows">nvm-windows</a>
+          для винды) - Node Version Manager - позволяет ставить и менеджерить несколько версий ноды. Полезно, когда
+          работаешь с легаси, напр. с gulp 3, который <a href="https://github.com/gulpjs/gulp/issues/2324">не робит с
+          нодой 12+</a> => легче поставить себе ноду 10.
+        </li>
+
+        <li>
+          <a href="https://github.com/marktext/marktext">marktext</a> - маркдаун редактор; альтернативы: <a
+          href="https://github.com/Zettlr/Zettlr">Zettlr</a>
         </li>
 
         <li>
@@ -348,6 +361,10 @@
         </li>
         <li>
           <a href="https://github.com/conwnet/github1s">github1s</a> - конвертит гх репо в вскод проект прям в браузере
+        </li>
+        <li>
+          <a href="https://github.com/appwrite/appwrite">appwrite</a> - селф-хостед baas - альтернатива <a
+          href="https://firebase.google.com/products-build">Firebase</a>
         </li>
 
       </ul>
