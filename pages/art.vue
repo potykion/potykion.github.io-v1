@@ -66,7 +66,7 @@
       <h3>Генератор тегов</h3>
 
       <div>
-        <div class="flex space-x-4 items-center">
+        <div class="flex space-x-1 items-center">
           <div>
             <select v-model="material" class="border  py-1 rounded">
               <option disabled value="">Материал</option>
