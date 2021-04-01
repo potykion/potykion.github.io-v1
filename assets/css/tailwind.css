@@ -84,9 +84,6 @@
     @apply my-2;
   }
 
-  .swiper-pagination-bullet-active {
-    @apply bg-pink-400 !important;
-  }
 }
 
 @tailwind components;
