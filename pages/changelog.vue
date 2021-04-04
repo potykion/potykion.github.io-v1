@@ -13,7 +13,7 @@
         приписочка про ченжлог
       </li>
       <li>
-        <nuxt-link to="/gh-sort">/gh-sort:</nuxt-link>
+        <nuxt-link to="/gh-stars">/gh-stars:</nuxt-link>
         nvm, mocktail, appwrite
       </li>
     </ul>
