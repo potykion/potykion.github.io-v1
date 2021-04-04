@@ -269,6 +269,18 @@
         </li>
 
         <li>
+          <a href="https://highlightjs.org/">highlightjs</a> <nuxt-emoji-link to="https://www.npmjs.com/package/nuxt-highlightjs" /> - подсветка кода
+        </li>
+
+        <li>
+          <a href="https://clipboardjs.com/">clipboardjs</a><nuxt-emoji-link to="https://www.npmjs.com/package/vue-clipboard2" :is-vue="true" /> - копирование текста
+        </li>
+
+        <li>
+          <a href="https://github.com/rough-stuff/rough-notation">rough-notation</a> - стилизовачка текста
+        </li>
+
+        <li>
           <a href="https://github.com/sw-yx/spark-joy">spark-joy</a> - подборочка дезигн приколюх
         </li>
 

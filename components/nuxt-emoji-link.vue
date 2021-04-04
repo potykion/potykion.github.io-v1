@@ -1,6 +1,7 @@
 <template>
   <a :href="to">
-    <img src="~/assets/nuxt.png" class=" emote-small" alt="nuxt">
+    <img v-if="isVue" src="~/assets/vue.png" class=" emote-small" alt="vue">
+    <img v-else src="~/assets/nuxt.png" class=" emote-small" alt="nuxt">
   </a>
 </template>
 
@@ -16,6 +17,7 @@ import {
 @Component({})
 export default class NuxtEmojiLink extends Vue {
   @Prop() to!: string;
+  @Prop({default: false}) isVue!: boolean;
 
 }
 </script>
