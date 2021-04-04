@@ -32,6 +32,10 @@
   .emote {
     @apply h-8 inline-block;
   }
+  .emote-small {
+    @apply h-6 inline-block;
+  }
+
 
 
   ul {
