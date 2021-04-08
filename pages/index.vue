@@ -13,7 +13,9 @@
     <p>И еще здесь может встречаться <b>мат</b> и <b>звенящая пошлость</b>.</p>
 
     <p>
-      Что нового в блоге, можно посмотреть в <nuxt-link to="/changelog">ченжлоге</nuxt-link>.
+      Что нового в блоге, можно посмотреть в
+      <nuxt-link to="/changelog">ченжлоге</nuxt-link>
+      .
     </p>
 
     <h3>
@@ -59,7 +61,13 @@
       </li>
 
       <li>
+        <nuxt-link to="/money">Бабос</nuxt-link>
+      </li>
+
+
+      <li>
         <nuxt-link to="/dance">Денс</nuxt-link>
+      </li>
 
 
       <li>
