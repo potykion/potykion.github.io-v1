@@ -40,7 +40,15 @@
       <li class="done">Начать инвестировать</li>
       <li class="done">Начать вести бюджет</li>
       <li class="wip">Написать и выпустить приложуху с монетизацией</li>
-      <li class="wip">Накопить 500к на брокерском счету</li>
+      <li class="done">
+        <spoiler>
+          Накопить 500к на брокерском счету
+          <template slot="spoiled">
+            Вкладываю 40к / мес. + решил, что <a href="https://www.tinkoff.ru/invest/moneybox/">Инвесткопилка</a> и рублевый вклад это не очень выгодно, поэтому перевел их на
+            брокерский счет.
+          </template>
+        </spoiler>
+      </li>
     </ul>
 
     <h2>Социализация</h2>
@@ -77,7 +85,9 @@
           </template>
         </spoiler>
       </li>
-      <li class="done">Попробовать <nuxt-link to="/pure">pure</nuxt-link></li>
+      <li class="done">Попробовать
+        <nuxt-link to="/pure">pure</nuxt-link>
+      </li>
       <li class="wip">Попробовать вар тиндер</li>
     </ul>
 
@@ -171,8 +181,10 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import Spoiler from "~/components/spoiler.vue";
 
 @Component({
+  components: {Spoiler},
   head: () => ({
     title: "Цели 2021"
   }),
