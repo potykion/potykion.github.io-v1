@@ -2,7 +2,7 @@
   <div>
     <h1>Ченжлог</h1>
 
-    <h2>1.4.0</h2>
+    <h2>1.4.0 - 2021-04-12</h2>
     <ul>
       <li>
         <nuxt-link to="/fruit-ninja">/fruit-ninja:</nuxt-link>
