@@ -2,6 +2,22 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h2>1.4.0</h2>
+    <ul>
+      <li>
+        <nuxt-link to="/fruit-ninja">/fruit-ninja:</nuxt-link>
+        новая кулстори про Фрут Ниндзю
+      </li>
+      <li>
+        <nuxt-link to="/gh-stars">/gh-stars:</nuxt-link>
+        сортировка питон либ, джс либы, флаттер либы
+      </li>
+      <li>
+        <nuxt-link to="/money">/money:</nuxt-link>
+        лайфхаки про бабос
+      </li>
+    </ul>
+
     <h2>1.3.3 - 2021-04-01</h2>
     <ul>
       <li>
