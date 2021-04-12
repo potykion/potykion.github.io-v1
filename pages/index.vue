@@ -38,6 +38,9 @@
       <li>
         <nuxt-link to="/pure">Pure</nuxt-link>
       </li>
+      <li>
+        <nuxt-link to="/fruit-ninja">Фрут Ниндзя</nuxt-link>
+      </li>
     </ul>
 
     <h3>
