@@ -1,14 +1,6 @@
 <template>
-
-  <div>
-    <h2>Python</h2>
-
-    <p>
-      Здесь будут заметки про питончик.
-    </p>
-
-
-    <h3>Тесты на питоне</h3>
+  <article>
+    <h2>Python / Тесты</h2>
 
     <p>Все просто:</p>
 
@@ -24,7 +16,7 @@
       </li>
     </ul>
 
-    <h4>Моки</h4>
+    <h3>Моки</h3>
 
     <p>
       Зачем нужны моки? Чтобы не обращаться на прямую к бд, интернету, другим сервисам во время выполнения тестов:
@@ -110,19 +102,10 @@ async def test_config_parse(
       <code>{}</code>
     </p>
 
-    <h4>
-      SQL-запросы на питоне
-    </h4>
 
-    <p>
-      По умолчанию sql-запросы рендерятся без конкретных значений. Чтобы получить полный sql-запрос с конкретными
-      значениями:
-    </p>
-    <pre><code v-highlight class="python">query.compile(compile_kwargs={"literal_binds": True})</code></pre>
-
-
-  </div>
+  </article>
 </template>
+
 <script lang="ts">
 
 import {
@@ -133,13 +116,13 @@ import {
 
 @Component({
   head: () => ({
-    title: "Python"
-  })
+    title: "Python / Тесты"
+  }),
 })
-export default class index extends Vue {
-  mounted() {
-    document.querySelectorAll("code").forEach(e => e.innerHTML = e.innerHTML.trim());
-  }
+export default class tests extends Vue {
 
 }
 </script>
+
+<style scoped>
+</style>

@@ -65,6 +65,9 @@ export default class Default extends Vue {
         .map(l => annotate(l as HTMLElement, {type: 'underline'}))
     )
       .show();
+
+    document.querySelectorAll("code").forEach(e => e.innerHTML = e.innerHTML.trim());
+
   }
 }
 </script>
