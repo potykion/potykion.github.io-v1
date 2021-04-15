@@ -62,10 +62,41 @@ keytool -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.k
       <li>Ставим необходимые <a href="https://firebase.flutter.dev/">либы для флаттера</a></li>
     </ol>
 
-<!--    <h4>Дополнительные телодвижения для аутентификации</h4>-->
+    <h4>Дополнительные телодвижения для аутентификации</h4>
 
+    <ol>
+      <li>
+        Для начала аутентификацию надо включить: Authentication > Sign-in method
+      </li>
+      <li>
+        Затем нужно задать настройки доступпа к Firestore: Firestore > Rules:
 
+        <pre><code v-highlight >
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+        </code></pre>
 
+      </li>
+    </ol>
+
+    <h4>А еще</h4>
+
+    <p>Может такое вылезать:</p>
+
+    <pre><code v-highlight>
+W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status: Status{code=NOT_FOUND, description=The project dnew-b9468 does not exist or it does not contain an active Cloud Datastore or Cloud Firestore database. Please visit http://console.cloud.google.com to create a project or https://console.cloud.google.com/datastore/setup?project=dnew-b9468 to add a Cloud Datastore or Cloud Firestore database. Note that Cloud Datastore or Cloud Firestore always have an associated App Engine app and this app must not be disabled., cause=null}.
+W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project 147399885899 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=147399885899 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
+    </code></pre>
+
+  <p>
+    Тут надо по ссылке перейти и все ок будет.
+  </p>
 
     <h3>Эмулик</h3>
 

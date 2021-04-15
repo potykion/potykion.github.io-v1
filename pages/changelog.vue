@@ -2,6 +2,14 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h2></h2>
+    <ul>
+      <li>
+        <nuxt-link to="/flutter/firebase">/flutter/firebase:</nuxt-link>
+        установочка
+      </li>
+    </ul>
+
     <h2>1.4.0 - 2021-04-12</h2>
     <ul>
       <li>
