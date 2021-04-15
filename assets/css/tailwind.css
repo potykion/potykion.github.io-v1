@@ -59,8 +59,12 @@
 
   ol ul {
     @apply ml-5;
-
   }
+
+  ol ol {
+    @apply ml-5;
+  }
+
 
   hr {
     @apply border-solid my-2;

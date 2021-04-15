@@ -9,10 +9,63 @@
       фронту/мобилке от сервера: цдн, бд, аутентификация, бизнес логика и тд.
     </p>
 
+    <h3>Установка</h3>
 
-    <p>
-      Для флаттера есть <a href="https://firebase.flutter.dev/index.vue">набор либ</a> для работы с фаербейз.
-    </p>
+    <ol>
+      <li>
+        Сначала создаем проект в <a href="https://console.firebase.google.com/">Firebase Console</a>
+        + создаем Android приложение в проекте
+      </li>
+      <li>
+        <b>Register app:</b>
+        <code>Android package name</code>, <code>App nickname</code> - тут понятно, а с <code>Debug signing
+        certificate
+        SHA-1</code>, который нужен для аутентификации, надо чуток попотеть.
+
+        <p>
+          Подробная инструкция по генерации SHA-1 <a
+          href="https://developers.google.com/android/guides/client-auth">тут</a>, а если попроще, то вот:
+        </p>
+        <ol>
+          <li>Если <code>java</code> нет в <code>PATH</code>, то переходим в директорию с ней:
+            <pre><code v-highlight class="bash">
+cd C:\Program Files\Java\jre1.8.0_271\bin
+          </code></pre>
+          </li>
+          <li>
+            Генерим хеш
+
+            <pre><code v-highlight class="bash">
+keytool -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+        </code></pre>
+          </li>
+          <li><code>Enter keystore password</code> оставляем пустым, затем копируем <code>SHA1</code> из <code>Certificate
+            fingerprints</code></li>
+          <li>
+            <b>ВАЖНО:</b> Если работа с проектом осуществляется на нескольких машинах, то для каждой машины нужно
+            генерить свой хеш
+          </li>
+        </ol>
+
+      </li>
+
+
+      <li>
+        <b>Download config file:</b> Качаем <code>google-services.json</code> и закидываем в проект: <code>android/app/google-services.json</code>
+      </li>
+
+      <li>
+        <b>Add Firebase SDK:</b> Добавляем SDK в <code>android/build.gradle</code> и в
+        <code>android/app/build.gradle</code>
+      </li>
+
+      <li>Ставим необходимые <a href="https://firebase.flutter.dev/">либы для флаттера</a></li>
+    </ol>
+
+<!--    <h4>Дополнительные телодвижения для аутентификации</h4>-->
+
+
+
 
     <h3>Эмулик</h3>
 

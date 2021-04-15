@@ -31,7 +31,7 @@ class Person {
       <li>
         Вешаем декоратор + добавляем пару методов:
 
-        <pre><code v-highlight class="data">
+        <pre><code v-highlight class="dart">
 // example.dart
 import 'package:json_annotation/json_annotation.dart';
 
@@ -50,7 +50,7 @@ class Person {
       <li>
         Импортируем part-файл - файл, в котором будет сгенерерированный код, реализующий методы определенные выше:
 
-        <pre><code v-highlight class="data">
+        <pre><code v-highlight class="dart">
 // example.dart
 import 'package:json_annotation/json_annotation.dart';
 
