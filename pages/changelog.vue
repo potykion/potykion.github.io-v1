@@ -5,9 +5,17 @@
     <h2></h2>
     <ul>
       <li>
-        <nuxt-link to="/flutter/firebase">/flutter/firebase:</nuxt-link>
+        Кукинг и ГХ-старс разбиты на подразделы
+      </li>
+      <li>
+        <nuxt-link to="/dev/flutter/firebase">/dev/flutter/firebase:</nuxt-link>
         установочка
       </li>
+      <li>
+        <nuxt-link to="/dev/python/libs">/dev/python/libs:</nuxt-link>
+        <b>всеее</b> любимые либы на питоне
+      </li>
+
     </ul>
 
     <h2>1.4.0 - 2021-04-12</h2>
