@@ -18,6 +18,13 @@
             позволяет писать апишки в стиле FastAPI -
             с помощью тайпингов и Pydantic
           </li>
+          <li>
+            <a href="https://github.com/axnsan12/drf-yasg">drf-yasg</a> - лучший генератор swagger-доки для джанги
+          </li>
+          <li>
+            <a href="https://github.com/wagtail/wagtail">wagtail</a> - cms для джанги
+          </li>
+
         </ul>
       </li>
       <li>
@@ -40,7 +47,7 @@
 
     <h3>QA</h3>
 
-    <!--      <p>Здесь будут представлены тулы для проверки качества кода</p>-->
+    <h4>Качество кода</h4>
 
     <ul>
       <li><a href="https://github.com/psf/black">black</a> - форматтер кода</li>
@@ -65,7 +72,7 @@
     </ul>
 
 
-    <h3>Тестирование</h3>
+    <h4>Тестирование</h4>
 
     <ul>
       <li>
@@ -86,7 +93,32 @@
       </li>
 
       <li>
+
+        <a href="https://github.com/spulec/freezegun">freezegun</a> - моки для дейттайма
+      </li>
+
+      <li>
         <a href="https://github.com/hamcrest/PyHamcrest">PyHamcrest</a> - матчеры для тестов
+      </li>
+      <li>
+        <a href="https://factoryboy.readthedocs.io/en/stable/">factory_boy </a> - тестовые фабрики - генерят объекты с
+        фейковыми данными; альтернативы: <a href="https://pypi.org/project/model-bakery/">model-bakery</a> - для джанги
+      </li>
+
+
+    </ul>
+
+    <h4>Логгирование, профилирование, отладка</h4>
+    <ul>
+      <li>
+        <a href="https://github.com/Delgan/loguru">loguru</a> - лучшая либа для логгирования
+      </li>
+      <li>
+        <a href="https://github.com/cknd/stackprinter">stackprinter</a> - получше стектрейс; альтернативы: <a
+        href="https://github.com/cool-RR/PySnooper">PySnooper</a>
+      </li>
+      <li>
+        <a href="https://github.com/plasma-umass/scalene">scalene</a> - профилировщик
       </li>
 
     </ul>
@@ -107,27 +139,32 @@
       <li>
         <a href="https://github.com/mvantellingen/python-zeep">python-zeep</a> - SOAP клиент
       </li>
+      <li>
+        <a href="https://docs.python-requests.org/projects/requests-html/en/latest/">requests-html</a> - лучший парсер
+        html; альтернативы: <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a>
+      </li>
 
-    </ul>
-
-    <h3>Веб-парсинг</h3>
-
-    <ul>
       <li><a href="https://github.com/cobrateam/splinter">splinter</a> - более высокоуровневая обертка над <a
         href="https://github.com/SeleniumHQ/selenium/">Selenium</a> -
         штукой для управлением браузера; альтернативы: <a href="https://github.com/mherrmann/selenium-python-helium">helium</a>
       </li>
 
-      <li>
-        <a href="https://github.com/martinblech/xmltodict">xmltodict</a> - нормальная работа с xml
-      </li>
-
-
     </ul>
+
 
     <h3>Работа с документами</h3>
 
     <ul>
+      <li>
+        <a href="https://jinja.palletsprojects.com/en/2.11.x/">jinja2</a> - лучший шаблонизатор
+      </li>
+      <li>
+        <a href="https://openpyxl.readthedocs.io/en/stable/">openpyxl</a> - лучшая либа для работы с xlsx
+      </li>
+      <li>
+        <a href="https://github.com/potykion/jinja2xlsx">jinja2xlsx</a> - <i>собственная разработка</i>, конвертит
+        html-таблицы в openpyxl-таблицы
+      </li>
       <li>
         <a href="https://github.com/JazzCore/python-pdfkit">python-pdfkit</a> - лучший конвертер хтмл в пдф на базе <a
         href="https://wkhtmltopdf.org/">wkhtmltopdf</a>
@@ -135,6 +172,16 @@
       <li>
         <a href="https://github.com/elapouya/python-docx-template">python-docx-template</a> - jinja2 шаблоны в ворде
       </li>
+      <li>
+        <a href="https://github.com/potykion/docci">docci</a> - <i>собственная разработка</i>, абстракция работы с
+        файлами:
+        определение mime-type,
+        конвертация в base64, сохранение/загрузка; а также работа с зип-архивами, эксельками, директориями
+      </li>
+      <li>
+        <a href="https://github.com/martinblech/xmltodict">xmltodict</a> - нормальная работа с xml
+      </li>
+
 
     </ul>
 
@@ -142,41 +189,40 @@
     <h3>Прочее</h3>
 
     <ul>
-
-      <li>
-        <a href="https://github.com/more-itertools/more-itertools">more-itertools</a> - различные утилитки для работы
-        с коллекциями
-      </li>
       <li>
         <a href="https://github.com/python-poetry/poetry">poetry</a> - лучший менеджер зависимостей; есть <a
         href="https://github.com/koxudaxi/poetry-pycharm-plugin">плагин для пайчарма</a>
       </li>
 
-      <li>
-        <a href="https://github.com/axnsan12/drf-yasg">drf-yasg</a> - лучший генератор swagger-доки для джанги
-      </li>
-
-      <li>
-        <a href="https://github.com/Delgan/loguru">loguru</a> - лучшая либа для логгирования
-      </li>
 
       <li>
         <a href="https://github.com/samuelcolvin/pydantic">pydantic</a> - комбо из питоновских дата-классов и парсилки
         джсона - очень приятно с данными работать становится; есть <a
-        href="https://github.com/koxudaxi/pydantic-pycharm-plugin">плагин на pycharm</a>
+        href="https://github.com/koxudaxi/pydantic-pycharm-plugin">плагин на pycharm</a>; альтернативы: <a
+        href="https://docs.python.org/3/library/dataclasses.html">питоновские датаклассы</a>, <a
+        href="https://www.attrs.org/en/stable/">attrs</a>,
+        <a href="https://marshmallow.readthedocs.io/en/stable/">marshmallow</a>
       </li>
-
-
+      <li>
+        <a href="https://github.com/nficano/humps">humps </a> - конвертит словари из одного нейминга в другой
+      </li>
+      <li>
+        <a href="https://github.com/ets-labs/python-dependency-injector">python-dependency-injector</a> - норм ioc
+        контейнер
+      </li>
+      <li>
+        <a href="https://github.com/more-itertools/more-itertools">more-itertools</a> - различные утилитки для работы
+        с коллекциями
+      </li>
       <li>
         <a href="https://github.com/celery/celery">celery</a> - либа для работы с очередями задач; альтернативы: <a
         href="https://github.com/Bogdanp/dramatiq">dramatiq</a>, <a href="https://github.com/rq/rq">rq</a>
       </li>
-
       <li>
-        <a href="https://github.com/wagtail/wagtail">wagtail</a> - cms для джанги, мб когда будет серв для бложека
-        буду юзать
+        <a href="https://github.com/pallets/click">click</a> - либа для создания кли приложений; альтернативы: <a
+        href="https://github.com/tiangolo/typer">typer</a> - кли на тайпингах; <a
+        href="https://github.com/chriskiehl/Gooey">Gooey</a> - делает юай из кли
       </li>
-
 
       <li>
         <a href="https://github.com/pypiserver/pypiserver">pypiserver</a> - pypi сервер - полезно когда надо есть
@@ -189,34 +235,12 @@
         Pushover; альтернативы: <a href="https://github.com/caronc/apprise">apprise</a>
       </li>
 
-      <li>
-        <a href="https://github.com/pallets/click">click</a> - либа для создания кли приложений; альтернативы: <a
-        href="https://github.com/tiangolo/typer">typer</a>
-      </li>
-      <li>
-        <a href="https://github.com/sivel/speedtest-cli">speedtest-cli</a> - обертка над <a
-        href="https://www.speedtest.net/">speedtest</a> - померить скорость wifi
-      </li>
-
-      <li>
-        <a href="https://github.com/cknd/stackprinter">stackprinter</a> - получше стектрейс; альтернативы: <a
-        href="https://github.com/cool-RR/PySnooper">PySnooper</a>
-      </li>
 
       <li>
         <a href="https://github.com/CoatiSoftware/Sourcetrail">Sourcetrail</a> - строит граф зависимостей / иерархию
         классов; есть <a href="https://github.com/CoatiSoftware/idea-sourcetrail">плагин для пайчарма</a>
       </li>
-      <li>
-        <a href="https://github.com/ets-labs/python-dependency-injector">python-dependency-injector</a> - норм ioc
-        контейнер
-      </li>
-      <li>
-        <a href="https://github.com/plasma-umass/scalene">scalene</a> - профилировщик
-      </li>
-      <li>
-        <a href="https://github.com/chriskiehl/Gooey">Gooey</a> - делает юай из кли
-      </li>
+
 
     </ul>
 
