@@ -3,6 +3,41 @@
 
     <h2>Python / Любимые либы</h2>
 
+    <h3>Веб-фреймворки</h3>
+
+    <ul>
+      <li><a href="https://www.djangoproject.com/">Django</a> - самый популярный веб-фреймворк, куча функций из коробки
+        (ака batteries included),
+        куча интеграций; если хочется писать сервера на питоне, и не знаешь с чего начать - бери джангу - пусть
+        генерится куча файлов на старте, но разобравшись в них, понимаешь, что фреймворки строятся на тех же концепциях
+
+        <ul>
+          <li><a href="https://www.django-rest-framework.org/">Django REST framework</a> - мастхев чтобы писать апишки
+          </li>
+          <li><a href="https://django-ninja.rest-framework.com/">Django Ninja</a> - надстройка над DRF, которая
+            позволяет писать апишки в стиле FastAPI -
+            с помощью тайпингов и Pydantic
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a> - самый простой веб-фреймворк - начать можно с
+        <a
+          href="https://flask.palletsprojects.com/en/1.1.x/quickstart/#quickstart">1 файла с 5 строчками</a>; но по
+        сравнению с Джангой, мало батареек в коробке - надо куча всего доустанавливать - в итоге получается та же джанга
+      </li>
+      <li>
+        <a href="https://docs.aiohttp.org/en/stable/">aiohttp</a> - один из первых асинхронных фреймворков; по фичам -
+        аналогичен фласку: в коробке роутинг, мидлваре, простенький сёрв статики; суть асинхронности в том, что
+        повышается производительность серва; еще в коробке есть асинхронный веб-клиент
+      </li>
+      <li>
+        <a href="https://fastapi.tiangolo.com/">FastAPI</a> - еще один асинхронный фреймворк (но можно писать и в
+        синхронном стиле), суть в том, что схемы запросов и ответов можно описывать, используя тайпинги и Pydantic +
+        есть интеграция со сваггером из коробки + неплохой диай на функциях
+      </li>
+    </ul>
+
     <h3>QA</h3>
 
     <!--      <p>Здесь будут представлены тулы для проверки качества кода</p>-->
@@ -46,7 +81,7 @@
 
       <li>
         <a href="https://github.com/pnuckowski/aioresponses">aioresponses</a> - моки асинхронных хттп-запросов через
-        <a href="https://github.com/aio-libs/aiohttp">aiohttp</a>; альтернативы: <a
+        aiohttp; альтернативы: <a
         href="https://github.com/aresponses/aresponses">aresponses</a>
       </li>
 
@@ -57,7 +92,7 @@
     </ul>
 
 
-    <h3>Веб клиенты</h3>
+    <h3>Веб-клиенты</h3>
 
     <ul>
       <li>
@@ -65,8 +100,7 @@
       </li>
 
       <li>
-        <a href="https://github.com/encode/httpx">httpx</a> - асинхронный хттп-клиент - альтернатива <a
-        href="https://github.com/aio-libs/aiohttp">aiohttp</a>; <a
+        <a href="https://github.com/encode/httpx">httpx</a> - асинхронный хттп-клиент - альтернатива aiohttp; <a
         href="https://github.com/lundberg/respx">respx</a> - моки для либы
       </li>
 
@@ -76,7 +110,7 @@
 
     </ul>
 
-    <h3>Веб парсинг</h3>
+    <h3>Веб-парсинг</h3>
 
     <ul>
       <li><a href="https://github.com/cobrateam/splinter">splinter</a> - более высокоуровневая обертка над <a
@@ -128,9 +162,8 @@
 
       <li>
         <a href="https://github.com/samuelcolvin/pydantic">pydantic</a> - комбо из питоновских дата-классов и парсилки
-        джсона - очень приятно с данными работать становится; есть надстройка - <a
-        href="https://github.com/tiangolo/fastapi">fastapi</a> - хттп-фреймворк, который сразу парсит данные запроса в
-        pydantic-модельки; есть <a href="https://github.com/koxudaxi/pydantic-pycharm-plugin">плагин на pycharm</a>
+        джсона - очень приятно с данными работать становится; есть <a
+        href="https://github.com/koxudaxi/pydantic-pycharm-plugin">плагин на pycharm</a>
       </li>
 
 

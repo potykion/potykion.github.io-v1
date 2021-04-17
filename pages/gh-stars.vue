@@ -26,13 +26,6 @@
         href="https://github.com/dahlia/awesome-sqlalchemy">список для склалхимии</a> - либы для работы с бд в питоне.
     </p>
 
-
-
-
-
-
-
-
     <section>
       <h2>Прочее</h2>
       <ul>
