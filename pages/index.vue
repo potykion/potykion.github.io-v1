@@ -77,16 +77,21 @@
 
     <h4>Python</h4>
     <ul>
-      <li><nuxt-link to="/python/tests">Тесты</nuxt-link></li>
-      <li><nuxt-link to="/python/sql">SQL</nuxt-link></li>
-      <li><nuxt-link to="/python/libs">Любимые либы</nuxt-link></li>
+      <li><nuxt-link to="/dev/python/tests">Тесты</nuxt-link></li>
+      <li><nuxt-link to="/dev/python/sql">SQL</nuxt-link></li>
+      <li><nuxt-link to="/dev/python/libs">Любимые либы</nuxt-link></li>
     </ul>
 
     <h4>Flutter</h4>
     <ul>
-      <li><nuxt-link to="/flutter/firebase">Firebase</nuxt-link></li>
-      <li><nuxt-link to="/flutter/codegen">Кодогенерация</nuxt-link></li>
-      <li><nuxt-link to="/flutter/libs">Любимые либы</nuxt-link></li>
+      <li><nuxt-link to="/dev/flutter/firebase">Firebase</nuxt-link></li>
+      <li><nuxt-link to="/dev/flutter/codegen">Кодогенерация</nuxt-link></li>
+      <li><nuxt-link to="/dev/flutter/libs">Любимые либы</nuxt-link></li>
+    </ul>
+
+    <h4>Vue</h4>
+    <ul>
+      <li><nuxt-link to="/dev/vue/libs">Любимые либы</nuxt-link></li>
     </ul>
     <!--      @formatter:off -->
 
