@@ -117,6 +117,12 @@
 
     <ul>
       <li>
+        <a href="https://github.com/nvm-sh/nvm">nvm</a> (<a href="https://github.com/coreybutler/nvm-windows">nvm-windows</a>
+        для винды) - Node Version Manager - позволяет ставить и менеджерить несколько версий ноды. Полезно, когда
+        работаешь с легаси, напр. с gulp 3, который <a href="https://github.com/gulpjs/gulp/issues/2324">не робит с
+        нодой 12+</a> => легче поставить себе ноду 10.
+      </li>
+      <li>
         <a href="https://github.com/axios/axios">axios</a>
         <nuxt-emoji-link to="https://github.com/nuxt-community/axios-module"/>
         - лучшая либа для http запросов

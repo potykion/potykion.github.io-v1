@@ -72,7 +72,8 @@
     </h3>
     <ul>
       <li><nuxt-link to="/how">Как блог делается</nuxt-link></li>
-      <li><nuxt-link to="/gh-stars">ГХ старс</nuxt-link></li>
+      <li><nuxt-link to="/dev/base">Общие штучки для вебчика</nuxt-link></li>
+
     </ul>
 
     <h4>Python</h4>
