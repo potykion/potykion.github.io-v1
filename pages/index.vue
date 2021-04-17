@@ -29,11 +29,26 @@
       <img src="~/assets/coolstorybob.png.webp" class="emote" alt="coolstorybob">
     </h3>
     <ul>
-      <li><nuxt-link to="/cooking">Кукинг</nuxt-link></li>
-      <li><nuxt-link to="/small">Свалка маленьких кулстори</nuxt-link></li>
-      <li><nuxt-link to="/pure">Pure</nuxt-link></li>
       <li><nuxt-link to="/fruit-ninja">Фрут Ниндзя</nuxt-link></li>
+      <li><nuxt-link to="/pure">Pure</nuxt-link></li>
+      <li><nuxt-link to="/small">Свалка маленьких кулстори</nuxt-link></li>
     </ul>
+
+    <spoiler>
+      <h4 class="inline-block">Кукинг</h4>
+      <template v-slot:spoiled>
+        <ul>
+          <li><nuxt-link to="/cool-story/cooking/gourmet">Мечта гурмана</nuxt-link></li>
+          <li><nuxt-link to="/cool-story/cooking/apps">Про приложухи</nuxt-link></li>
+          <li><nuxt-link to="/cool-story/cooking/fast">Готовка по фасту</nuxt-link></li>
+          <li><nuxt-link to="/cool-story/cooking/air-cooker">Аэрогриль</nuxt-link></li>
+          <li><nuxt-link to="/cool-story/cooking/rack-of-lamb">Баранья корейка</nuxt-link></li>
+          <li><nuxt-link to="/cool-story/cooking/my-duck-vision">Утка и рукав</nuxt-link></li>
+          <li><nuxt-link to="/cool-story/cooking/jamie-oliver">Джейми Оливер</nuxt-link></li>
+          <li><nuxt-link to="/cool-story/cooking/other">Малютки</nuxt-link></li>
+        </ul>
+      </template>
+    </spoiler>
 
     <h3>
       Экспериенс жизненный
