@@ -29,9 +29,9 @@
       <img src="~/assets/coolstorybob.png.webp" class="emote" alt="coolstorybob">
     </h3>
     <ul>
-      <li><nuxt-link to="/fruit-ninja">Фрут Ниндзя</nuxt-link></li>
-      <li><nuxt-link to="/pure">Pure</nuxt-link></li>
-      <li><nuxt-link to="/small">Свалка маленьких кулстори</nuxt-link></li>
+      <li><nuxt-link to="/cool-story/fruit-ninja">Фрут Ниндзя</nuxt-link></li>
+      <li><nuxt-link to="/cool-story/pure">Pure</nuxt-link></li>
+      <li><nuxt-link to="/cool-story/small">Свалка маленьких кулстори</nuxt-link></li>
     </ul>
 
     <spoiler>

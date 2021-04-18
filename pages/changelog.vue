@@ -2,7 +2,7 @@
   <div>
     <h1>Ченжлог</h1>
 
-    <h2></h2>
+    <h2>1.5.0 - 2021-04-18</h2>
     <ul>
       <li>
         Кукинг и ГХ-старс разбиты на подразделы
@@ -15,7 +15,10 @@
         <nuxt-link to="/dev/python/libs">/dev/python/libs:</nuxt-link>
         <b>всеее</b> любимые либы на питоне
       </li>
-
+      <li>
+        <nuxt-link to="/cool-story/small">/cool-story/small:</nuxt-link>
+        наркоманы блядт
+      </li>
     </ul>
 
     <h2>1.4.0 - 2021-04-12</h2>
