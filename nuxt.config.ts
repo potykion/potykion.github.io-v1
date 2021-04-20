@@ -1,4 +1,7 @@
-export default {
+import {NuxtConfig} from '@nuxt/types'
+
+
+const config: NuxtConfig = {
   googleAnalytics: {
     id: 'UA-190154899-1'
   },
@@ -69,6 +72,32 @@ export default {
 
   ],
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  // Отключаем все - чтоб перформанс был
+  // https://github.com/larsdouweschuitema-nuxt/nuxt-boilerplate/blob/master/nuxt.config.ts
+  loading: false,
+  loadingIndicator: false,
+  fetch: {
+    client: false,
+    server: false
+  },
+  features: {
+    store: false,
+    middleware: false,
+    transitions: false,
+    deprecations: false,
+    validate: false,
+    asyncData: false,
+    fetch: false,
+    clientOnline: false,
+    clientPrefetch: false,
+    clientUseUrl: true,
+    componentAliases: false,
+    componentClientOnly: false
+  },
+  build: {
+    indicator: false,
+    terser: true
+  }
 }
+
+export default config;
