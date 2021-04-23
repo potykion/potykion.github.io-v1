@@ -71,7 +71,7 @@ keytool -list -v -alias androiddebugkey -keystore %USERPROFILE%\.android\debug.k
       <li>
         Затем нужно задать настройки доступпа к Firestore: Firestore > Rules:
 
-        <pre><code v-highlight >
+        <pre><code v-highlight>
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
@@ -94,9 +94,57 @@ W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status:
 W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status: Status{code=PERMISSION_DENIED, description=Cloud Firestore API has not been used in project 147399885899 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/firestore.googleapis.com/overview?project=147399885899 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry., cause=null}.
     </code></pre>
 
-  <p>
-    Тут надо по ссылке перейти и все ок будет.
-  </p>
+    <p>
+      Тут надо по ссылке перейти и все ок будет.
+    </p>
+
+    <h3>Вебчик</h3>
+
+    <p>Здесь распишу что нужно сделать, чтобы firebase заробил в вебе, а именно cloud_firestore, firebase_auth</p>
+
+    <p>
+      Вроде бы все просто - <a href="https://firebase.flutter.dev/docs/firestore/overview/#3-web-only-add-the-sdk">добавляем
+      пару либ</a>, но на самом деле надо больше телодвижений сделать:
+    </p>
+
+    <ol>
+      <li>
+        Создаем web-app в <a href="https://console.firebase.google.com/">консоли</a> + будет предложено скопировать
+        Firebase SDK snippet - его вставляем в <code>web/index.html</code>
+      </li>
+      <li>
+        На момент написания статьи, последняя версия (8.4.1) не робит, и стоит <a
+        href="https://github.com/FirebaseExtended/flutterfire/issues/4127#issuecomment-728262667">прописать версию
+        7.20.0</a>:
+
+        <pre><code v-highlight>
+&lt;script src=&quot;https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js&quot;&gt;&lt;/script&gt;
+        </code></pre>
+      </li>
+
+    </ol>
+
+    <h4>Как обычно дополнительные телодвижения для аутентификации</h4>
+
+    <ol>
+      <li>
+        Основа <a href="https://pub.dev/packages/google_sign_in_web#usage">здесь</a>: надо создать
+        OAuth-идентетификатора + прописать meta-тег в  <code>web/index.html</code>
+      </li>
+      <li>
+        Затем открываем редактирование OAuth-идентетификатора и прописываем в Authorized JavaScript origins локалхост с
+        любым портом, напр. <code>http://localhost:53523</code>
+      </li>
+      <li>
+        Запускать флаттер апп, соответственно, нужно с этим портом, передавая <code>--web-port 53523</code> при вызове
+        <code>flutter
+          run</code>
+      </li>
+
+    </ol>
+
 
     <h3>Эмулик</h3>
 

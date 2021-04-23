@@ -2,6 +2,14 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h2>1.5.1 - 2021-04-23</h2>
+    <ul>
+      <li>
+        <nuxt-link to="/dev/flutter/firebase">/dev/flutter/firebase:</nuxt-link>
+        вебчик
+      </li>
+    </ul>
+
     <h2>1.5.0 - 2021-04-18</h2>
     <ul>
       <li>
