@@ -16,6 +16,9 @@
       <p>Чё за хуйня…</p>
       <p>Пиздец, захотелось спортом заниматься, чтобы бомжей пиздить</p>
       <p>Upd: это наркоматы были - после них колпачки от шприцов остались</p>
+      <p>Upd2: теперь еще и просто шприцы</p>
+
+      <img-row :images="['/cool-story/syringe.jpg']"></img-row>
 
     </section>
 
@@ -295,8 +298,10 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import ImgRow from "~/components/img-row.vue";
 
 @Component({
+  components: {ImgRow},
   head: () => ({
     title: "Свалка маленьких кулстори"
   })
