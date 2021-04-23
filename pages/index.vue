@@ -34,21 +34,17 @@
       <li><nuxt-link to="/cool-story/small">Свалка маленьких кулстори</nuxt-link></li>
     </ul>
 
-    <spoiler>
       <h4 class="inline-block">Кукинг</h4>
-      <template v-slot:spoiled>
-        <ul>
-          <li><nuxt-link to="/cool-story/cooking/gourmet">Мечта гурмана</nuxt-link></li>
-          <li><nuxt-link to="/cool-story/cooking/apps">Про приложухи</nuxt-link></li>
-          <li><nuxt-link to="/cool-story/cooking/fast">Готовка по фасту</nuxt-link></li>
-          <li><nuxt-link to="/cool-story/cooking/air-cooker">Аэрогриль</nuxt-link></li>
-          <li><nuxt-link to="/cool-story/cooking/rack-of-lamb">Баранья корейка</nuxt-link></li>
-          <li><nuxt-link to="/cool-story/cooking/my-duck-vision">Утка и рукав</nuxt-link></li>
-          <li><nuxt-link to="/cool-story/cooking/jamie-oliver">Джейми Оливер</nuxt-link></li>
-          <li><nuxt-link to="/cool-story/cooking/other">Малютки</nuxt-link></li>
-        </ul>
-      </template>
-    </spoiler>
+      <ul>
+        <li><nuxt-link to="/cool-story/cooking/gourmet">Мечта гурмана</nuxt-link></li>
+        <li><nuxt-link to="/cool-story/cooking/apps">Про приложухи</nuxt-link></li>
+        <li><nuxt-link to="/cool-story/cooking/fast">Готовка по фасту</nuxt-link></li>
+        <li><nuxt-link to="/cool-story/cooking/air-cooker">Аэрогриль</nuxt-link></li>
+        <li><nuxt-link to="/cool-story/cooking/rack-of-lamb">Баранья корейка</nuxt-link></li>
+        <li><nuxt-link to="/cool-story/cooking/my-duck-vision">Утка и рукав</nuxt-link></li>
+        <li><nuxt-link to="/cool-story/cooking/jamie-oliver">Джейми Оливер</nuxt-link></li>
+        <li><nuxt-link to="/cool-story/cooking/other">Малютки</nuxt-link></li>
+      </ul>
 
     <h3>
       Экспериенс жизненный
