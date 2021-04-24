@@ -131,11 +131,12 @@ W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status:
     <ol>
       <li>
         Основа <a href="https://pub.dev/packages/google_sign_in_web#usage">здесь</a>: надо создать
-        OAuth-идентетификатора + прописать meta-тег в  <code>web/index.html</code>
+        OAuth-идентетификатор <a href="https://console.cloud.google.com/apis/credentials">тут</a> + прописать meta-тег в
+        <code>web/index.html</code>
       </li>
       <li>
         Затем открываем редактирование OAuth-идентетификатора и прописываем в Authorized JavaScript origins локалхост с
-        любым портом, напр. <code>http://localhost:53523</code>
+        любым портом, напр. <code>http://localhost:53523</code> + домен, где будет крутиться приложуха
       </li>
       <li>
         Запускать флаттер апп, соответственно, нужно с этим портом, передавая <code>--web-port 53523</code> при вызове
@@ -144,6 +145,18 @@ W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status:
       </li>
 
     </ol>
+
+    <h4>Деплой на Firebase Hosting</h4>
+
+    <p>
+      Деплой, на удивление, прост - достаточно посмотреть <a href="https://www.youtube.com/watch?v=CAYa9AQGtdU">3-минутный
+      видос</a>:
+    </p>
+    <pre><code v-highlight>
+firebase init
+flutter build web
+firebase deploy --only hosting
+    </code></pre>
 
 
     <h3>Эмулик</h3>
