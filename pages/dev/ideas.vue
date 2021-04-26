@@ -1,0 +1,44 @@
+<template>
+  <article>
+    <h1>Идеи для проектов</h1>
+    <p>Здесь будут описаны идеи для проектов, на которые в данный момент у меня нет времени, но хотелось бы их
+      реализовать в будущем.</p>
+    <h2>Рандомайзер Ютуб видосов</h2>
+    <p>У меня есть <a href="https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q">плейлист с
+      ебанутыми клипами</a>, их там штук 200. Соответственно, хочется иметь возможность запускать их
+      в рандомном порядке.</p>
+    <p>Ютуб не умеет рандомизировать видосы нормально: те видосы, которые ты посмотрел, могут выпасть ещё раз. Причем
+      может случиться ситуация, когда ты попадешь в петлю рандома, где рандом будет показывать тебе одни и те же
+      видосы.</p>
+    <p>Есть решение этой проблемы - <a href="https://youtube-playlist-randomizer.bitbucket.io/">https://youtube-playlist-randomizer.bitbucket.io/</a>.
+      Этот сервис нормально рандомит видосы, но например, нельзя смотреть видео с ограничением по возрасту.</p>
+    <p>Есть мысль, что будучи авторизованным, такие видео можно будет смотреть (<a
+      href="https://www.reddit.com/r/youtube/comments/k536y3/any_way_to_play_age_restricted_youtube_videos">видимо
+      незя</a>)
+    </p>
+    <p>Ещё мысль, что в апишке есть <a href="https://developers.google.com/youtube/v3/docs/playlistItems">возможность
+      менять порядок плейлиста</a> =&gt; приложуха будет перемешивать плейлист
+      и все заебок будет</p>
+  </article>
+</template>
+
+<script lang="ts">
+
+import {
+  Component,
+  Prop,
+  Vue,
+} from "nuxt-property-decorator"
+
+@Component({
+  head: () => ({
+    title: "Идеи для проектов"
+  }),
+})
+export default class ideas extends Vue {
+
+}
+</script>
+
+<style scoped>
+</style>

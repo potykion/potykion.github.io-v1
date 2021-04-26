@@ -2,6 +2,14 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h3>1.6.0 - 2021-04-26</h3>
+    <ul>
+      <li>
+        <nuxt-link to="/dev/ideas">/dev/ideas:</nuxt-link> Идеи для проектов
+
+      </li>
+    </ul>
+
     <h2>1.5.1 - 2021-04-23</h2>
     <ul>
       <li>

@@ -69,6 +69,7 @@
     <ul>
       <li><nuxt-link to="/how">Как блог делается</nuxt-link></li>
       <li><nuxt-link to="/dev/base">Общие штучки для вебчика</nuxt-link></li>
+      <li><nuxt-link to="/dev/ideas">Идеи для проектов</nuxt-link></li>
 
     </ul>
 
