@@ -85,6 +85,7 @@
       <li><nuxt-link to="/dev/flutter/firebase">Firebase</nuxt-link></li>
       <li><nuxt-link to="/dev/flutter/codegen">Кодогенерация</nuxt-link></li>
       <li><nuxt-link to="/dev/flutter/libs">Любимые либы</nuxt-link></li>
+      <li><nuxt-link to="/dev/flutter/faq">Штуки, которые часто забываются</nuxt-link></li>
     </ul>
 
     <h4>Vue</h4>

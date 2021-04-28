@@ -2,10 +2,20 @@
   <div>
     <h1>Ченжлог</h1>
 
+
+    <h2>1.6.1 - 2021-04-28</h2>
+    <ul>
+      <li>
+        <nuxt-link to="/dev/flutter/faq">/dev/flutter/faq:</nuxt-link>
+        Получение аргументов роута
+      </li>
+    </ul>
+
     <h2>1.6.0 - 2021-04-26</h2>
     <ul>
       <li>
-        <nuxt-link to="/dev/ideas">/dev/ideas:</nuxt-link> Идеи для проектов
+        <nuxt-link to="/dev/ideas">/dev/ideas:</nuxt-link>
+        Идеи для проектов
 
       </li>
     </ul>
