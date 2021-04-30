@@ -2,6 +2,18 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h2>1.6.2 - 2021-04-28</h2>
+    <ul>
+      <li>
+        <nuxt-link to="/dev/flutter/faq">/dev/flutter/faq:</nuxt-link>
+        Аналог initState для hook-виджетов
+      </li>
+      <li>
+        <nuxt-link to="/dev/base">/dev/base:</nuxt-link>
+        supabase
+      </li>
+    </ul>
+
 
     <h2>1.6.1 - 2021-04-28</h2>
     <ul>

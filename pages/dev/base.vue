@@ -20,7 +20,8 @@
         <a href="https://firebase.google.com/">Firebase</a> - гугловский BAAS - backend as a service - решение, когда
         лень писать
         серв: есть аутентификация, бд, лямбда функции и тд; альтернативы: <a
-        href="https://github.com/appwrite/appwrite">appwrite</a> - селф-хостед baas
+        href="https://github.com/appwrite/appwrite">appwrite</a>; <a href="https://github.com/supabase/supabase">supabase</a>
+        (есть даже <a href="https://www.youtube.com/watch?v=WiwfiVdfRIc">обзор</a>)
       </li>
 
 
@@ -33,7 +34,6 @@
       <li><a href="https://github.com/carbon-app/carbon">carbon</a> - позволяет делать красивые скрины с кодом; есть
         еще <a href="https://github.com/octref/polacode">polacode</a> - то же самое, ток сразу из vscode можно делать
       </li>
-
 
 
       <li>
@@ -123,14 +123,6 @@
       Прочее
     </h3>
     <ul>
-
-
-
-
-
-
-
-
 
 
       <li>

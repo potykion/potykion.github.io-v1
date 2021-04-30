@@ -7,6 +7,19 @@
     <pre><code v-highlight class="dart">
 ModalRoute.of(context)!.settings.arguments
     </code></pre>
+
+    <h3>Аналог initState для hook-виджетов</h3>
+
+    <pre><code v-highlight>
+useEffect(
+    () {
+      WidgetsBinding.instance!.addPostFrameCallback((_) async {
+          ...
+      });
+    },
+    [],
+);
+    </code></pre>
   </article>
 </template>
 
