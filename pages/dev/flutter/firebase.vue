@@ -154,6 +154,9 @@ W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status:
     </p>
     <pre><code v-highlight>
 firebase init
+# На все отвечаем по умолчанию кроме пары пунктов:
+# ? What do you want to use as your public directory? build/web
+# ? Configure as a single-page app (rewrite all urls to /index.html)? Yes
 flutter build web
 firebase deploy --only hosting
     </code></pre>
