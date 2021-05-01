@@ -146,13 +146,50 @@ W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status:
 
     </ol>
 
+    <h4>Доп телодвижения для Cloud Storage</h4>
+
+    <p>
+      Для того, чтобы контент из Cloud Storage отображался в вебе,
+      нужно <a href="https://firebase.google.com/docs/storage/web/download-files#cors_configuration">настроить CORS</a>
+    </p>
+
+    <ol>
+      <li>
+        Ставим gsutil
+      </li>
+      <li>
+        Заходим в Firebase Console / Cloud Storage, копируем путь к бакету (напр.
+        <code>gs://dnew-b9468.appspot.com</code>)
+      </li>
+      <li>
+        Создаем cors-конфиг - файл <code>cors.json</code>:
+
+        <pre><code v-highlight class="json">
+[
+  {
+    "origin": ["*"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]
+        </code></pre>
+      </li>
+      <li>
+        Загружаем конфиг:
+
+        <pre><code v-highlight class="sh">
+gsutil cors set cors.json gs://dnew-b9468.appspot.com
+        </code></pre>
+      </li>
+    </ol>
+
     <h4>Деплой на Firebase Hosting</h4>
 
     <p>
       Деплой, на удивление, прост - достаточно посмотреть <a href="https://www.youtube.com/watch?v=CAYa9AQGtdU">3-минутный
       видос</a>:
     </p>
-    <pre><code v-highlight>
+    <pre><code v-highlight class="sh">
 firebase init
 # На все отвечаем по умолчанию кроме пары пунктов:
 # ? What do you want to use as your public directory? build/web
