@@ -2,6 +2,18 @@
   <div>
     <h1>Ченжлог</h1>
 
+    <h2>1.6.3 - 2021-05-05</h2>
+    <ul>
+      <li>
+        <nuxt-link to="/cool-story/small">/cool-story/small:</nuxt-link>
+        божественное вмешательство
+      </li>
+      <li>
+        <nuxt-link to="/dev/flutter/firebase">/dev/flutter/firebase:</nuxt-link>
+        cloud storage
+      </li>
+    </ul>
+
     <h2>1.6.2 - 2021-04-28</h2>
     <ul>
       <li>
