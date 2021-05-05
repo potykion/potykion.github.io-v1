@@ -1,190 +1,84 @@
-<template>
-  <div>
-    <h1>Ченжлог</h1>
+<template lang="md">
+  # Ченжлог
 
-    <h2>1.6.3 - 2021-05-05</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/cool-story/small">/cool-story/small:</nuxt-link>
-        божественное вмешательство
-      </li>
-      <li>
-        <nuxt-link to="/dev/flutter/firebase">/dev/flutter/firebase:</nuxt-link>
-        cloud storage
-      </li>
-    </ul>
+  ## 1.6.3 - 2021-05-05
 
-    <h2>1.6.2 - 2021-04-28</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/dev/flutter/faq">/dev/flutter/faq:</nuxt-link>
-        Аналог initState для hook-виджетов
-      </li>
-      <li>
-        <nuxt-link to="/dev/base">/dev/base:</nuxt-link>
-        supabase
-      </li>
-    </ul>
+  - [/cool-story/small](/cool-story/small): божественное вмешательство
+  - [/dev/flutter/firebase](/dev/flutter/firebase): cloud storage
 
+  ## 1.6.2 - 2021-04-28
 
-    <h2>1.6.1 - 2021-04-28</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/dev/flutter/faq">/dev/flutter/faq:</nuxt-link>
-        Получение аргументов роута
-      </li>
-    </ul>
+  - [/dev/flutter/faq](/dev/flutter/faq): Аналог initState для hook-виджетов
+  - [/dev/base](/dev/base): supabase
 
-    <h2>1.6.0 - 2021-04-26</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/dev/ideas">/dev/ideas:</nuxt-link>
-        Идеи для проектов
+  ## 1.6.1 - 2021-04-28
 
-      </li>
-    </ul>
+  - [/dev/flutter/faq](/dev/flutter/faq):   Получение аргументов роута
 
-    <h2>1.5.1 - 2021-04-23</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/dev/flutter/firebase">/dev/flutter/firebase:</nuxt-link>
-        вебчик
-      </li>
-    </ul>
+  ## 1.6.0 - 2021-04-26
 
-    <h2>1.5.0 - 2021-04-18</h2>
-    <ul>
-      <li>
-        Кукинг и ГХ-старс разбиты на подразделы
-      </li>
-      <li>
-        <nuxt-link to="/dev/flutter/firebase">/dev/flutter/firebase:</nuxt-link>
-        установочка
-      </li>
-      <li>
-        <nuxt-link to="/dev/python/libs">/dev/python/libs:</nuxt-link>
-        <b>всеее</b> любимые либы на питоне
-      </li>
-      <li>
-        <nuxt-link to="/cool-story/small">/cool-story/small:</nuxt-link>
-        наркоманы блядт
-      </li>
-    </ul>
+  - [/dev/ideas](/dev/ideas): Идеи для проектов
 
-    <h2>1.4.0 - 2021-04-12</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/fruit-ninja">/fruit-ninja:</nuxt-link>
-        новая кулстори про Фрут Ниндзю
-      </li>
-      <li>
-        <nuxt-link to="/gh-stars">/gh-stars:</nuxt-link>
-        сортировка питон либ, джс либы, флаттер либы
-      </li>
-      <li>
-        <nuxt-link to="/money">/money:</nuxt-link>
-        лайфхаки про бабос
-      </li>
-    </ul>
+  ## 1.5.1 - 2021-04-23
 
-    <h2>1.3.3 - 2021-04-01</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/small">/small:</nuxt-link>
-        беседы в парикмахерской
-      </li>
-      <li>
-        <nuxt-link to="/">/:</nuxt-link>
-        приписочка про ченжлог
-      </li>
-      <li>
-        <nuxt-link to="/gh-stars">/gh-stars:</nuxt-link>
-        nvm, mocktail, appwrite
-      </li>
-    </ul>
+  - [/dev/flutter/firebase](/dev/flutter/firebase): вебчик
+
+  ## 1.5.0 - 2021-04-18
+
+  - Кукинг и ГХ-старс разбиты на подразделы
+  - [/dev/flutter/firebase](/dev/flutter/firebase): установочка
+  - [/dev/python/libs](/dev/python/libs): <b>всеее</b> любимые либы на питоне
+  - [/cool-story/small](/cool-story/small):  наркоманы блядт
+
+  ## 1.4.0 - 2021-04-12
+
+  - [/fruit-ninja](/fruit-ninja):  новая кулстори про Фрут Ниндзю
+  - [/gh-stars](/gh-stars):  сортировка питон либ, джс либы, флаттер либы
+  - [/money](/money):  лайфхаки про бабос
+
+  ## 1.3.3 - 2021-04-01
+
+  - [/small](/small):  беседы в парикмахерской
+  - [/](/): приписочка про ченжлог
+  - [/gh-stars](/gh-stars):  nvm, mocktail, appwrite
+
+  ## 1.3.2 - 2021-03-29
+
+  - [/small](/small): фикс опечатки (стол > ствол)
+  - Анимашка подчеркивания в хедере
+
+  ## 1.3.1 - 2021-03-25
+
+  - [/small](/small): киберпанк
+  - [/cooking](/cooking): терияки с помидорами
+  - [/goals2021](/goals2021): друзья в оригинале
+  - Нормальный свайпер и просмотрщик картинок
+
+  ## 1.3.0 - 2021-03-17
+
+  - [/gigs](/gigs): про концики
+  - Сжал картинки где имело смысл
+  - [/dance](/dance): пару слов про плейлисты
+  - [/goals2021](/goals2021): цели на лето
+  - [/wishlist](/wishlist): Худи
+
+  ## 1.2.0 - 2021-03-16
+
+  - [/goals2021](/goals2021): про цели на 2021
+
+  ## 1.1.0 - 2021-03-11
+
+  - [/pure](/pure): аутро с благодарностью
+  - [/small](/small): Пучача и циан
+
+  ## 1.0.0 - 2021-03-11
+
+  - Все, что есть на данный момент
 
 
-    <h2>1.3.2 - 2021-03-29</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/small">/small:</nuxt-link>
-        фикс опечатки (стол > ствол)
-      </li>
-      <li>
-        Анимашка подчеркивания в хедере
-      </li>
-    </ul>
 
-    <h2>1.3.1 - 2021-03-25</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/small">/small:</nuxt-link>
-        киберпанк
-      </li>
-      <li>
-        <nuxt-link to="/cooking">/cooking:</nuxt-link>
-        терияки с помидорами
-      </li>
-      <li>
-        <nuxt-link to="/goals2021">/goals2021:</nuxt-link>
-        друзья в оригинале
-      </li>
-      <li>
-        Нормальный свайпер и просмотрщик картинок
-      </li>
-    </ul>
 
-    <h2>1.3.0 - 2021-03-17</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/gigs">/gigs:</nuxt-link>
-        про концики
-      </li>
-      <li>
-        Сжал картинки где имело смысл
-      </li>
-      <li>
-        <nuxt-link to="/dance">/dance:</nuxt-link>
-        пару слов про плейлисты
-      </li>
-      <li>
-        <nuxt-link to="/goals2021">/goals2021:</nuxt-link>
-        цели на лето
-      </li>
-      <li>
-        <nuxt-link to="/wishlist">/wishlist:</nuxt-link>
-        Худи
-      </li>
-    </ul>
 
-    <h2>1.2.0 - 2021-03-16</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/goals2021">/goals2021:</nuxt-link>
-        про цели на 2021
-      </li>
-    </ul>
-
-    <h2>1.1.0 - 2021-03-11</h2>
-    <ul>
-      <li>
-        <nuxt-link to="/pure">/pure:</nuxt-link>
-        аутро с благодарностью
-      </li>
-      <li>
-        <nuxt-link to="/small">/small:</nuxt-link>
-        Пучача и циан
-      </li>
-    </ul>
-
-    <h2>1.0.0 - 2021-03-11</h2>
-    <ul>
-      <li>
-        Все, что есть на данный момент
-      </li>
-    </ul>
-
-  </div>
 </template>
 
 

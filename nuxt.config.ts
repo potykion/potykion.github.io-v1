@@ -68,9 +68,14 @@ const config: NuxtConfig = {
       'nuxt-highlightjs',
       {style: "atom-one-light"},
     ],
-
-
+    '@nuxtjs/markdownit',
   ],
+
+
+  // See https://github.com/markdown-it/markdown-it
+  markdownit: {
+    linkify: true,
+  },
 
   // Отключаем все - чтоб перформанс был
   // https://github.com/larsdouweschuitema-nuxt/nuxt-boilerplate/blob/master/nuxt.config.ts
