@@ -59,7 +59,7 @@ export default class gigs extends Vue {
     {
       title: "GusGus",
       link: "https://afisha.yandex.ru/moscow/concert/gusgus-msk",
-      date: new Date("2021-05-23"),
+      date: new Date("2021-10-15"),
       club: "Главclub" as Club,
     },
     {
@@ -72,7 +72,7 @@ export default class gigs extends Vue {
       title: "Ghostemane",
       link: "https://afisha.yandex.ru/moscow/concert/ghostemane-msk-2021",
       club: "Главclub" as Club,
-      date: new Date("2021-09-21"),
+      date: new Date("2021-09-29"),
     },
 
   ].sort((a, b) => a.date.getTime() - b.date.getTime());
