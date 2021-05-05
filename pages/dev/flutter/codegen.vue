@@ -17,7 +17,7 @@
       <li>
         Пишем обычный класс:
 
-        <pre><code v-highlight class="data">
+        <pre><code v-highlight class="dart">
 // example.dart
 class Person {
   final String firstName;

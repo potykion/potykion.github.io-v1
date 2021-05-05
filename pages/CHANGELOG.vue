@@ -3,8 +3,9 @@
 
   ## 1.6.3 - 2021-05-05
 
-  - [/cool-story/small](/cool-story/small): божественное вмешательство
-  - [/dev/flutter/firebase](/dev/flutter/firebase): cloud storage
+  - [/cool-story/small](/cool-story/small): Божественное вмешательство
+  - [/dev/flutter/firebase](/dev/flutter/firebase): Cloud storage
+  - [/dev/flutter/release](/dev/flutter/release): Релиз приложух в гугл-плее (написано на маркдауне!)
 
   ## 1.6.2 - 2021-04-28
 

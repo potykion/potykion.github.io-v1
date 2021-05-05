@@ -67,7 +67,7 @@
       <img src="~/assets/Vohiyo.png.webp" class="emote" alt="Vohiyo">
     </h3>
     <ul>
-      <li><nuxt-link to="/how">Как блог делается</nuxt-link></li>
+      <li><nuxt-link to="/dev/how">Как блог делается</nuxt-link></li>
       <li><nuxt-link to="/dev/base">Общие штучки для вебчика</nuxt-link></li>
       <li><nuxt-link to="/dev/ideas">Идеи для проектов</nuxt-link></li>
 
@@ -86,6 +86,7 @@
       <li><nuxt-link to="/dev/flutter/codegen">Кодогенерация</nuxt-link></li>
       <li><nuxt-link to="/dev/flutter/libs">Любимые либы</nuxt-link></li>
       <li><nuxt-link to="/dev/flutter/faq">Штуки, которые часто забываются</nuxt-link></li>
+      <li><nuxt-link to="/dev/flutter/release">Релиз приложух в гугл-плее</nuxt-link></li>
     </ul>
 
     <h4>Vue</h4>
