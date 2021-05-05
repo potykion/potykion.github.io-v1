@@ -95,6 +95,9 @@ const config: NuxtConfig = {
     componentClientOnly: false
   },
   build: {
+    parallel: true,
+    hardSource: true,
+    cache: true,
     indicator: false,
     terser: true
   }
