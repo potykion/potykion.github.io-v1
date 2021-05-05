@@ -136,6 +136,13 @@
       </li>
 
       <li>
+        <a href="https://github.com/markdown-it/markdown-it">markdown-it</a>
+        <nuxt-emoji-link to="https://github.com/nuxt-community/markdownit-module"></nuxt-emoji-link>
+
+        - лучший рендер маркдауна
+      </li>
+
+      <li>
         <a href="https://github.com/uuidjs/uuid">uuid</a> - ююидики
       </li>
       <li>
@@ -174,8 +181,10 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import NuxtEmojiLink from "~/components/nuxt-emoji-link.vue";
 
 @Component({
+  components: {NuxtEmojiLink},
   head: () => ({
     title: "Vue / Любимые либы"
   }),
