@@ -64,6 +64,7 @@ https://www.streamscheme.com/resources/twitch-emotes-meaning-complete-list-monka
 - [Любимые либы](/dev/flutter/libs)
 - [Штуки, которые часто забываются](/dev/flutter/faq)
 - [Релиз приложух в гугл-плее](/dev/flutter/release)
+- [Реклама с Admobs](/dev/flutter/ads)
 
 #### Vue
 
