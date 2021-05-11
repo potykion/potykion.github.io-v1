@@ -6,6 +6,13 @@
       <li><a HREF="https://www.citilink.ru/catalog/computers_and_notebooks/hdd/ssd_in/1134605/"><b>SSD</b></a></li>
 
       <li>
+        Смарт-часы на WearOS, напр.
+        <a href="https://www.ozon.ru/product/smart-chasy-oppo-watch-46mm-ow19w8-black-259438398">
+          такие
+        </a>
+      </li>
+
+      <li>
         Любые беспроводные науши с микро, напр. <a
         href="https://www.ozon.ru/category/igrovye-naushniki-15827/steelseries-26303411/?wire=32735">SteelSeries</a>
       </li>
