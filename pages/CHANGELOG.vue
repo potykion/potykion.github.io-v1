@@ -1,9 +1,10 @@
 <template lang="md">
   # Ченжлог
 
-  ## 1.6.4 - 2021-05-10
+  ## 1.6.4 - 2021-05-11
 
   - [/dev/flutter/ads](/dev/flutter/ads): Реклама с Admobs
+  - [/cool-story/small](/cool-story/small): Продажа гантелей
 
   ## 1.6.3 - 2021-05-05
 
