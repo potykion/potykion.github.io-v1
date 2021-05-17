@@ -43,6 +43,7 @@ https://www.streamscheme.com/resources/twitch-emotes-meaning-complete-list-monka
 - [Денс](/dance)
 - [Гиги](/gigs)
 - [Нечего делать](/nothing-to-do)
+- [Кукинг](/cooking)
 - [Слипинг](/sleep)
 
 ### Заметки про разработку <img src="~/assets/Vohiyo.png.webp" class="emote" alt="Vohiyo">

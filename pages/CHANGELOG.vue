@@ -1,6 +1,10 @@
 <template lang="md">
   # Ченжлог
 
+  ## 1.7.0 - 2021-05-17
+
+  - [/cooking](/cooking): Свалка рецептов
+
   ## 1.6.4 - 2021-05-11
 
   - [/dev/flutter/ads](/dev/flutter/ads): Реклама с Admobs

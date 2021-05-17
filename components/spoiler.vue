@@ -23,6 +23,13 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 
+/**
+ * Юзадж:
+ *
+ * <spoiler>op
+ * <template v-slot:spoiled>oppa</template>
+ * </spoiler>
+ */
 @Component({})
 export default class Spoiler extends Vue {
   open = false;

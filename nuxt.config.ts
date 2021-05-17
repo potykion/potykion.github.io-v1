@@ -75,6 +75,7 @@ const config: NuxtConfig = {
   // See https://github.com/markdown-it/markdown-it
   markdownit: {
     linkify: true,
+    breaks: false,
     highlight: function (str: string, lang: string) {
       return `<pre><code v-highlight class="${lang}">${str}</code></pre>`
     },
