@@ -1,6 +1,6 @@
 {
   "name": "potykion.github.io",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "private": true,
   "scripts": {
     "dev": "nuxt-ts",
