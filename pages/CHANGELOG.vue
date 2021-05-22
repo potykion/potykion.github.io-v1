@@ -1,6 +1,12 @@
 <template lang="md">
   # Ченжлог
 
+  ## 1.7.2 - 2021-05-22
+
+  - [/dev/flutter/ads](/dev/flutter/ads): Текстовый туториал
+  - [/dev/ideas](/dev/ideas): Ютуб рандомайзер сделан
+  - [/cool-story/small](/cool-story/small): Оксана
+
   ## 1.7.1 - 2021-05-18
 
   - [/dev/ideas](/dev/ideas): Шаринг едой с соседями
