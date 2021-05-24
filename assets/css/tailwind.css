@@ -50,6 +50,10 @@
     @apply my-1;
   }
 
+  li p {
+    @apply inline;
+  }
+
   /*ul div {*/
   /*  @apply ml-5;*/
   /*}*/

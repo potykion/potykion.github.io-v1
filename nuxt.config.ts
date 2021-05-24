@@ -68,9 +68,9 @@ const config: NuxtConfig = {
       'nuxt-highlightjs',
       {style: "atom-one-light"},
     ],
+    // https://github.com/nuxt-community/markdownit-module
     '@nuxtjs/markdownit',
   ],
-
 
   // See https://github.com/markdown-it/markdown-it
   markdownit: {
@@ -104,9 +104,6 @@ const config: NuxtConfig = {
     componentClientOnly: false
   },
   build: {
-    parallel: true,
-    hardSource: true,
-    cache: true,
     indicator: false,
     terser: true
   }
