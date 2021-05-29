@@ -18,7 +18,7 @@ const config: NuxtConfig = {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'potykion.github.io',
+    title: 'Блог из-под палки',
     htmlAttrs: {
       lang: 'en'
     },
@@ -48,7 +48,7 @@ const config: NuxtConfig = {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  // components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
@@ -75,7 +75,7 @@ const config: NuxtConfig = {
   // See https://github.com/markdown-it/markdown-it
   markdownit: {
     linkify: true,
-    breaks: false,
+    breaks: true,
     highlight: function (str: string, lang: string) {
       return `<pre><code v-highlight class="${lang}">${str}</code></pre>`
     },

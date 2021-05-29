@@ -476,8 +476,11 @@ import {
   Component,
   Vue,
 } from "nuxt-property-decorator"
+import ImgCard from "~/components/img-card.vue";
+import ImgRow from "~/components/img-row.vue";
 
 @Component({
+  components: {ImgRow, ImgCard},
   head: () => ({
     title: "Ютуб"
   }),

@@ -33,8 +33,10 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import ImgCard from "~/components/img-card.vue";
 
 @Component({
+  components: {ImgCard},
   head: () => ({
     title: "Я ЗАБЫЛ УКАЗАТЬ ЗАГОЛОВОК"
   }),

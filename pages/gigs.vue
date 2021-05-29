@@ -37,6 +37,7 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import ImgRow from "~/components/img-row.vue";
 
 
 type Club = "Главclub" | "Город";
@@ -50,6 +51,7 @@ interface Concert {
 
 
 @Component({
+  components: {ImgRow},
   head: () => ({
     title: "ГИГИ"
   }),

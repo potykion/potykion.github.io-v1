@@ -89,8 +89,10 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import ImgRow from "~/components/img-row.vue";
 
 @Component({
+  components: {ImgRow},
   head: () => ({
     title: "Кукинг / Аэрогриль"
   }),

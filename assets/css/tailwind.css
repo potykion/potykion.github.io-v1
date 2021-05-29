@@ -96,6 +96,10 @@
     @apply my-2;
   }
 
+  blockquote {
+    @apply italic;
+  }
+
 }
 
 @tailwind components;
