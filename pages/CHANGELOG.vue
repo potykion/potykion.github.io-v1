@@ -5,6 +5,7 @@
 
   - [/sleep](/sleep): Переписал слипыч
   - [/food](/food): Тир-листы еды
+  - [/exp/eng/articles](/exp/eng/articles): Артикли в инглише
 
   ## 1.7.2 - 2021-05-22
 

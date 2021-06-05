@@ -46,6 +46,10 @@ https://www.streamscheme.com/resources/twitch-emotes-meaning-complete-list-monka
 - [Кукинг](/cooking)
 - [Слипинг](/sleep)
 
+#### Инглиш
+
+- [Артикли](/exp/eng/articles)
+
 ### Заметки про разработку <img src="~/assets/Vohiyo.png.webp" class="emote" alt="Vohiyo">
 
 - [Как блог делается](/dev/how)
