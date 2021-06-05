@@ -5,8 +5,8 @@
 
     <h2>Подтянуть инглиш</h2>
     <ul>
-      <li class="wip">
-        <spoiler>2021-02-28 начал ходить в <a href="https://nowispeakenglish.com/">инглиш-скул</a>
+      <li class="done">
+        <spoiler>Пройти Pre-Inter курс в <a href="https://nowispeakenglish.com/">Nise</a> (2021-02-28 - 2021-05-23)
           <template v-slot:spoiled>
             <p class="font-mono whitespace-pre-line">Курс выходного дня. Старт 07 февраля
               - С 07 февраля по 13 июня
@@ -27,11 +27,14 @@
               Думал на Intermediate пойти, но за месяц группа не набралась. Предложили вар пойти к Pre-Intermediate -
               согласился. На занятиях на чиличах сижу, если и потею, то на грамматике, но в самый раз.
             </p>
+
           </template>
         </spoiler>
       </li>
+      <li>2021-06-06 Пройти Inter курс</li>
 
       <li>2021-03-11 начал смотреть Друзей в оригинале</li>
+      <li>2021-06-05 начал вести базу знаний по инглишу в блоге</li>
 
     </ul>
 
@@ -44,7 +47,8 @@
         <spoiler>
           Накопить 500к на брокерском счету
           <template slot="spoiled">
-            Вкладываю 40к / мес. + решил, что <a href="https://www.tinkoff.ru/invest/moneybox/">Инвесткопилка</a> и рублевый вклад это не очень выгодно, поэтому перевел их на
+            Вкладываю 40к / мес. + решил, что <a href="https://www.tinkoff.ru/invest/moneybox/">Инвесткопилка</a> и
+            рублевый вклад это не очень выгодно, поэтому перевел их на
             брокерский счет.
           </template>
         </spoiler>
@@ -86,15 +90,16 @@
         </spoiler>
       </li>
       <li class="done">Попробовать
-        <nuxt-link to="/pure">pure</nuxt-link>
+        <nuxt-link to="/cool-story/pure">pure</nuxt-link>
       </li>
       <li class="wip">Попробовать вар тиндер</li>
     </ul>
 
     <h2>Научиться денсить </h2>
     <ul>
-      <li class="drop">Ну как бы
-        <nuxt-link to="/dance">вот</nuxt-link>
+      <li class="drop">Траил группу -
+        <nuxt-link to="/dance">тут</nuxt-link>
+        написаны ощущения; надо ворваться на инди в след году
       </li>
     </ul>
 
