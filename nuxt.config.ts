@@ -79,6 +79,9 @@ const config: NuxtConfig = {
     highlight: function (str: string, lang: string) {
       return `<pre><code v-highlight class="${lang}">${str}</code></pre>`
     },
+    use: [
+      'markdown-it-attrs'
+    ],
   },
 
   // Отключаем все - чтоб перформанс был
@@ -104,7 +107,7 @@ const config: NuxtConfig = {
     componentClientOnly: false
   },
   build: {
-    indicator: false,
+    indicator: true,
     terser: true
   }
 }
