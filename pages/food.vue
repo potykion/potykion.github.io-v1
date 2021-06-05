@@ -22,7 +22,7 @@
 ## Сырический
 
 <tier-list>
-<template #a>Сливочный</template>
+<template #a>Сливочный · Ламбер</template>
 <template #b>Легкий</template>
 <template #c></template>
 </tier-list>
