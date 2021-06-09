@@ -27,14 +27,14 @@
   - Но только если нет прилагательного: The book is on **a** little table
 
 - Устойчивые словосочетания и конструкции:
-  - at school, at home, at work
-  - there is a
-  - where is the
-  - in front of
-  - in the middle / in the corner / to the right / to the left
-  - I have a / He has a / I see a
-  - This is a / That is a / It is a / There is a
-  - I am a /  He is a / She is a
+  - не употребляется перед school, work, home, bed: at school, after work, go home, go to bed
+  - there is a · where is the
+  - in front of · in the middle · in the corner · to the right · to the left
+  - in the morning · in the afternoon · in the evening · at night
+  - at half past five · at a quarter past five
+
+- Перед названием месяцев / дней артикль не ставим: in September · on Sunday
+- Определенный артикль употребляется перед порядковым числительным: on the second floor · today is the tenth of May
 
 </template>
 <!-- @formatter:on -->

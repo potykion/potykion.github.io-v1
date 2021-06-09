@@ -32,8 +32,7 @@
 <tier-list>
 <template #b>Бархатный мед</template>
 <template #c>Черри</template>
-<template #c>Конфетто</template>
-<template #e>Пинк Парадайз</template>
+<template #d>Конфетто · Пинк Парадайз</template>
 </tier-list>
 
 ## Стейки

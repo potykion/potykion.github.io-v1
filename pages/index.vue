@@ -36,15 +36,16 @@ https://www.streamscheme.com/resources/twitch-emotes-meaning-complete-list-monka
 ### Экспериенс жизненный <img src="~/assets/5Head-Emote.png.webp" class="emote" alt="5Head-Emote">
 
 - [Вишлист](/wishlist)
+- [Цели 2021](/goals2021)
 - [Рисовач](/art)
 - [Ютуб](/yt)
-- [Цели 2021](/goals2021)
+- [Кукинг](/cooking)
+- [Еда](/food)
 - [Бабос](/money)
 - [Денс](/dance)
 - [Гиги](/gigs)
-- [Нечего делать](/nothing-to-do)
-- [Кукинг](/cooking)
 - [Слипинг](/sleep)
+- [Нечего делать](/nothing-to-do)
 
 #### Инглиш
 
