@@ -13,7 +13,7 @@
             </div>
           </nuxt-link>
 
-          <nuxt-link to="/changelog" class="nav-link">
+          <nuxt-link to="/CHANGELOG" class="nav-link">
             <div class="nav-link-text">
               v1.8.0
             </div>

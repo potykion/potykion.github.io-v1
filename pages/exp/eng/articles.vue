@@ -6,7 +6,7 @@
 
 - Определнный артикль: **the** · Неопределенный артикль: **a (an)**
 
-- Обычно употребляется перед существильными: This is a pen
+- Обычно употребляется перед существильными: This is **a** pen
 
 - Не употребляется, если стоит
   - притяжательное местоимение: my, your, his, her, its, our, their, mine, yours, his, hers, ours, their
@@ -21,20 +21,26 @@
   - This is **a** book. **The** book is interesting.
   - This is **_** meat. **The** meat is fresh.
   - These are **_** books. **The** books are good.
-- Упоминая предмет впервые юзаем the, если
-  - Если предмет один в мире: the sun, the sky, the weather
+- Упоминая предмет впервые юзаем **the**, если
+  - Если предмет один в мире: **the** sun, **the** sky, **the** weather
   - Конкретный предмет: Put **the** book on **the** table
   - Но только если нет прилагательного: The book is on **a** little table
 
 - Устойчивые словосочетания и конструкции:
-  - не употребляется перед school, work, home, bed: at school, after work, go home, go to bed
-  - there is a · where is the
-  - in front of · in the middle · in the corner · to the right · to the left
-  - in the morning · in the afternoon · in the evening · at night
-  - at half past five · at a quarter past five
+  - не употребляется перед *school*, *work*, *home*, *bed*:
+    - at **_** school, after **_** work, go **_** home, go to **_** bed
+  - не употребляется перед *breakfast*, *lunch*, *tea*, *dinner*, *supper*:
+    - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
+  - there is **a** · where is **the**
+  - in front **_** of · in **the** middle · in **the** corner · to **the** right · to **the** left
+  - in **the** morning · in **the** afternoon · in **the** evening · at **_** night
+  - at **_** half past five · at **a** quarter past five
 
-- Перед названием месяцев / дней артикль не ставим: in September · on Sunday
-- Определенный артикль употребляется перед порядковым числительным: on the second floor · today is the tenth of May
+
+- Перед названием месяцев / дней артикль не ставим:
+  - in **_** September · on **_** Sunday
+- Определенный артикль употребляется перед порядковым числительным:
+  - on **the** second floor · today is **the** tenth of May
 
 </template>
 <!-- @formatter:on -->

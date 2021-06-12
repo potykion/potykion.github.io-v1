@@ -14,7 +14,7 @@ https://www.streamscheme.com/resources/twitch-emotes-meaning-complete-list-monka
 
 И еще здесь может встречаться <b>мат</b> и <b>звенящая пошлость</b>.
 
-Что нового в блоге, можно посмотреть в [ченжлоге](/changelog).
+Что нового в блоге, можно посмотреть в [ченжлоге](/CHANGELOG).
 
 ### Кулстори <img src="~/assets/coolstorybob.png.webp" class="emote" alt="coolstorybob">
 
