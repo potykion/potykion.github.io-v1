@@ -15,3 +15,10 @@
   ```
   bump layouts/default.vue package.json package-lock.json
   ```
+
+
+## Деплой ручками
+
+```
+npm run generate && npm run deploy
+```
