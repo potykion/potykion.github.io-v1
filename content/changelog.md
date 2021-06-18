@@ -11,8 +11,8 @@ title: Ченжлог
 
 ## 1.8.0 - 2021-06-05
 
-- [/sleep](/sleep): Переписал слипыч
-- [/food](/food): Тир-листы еды
+- [/exp/sleep](/exp/sleep): Переписал слипыч
+- [/exp/food](/exp/food): Тир-листы еды
 - [/exp/eng/articles](/exp/eng/articles): Артикли в инглише
 
 ## 1.7.2 - 2021-05-22
@@ -28,7 +28,7 @@ title: Ченжлог
 
 ## 1.7.0 - 2021-05-17
 
-- [/cooking](/cooking): Свалка рецептов
+- [/exp/cooking](/exp/cooking): Свалка рецептов
 
 ## 1.6.4 - 2021-05-11
 
@@ -67,44 +67,44 @@ title: Ченжлог
 
 ## 1.4.0 - 2021-04-12
 
-- [/fruit-ninja](/fruit-ninja):  новая кулстори про Фрут Ниндзю
-- [/gh-stars](/gh-stars):  сортировка питон либ, джс либы, флаттер либы
-- [/money](/money):  лайфхаки про бабос
+- [/cool-story/fruit-ninja](/cool-story/fruit-ninja):  новая кулстори про Фрут Ниндзю
+- /gh-stars: сортировка питон либ, джс либы, флаттер либы
+- [/exp/money](/exp/money):  лайфхаки про бабос
 
 ## 1.3.3 - 2021-04-01
 
-- [/small](/small):  беседы в парикмахерской
+- [/cool-story/small](/cool-story/small):  беседы в парикмахерской
 - [/](/): приписочка про ченжлог
-- [/gh-stars](/gh-stars):  nvm, mocktail, appwrite
+- /gh-stars:  nvm, mocktail, appwrite
 
 ## 1.3.2 - 2021-03-29
 
-- [/small](/small): фикс опечатки (стол > ствол)
+- [/cool-story/small](/cool-story/small): фикс опечатки (стол > ствол)
 - Анимашка подчеркивания в хедере
 
 ## 1.3.1 - 2021-03-25
 
-- [/small](/small): киберпанк
-- [/cooking](/cooking): терияки с помидорами
-- [/goals2021](/goals2021): друзья в оригинале
+- [/cool-story/small](/cool-story/small): киберпанк
+- [/cool-story/cooking/other](/cool-story/cooking/other): терияки с помидорами
+- [/exp/goals2021](/exp/goals2021): друзья в оригинале
 - Нормальный свайпер и просмотрщик картинок
 
 ## 1.3.0 - 2021-03-17
 
-- [/gigs](/gigs): про концики
+- [/exp/gigs](/exp/gigs): про концики
 - Сжал картинки где имело смысл
-- [/dance](/dance): пару слов про плейлисты
-- [/goals2021](/goals2021): цели на лето
-- [/wishlist](/wishlist): Худи
+- [/exp/dance](/exp/dance): пару слов про плейлисты
+- [/exp/goals2021](/exp/goals2021): цели на лето
+- [/exp/wishlist](/exp/wishlist): Худи
 
 ## 1.2.0 - 2021-03-16
 
-- [/goals2021](/goals2021): про цели на 2021
+- [/exp/goals2021](/exp/goals2021): про цели на 2021
 
 ## 1.1.0 - 2021-03-11
 
-- [/pure](/pure): аутро с благодарностью
-- [/small](/small): Пучача и циан
+- [/cool-story/pure](/cool-story/pure): аутро с благодарностью
+- [/cool-story/small](/cool-story/small): Пучача и циан
 
 ## 1.0.0 - 2021-03-11
 

@@ -98,7 +98,7 @@
     <h2>Научиться денсить </h2>
     <ul>
       <li class="drop">Траил группу -
-        <nuxt-link to="/dance">тут</nuxt-link>
+        <nuxt-link to="/exp/dance">тут</nuxt-link>
         написаны ощущения; надо ворваться на инди в след году
       </li>
     </ul>

@@ -20,7 +20,7 @@ title: хто я?
 * [приколы](https://vk.com/peplix)
 * [разработка](https://github.com/potykion)
 * [рисование](https://www.instagram.com/poty_risovach)
-* еда, [алкоголь](https://www.instagram.com/potykion/), <nuxt-link to="/cooking">готовка</nuxt-link>
+* еда, [алкоголь](https://www.instagram.com/potykion/), <nuxt-link to="/exp/cooking">готовка</nuxt-link>
 * танцы
 * [музычка](https://open.spotify.com/user/1srdxgefrloip7wopd30dntkd?si=1nyoyb-fQOi4OIq6s9IHmA)
   , [клипчики](https://youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
@@ -33,4 +33,4 @@ title: хто я?
 * [почтамт](mailto:potykion@gmail.com)
 * [встретиться](https://calendly.com/potykion/vstrechalovo)
 * [дать денег](https://www.tinkoff.ru/rm/leybovich.nikita1/8PkYa74332)
-* [вишлист](/wishlist)
+* [вишлист](/exp/wishlist)
