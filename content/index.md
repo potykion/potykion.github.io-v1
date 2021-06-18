@@ -6,7 +6,7 @@
 
 Что нового в блоге, можно посмотреть в [ченжлоге](/changelog).
 
-### Кулстори <img src="/images/coolstorybob.png.webp" class="emote" alt="coolstorybob">
+### Кулстори <twitch-emote emote="coolstorybob"></twitch-emote>
 
 - [Свалка маленьких кулстори](/cool-story/small)
 - [Pure](/cool-story/pure)
@@ -23,7 +23,7 @@
 - [Джейми Оливер](/cool-story/cooking/jamie-oliver)
 - [Малютки](/cool-story/cooking/other)
 
-### Экспериенс жизненный <img src="/images/5Head-Emote.png.webp" class="emote" alt="5Head-Emote">
+### Экспериенс жизненный <twitch-emote emote="5Head"></twitch-emote>
 
 - [Вишлист](/exp/wishlist)
 - [Цели 2021](/exp/goals2021)
@@ -40,7 +40,7 @@
 
 - [Артикли](/exp/eng/articles)
 
-### Заметки про разработку <img src="/images/Vohiyo.png.webp" class="emote" alt="Vohiyo">
+### Заметки про разработку <twitch-emote emote="support"></twitch-emote>
 
 - [Как блог делается](/dev/how)
 - [Общие штучки для вебчика](/dev/base)
