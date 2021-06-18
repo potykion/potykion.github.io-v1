@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "test": "jest",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "prepare": "husky install",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
