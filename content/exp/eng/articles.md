@@ -4,9 +4,9 @@ title: Инглиш / Артикли
 
 ## Инглиш / Артикли
 
-**Одного универсального правила для артиклей нет**, но кое о чем можно помнить.
+Определенный артикль: **the** · Неопределенный артикль: **a (an)**
 
-- Определенный артикль: **the** · Неопределенный артикль: **a (an)**
+**Одного универсального правила для артиклей нет**, но кое о чем можно помнить.
 
 - Обычно употребляется перед существительными: This is **a** pen
 
@@ -18,28 +18,64 @@ title: Инглиш / Артикли
   - отрицание no (не not)
 
 - Упоминая предмет впервые юзаем **a**, употребляя вторично юзаем **the**
+  - This is **a** book. **The** book is interesting.
+
 - Артикль **a** используется только с исчисляемыми существительными в единственном числе
 - Артикль **the** используется со всеми существительными
   - This is **a** book. **The** book is interesting.
   - This is **_** meat. **The** meat is fresh.
   - These are **_** books. **The** books are good.
+
 - Упоминая предмет впервые юзаем **the**, если
   - Если предмет один в мире: **the** sun, **the** sky, **the** weather
   - Конкретный предмет: Put **the** book on **the** table
   - Но только если нет прилагательного: The book is on **a** little table
 
-- Устойчивые словосочетания и конструкции:
-  - не употребляется перед *school*, *work*, *home*, *bed*:
-    - at **_** school, after **_** work, go **_** home, go to **_** bed
-  - не употребляется перед *breakfast*, *lunch*, *tea*, *dinner*, *supper*:
-    - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
-  - there is **a** · where is **the**
-  - in front **_** of · in **the** middle · in **the** corner · to **the** right · to **the** left
-  - in **the** morning · in **the** afternoon · in **the** evening · at **_** night
-  - at **_** half past five · at **a** quarter past five
+### Устойчивые словосочетания и конструкции
 
+- не употребляется перед *school*, *work*, *home*, *bed*:
+  - at **_** school, after **_** work, go **_** home, go to **_** bed
+- не употребляется перед *breakfast*, *lunch*, *tea*, *dinner*, *supper*:
+  - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
+- there is **a** · where is **the**
+- in front **_** of · in **the** middle · in **the** corner · to **the** right · to **the** left
+- in **the** morning · in **the** afternoon · in **the** evening · at **_** night
+- at **_** half past five · at **a** quarter past five
+- to watch **_** TV
+- не употребляется перед названием предметов (в школе) и языков:
+  - he studies **_** chemistry · I speak **_** English
+  - Исключение: **the** English language
+- не употребляется перед спортивным стаффом:
+  - to play **_** chess · to play **_** football
+- употребляется перед музыкальным стаффом:
+  - to play **the** guitar · to plat **the** piano
+- out of **_** doors
+- in **a** ... voice: in **a** loud voice
 
 - Перед названием месяцев / дней артикль не ставим:
   - in **_** September · on **_** Sunday
+
 - Определенный артикль употребляется перед порядковым числительным:
   - on **the** second floor · today is **the** tenth of May
+
+- Употребляем перед превосходной степенью:
+  - **the** longest eee boi
+
+### Гео тема
+
+- Употребляем если водоем, кроме озер (со словом Lake)
+  - **the** Moscow River
+  - **_** Lake Ontario · **the** Ontario
+- Употребляем перед горами, но не перед вершинами
+  - **the** Altai Mountains
+- Употребляем перед островами, но не перед конкретным островом
+  - **the** Canary Islands
+- Перед городами / странами не употребляем
+  - **_** Moscow · **_** Russia
+- Но есть исключения:
+  - **the** United States of America
+  - **the** United Kingdom of ...
+  - **the** Netherlands
+  - **the** Congo
+  - **the** Crimea
+  - **the** Hague
