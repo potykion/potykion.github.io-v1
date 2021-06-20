@@ -10,6 +10,7 @@ title: Еда
 
 <tier-list>
 <template #a>Пинк Леди</template>
+<template #b>Гренни Смит</template>
 <template #c>Голден · Спартан</template>
 <template #e>Гала</template>
 </tier-list>
