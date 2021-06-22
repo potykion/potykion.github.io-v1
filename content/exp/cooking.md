@@ -107,6 +107,8 @@ title: Готовка-гайд
 ## Идеи для кукинга
 
 - Дальше аэрогриль юзать + https://redmondshop.com/upload/iblock/296/RAG-MECH-CB(+241E).pdf
-- Дениска вбросил: https://www.youtube.com/watch?v=XJ5KAU_oyFg
+- [Вброс](https://www.youtube.com/watch?v=XJ5KAU_oyFg) от Дениски: 
+- [Штрудели](https://lifehacker.ru/shtrudel-s-yablokami-recepty/): 2. Штрудель с яблоками из готового слоёного теста
+- Что-нибудь из свеклы, например [селедочку под шубой](https://eda.ru/recepty/salaty/seld-pod-shuboj-s-jajcami-20479)
 - Камбек к Джейми
 - Дрочить ютуб по запросам, типа Курица

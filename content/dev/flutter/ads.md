@@ -87,9 +87,11 @@ title: Реклама с Admobs
 
 1. Проект должен
    юзать [свеженькую версию градла](https://github.com/googleads/googleads-mobile-flutter/issues/127#issuecomment-810022705)
-2. Если в консоли появляется сообщение `Ad failed to load : 3`, значит код написан верно, просто надо
-   либо [подождать](https://stackoverflow.com/questions/33566485/failed-to-load-ad-3), либо чето недо настроено в
-   admobs, напр. реквизиты
+2. Если в консоли появляется сообщение `Ad failed to load : 3`, значит код написан верно, но
+   
+    - просто надо [подождать](https://stackoverflow.com/questions/33566485/failed-to-load-ad-3)
+    - чето недонастроено в admobs, напр. реквизиты
+    - надо выпустить апп в релиз-режиме
 
 ### Ссылкота
 

@@ -1,6 +1,6 @@
 {
   "name": "potykion.github.io",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -8,8 +8,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "prepare": "husky install"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",

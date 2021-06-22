@@ -4,6 +4,11 @@ title: Ченжлог
 
 # Ченжлог
 
+## 2.1.1 - 2021-06-22
+
+- [/dev/flutter/ads](/dev/flutter/ads): как сделать так, чтобы реклама появлялась
+- [/dev/flutter/firebase](/dev/flutter/firebase): хешииии
+
 ## 2.1.0 - 2021-06-19
 
 - [/dev/vue/bio](/dev/vue/bio): Фронтенд-биография
