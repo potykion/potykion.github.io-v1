@@ -17,6 +17,8 @@ title: Инглиш / Артикли
   - количественное числительное: one, thousand
   - отрицание no (не not)
 
+--- 
+
 - Упоминая предмет впервые юзаем **a**, употребляя вторично юзаем **the**
   - This is **a** book. **The** book is interesting.
 
@@ -31,48 +33,39 @@ title: Инглиш / Артикли
   - Конкретный предмет: Put **the** book on **the** table
   - Но только если нет прилагательного: The book is on **a** little table
 
-### Устойчивые словосочетания и конструкции
+---
 
 - не употребляется перед *school*, *work*, *home*, *bed*:
   - at **_** school, after **_** work, go **_** home, go to **_** bed
 - не употребляется перед *breakfast*, *lunch*, *tea*, *dinner*, *supper*:
   - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
-- there is **a** · where is **the**
-- in front **_** of · in **the** middle · in **the** corner · to **the** right · to **the** left
-- in **the** morning · in **the** afternoon · in **the** evening · at **_** night
-- at **_** half past five · at **a** quarter past five
+- there is **a** · there are **_** · where is **the**
 - to watch **_** TV
-- не употребляется перед названием предметов (в школе) и языков:
-  - he studies **_** chemistry · I speak **_** English
-  - Исключение: **the** English language
-- не употребляется перед спортивным стаффом:
-  - to play **_** chess · to play **_** football
-- употребляется перед музыкальным стаффом:
-  - to play **the** guitar · to plat **the** piano
 - out of **_** doors
 - in **a** ... voice: in **a** loud voice
 
-- Перед названием месяцев / дней артикль не ставим:
-  - in **_** September · on **_** Sunday
+---
 
-- Определенный артикль употребляется перед порядковым числительным:
-  - on **the** second floor · today is **the** tenth of May
+- *Превосходная степень*: **the** longest eee boi
+- *Порядковые числительные*: on **the** second floor · today is **the** tenth of May
+- *Дата: месяц / день*: in **_** September · on **_** Sunday
+- *Время: часы*: at **_** half past five · at **a** quarter past five
+- *Время дня*: in **the** morning · in **the** afternoon · in **the** evening · at **_** night
+- *Расположение*: in front **_** of · in **the** middle · in **the** corner · to **the** right · to **the** left · in **the** center
+- *Расположение: стороны света*: in **the** north · in **the** south · in **the** east · in **the** west
+- *Музыкальные инструменты*: to play **the** guitar · to plat **the** piano
+- *Виды спорта*: to play **_** chess · to play **_** football
+- *Дисциплины / предметы в школе*: he studies **_** chemistry · I speak **_** English
+- *Язык*: **the** English language
 
-- Употребляем перед превосходной степенью:
-  - **the** longest eee boi
+---
 
-### Гео тема
-
-- Употребляем если водоем, кроме озер (со словом Lake)
-  - **the** Moscow River
-  - **_** Lake Ontario · **the** Ontario
-- Употребляем перед горами, но не перед вершинами
-  - **the** Altai Mountains
-- Употребляем перед островами, но не перед конкретным островом
-  - **the** Canary Islands
-- Перед городами / странами не употребляем
-  - **_** Moscow · **_** Russia
-- Но есть исключения:
+- *Водоемы: реки, моря, океаны*: **the** Moscow River
+- *Водоемы: озера*: **_** Lake Ontario · **the** Ontario
+- *Горы / конкретная гора*: **the** Altai Mountains, **_** Elbrus
+- *Острова / конкретный остров*: **the** Canary Islands, **_** Canary
+- *Города / страны*: **_** Moscow · **_** Russia
+- *Города / страны: исключения*:
   - **the** United States of America
   - **the** United Kingdom of ...
   - **the** Netherlands
