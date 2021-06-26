@@ -8,6 +8,7 @@ title: Ченжлог
 
 - [/dev/flutter/ads](/dev/flutter/ads): как сделать так, чтобы реклама появлялась
 - [/dev/flutter/firebase](/dev/flutter/firebase): хешииии
+- [/dev/flutter/libs](/dev/flutter/libs): парочка новых либ
 
 ## 2.1.0 - 2021-06-19
 
