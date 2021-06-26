@@ -1,7 +1,7 @@
 <template>
 
 
-  <div class="flex flex-col h-screen ">
+  <div class="flex flex-col h-screen">
     <nav class="bg-pink-400">
       <div class="mx-auto px-4 ">
         <div class="h-12 flex items-center justify-between">
@@ -15,7 +15,7 @@
 
           <nuxt-link to="/changelog" class="nav-link">
             <div class="nav-link-text">
-              v2.1.2
+              v2.2.0
             </div>
           </nuxt-link>
 

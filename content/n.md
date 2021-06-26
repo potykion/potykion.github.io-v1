@@ -12,7 +12,7 @@ title: хто я?
 * **Дата рождения:** 1996-12-18
 * **Место проживания:** Москва
 * **Работа:** фулстак разраб в [rbcn](https://rbcn.mobi/)
-* **Рост:** 183 см; **вес:** 90 кг
+* **Рост:** 183 см; **вес:** ~90 кг
 * **Размер одежды:** XL / 54; **обуви:** 45 / 46
 
 ### Интересы
@@ -20,7 +20,7 @@ title: хто я?
 * [приколы](https://vk.com/peplix)
 * [разработка](https://github.com/potykion)
 * [рисование](https://www.instagram.com/poty_risovach)
-* еда, [алкоголь](https://www.instagram.com/potykion/), <nuxt-link to="/exp/cooking">готовка</nuxt-link>
+* еда, [алкоголь](https://www.instagram.com/potykion/), [готовка](/exp/cooking)
 * танцы
 * [музычка](https://open.spotify.com/user/1srdxgefrloip7wopd30dntkd?si=1nyoyb-fQOi4OIq6s9IHmA)
   , [клипчики](https://youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)

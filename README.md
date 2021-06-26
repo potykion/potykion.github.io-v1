@@ -13,7 +13,7 @@
 1. Заинкрементить версию + обновить в хедере:
 
   ```
-  bump layouts/default.vue package.json package-lock.json
+  bump layouts/default.vue package.json package-lock.json content/index.md
   ```
 
 
