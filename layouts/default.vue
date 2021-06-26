@@ -15,7 +15,7 @@
 
           <nuxt-link to="/changelog" class="nav-link">
             <div class="nav-link-text">
-              v2.1.1
+              v2.1.2
             </div>
           </nuxt-link>
 

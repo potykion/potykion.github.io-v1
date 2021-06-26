@@ -1,5 +1,5 @@
 <template>
-  <div class="inline">
+  <div :class="display">
     <slot></slot>
 
     <span @click="open = !open" class="cursor-pointer ">
@@ -33,6 +33,8 @@ import {
 @Component({})
 export default class Spoiler extends Vue {
   open = false;
+
+  @Prop({default: "inline"}) display!: "inline" | "block";
 
 }
 </script>

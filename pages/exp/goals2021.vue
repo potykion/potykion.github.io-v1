@@ -2,8 +2,30 @@
   <article>
     <h1>Цели 2021</h1>
 
+    <h3>Посмотреть фильмы из "Буду смотреть"</h3>
+    <ul>
+      <li>Посмотреть дохуя фильмов на КП (65 / 111)</li>
+      <li>Посмотреть дохуя фильмов в Окко (0 / 24)</li>
+      <li class="done">
+        <spoiler>
+          Разбить "Буду смотреть" на КП на категории
+          <template #spoiled>
+            <ul>
+              <li class="unstyled"><a href="https://www.kinopoisk.ru/user/4445656/movies/">есть на КП</a></li>
+              <li class="unstyled"><a href="https://www.kinopoisk.ru/user/4445656/movies/list/type/452552">есть в
+                Окко</a></li>
+              <li class="unstyled"><a href="https://www.kinopoisk.ru/user/4445656/movies/list/type/452553/">нет на КП и
+                Окко</a></li>
+              <li class="unstyled"><a href="https://www.kinopoisk.ru/user/4445656/movies/list/type/449698/">серики</a>
+              </li>
+            </ul>
+          </template>
+        </spoiler>
+      </li>
+    </ul>
 
-    <h2>Подтянуть инглиш</h2>
+
+    <h3>Подтянуть инглиш</h3>
     <ul>
       <li class="done">
         <spoiler>Пройти Pre-Inter курс в <a href="https://nowispeakenglish.com/">Nise</a> (2021-02-28 - 2021-05-23)
@@ -31,37 +53,25 @@
           </template>
         </spoiler>
       </li>
-      <li>2021-06-06 Пройти Inter курс</li>
+      <li>2021-06-06 начал Inter курс</li>
 
       <li>2021-03-11 начал смотреть Друзей в оригинале</li>
       <li>2021-06-05 начал вести базу знаний по инглишу в блоге</li>
 
+      <li>Выполнить все <a href="https://www.ozon.ru/product/angliyskiy-yazyk-grammatika-sbornik-uprazhneniy-golitsynskiy-yuriy-borisovich-225727453">упражнения по грамматике</a> (37 / 567)</li>
+
     </ul>
 
-    <h2>Финанс</h2>
-    <ul>
-      <li class="done">Начать инвестировать</li>
-      <li class="done">Начать вести бюджет</li>
-      <li class="wip">Написать и выпустить приложуху с монетизацией</li>
-      <li class="done">
-        <spoiler>
-          Накопить 500к на брокерском счету
-          <template slot="spoiled">
-            Вкладываю 40к / мес. + решил, что <a href="https://www.tinkoff.ru/invest/moneybox/">Инвесткопилка</a> и
-            рублевый вклад это не очень выгодно, поэтому перевел их на
-            брокерский счет.
-          </template>
-        </spoiler>
-      </li>
-    </ul>
 
-    <h2>Социализация</h2>
+    <h3>Социализация</h3>
     <ul>
       <li class="done"> Завести
         <nuxt-link to="/">блог</nuxt-link>
       </li>
       <li class="done">Завести <a href="https://www.instagram.com/poty_risovach/">инстуху с рисовачем</a></li>
-      <li class="done">Завести <a href="https://twitter.com/wiwpost">тви с ебанутыми скринами или типа того</a></li>
+      <li class="done">Завести <a href="https://twitter.com/wiwpost">тви с ебанутыми скринами или типа того</a> (удалил
+        за ненадобностью)
+      </li>
       <li class="wip">Сделать вк публичным</li>
       <li class="wip">Сделать инстуху публичным</li>
       <li class="drop">
@@ -92,87 +102,142 @@
       <li class="done">Попробовать
         <nuxt-link to="/cool-story/pure">pure</nuxt-link>
       </li>
-      <li class="wip">Попробовать вар тиндер</li>
-    </ul>
-
-    <h2>Научиться денсить </h2>
-    <ul>
-      <li class="drop">Траил группу -
-        <nuxt-link to="/exp/dance">тут</nuxt-link>
-        написаны ощущения; надо ворваться на инди в след году
-      </li>
-    </ul>
-
-    <h2>Цели на лето</h2>
-    <ul>
-      <li>
+      <li class="drop">
         <spoiler>
-          Вкатиться в дезигн
-
+          Попробовать вар тиндер
           <template slot="spoiled">
-            <p>
-              Делаю бложек, приложуху, вообще нравится какой-то фронт делать. Хочется чтобы он был еще и супер
-              сексуальным.
-              Гугл выдает ссылочки на адобе - букв многа:
-            </p>
-
-            <p class="font-mono whitespace-pre-line">how to mobile design
-
-              <a href="https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/">https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/</a>
-
-              <a href="https://xd.adobe.com/ideas/principles/app-design/">https://xd.adobe.com/ideas/principles/app-design/</a>
-
-              How to web design
-
-              <a href="https://xd.adobe.com/ideas/principles/web-design/web-page-design/">https://xd.adobe.com/ideas/principles/web-design/web-page-design/</a>
-
-              <a
-                href="https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2">https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2</a>
-            </p>
+            Ну словил я мэтч и чо???<br>
+            Хз о чем говорить с незнакомым человеком + сразу люди обычно редко встречаются
           </template>
         </spoiler>
       </li>
-
-      <li>
-        Сгонять почиллить за границу, напр. в Нидерланды
-      </li>
-      <li>
-        <spoiler>
-          Сменить работу
-
-          <template slot="spoiled">
-            <p>На текущей работе ничего не держит: бабос могу получать больше, в офисе ничего не происходит, задачи сам
-              себе придумываю.</p>
-
-            <p>На хх вкусные вакансии имеются:</p>
-
-            <p class="font-mono ">
-              <a href="https://hh.ru/vacancy/42882086">https://hh.ru/vacancy/42882086</a><br>
-              <a href="https://hh.ru/vacancy/41263186">https://hh.ru/vacancy/41263186</a><br>
-              <a href="https://hh.ru/vacancy/42366923">https://hh.ru/vacancy/42366923</a>
-            </p>
-
-          </template>
-        </spoiler>
-      </li>
-      <li>
-        Сдать на права
-      </li>
-      <li>
-        <spoiler>
-          Постановка голоса
-
-          <template slot="spoiled">
-            <p>Вообще не представляю что это такое, но мб интересно.</p>
-            <p>Одна из самых популярных контор - <a
-              href="https://xn--b1abqffracbogz7j.xn--p1ai/">король говорит</a>.</p>
-          </template>
-        </spoiler>
-      </li>
-      <li>
-        Попробовать играть на муз инструменте, напр. гитарка
-      </li>
     </ul>
+
+    <spoiler display="block">
+      <h3 class="inline-block line-through">Финанс</h3>
+      <template #spoiled>
+        <ul>
+          <li class="done">Начать инвестировать</li>
+          <li class="done">Начать вести бюджет</li>
+          <li class="done">
+            <spoiler>
+              Написать и выпустить приложуху с монетизацией
+              <template slot="spoiled">
+                <a href="https://play.google.com/store/apps/details?id=dev.palka.yaxxxta">Яхточка</a>, есть реклама и
+                подписка на отключение рекламы.
+                <br>Но приложуху надо пиарить, иначе о ней никто не узнает
+              </template>
+            </spoiler>
+          </li>
+          <li class="done">
+            <spoiler>
+              Накопить 500к на брокерском счету
+              <template slot="spoiled">
+                Вкладываю 40к / мес. + решил, что <a href="https://www.tinkoff.ru/invest/moneybox/">Инвесткопилка</a> и
+                рублевый вклад это не очень выгодно, поэтому перевел их на
+                брокерский счет.
+              </template>
+            </spoiler>
+          </li>
+        </ul>
+      </template>
+    </spoiler>
+
+
+
+    <spoiler display="block">
+      <h3 class="inline-block line-through">Научиться денсить</h3>
+      <template #spoiled>
+        <ul>
+          <li class="drop">Траил группу -
+            <nuxt-link to="/exp/dance">тут</nuxt-link>
+            написаны ощущения; надо ворваться на инди в след году
+          </li>
+        </ul>
+      </template>
+    </spoiler>
+
+    <br>
+
+    <spoiler display="block">
+      <h2 class="inline">Цели на будущее</h2>
+      <template #spoiled>
+        <ul>
+          <li>
+            <spoiler>
+              Вкатиться в дезигн
+
+              <template slot="spoiled">
+                <p>
+                  Делаю бложек, приложуху, вообще нравится какой-то фронт делать. Хочется чтобы он был еще и супер
+                  сексуальным.
+                  Гугл выдает ссылочки на адобе - букв многа:
+                </p>
+
+                <p class="font-mono whitespace-pre-line">
+                  how to mobile design
+
+                  <a href="https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/">https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/</a>
+
+                  <a href="https://xd.adobe.com/ideas/principles/app-design/">https://xd.adobe.com/ideas/principles/app-design/</a>
+
+                  How to web design
+
+                  <a href="https://xd.adobe.com/ideas/principles/web-design/web-page-design/">https://xd.adobe.com/ideas/principles/web-design/web-page-design/</a>
+
+                  <a
+                    href="https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2">https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2</a>
+                </p>
+              </template>
+            </spoiler>
+          </li>
+
+          <li>
+            Сгонять почиллить за границу, напр. в Нидерланды
+          </li>
+          <li>
+            <spoiler>
+              Сменить работу
+
+              <template slot="spoiled">
+                <p>На текущей работе ничего не держит: бабос могу получать больше, в офисе ничего не происходит, задачи
+                  сам
+                  себе придумываю.</p>
+
+                <p>На хх вкусные вакансии имеются:</p>
+
+                <p class="font-mono ">
+                  <a href="https://hh.ru/vacancy/42882086">https://hh.ru/vacancy/42882086</a><br>
+                  <a href="https://hh.ru/vacancy/41263186">https://hh.ru/vacancy/41263186</a><br>
+                  <a href="https://hh.ru/vacancy/42366923">https://hh.ru/vacancy/42366923</a>
+                </p>
+
+              </template>
+            </spoiler>
+          </li>
+          <li>
+            Сдать на права
+          </li>
+          <li>
+            <spoiler>
+              Постановка голоса
+
+              <template slot="spoiled">
+                <p>Вообще не представляю что это такое, но мб интересно.</p>
+                <p>Одна из самых популярных контор - <a
+                  href="https://xn--b1abqffracbogz7j.xn--p1ai/">король говорит</a>.</p>
+              </template>
+            </spoiler>
+          </li>
+          <li>
+            Попробовать играть на муз инструменте, напр. гитарка
+          </li>
+
+          <li>Разобрать стим + Айзек на 💯</li>
+          <li>Дохуя читать</li>
+        </ul>
+      </template>
+    </spoiler>
 
 
   </article>
@@ -205,6 +270,15 @@ li {
   @apply list-none wip;
 }
 
+.unstyled {
+
+  @apply list-inside list-disc;
+}
+
+.unstyled:before {
+  content: '';
+  @apply mr-0;
+}
 
 .done:before {
   content: '✔';

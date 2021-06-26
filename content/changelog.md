@@ -4,11 +4,15 @@ title: Ченжлог
 
 # Ченжлог
 
+## 2.1.2 - 2021-06-26
+
+- [/exp/goals2021](/exp/goals2021): обновил цели: добавил киношку, закрыл финансы
+- [/dev/flutter/libs](/dev/flutter/libs): парочка новых либ
+
 ## 2.1.1 - 2021-06-22
 
 - [/dev/flutter/ads](/dev/flutter/ads): как сделать так, чтобы реклама появлялась
 - [/dev/flutter/firebase](/dev/flutter/firebase): хешииии
-- [/dev/flutter/libs](/dev/flutter/libs): парочка новых либ
 
 ## 2.1.0 - 2021-06-19
 
