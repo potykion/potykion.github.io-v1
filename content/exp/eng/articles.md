@@ -50,7 +50,7 @@ title: Инглиш / Артикли
 - *Порядковые числительные*: on **the** second floor · today is **the** tenth of May
 - *Дата: месяц / день*: in **_** September · on **_** Sunday
 - *Время: часы*: at **_** half past five · at **a** quarter past five
-- *Время дня*: in **the** morning · in **the** afternoon · in **the** evening · at **_** night
+- *Время дня*: in **the** morning · in **the** afternoon · in **the** evening · at **_** night · from **_** morning till **_** night 
 - *Расположение*: in front **_** of · in **the** middle · in **the** corner · to **the** right · to **the** left · in **the** center
 - *Расположение: стороны света*: in **the** north · in **the** south · in **the** east · in **the** west
 - *Музыкальные инструменты*: to play **the** guitar · to plat **the** piano

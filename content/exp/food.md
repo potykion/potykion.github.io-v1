@@ -41,6 +41,7 @@ title: Еда
 ## Стейки
 
 <tier-list>
+<template #а>Рибай</template>
 <template #b>Шейка</template>
 <template #d>Рамп</template>
 </tier-list>
