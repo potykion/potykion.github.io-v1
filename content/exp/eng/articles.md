@@ -43,6 +43,11 @@ title: Инглиш / Артикли
 - to watch **_** TV
 - out of **_** doors
 - in **a** ... voice: in **a** loud voice
+- to have **a** good time
+- all **_** day long
+- **a** lot of 
+- at **a** time 
+- What's **the** use
 
 ---
 
@@ -57,6 +62,9 @@ title: Инглиш / Артикли
 - *Виды спорта*: to play **_** chess · to play **_** football
 - *Дисциплины / предметы в школе*: he studies **_** chemistry · I speak **_** English
 - *Язык*: **the** English language
+- *Название университетов*: study at **_** St Petersburg University
+- *События*: **the** Iraq War, **the** Great Depression
+- *Общественные организации*: **the** Illinois State Senate
 
 ---
 
@@ -70,5 +78,6 @@ title: Инглиш / Артикли
   - **the** United Kingdom of ...
   - **the** Netherlands
   - **the** Congo
+  - **the** Ukraine
   - **the** Crimea
   - **the** Hague

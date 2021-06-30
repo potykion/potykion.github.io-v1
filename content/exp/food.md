@@ -47,3 +47,11 @@ title: Еда
 </tier-list>
 
 
+## Рыбка
+
+<tier-list>
+<template #b>Тунец</template>
+<template #с>Минтай</template>
+</tier-list>
+
+
