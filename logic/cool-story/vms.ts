@@ -5,7 +5,7 @@ export interface ArticleVM {
   createdAtStr: string;
   title: string;
   link: string;
-  tags: ArticleTagVM[];
+  tags: string[];
 }
 
 export function buildArticleVM(rawArticle: IContentDocument) {
@@ -14,37 +14,17 @@ export function buildArticleVM(rawArticle: IContentDocument) {
     createdAtStr: rawArticle.createdAt.toString().substr(0, 10),
     title: rawArticle.title,
     link: `/cool-story/${rawArticle.slug}`,
-    tags: ((rawArticle.tags ?? []) as string[]).map(
-      tag => {
-        switch (tag) {
-          case "epic":
-            return {
-              text: "Эпичная",
-              bgColor: "bg-purple-600",
-              textColor: "text-yellow-400",
-            };
-          case "cooking":
-            return {
-              text: "Кукинг",
-              bgColor: "bg-yellow-300",
-              textColor: "text-yellow-600",
-            }
-          default:
-            return {
-              text: tag,
-              bgColor: "",
-              textColor: "",
-            }
-        }
-      }
-    )
+    tags: (rawArticle.tags ?? []) as string[]
   }
 }
 
-
-export interface ArticleTagVM {
-  // slug: string;
-  text: string;
-  textColor: string;
-  bgColor: string;
+export function tagToStr(tag: string) {
+  switch (tag) {
+    case "epic":
+      return "Эпичная";
+    case "cooking":
+      return "Кукинг";
+    default:
+      return tag;
+  }
 }

@@ -11,8 +11,8 @@
         <template v-if="article.tags.length">
           <span>·</span>
           <div v-for="tag in article.tags"
-               :class="[tag.bgColor, tag.textColor, 'rounded-full', 'px-3', 'py-1', 'inline-block']">
-            {{ tag.text }}
+               :class="[tag, 'rounded-full', 'px-3', 'py-1', 'inline-block']">
+            {{ tagToStr(tag) }}
           </div>
         </template>
       </div>
@@ -37,14 +37,23 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
-import {ArticleVM} from "~/logic/cool-story/vms";
+import {ArticleVM, tagToStr} from "~/logic/cool-story/vms";
 
 @Component({})
 export default class CoolStoryArticle extends Vue {
   @Prop() article!: ArticleVM;
   @Prop({default: false}) full!: boolean;
+  tagToStr = tagToStr;
 }
 </script>
 
 <style scoped>
+.epic {
+  @apply bg-purple-600 text-yellow-400
+}
+
+.cooking {
+  @apply bg-yellow-300 text-yellow-600
+}
+
 </style>
