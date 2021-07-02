@@ -1,29 +1,23 @@
 <template>
   <article class="py-2">
-    <div class="flex justify-between items-center">
-      <div>
-        <template v-if="article.title">
-          <h2 class="inline-block">{{ article.title }}</h2>
-          <span>·</span>
-        </template>
-        <span class="text-gray-500 text-sm">{{ article.createdAtStr }}</span>
+    <template v-if="article.title">
+      <h2>{{ article.title }}</h2>
+    </template>
 
-        <template v-if="article.tags.length">
-          <span>·</span>
-          <div v-for="tag in article.tags"
-               :class="[tag, 'rounded-full', 'px-3', 'py-1', 'inline-block']">
-            {{ tagToStr(tag) }}
-          </div>
-        </template>
+    <template v-if="article.tags.length">
+      <div v-for="tag in article.tags"
+           :class="[tag, 'rounded-full', 'px-3', 'py-1', 'inline-block']">
+        {{ tagToStr(tag) }}
       </div>
+      <span>·</span>
+    </template>
 
-      <div>
-        <nuxt-link v-if="!full" :to="article.link">Фулл</nuxt-link>
-      </div>
-    </div>
-    <div>
-    </div>
+    <span class="text-gray-500 text-sm">{{ article.createdAtStr }}</span>
 
+    <template v-if="!full">
+      <span>·</span>
+      <nuxt-link :to="article.link">Фулл</nuxt-link>
+    </template>
 
     <nuxt-content :document="article.rawArticle"/>
 
