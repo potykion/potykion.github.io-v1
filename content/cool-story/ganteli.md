@@ -45,7 +45,7 @@ createdAt: 2021-05-11
 
 Еле дошел до автобусной остановки и слился - сел на автобус ради 2 остановрчек до метро
 
-![img](https://firebasestorage.googleapis.com/v0/b/dnew-b9468.appspot.com/o/uploads%2FR9PDqyAGDadDytBAdB2C0tQqVGo2%2Fscaled_image_picker1607532925864071412.jpg?alt=media&token=55406d9c-f415-426c-aed6-1ffa191aa495)
+<img-row :images="['/cool-story/ganteli-1.jpg']"></img-row>
 
 Приехав в метро, я ринулся к эскалатору, дабы кондукторы не схватили меня как лёгкую добычу с гантелями (хотя получается
 не такую уж и лёгкую). И вот я побежал по эскалатору, и у меня аж очки начали трястись, то ли от спежки, то ли от веса
@@ -53,7 +53,7 @@ createdAt: 2021-05-11
 И вот я пришел к инфососу, стою, гантели положил, а люди в метро косо начали поглядывать сначала на мои гантели, потом
 на меня)))
 
-![img](https://firebasestorage.googleapis.com/v0/b/dnew-b9468.appspot.com/o/uploads%2FR9PDqyAGDadDytBAdB2C0tQqVGo2%2Fscaled_image_picker125285598273700775.jpg?alt=media&token=f5005261-23d6-41e2-836b-2764aba8e712)
+<img-row :images="['/cool-story/ganteli-2.jpg']"></img-row>
 
 Пришла покупательница - бой-баба, кровь с молоком, я спросил, можно ли с ней сфоткаться. На что она – а зачем? –
 Странная ситуация)) - говорю я – почему странная? – Я грю люди странно смотрят))
