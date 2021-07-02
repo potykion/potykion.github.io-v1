@@ -4,6 +4,11 @@ title: Ченжлог
 
 # Ченжлог
 
+## 2.3.0 - 2021-07-02
+
+- [/cool-story](/cool-story): лента кулстори + все кулстори нарезаны на отдельные страницы
+- [/cool-story/bad-day](/cool-story/bad-day): денек не задался, но нам похуй
+
 ## 2.2.0 - 2021-06-26
 
 - [/](/): новая главная страница
@@ -35,7 +40,7 @@ title: Ченжлог
 - [/dev/flutter/ads](/dev/flutter/ads): Текстовый туториал
 - [/dev/flutter/ads](/dev/flutter/release): Добавил больше деталек: пути всяки, куда че вставлять
 - [/dev/ideas](/dev/ideas): Ютуб рандомайзер сделан
-- [/cool-story/small](/cool-story/small): Оксана
+- [/cool-story/oksana](/cool-story/oksana): Оксана
 
 ## 1.7.1 - 2021-05-18
 
@@ -48,11 +53,11 @@ title: Ченжлог
 ## 1.6.4 - 2021-05-11
 
 - [/dev/flutter/ads](/dev/flutter/ads): Реклама с Admobs
-- [/cool-story/small](/cool-story/small): Продажа гантелей
+- [/cool-story/ganteli](/cool-story/ganteli): Продажа гантелей
 
 ## 1.6.3 - 2021-05-05
 
-- [/cool-story/small](/cool-story/small): Божественное вмешательство и форсунки с чешуйницами
+- [/cool-story/god-intervention](/cool-story/god-intervention): Божественное вмешательство и форсунки с чешуйницами
 - [/dev/flutter/firebase](/dev/flutter/firebase): Cloud storage
 - [/dev/flutter/release](/dev/flutter/release): Релиз приложух в гугл-плее (написано на маркдауне!)
 
@@ -78,7 +83,7 @@ title: Ченжлог
 - Кукинг и ГХ-старс разбиты на подразделы
 - [/dev/flutter/firebase](/dev/flutter/firebase): установочка
 - [/dev/python/libs](/dev/python/libs): <b>всеее</b> любимые либы на питоне
-- [/cool-story/small](/cool-story/small):  наркоманы блядт
+- [/cool-story/padik](/cool-story/padik):  наркоманы блядт
 
 ## 1.4.0 - 2021-04-12
 
@@ -88,19 +93,19 @@ title: Ченжлог
 
 ## 1.3.3 - 2021-04-01
 
-- [/cool-story/small](/cool-story/small):  беседы в парикмахерской
+- [/cool-story/barber-2](/cool-story/barber-2):  беседы в парикмахерской
 - [/](/): приписочка про ченжлог
 - /gh-stars:  nvm, mocktail, appwrite
 
 ## 1.3.2 - 2021-03-29
 
-- [/cool-story/small](/cool-story/small): фикс опечатки (стол > ствол)
+- [/cool-story/sosedi](/cool-story/sosedi): фикс опечатки (стол > ствол)
 - Анимашка подчеркивания в хедере
 
 ## 1.3.1 - 2021-03-25
 
-- [/cool-story/small](/cool-story/small): киберпанк
-- [/cool-story/cooking/other](/cool-story/cooking/other): терияки с помидорами
+- [/cool-story/robohand](/cool-story/robohand): киберпанк
+- [/cool-story/teriaky](/cool-story/teriaky): терияки с помидорами
 - [/exp/goals2021](/exp/goals2021): друзья в оригинале
 - Нормальный свайпер и просмотрщик картинок
 
@@ -119,7 +124,7 @@ title: Ченжлог
 ## 1.1.0 - 2021-03-11
 
 - [/cool-story/pure](/cool-story/pure): аутро с благодарностью
-- [/cool-story/small](/cool-story/small): Пучача и циан
+- [/cool-story/cian](/cool-story/cian): Пучача и циан
 
 ## 1.0.0 - 2021-03-11
 

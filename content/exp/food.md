@@ -51,7 +51,7 @@ title: Еда
 
 <tier-list>
 <template #b>Тунец</template>
-<template #с>Минтай</template>
+<template #c>Минтай</template>
 </tier-list>
 
 

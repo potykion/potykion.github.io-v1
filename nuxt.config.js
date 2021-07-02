@@ -3,6 +3,8 @@ export default {
     id: 'UA-190154899-1'
   },
 
+  // ssr: false,
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   server: {
@@ -64,7 +66,17 @@ export default {
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extend (config, { isClient }) {
+      // Чтоб дебажить можно было
+      // https://stackoverflow.com/a/57392125/5500609
+      // Для дебага asyncData используй
+      // fetchOnServer: false
+      if (isClient) {
+        config.devtool = '#source-map'
+      }
+    }
+  },
 }
 
 
