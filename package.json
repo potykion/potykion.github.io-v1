@@ -8,7 +8,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "bump": "bump layouts/default.vue package.json package-lock.json content/index.md"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
