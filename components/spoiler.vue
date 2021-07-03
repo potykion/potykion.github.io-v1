@@ -1,11 +1,13 @@
 <template>
-  <div :class="display">
-    <slot></slot>
-
-    <span @click="open = !open" class="cursor-pointer ">
+  <div class="inline">
+    <div class="inline">
+      <slot></slot>
+      <span @click="open = !open" class="cursor-pointer ">
       <template v-if="open">🔼</template>
       <template v-else>🔽</template>
     </span>
+    </div>
+
 
     <template v-if="open">
       <div>
@@ -34,7 +36,6 @@ import {
 export default class Spoiler extends Vue {
   open = false;
 
-  @Prop({default: "inline"}) display!: "inline" | "block";
 
 }
 </script>

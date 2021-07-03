@@ -58,7 +58,10 @@
       <li>2021-03-11 начал смотреть Друзей в оригинале</li>
       <li>2021-06-05 начал вести базу знаний по инглишу в блоге</li>
 
-      <li>Выполнить все <a href="https://www.ozon.ru/product/angliyskiy-yazyk-grammatika-sbornik-uprazhneniy-golitsynskiy-yuriy-borisovich-225727453">упражнения по грамматике</a> (37 / 567)</li>
+      <li>Выполнить все <a
+        href="https://www.ozon.ru/product/angliyskiy-yazyk-grammatika-sbornik-uprazhneniy-golitsynskiy-yuriy-borisovich-225727453">упражнения
+        по грамматике</a> (37 / 567)
+      </li>
 
     </ul>
 
@@ -83,6 +86,7 @@
               и
               не хотелось.
             </p>
+            <br>
             <p>
               Типа общение было неплохим, но это больше было похоже на светсткую беседу:
               был челик из Норвегии, рассказывал, что там жить в 2 раза дороже;
@@ -92,6 +96,8 @@
               собирается стать digital-nomad -
               все это интересно, но я ожидал большего.
             </p>
+            <br>
+
             <p>
               Ожидал, что завяжется
               какая-то дружба, но чет нет.
@@ -113,132 +119,143 @@
       </li>
     </ul>
 
-    <spoiler display="block">
-      <h3 class="inline-block line-through">Финанс</h3>
-      <template #spoiled>
-        <ul>
-          <li class="done">Начать инвестировать</li>
-          <li class="done">Начать вести бюджет</li>
-          <li class="done">
-            <spoiler>
-              Написать и выпустить приложуху с монетизацией
-              <template slot="spoiled">
-                <a href="https://play.google.com/store/apps/details?id=dev.palka.yaxxxta">Яхточка</a>, есть реклама и
-                подписка на отключение рекламы.
-                <br>Но приложуху надо пиарить, иначе о ней никто не узнает
-              </template>
-            </spoiler>
-          </li>
-          <li class="done">
-            <spoiler>
-              Накопить 500к на брокерском счету
-              <template slot="spoiled">
-                Вкладываю 40к / мес. + решил, что <a href="https://www.tinkoff.ru/invest/moneybox/">Инвесткопилка</a> и
-                рублевый вклад это не очень выгодно, поэтому перевел их на
-                брокерский счет.
-              </template>
-            </spoiler>
-          </li>
-        </ul>
-      </template>
-    </spoiler>
+
+    <h3 class=" line-through">Финанс</h3>
+
+    <ul>
+      <li class="done">Начать инвестировать</li>
+      <li class="done">Начать вести бюджет</li>
+      <li class="done">
+        <spoiler>
+          Написать и выпустить приложуху с монетизацией
+          <template slot="spoiled">
+            <a href="https://play.google.com/store/apps/details?id=dev.palka.yaxxxta">Яхточка</a>, есть реклама и
+            подписка на отключение рекламы.
+            <br>Но приложуху надо пиарить, иначе о ней никто не узнает
+          </template>
+        </spoiler>
+      </li>
+      <li class="done">
+        <spoiler>
+          Накопить 500к на брокерском счету
+          <template slot="spoiled">
+            Вкладываю 40к / мес. + решил, что <a href="https://www.tinkoff.ru/invest/moneybox/">Инвесткопилка</a> и
+            рублевый вклад это не очень выгодно, поэтому перевел их на
+            брокерский счет.
+          </template>
+        </spoiler>
+      </li>
+    </ul>
 
 
+    <h3 class=" line-through">Научиться денсить</h3>
+    <ul>
+      <li class="drop">Траил группу -
+        <nuxt-link to="/exp/dance">тут</nuxt-link>
+        написаны ощущения; надо ворваться на инди в след году
+      </li>
+    </ul>
 
-    <spoiler display="block">
-      <h3 class="inline-block line-through">Научиться денсить</h3>
-      <template #spoiled>
-        <ul>
-          <li class="drop">Траил группу -
-            <nuxt-link to="/exp/dance">тут</nuxt-link>
-            написаны ощущения; надо ворваться на инди в след году
-          </li>
-        </ul>
-      </template>
-    </spoiler>
 
-    <br>
+    <hr>
 
-    <spoiler display="block">
-      <h2 class="inline">Цели на будущее</h2>
-      <template #spoiled>
-        <ul>
-          <li>
-            <spoiler>
-              Вкатиться в дезигн
+    <h2>Цели на будущее</h2>
 
-              <template slot="spoiled">
-                <p>
-                  Делаю бложек, приложуху, вообще нравится какой-то фронт делать. Хочется чтобы он был еще и супер
-                  сексуальным.
-                  Гугл выдает ссылочки на адобе - букв многа:
-                </p>
+    <ul>
+      <li>
+        <spoiler>
+          Вкатиться в дезигн
 
-                <p class="font-mono whitespace-pre-line">
-                  how to mobile design
+          <template slot="spoiled">
+            <p>
+              Делаю бложек, приложуху, вообще нравится какой-то фронт делать. Хочется чтобы он был еще и супер
+              сексуальным.
+              Гугл выдает ссылочки на адобе - букв многа:
+            </p>
+            <br>
 
-                  <a href="https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/">https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/</a>
+            <p class="font-mono whitespace-pre-line">
+              how to mobile design
 
-                  <a href="https://xd.adobe.com/ideas/principles/app-design/">https://xd.adobe.com/ideas/principles/app-design/</a>
+              <a href="https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/">https://xd.adobe.com/ideas/principles/app-design/10-dos-donts-mobile-app-design/</a>
 
-                  How to web design
+              <a href="https://xd.adobe.com/ideas/principles/app-design/">https://xd.adobe.com/ideas/principles/app-design/</a>
 
-                  <a href="https://xd.adobe.com/ideas/principles/web-design/web-page-design/">https://xd.adobe.com/ideas/principles/web-design/web-page-design/</a>
+              How to web design
 
-                  <a
-                    href="https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2">https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2</a>
-                </p>
-              </template>
-            </spoiler>
-          </li>
+              <a href="https://xd.adobe.com/ideas/principles/web-design/web-page-design/">https://xd.adobe.com/ideas/principles/web-design/web-page-design/</a>
 
-          <li>
-            Сгонять почиллить за границу, напр. в Нидерланды
-          </li>
-          <li>
-            <spoiler>
-              Сменить работу
+              <a
+                href="https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2">https://medium.com/@Vincentxia77/beginners-guide-how-to-learn-web-designing-at-home-796c01b8c0c2</a>
+            </p>
+          </template>
+        </spoiler>
+      </li>
 
-              <template slot="spoiled">
-                <p>На текущей работе ничего не держит: бабос могу получать больше, в офисе ничего не происходит, задачи
-                  сам
-                  себе придумываю.</p>
+      <li>
+        Сгонять почиллить за границу, напр. в Нидерланды
+      </li>
+      <li>
+        <spoiler>
+          Сменить работу
 
-                <p>На хх вкусные вакансии имеются:</p>
+          <template slot="spoiled">
+            <p>На текущей работе ничего не держит: бабос могу получать больше, в офисе ничего не происходит, задачи
+              сам
+              себе придумываю.</p>
+            <br>
 
-                <p class="font-mono ">
-                  <a href="https://hh.ru/vacancy/42882086">https://hh.ru/vacancy/42882086</a><br>
-                  <a href="https://hh.ru/vacancy/41263186">https://hh.ru/vacancy/41263186</a><br>
-                  <a href="https://hh.ru/vacancy/42366923">https://hh.ru/vacancy/42366923</a>
-                </p>
+            <p>На хх вкусные вакансии имеются:</p>
+            <br>
 
-              </template>
-            </spoiler>
-          </li>
-          <li>
-            Сдать на права
-          </li>
-          <li>
-            <spoiler>
-              Постановка голоса
+            <p class="font-mono ">
+              <a href="https://hh.ru/vacancy/42882086">https://hh.ru/vacancy/42882086</a><br>
+              <a href="https://hh.ru/vacancy/41263186">https://hh.ru/vacancy/41263186</a><br>
+              <a href="https://hh.ru/vacancy/42366923">https://hh.ru/vacancy/42366923</a>
+            </p>
 
-              <template slot="spoiled">
-                <p>Вообще не представляю что это такое, но мб интересно.</p>
-                <p>Одна из самых популярных контор - <a
-                  href="https://xn--b1abqffracbogz7j.xn--p1ai/">король говорит</a>.</p>
-              </template>
-            </spoiler>
-          </li>
-          <li>
-            Попробовать играть на муз инструменте, напр. гитарка
-          </li>
+          </template>
+        </spoiler>
+      </li>
+      <li>
+        Сдать на права
+      </li>
+      <li>
+        <spoiler>
+          Постановка голоса
 
-          <li>Разобрать стим + Айзек на 💯</li>
-          <li>Дохуя читать</li>
-          <li>Дохуя путешествовать</li>
-        </ul>
-      </template>
-    </spoiler>
+          <template slot="spoiled">
+            <p>Вообще не представляю что это такое, но мб интересно.</p>
+            <p>Одна из самых популярных контор - <a
+              href="https://xn--b1abqffracbogz7j.xn--p1ai/">король говорит</a>.</p>
+          </template>
+        </spoiler>
+      </li>
+      <li>
+        Попробовать играть на муз инструменте, напр. гитарка, пианинка
+      </li>
+
+      <li>
+        <spoiler>
+          Разобрать стим
+
+          <template slot="spoiled">
+            Хочется стим как-то отсортировать<br>
+
+            У стима есть <a href="https://steamcommunity.com/dev/apikey">апишка</a>.<br>
+            Там можно <a href="https://developer.valvesoftware.com/wiki/Steam_Web_API#GetOwnedGames_.28v0001.29">получить
+            список игор</a>.<br>
+            Полный запрос вот:<br>
+            http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&steamid=76561198028604497&format=json&include_appinfo=true&include_played_free_games=true
+
+          </template>
+
+        </spoiler>
+      </li>
+      <li>Айзек на 💯</li>
+      <li>Дохуя читать</li>
+      <li>Дохуя путешествовать</li>
+    </ul>
 
 
   </article>
