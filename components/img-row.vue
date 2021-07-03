@@ -68,8 +68,8 @@ export default class ImgRow extends Vue {
 
 <style scoped>
 img {
-  @apply max-w-full lg:max-w-3xl;
-  max-height: 48rem;
+  @apply max-w-full h-96 object-cover;
+
 
 }
 

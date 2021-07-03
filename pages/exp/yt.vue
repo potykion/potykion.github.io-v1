@@ -171,7 +171,7 @@
         cuntent-мейкеров, которым я доначу:
       </p>
 
-      <img-row :images="['/yt/humas-donate.png']"></img-row>
+      <img-row :images="['/exp/yt/humas-donate.png']"></img-row>
 
       <p>
         Похожие на Хумаса видео-мейкеры тоже существуют и все они достойны внимания. Он их собственно и пиарит: <a
