@@ -6,15 +6,15 @@
   }
 
   h2 {
-    @apply text-3xl my-4 font-bold font-serif;
+    @apply text-3xl my-2 font-bold font-serif;
   }
 
   h3 {
-    @apply text-2xl my-4 font-bold;
+    @apply text-2xl my-2 font-bold;
   }
 
   h4 {
-    @apply text-xl my-4 font-bold;
+    @apply text-xl my-2 font-bold;
   }
 
   h5 {

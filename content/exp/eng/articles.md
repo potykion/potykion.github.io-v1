@@ -39,15 +39,23 @@ title: Инглиш / Артикли
   - at **_** school, after **_** work, go **_** home, go to **_** bed
 - не употребляется перед *breakfast*, *lunch*, *tea*, *dinner*, *supper*:
   - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
+- употребляем перед *cinema*, *theatre*, *shop*, *market*:
+  - to **the** cinema, to **the** theatre, at **the** shop, at **the** market
+- go for **a** walk
 - there is **a** · there are **_** · where is **the**
 - to watch **_** TV
 - out of **_** doors
 - in **a** ... voice: in **a** loud voice
-- to have **a** good time
 - all **_** day long
 - **a** lot of 
-- at **a** time 
+- to have **a** good time, at **a** time, it's **_** high time
+- to take **_** aim, to take **_** care of
+- such **a**
 - What's **the** use
+- on **_** horseback, on **_** board a ship
+- in **_** fact, **the** same
+- употребляем в восклицательных предложениях, начинающихся с What
+  - What **a** story Mark 
 
 ---
 

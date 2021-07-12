@@ -1,25 +1,26 @@
 <template>
   <article class="py-2">
-    <template v-if="article.title">
-      <h2>{{ article.title }}</h2>
-    </template>
 
     <template v-if="article.tags.length">
-      <div v-for="tag in article.tags"
-           :class="[tag, 'rounded-full', 'px-3', 'py-1', 'inline-block']">
-        {{ tagToStr(tag) }}
-      </div>
+      <span v-for="tag in article.tags" class="font-bold">{{ tagToStr[tag] || tag }}</span>
       <span>·</span>
     </template>
-
     <span class="text-gray-500 text-sm">{{ article.createdAtStr }}</span>
 
-    <template v-if="!full">
-      <span>·</span>
-      <nuxt-link :to="article.link">Фулл</nuxt-link>
+
+    <template v-if="article.title">
+      <nuxt-link class="no-underline" :to="article.link"><h2>{{ article.title }}</h2></nuxt-link>
     </template>
 
-    <nuxt-content :document="article.rawArticle"/>
+
+    <template v-if="full || !article.rawArticle.excerpt">
+      <nuxt-content :document="article.rawArticle"/>
+    </template>
+    <template v-else>
+      <nuxt-content :document="{ body: article.rawArticle.excerpt }"/>
+      <nuxt-link :to="article.link">Читать далее</nuxt-link>
+    </template>
+
 
   </article>
 </template>
@@ -42,12 +43,5 @@ export default class CoolStoryArticle extends Vue {
 </script>
 
 <style scoped>
-.epic {
-  @apply bg-purple-600 text-yellow-400
-}
-
-.cooking {
-  @apply bg-yellow-300 text-yellow-600
-}
 
 </style>

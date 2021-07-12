@@ -5,12 +5,12 @@
         <div class=" flex justify-center">
           <template v-if="imgIsObj(img)">
             <div>
-              <img :src="`/images${img.img}`" :alt="img.img">
+              <img :src="`/images${img.img}`" :alt="img.img" class="rounded">
               <div class="text-sm italic">{{ img.caption }}</div>
             </div>
           </template>
           <template v-else>
-            <img :src="`/images${img}`" :alt="img">
+            <img :src="`/images${img}`" :alt="img" class="rounded">
           </template>
         </div>
       </template>
@@ -22,12 +22,12 @@
           <div class=" flex justify-center ">
             <template v-if="imgIsObj(img)">
               <div>
-                <img :src="`/images${img.img}`" :alt="img.img">
+                <img :src="`/images${img.img}`" :alt="img.img" class="rounded">
                 <div class="text-sm italic">{{ img.caption }}</div>
               </div>
             </template>
             <template v-else>
-              <img :src="`/images${img}`" :alt="img">
+              <img :src="`/images${img}`" :alt="img" class="rounded">
             </template>
           </div>
         </swiper-slide>
@@ -68,7 +68,7 @@ export default class ImgRow extends Vue {
 
 <style scoped>
 img {
-  @apply max-w-full h-96 object-cover;
+  @apply max-w-full max-h-96 object-cover;
 
 
 }

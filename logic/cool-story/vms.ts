@@ -18,13 +18,8 @@ export function buildArticleVM(rawArticle: IContentDocument) {
   }
 }
 
-export function tagToStr(tag: string) {
-  switch (tag) {
-    case "epic":
-      return "Эпичная";
-    case "cooking":
-      return "Кукинг";
-    default:
-      return tag;
-  }
+export const tagToStr = {
+  "epic": "Эпичное",
+  "cooking": "Кукинг",
 }
+

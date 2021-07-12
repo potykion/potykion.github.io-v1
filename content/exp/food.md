@@ -11,7 +11,7 @@ title: Еда
 <tier-list>
 <template #a>Пинк Леди</template>
 <template #b>Гренни Смит</template>
-<template #c>Голден · Спартан</template>
+<template #c>Голден · Спартан · Чемпион</template>
 <template #e>Гала</template>
 </tier-list>
 
@@ -26,7 +26,7 @@ title: Еда
 
 <tier-list>
 <template #a>Сливочный · Ламбер</template>
-<template #b>Легкий</template>
+<template #b>Легкий · Голландский · Тильзитер</template>
 <template #c></template>
 </tier-list>
 
@@ -34,7 +34,7 @@ title: Еда
 
 <tier-list>
 <template #b>Бархатный мед</template>
-<template #c>Черри</template>
+<template #c>Черри · Бычье сердце · Розовые</template>
 <template #d>Конфетто · Пинк Парадайз</template>
 </tier-list>
 
@@ -46,6 +46,8 @@ title: Еда
 <template #d>Рамп</template>
 </tier-list>
 
+- Стейки из индейки, свиной эскалоп в чистом виде не особо имеют вкус, нужно с соусом ебашить, так что они не
+  рассматриваются
 
 ## Рыбка
 
