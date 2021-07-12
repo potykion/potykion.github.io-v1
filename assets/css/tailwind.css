@@ -2,19 +2,19 @@
 
 @layer base {
   h1 {
-    @apply uppercase my-4 text-5xl tracking-widest font-serif text-center;
+    @apply my-4 text-5xl font-display font-black text-center;
   }
 
   h2 {
-    @apply text-3xl my-2 font-bold font-serif;
+    @apply text-3xl my-2  font-display font-black;
   }
 
   h3 {
-    @apply text-2xl my-2 font-bold;
+    @apply text-2xl my-2 font-bold font-display;
   }
 
   h4 {
-    @apply text-xl my-2 font-bold;
+    @apply text-xl my-2 font-bold font-display;
   }
 
   h5 {
@@ -29,12 +29,7 @@
     @apply my-2;
   }
 
-  .emote {
-    @apply h-8 inline-block;
-  }
-  .emote-small {
-    @apply h-6 inline-block;
-  }
+
 
 
 
@@ -69,9 +64,8 @@
     @apply ml-5;
   }
 
-
   hr {
-    @apply border-solid my-2;
+    @apply border-solid my-6;
   }
 
   iframe {

@@ -1,5 +1,5 @@
 <template>
-  <img :src="emotePath" class="emote" :alt="emote">
+  <img :src="emotePath" :class="small ? 'emote-small': 'emote'" :alt="emote">
 </template>
 
 <script lang="ts">
@@ -15,6 +15,7 @@ export default class TwitchEmote
   extends Vue {
 
   @Prop() emote!: string;
+  @Prop({default: false}) small!: boolean;
 
   get emotePath() {
     if (this.emote === "coolstorybob") {
@@ -31,4 +32,12 @@ export default class TwitchEmote
 </script>
 
 <style scoped>
+.emote {
+  @apply h-8 inline-block;
+}
+
+.emote-small {
+  @apply h-6 inline-block;
+}
+
 </style>

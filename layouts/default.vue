@@ -4,21 +4,15 @@
   <div class="flex flex-col h-screen">
     <nav class="bg-pink-400">
       <div class="mx-auto px-4 ">
-        <div class="h-12 flex items-center justify-between">
+        <div class="h-14 flex items-center justify-between">
+          <div class="flex space-x-4 lg:space-x-6">
+            <brand />
+            <nav-item to="/cool-story" title="Кулстори" emote="coolstorybob"/>
+            <nav-item to="/exp" title="Экспериенс" emote="5Head"/>
+            <nav-item to="/dev" title="Разработка" emote="support"/>
+          </div>
 
-
-          <nuxt-link to="/" class="nav-link">
-            <div class="nav-link-text">
-              блог из-под палки
-            </div>
-          </nuxt-link>
-
-          <nuxt-link to="/changelog" class="nav-link">
-            <div class="nav-link-text">
-              v2.4.0
-            </div>
-          </nuxt-link>
-
+          <nav-item to="/changelog" title="v2.5.0"/>
         </div>
       </div>
 
@@ -60,26 +54,18 @@ import {annotate, annotationGroup} from 'rough-notation';
 @Component
 export default class Default extends Vue {
   mounted() {
-    annotationGroup(
-      Array.from(document.querySelectorAll(".nav-link-text"))
-        .map(l => annotate(l as HTMLElement, {type: 'underline'}))
-    )
-      .show();
+    // annotationGroup(
+    //   Array.from(document.querySelectorAll(".nav-link-text"))
+    //     .map(l => annotate(l as HTMLElement, {type: 'underline'}))
+    // )
+    //   .show();
 
-    document.querySelectorAll("code").forEach(e => e.innerHTML = e.innerHTML.trim());
 
   }
 }
 </script>
 
 <style>
-.nav-link {
-  @apply no-underline text-white visited:text-white py-1 ;
-}
-
-.nav-link-text {
-  @apply leading-none;
-}
 
 .article-container {
   @apply container mx-auto px-3 lg:px-32 xl:px-64 2xl:px-96;

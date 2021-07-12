@@ -1,5 +1,5 @@
 <template>
-  <article class="py-2">
+  <article>
 
     <template v-if="article.tags.length">
       <span v-for="tag in article.tags" class="font-bold">{{ tagToStr[tag] || tag }}</span>

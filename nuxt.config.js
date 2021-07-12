@@ -8,7 +8,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   server: {
-    host: "0.0.0.0"
+    host: "0.0.0.0",
+  },
+
+  router: {
+    trailingSlash: false,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -51,10 +55,19 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-
-    '@nuxtjs/google-analytics'
-
+    // https://google-analytics.nuxtjs.org/
+    '@nuxtjs/google-analytics',
+    // https://google-fonts.nuxtjs.org/
+    '@nuxtjs/google-fonts'
   ],
+
+  googleFonts: {
+    // subsets: 'cyrillic',
+    families: {
+      "Open+Sans": [400, 700],
+      "Roboto": [400, 700, 900],
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -67,7 +80,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extend (config, { isClient }) {
+    extend(config, {isClient}) {
       // Чтоб дебажить можно было
       // https://stackoverflow.com/a/57392125/5500609
       // Для дебага asyncData используй

@@ -14,7 +14,11 @@ module.exports = {
         green: {
           300: "#7FFF7F",
         }
+      },
+      fontFamily: {
+        'sans': ['Open Sans'],
+        'display': ['Roboto']
       }
     }
-  }
+  },
 }

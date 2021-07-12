@@ -2,7 +2,7 @@
 title: Заметки про разработку
 ---
 
-## Заметки про разработку <twitch-emote emote="support"></twitch-emote>
+# Разработка <twitch-emote emote="support"></twitch-emote>
 
 - [Как блог делается](/dev/how)
 - [Резюмеха](/dev/cv)

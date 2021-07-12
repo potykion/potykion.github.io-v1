@@ -7,7 +7,7 @@
 
     <template v-for="(article, index) in articlesToShow">
       <cool-story-article :article="article"/>
-      <hr v-if="index !== articlesToShow.length - 1">
+      <hr  v-if="index !== articlesToShow.length - 1">
     </template>
 
     <div class="flex justify-center">

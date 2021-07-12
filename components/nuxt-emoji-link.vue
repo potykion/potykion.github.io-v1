@@ -23,4 +23,8 @@ export default class NuxtEmojiLink extends Vue {
 </script>
 
 <style scoped>
+.emote-small {
+  @apply h-6 inline-block;
+}
+
 </style>

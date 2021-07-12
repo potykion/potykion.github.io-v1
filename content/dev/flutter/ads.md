@@ -1,5 +1,5 @@
 ---
-title: Реклама с Admobs
+title: Flutter / Реклама с Admobs
 ---
 
 ## Flutter / Реклама с Admobs

@@ -357,14 +357,4 @@ export default class art extends Vue {
 
 <style scoped>
 
-
-h2 {
-  @apply my-2 text-2xl font-serif;
-}
-
-h3 {
-  @apply my-2 text-xl font-serif;
-}
-
-
 </style>
