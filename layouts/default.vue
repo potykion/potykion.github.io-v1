@@ -4,16 +4,15 @@
   <div class="flex flex-col h-screen">
     <nav class="bg-pink-400">
       <div class="mx-auto px-4 ">
-        <div class="h-14 flex items-center justify-between">
-          <div class="flex space-x-4 lg:space-x-6">
-            <brand />
-            <nav-item to="/cool-story" title="Кулстори" emote="coolstorybob"/>
-            <nav-item to="/exp" title="Экспериенс" emote="5Head"/>
-            <nav-item to="/dev" title="Разработка" emote="support"/>
+        <nav class="h-14 flex  justify-between space-x-4 lg:space-x-6">
+          <brand/>
+          <div class="flex flex-grow lg:space-x-6">
+            <nav-item class="flex-grow lg:flex-grow-0" to="/cool-story" title="Кулстори" emote="coolstorybob"/>
+            <nav-item class="flex-grow lg:flex-grow-0" to="/exp" title="Экспериенс" emote="5Head"/>
+            <nav-item class="flex-grow lg:flex-grow-0" to="/dev" title="Разработка" emote="support"/>
           </div>
-
           <nav-item to="/changelog" title="v2.5.0"/>
-        </div>
+        </nav>
       </div>
 
     </nav>

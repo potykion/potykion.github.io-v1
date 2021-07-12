@@ -1,6 +1,6 @@
 <template>
   <nuxt-link :to="to"
-             class="no-underline text-white visited:text-white font-display leading-none h-14  flex   items-center"
+             class="no-underline text-white visited:text-white font-display leading-none h-14  flex justify-center  items-center"
              active-class="font-bold border-b-4">
     <div>
       <span :class="emote ? 'hidden lg:inline' : ''">{{ title }}</span>
