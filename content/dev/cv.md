@@ -56,8 +56,8 @@ title: Резюмеха
 ## Навыки
 
 - Английский: Intermediate
-- [Python](/dev/python/libs): Django, Flask, Aiohttp, FastAPI, SQLAlchemy
-- [TypeScript / JavaScript](/dev/vue/libs): Vue.js, Nuxt.js, Vuetify, TailwindCSS
-- [Dart](/dev/flutter/libs): Flutter, Riverpod, Freezed
-- SQL: Postgres, MySQL, Microsoft SQL Server, Google BigQuery
+- Серверная разработка: Python + Django / Flask / Aiohttp / FastAPI + Django ORM / SQLAlchemy + [другое](/dev/python/libs)
+- Фронтенд разработка: TypeScript / JavaScript + Vue.js / Nuxt.js + Vuetify / TailwindCSS + [другое](/dev/vue/libs)
+- Мобильная разработка: Flutter + Riverpod + Freezed + [другое](/dev/flutter/libs)
+- Работа с БД: PostgreSQL / MySQL / Microsoft SQL Server / Google BigQuery
 - Прочее: Redis, RabbitMQ, ElasticSearch, Docker, Nginx, Jenkins, Firebase  

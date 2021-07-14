@@ -1,28 +1,29 @@
 ---
-title: Заметки про разработку
+title: Разработка
 ---
 
 # Разработка <twitch-emote emote="support"></twitch-emote>
 
-- [Как блог делается](/dev/how)
 - [Резюмеха](/dev/cv)
+- [Ожидания от работы](/dev/work-expectations)
+- [Как блог делается](/dev/how)
 - [Общие штучки для вебчика](/dev/base)
 - [Идеи для проектов](/dev/ideas)
 
 ### Python
 
+- [Любимые либы](/dev/python/libs)
 - [Тесты](/dev/python/tests)
 - [SQL](/dev/python/sql)
-- [Любимые либы](/dev/python/libs)
 
 ### Flutter
 
-- [Firebase](/dev/flutter/firebase)
-- [Кодогенерация](/dev/flutter/codegen)
 - [Любимые либы](/dev/flutter/libs)
-- [Штуки, которые часто забываются](/dev/flutter/faq)
 - [Релиз приложух в гугл-плее](/dev/flutter/release)
+- [Firebase](/dev/flutter/firebase)
 - [Реклама с Admobs](/dev/flutter/ads)
+- [Кодогенерация](/dev/flutter/codegen)
+- [Штуки, которые часто забываются](/dev/flutter/faq)
 
 ### Vue
 

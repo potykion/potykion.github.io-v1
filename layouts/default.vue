@@ -20,12 +20,7 @@
     <main class="flex-grow">
       <div class="article-container">
         <Nuxt/>
-        <!-- Чуток спейса для удобства -->
-        <div class="h-4">
-
-        </div>
       </div>
-
     </main>
 
     <footer>

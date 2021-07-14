@@ -11,7 +11,7 @@ title: Еда
 <tier-list>
 <template #a>Пинк Леди</template>
 <template #b>Гренни Смит</template>
-<template #c>Голден · Спартан · Чемпион</template>
+<template #c>Голден · Спартан · Чемпион · Черный принц</template>
 <template #e>Гала</template>
 </tier-list>
 

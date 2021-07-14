@@ -1,5 +1,5 @@
 ---
-title: Экспериенс жизненный
+title: Экспериенс
 ---
 
 # Экспериенс <twitch-emote emote="5Head"></twitch-emote>
