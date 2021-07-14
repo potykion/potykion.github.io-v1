@@ -1,3 +1,12 @@
+const createSitemapRoutes = async () => {
+  const {$content} = require('@nuxt/content')
+  return (await Promise.all([
+    $content('/cool-story').fetch(),
+    $content('/dev').fetch(),
+    $content('/exp').fetch(),
+  ])).flatMap(pages => pages.map(p => p.path));
+}
+
 export default {
   googleAnalytics: {
     id: 'UA-190154899-1'
@@ -73,7 +82,16 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://sitemap.nuxtjs.org/
+    // Всегда в конце!!!!
+    '@nuxtjs/sitemap',
   ],
+
+  sitemap: {
+    hostname: 'https://potyk.io',
+    gzip: true,
+    routes: createSitemapRoutes
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
