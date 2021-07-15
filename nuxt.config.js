@@ -82,10 +82,22 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+
+    // https://www.npmjs.com/package/@nuxtjs/yandex-metrika
+    '@nuxtjs/yandex-metrika',
+
     // https://sitemap.nuxtjs.org/
     // Всегда в конце!!!!
     '@nuxtjs/sitemap',
   ],
+
+  yandexMetrika: {
+    id: '82960681',
+    webvisor: true,
+    clickmap: true,
+    trackLinks: true,
+    accurateTrackBounce: true,
+  },
 
   sitemap: {
     hostname: 'https://potyk.io',
