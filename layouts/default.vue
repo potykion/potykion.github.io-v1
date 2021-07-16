@@ -26,8 +26,8 @@
     <footer>
       <div class="article-container">
         <hr/>
-        <div class="  h-12 flex ">
-          Все права защищены законом © 2021
+        <div class="h-12 ">
+          Есть что сказать? <a href="https://t.me/potykion">Напиши мне!</a>
         </div>
       </div>
     </footer>
