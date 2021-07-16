@@ -17,7 +17,7 @@
 
     </nav>
 
-    <main class="flex-grow">
+    <main class="flex-grow mt-2">
       <div class="article-container">
         <Nuxt/>
       </div>

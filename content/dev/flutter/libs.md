@@ -4,6 +4,8 @@ title: Flutter / Любимые либы
 
 ## Flutter / Любимые либы
 
+---
+
 ### Мастхев
 
 - [freezed](https://pub.dev/packages/freezed) - юнионы и иммутабельные датаклассы; есть интеграция с json_serializable
@@ -13,12 +15,16 @@ title: Flutter / Любимые либы
 - [intl](https://pub.dev/packages/intl) - форматирование дат
 - [flutter_hooks](https://pub.dev/packages/flutter_hooks) - хуки - позволяют делать логику реюзабельной, напр. позволяет добавлять стейт в стейтлес-виджеты ([гайд](https://medium.com/flutter-community/flutter-hooks-say-goodbye-to-statefulwidget-and-reduce-boilerplate-code-8573d4720f9a))
 
+---
+
 ### Стейт-менеджмент и диай
 
 - [river_pod](https://pub.dev/packages/riverpod) - самый любимый стейт-менеджмент + диай; есть [версия с хуками](https://pub.dev/packages/hooks_riverpod)
 - [bloc](https://pub.dev/packages/bloc) - стейт-менеджмент на событиях / иммутабельности / стримах - говорят, что высокий порог входа, но если знать концепции, то все норм
 - [provider](https://pub.dev/packages/provider) - диайчик на случай если стейт-менеджмент не riverpod - типа есть интеграция с bloc
 - [get](https://pub.dev/packages/get) - стейт-менеджмент / роутинг / диай / утилиты - звучит круто, но дока бедная
+
+---
 
 ### БДшки
 
@@ -27,11 +33,15 @@ title: Flutter / Любимые либы
 - [shared_preferences](https://pub.dev/packages/shared_preferences) - лайтовый персистенс
 - [moor](https://pub.dev/packages/moor) - sqlite орм
 
+---
+
 ### QA / Тестирование
 
 - [effective_dart](https://pub.dev/packages/effective_dart) - линтер
 - [mocktail](https://pub.dev/packages/mocktail) - либа для моков; апи похож на [mockito](https://pub.dev/packages/mockito), но нет кодогенерации - что упрощает использование; еще есть возможность мокать `Image.network`
 - [cloud_firestore_mocks](https://pub.dev/packages/cloud_firestore_mocks) - фаерстор моки
+
+---
 
 ### Веб клиенты / Аутентификация
 
@@ -39,6 +49,8 @@ title: Flutter / Любимые либы
 - [dio](https://pub.dev/packages/dio) - высокоуровневая обертка над http
 - [retrofit.dart](https://pub.dev/packages/retrofit) - еще более высокоуровневая обертка над http
 - [firebase_auth](https://pub.dev/packages/firebase_auth) - фаербейз ауф; есть интеграция с [гугл аутентификацией](https://pub.dev/packages/google_sign_in)
+
+---
 
 ### UI / Компоненты
 
@@ -56,6 +68,7 @@ title: Flutter / Любимые либы
 - [confetti](https://pub.dev/packages/confetti) - либа для конфети анимашки
 - [flutter_markdown](https://pub.dev/packages/flutter_markdown) - рендер маркдауна в виде richtext
 
+---
 
 ### Прочее
 

@@ -6,6 +6,8 @@ title: Как блог делается
 
 Тут будут описано чем и как я пилю блог
 
+---
+
 ### Процесс
 
 - Идеи по поводу контента оформляются в [гх-ишью](https://github.com/potykion/potykion.github.io/issues)
@@ -15,6 +17,9 @@ title: Как блог делается
   - Ишью с майлстоуном с низким приоритетом в колоночке *low priority*
   - Закрытые ишью попадают в *closed*
 
+---
+
+
 ### Технологии
 
 - **Стек:** [Nuxtjs](https://nuxtjs.org) + [Tailwindcss](https://tailwindcss.com/)
@@ -23,6 +28,9 @@ title: Как блог делается
 - **Просмотрщик картинок:** [v-viewer](https://github.com/mirari/v-viewer)
 - **Свайпер:** [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)
 - **Копирование текста**: [clipboardjs](https://clipboardjs.com)
+
+---
+
 
 ### Инструменты
 

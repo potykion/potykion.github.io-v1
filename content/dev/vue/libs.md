@@ -4,6 +4,8 @@ title: Vue / Любимые либы
 
 ## Vue / Любимые либы
 
+---
+
 ### UI
 
 -  [vuetify](https://github.com/vuetifyjs/vuetify) <nuxt-emoji-link to="https://github.com/nuxt-community/vuetify-module"></nuxt-emoji-link>  - лучший ui фреймворк про материал дезигн, все что надо есть: сетка, дейтпикеры, селекты и тд
@@ -22,6 +24,8 @@ title: Vue / Любимые либы
 - [rough-notation](https://github.com/rough-stuff/rough-notation) - стилизовачка текста
 - [spark-joy](https://github.com/sw-yx/spark-joy) - подборочка дезигн приколюх
 
+---
+
 ### Тестирование
 
 - [jest](https://github.com/facebook/jest) - лучший фреймворк для юнит и интегрейшн тестов
@@ -29,12 +33,16 @@ title: Vue / Любимые либы
   типа моканья хттп-запросов
 - [husky](https://github.com/typicode/husky) - коммит хуки
 
+---
+
 ### TS + Vue/Nuxt
 
 - [vue-class-component](https://github.com/vuejs/vue-class-component), [vue-property-decorator](https://github.com/kaorun343/vue-property-decorator) <nuxt-emoji-link to="https://github.com/nuxt-community/nuxt-property-decorator"></nuxt-emoji-link> - позволяет писать vue-компоненты в виде тс-классов
 - [vuex-simple](https://github.com/sascha245/vuex-simple)  - работа с vuex на классах - код читаемее + стейт типизирован
   - не надо писать <code>mapState</code>, <code>mapGetters</code> и проч.
 - [vue-typedi](https://github.com/sascha245/vue-typedi) - диайчик, плотно интегрируется с либой выше
+
+---
 
 ### Прочее
 

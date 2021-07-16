@@ -4,6 +4,8 @@ title: Экспериенс
 
 # Экспериенс <twitch-emote emote="5Head"></twitch-emote>
 
+---
+
 - [Вишлист](/exp/wishlist)
 - [Цели 2021](/exp/goals2021)
 - [Рисовач](/exp/art)

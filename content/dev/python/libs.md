@@ -4,6 +4,7 @@ title: Python / Любимые либы
 
 ## Python / Любимые либы
 
+---
 
 ### Веб-фреймворки
 
@@ -16,6 +17,8 @@ title: Python / Любимые либы
 -   [aiohttp](https://docs.aiohttp.org/en/stable/) - один из первых асинхронных фреймворков; по фичам - аналогичен фласку: в коробке роутинг, мидлваре, простенький сёрв статики; суть асинхронности в том, что повышается производительность серва; еще в коробке есть асинхронный веб-клиент
 -   [FastAPI](https://fastapi.tiangolo.com/) - еще один асинхронный фреймворк (но можно писать и в синхронном стиле), суть в том, что схемы запросов и ответов можно описывать, используя тайпинги и Pydantic + есть интеграция со сваггером из коробки + неплохой диай на функциях
 
+---
+
 ### Работа с бд
 
 -   Django ORM - лучшная ормка, идет в комплекте с Django
@@ -23,6 +26,8 @@ title: Python / Любимые либы
 -   [aiopg](https://github.com/aio-libs/aiopg) - асинхронная работа с постгресом, есть интеграция с sqlalchemy-запросами; альтернативы: [asyncpg](https://github.com/MagicStack/asyncpg)
 -   [repka](https://github.com/potykion/repka) - _собственная разработка_, асинхронная абстракция над бд на базе aiopg
 -   [pymongo](https://pymongo.readthedocs.io/en/stable/) - официальный клиент для работы с монгой, есть [асинхронная версия](https://motor.readthedocs.io/en/stable/)
+
+---
 
 ### Веб-клиенты
 
@@ -32,12 +37,16 @@ title: Python / Любимые либы
 -   [requests-html](https://docs.python-requests.org/projects/requests-html/en/latest/) - лучший парсер html; альтернативы: [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 -   [splinter](https://github.com/cobrateam/splinter) - более высокоуровневая обертка над [Selenium](https://github.com/SeleniumHQ/selenium/) - штукой для управлением браузера; альтернативы: [helium](https://github.com/mherrmann/selenium-python-helium)
 
+---
+
 ### Работа с данными
 
 -   [pydantic](https://github.com/samuelcolvin/pydantic) - комбо из питоновских дата-классов и парсилки джсона - очень приятно с данными работать становится; есть [плагин на pycharm](https://github.com/koxudaxi/pydantic-pycharm-plugin); альтернативы: [питоновские датаклассы](https://docs.python.org/3/library/dataclasses.html), [attrs](https://www.attrs.org/en/stable/), [marshmallow](https://marshmallow.readthedocs.io/en/stable/)
 -   [humps](https://github.com/nficano/humps) - конвертит словари из одного нейминга в другой
 -   [more-itertools](https://github.com/more-itertools/more-itertools) - различные утилитки для работы с коллекциями
 -   [parse](https://pypi.org/project/parse/) - противоположность `format` - позволяет парсить строки по шаблону, не упарываясь регулярками
+
+---
 
 ### Работа с документами
 
@@ -49,6 +58,7 @@ title: Python / Любимые либы
 -   [docci](https://github.com/potykion/docci) - _собственная разработка_, абстракция работы с файлами: определение mime-type, конвертация в base64, сохранение/загрузка; а также работа с зип-архивами, эксельками, директориями
 -   [xmltodict](https://github.com/martinblech/xmltodict) - нормальная работа с xml
 
+---
 
 ### QA
 
@@ -75,6 +85,7 @@ title: Python / Любимые либы
 -   [stackprinter](https://github.com/cknd/stackprinter) - получше стектрейс; альтернативы: [PySnooper](https://github.com/cool-RR/PySnooper)
 -   [scalene](https://github.com/plasma-umass/scalene) - профилировщик
 
+---
 
 ### Девопс
 
@@ -82,6 +93,7 @@ title: Python / Любимые либы
 -   [Supervisor](http://supervisord.org/) - управление процессами - автоматически запускает/перезапускает процессы на линукс-машинке, напр. gunicorn, альтернативы: [Docker](https://www.docker.com/)
 -   [Fabric](http://www.fabfile.org/) - выполнение команд на удаленной машине; альтернативы: [ansible](https://docs.ansible.com/)
 
+---
 
 ### Прочее
 

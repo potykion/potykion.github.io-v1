@@ -2,7 +2,7 @@
 
 @layer base {
   h1 {
-    @apply my-4 text-5xl font-display font-black text-center;
+    @apply my-2 text-5xl font-display font-black text-center;
   }
 
   h2 {

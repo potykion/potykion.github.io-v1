@@ -2,7 +2,8 @@
 <template>
   <article>
     <h1>Цели 2021</h1>
-
+    <hr />
+    
     <h3>Посмотреть фильмы из "Буду смотреть"</h3>
     <ul>
       <exp-goal-step status="done">

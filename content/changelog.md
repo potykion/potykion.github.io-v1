@@ -4,6 +4,8 @@ title: Ченжлог
 
 # Ченжлог
 
+---
+
 ## 2.6.0 - 2021-07-14
 
 - [/dev/work-expectations](/dev/work-expectations): Ожидания от работы
