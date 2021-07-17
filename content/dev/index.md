@@ -11,10 +11,8 @@ title: Разработка
 - [Резюмеха](/dev/cv)
 - [Ожидания от работы](/dev/work-expectations)
 - [Фронтенд-биография](/dev/vue/bio)
-
-[comment]: <> (- [Бекенд-биография]&#40;/dev/python/bio&#41;)
-
 - [Алгоритмы](/dev/algo)
+- [Бекенд-биография](/dev/python/bio)
 
 ### Python
 
