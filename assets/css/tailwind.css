@@ -30,9 +30,6 @@
   }
 
 
-
-
-
   ul {
     @apply list-inside list-disc;
   }
@@ -78,8 +75,16 @@
   }
 
   button {
-    @apply px-3 py-1 bg-pink-400 text-white rounded;
+    @apply px-2 lg:px-4 py-2 bg-pink-400 text-black rounded-lg   border-2 border-black ;
   }
+  button:focus {
+    @apply outline-none;
+  }
+
+  button:hover {
+    @apply bg-pink-500;
+  }
+
 
   code {
     @apply bg-gray-100;
