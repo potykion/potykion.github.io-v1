@@ -18,28 +18,31 @@ import {
   Component,
   Prop,
   Vue,
+  Watch
 } from "nuxt-property-decorator"
 import {ArticleVM} from "~/logic/cool-story/vms";
 
 @Component({})
 export default class CoolStoryViewer extends Vue {
   @Prop() allArticles!: ArticleVM[];
-  @Prop({default: 5}) articlesLimit!: number;
+  @Prop({default: 5}) pageLimit!: number;
 
-  fromArticles: number = 0;
-  articlesToShow: ArticleVM[] = [];
-  moreArticles = true;
+  limit = this.pageLimit;
 
-  mounted() {
-    this.loadMoreArticles();
+  get articlesToShow() {
+    console.log(this.allArticles.slice(0, this.limit));
+
+    return this.allArticles.slice(0, this.limit);
 
   }
 
+  get moreArticles() {
+    return this.allArticles.length > this.articlesToShow.length;
+  }
+
   async loadMoreArticles() {
-    let articlesPage = this.allArticles.slice(this.fromArticles, this.fromArticles + this.articlesLimit);
-    this.articlesToShow = [...this.articlesToShow, ...articlesPage];
-    this.moreArticles = articlesPage.length === this.articlesLimit;
-    this.fromArticles += this.articlesLimit;
+    this.limit += this.pageLimit;
+    console.log(this.limit);
   }
 
 }
