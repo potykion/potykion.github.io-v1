@@ -34,7 +34,7 @@
         <div class="flex-grow"></div>
 
         <div>
-          <nuxt-link to="/changelog">v2.5.0</nuxt-link> © <nuxt-link to="/n">потикон</nuxt-link>
+          <nuxt-link to="/changelog">v2.6.0</nuxt-link> © <nuxt-link to="/n">потикон</nuxt-link>
         </div>
 
       </div>

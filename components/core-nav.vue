@@ -13,7 +13,7 @@
             🔍
           </button>
 
-          <nav-item to="/changelog" title="v2.5.0"/>
+          <nav-item to="/changelog" title="v2.6.0"/>
         </div>
       </div>
 

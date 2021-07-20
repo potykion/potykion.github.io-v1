@@ -1,6 +1,6 @@
 {
   "name": "potykion.github.io",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -10,7 +10,7 @@
     "test": "jest",
     "lint": "node lint.js",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "bump": "bump layouts/default.vue package.json package-lock.json pages/index.vue"
+    "bump": "bump package.json package-lock.json pages/index.vue components/core-nav.vue"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
