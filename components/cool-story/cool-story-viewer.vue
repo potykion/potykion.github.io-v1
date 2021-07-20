@@ -26,7 +26,7 @@ export default class CoolStoryViewer extends Vue {
   @Prop() allArticles!: ArticleVM[];
   @Prop({default: 5}) articlesLimit!: number;
 
-  fromArticles!: number = 0;
+  fromArticles: number = 0;
   articlesToShow: ArticleVM[] = [];
   moreArticles = true;
 
