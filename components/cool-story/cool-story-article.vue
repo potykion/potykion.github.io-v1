@@ -2,7 +2,9 @@
   <article>
 
     <template v-if="article.tags.length">
-      <span v-for="tag in article.tags" class="font-bold">{{ tagToStr[tag] || tag }}</span>
+      <template v-for="tag in article.tags">
+        <nuxt-link :to="`/search?tag=${tag}`" class="no-underline text-black visited:text-black"><span class="font-bold">{{ tagToStr[tag] || tag }}</span></nuxt-link>
+      </template>
       <span>·</span>
     </template>
     <span class="text-gray-500 text-sm">{{ article.createdAtStr }}</span>

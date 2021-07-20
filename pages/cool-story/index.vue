@@ -5,18 +5,10 @@
       <twitch-emote emote="coolstorybob"></twitch-emote>
     </h1>
 
-    <hr />
+    <hr/>
 
-    <template v-for="(article, index) in articlesToShow">
-      <cool-story-article :article="article"/>
-      <hr  v-if="index !== articlesToShow.length - 1">
-    </template>
+    <cool-story-viewer :all-articles="allArticles"/>
 
-    <div class="flex justify-center">
-      <button v-if="moreArticles" @click="loadMoreArticles">Еще</button>
-      <!--       todo ералаш -->
-      <span v-else>Все!</span>
-    </div>
   </div>
 
 
@@ -34,40 +26,20 @@ import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
     const allArticles = (
       await $content("/cool-story")
         .sortBy("createdAt", "desc")
-
         .fetch() as IContentDocument
     ).map(buildArticleVM);
 
-    const articlesLimit = 5;
-
-    return {
-      allArticles,
-      articlesLimit,
-      fromArticles: articlesLimit,
-      articlesToShow: allArticles.slice(0, articlesLimit),
-    };
+    return {allArticles};
   },
-  // fetchOnServer: false,
+  fetchOnServer: false,
   head() {
     return {
-      title: "Кулстори",
+      title: "Кулстори"
     }
   }
 })
 export default class coolStory extends Vue {
   allArticles!: ArticleVM[];
-  articlesToShow!: ArticleVM[];
-
-  fromArticles!: number;
-  articlesLimit!: number;
-  moreArticles = true;
-
-  async loadMoreArticles() {
-    let articlesPage = this.allArticles.slice(this.fromArticles, this.fromArticles + this.articlesLimit);
-    this.articlesToShow = [...this.articlesToShow, ...articlesPage];
-    this.moreArticles = articlesPage.length === this.articlesLimit;
-    this.fromArticles += this.articlesLimit;
-  }
 }
 
 </script>
