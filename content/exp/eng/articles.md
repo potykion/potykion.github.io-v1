@@ -60,26 +60,25 @@ title: Инглиш / Артикли
 - *Порядковые числительные*: on **the** second floor · today is **the** tenth of May
 - *Ежедневные места*
   - at **_** school, after **_** work, go **_** home, go to **_** bed
-- *Прием пищи*:
-  - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
-  - in **the** dinning room
-- *Досуг*:
-  - to **the** cinema, to **the** theatre, at **the** shop, at **the** market
-- *Дата: месяц / день*: in **_** September · on **_** Sunday
-- *Время: часы*: at **_** half past five · at **a** quarter past five
+- *Расположение: Город / деревня*: in **the** country · in **_** town
+- *Транспорт*: by **_** bus · by **_** tram · by **_** train · by **_** car
+- *Расположение: стороны света*: in **the** north · in **the** south · in **the** east · in **the** west
+- *Расположение*:
+  - in **the** middle · in **the** corner · to **the** right · to **the** left · in **the** center
+  - in front **_** of ·
 - *Время дня*:
   - in **the** morning · in **the** afternoon · in **the** evening
   - it was **_** morning · it was **_** evening · it was **_** night · it was **_** daytime
   - at **_** night · from **_** morning till **_** night
   - at **_** sunrise · at **_** sunset
+- *Время: часы*: at **_** half past five · at **a** quarter past five
+- *Дата: месяц / день*: in **_** September · on **_** Sunday
 - *Времена года*: in **_** spring · in **_** summer · in **_** autumn · in **_** winter
-
-- *Расположение*:
-  - in **the** middle · in **the** corner · to **the** right · to **the** left · in **the** center
-  - in front **_** of ·
-- *Расположение: стороны света*: in **the** north · in **the** south · in **the** east · in **the** west
-- *Расположение: Город / деревня*: in **the** country · in **_** town
-- *Транспорт*: by **_** bus · by **_** tram · by **_** train · by **_** car
+- *Прием пищи*:
+  - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
+  - in **the** dinning room
+- *Досуг*:
+  - to **the** cinema, to **the** theatre, at **the** shop, at **the** market
 - *Музыкальные инструменты*: to play **the** guitar · to plat **the** piano
 - *Виды спорта*: to play **_** chess · to play **_** football
 - *Дисциплины / предметы в школе*: he studies **_** chemistry · I speak **_** English
