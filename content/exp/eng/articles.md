@@ -18,9 +18,7 @@ title: Инглиш / Артикли
   - другое существительное в притяжательном падеже: dog's, father's
   - количественное числительное: one, thousand
   - отрицание no (не not)
-
---- 
-
+  
 - Упоминая предмет впервые юзаем **a**, употребляя вторично юзаем **the**
   - This is **a** book. **The** book is interesting.
 
@@ -37,48 +35,58 @@ title: Инглиш / Артикли
 
 ---
 
-- не употребляется перед *school*, *work*, *home*, *bed*:
-  - at **_** school, after **_** work, go **_** home, go to **_** bed
-- не употребляется перед *breakfast*, *lunch*, *tea*, *dinner*, *supper*:
-  - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
-- употребляем перед *cinema*, *theatre*, *shop*, *market*:
-  - to **the** cinema, to **the** theatre, at **the** shop, at **the** market
 - go for **a** walk
 - there is **a** · there are **_** · where is **the**
 - to watch **_** TV
 - out of **_** doors
 - in **a** ... voice: in **a** loud voice
 - all **_** day long
-- **a** lot of 
+- **a** lot of
 - to have **a** good time, at **a** time, it's **_** high time
 - to take **_** aim, to take **_** care of
 - such **a**
+- after **a** while
+- from **_** place to **_** place
+- to set **_** sail
 - What's **the** use
 - on **_** horseback, on **_** board a ship
 - in **_** fact, **the** same
 - употребляем в восклицательных предложениях, начинающихся с What
-  - What **a** story Mark 
+  - What **a** story Mark
 
 ---
 
 - *Превосходная степень*: **the** longest eee boi
 - *Порядковые числительные*: on **the** second floor · today is **the** tenth of May
+- *Ежедневные места*
+  - at **_** school, after **_** work, go **_** home, go to **_** bed
+- *Прием пищи*:
+  - to have **_** breakfast, to cook **_** lunch, to make **_** tea, to prepare **_** dinner
+  - in **the** dinning room
+- *Досуг*:
+  - to **the** cinema, to **the** theatre, at **the** shop, at **the** market
 - *Дата: месяц / день*: in **_** September · on **_** Sunday
 - *Время: часы*: at **_** half past five · at **a** quarter past five
-- *Время дня*: 
+- *Время дня*:
   - in **the** morning · in **the** afternoon · in **the** evening
-  - at **_** night · from **_** morning till **_** night 
-- *Расположение*: 
+  - it was **_** morning · it was **_** evening · it was **_** night · it was **_** daytime
+  - at **_** night · from **_** morning till **_** night
+  - at **_** sunrise · at **_** sunset
+- *Времена года*: in **_** spring · in **_** summer · in **_** autumn · in **_** winter
+
+- *Расположение*:
   - in **the** middle · in **the** corner · to **the** right · to **the** left · in **the** center
-  - in front **_** of · 
+  - in front **_** of ·
 - *Расположение: стороны света*: in **the** north · in **the** south · in **the** east · in **the** west
+- *Расположение: Город / деревня*: in **the** country · in **_** town
+- *Транспорт*: by **_** bus · by **_** tram · by **_** train · by **_** car
 - *Музыкальные инструменты*: to play **the** guitar · to plat **the** piano
 - *Виды спорта*: to play **_** chess · to play **_** football
 - *Дисциплины / предметы в школе*: he studies **_** chemistry · I speak **_** English
 - *Язык*: **the** English language
 - *Название университетов*: study at **_** St Petersburg University
 - *События*: **the** Iraq War, **the** Great Depression
-- *Общественные организации*: **the** Illinois State Senate
+- *Общественные организации*: **the** Illinois State Senate · call **the** police
 
 ---
 
