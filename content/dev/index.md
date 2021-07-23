@@ -24,6 +24,7 @@ title: Разработка
 
 - [Любимые либы](/dev/flutter/libs)
 - [Релиз приложух в гугл-плее](/dev/flutter/release)
+- [Платные подписки](/dev/flutter/subscriptions)
 - [Firebase](/dev/flutter/firebase)
 - [Реклама с Admobs](/dev/flutter/ads)
 - [Кодогенерация](/dev/flutter/codegen)

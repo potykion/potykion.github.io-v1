@@ -6,6 +6,11 @@ title: Ченжлог
 
 ---
 
+## 2.7.0 - UNRELEASED
+
+- [/dev/flutter/subscriptions](/dev/flutter/subscriptions): Платные подписки во флаттере
+
+
 ## 2.6.0 - 2021-07-20
 
 - Кнопочки на главной

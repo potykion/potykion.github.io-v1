@@ -22,7 +22,7 @@
           <div class=" flex justify-center ">
             <template v-if="imgIsObj(img)">
               <div>
-                <img :src="`/images${img.img}`" :alt="img.img" class="rounded">
+                <img :src="`/images${img.img}`" :alt="img.alt" class="rounded">
                 <div class="text-sm italic">{{ img.caption }}</div>
               </div>
             </template>
@@ -51,7 +51,7 @@ import {SwiperOptions} from "swiper";
 
 @Component
 export default class ImgRow extends Vue {
-  @Prop() images!: string[] | { img: string, caption: string }[];
+  @Prop() images!: string[] | { img: string, caption?: string, alt?: string }[];
 
   swiperOptions: SwiperOptions = {
     pagination: {
