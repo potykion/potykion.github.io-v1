@@ -4,7 +4,8 @@ const createSitemapRoutes = async () => {
     $content('/cool-story').fetch(),
     $content('/dev').fetch(),
     $content('/exp').fetch(),
-  ])).flatMap(pages => pages.map(p => p.path));
+  ])).flatMap(pages => pages.map(p => p.path)
+    .map(p => p.endsWith("/index") ? p.slice(0, "/index".length) : p));
 }
 
 export default {
@@ -108,7 +109,7 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
-
+    liveEdit: false,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
