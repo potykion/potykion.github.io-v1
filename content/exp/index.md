@@ -4,6 +4,8 @@ title: Экспериенс
 
 # Экспериенс <twitch-emote emote="5Head"></twitch-emote>
 
+<p class="text-center text-gray-500">Не кулстори, не разработка, что-то посередине</p>
+
 ---
 
 - [Вишлист](/exp/wishlist)

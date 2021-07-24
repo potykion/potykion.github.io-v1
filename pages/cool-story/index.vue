@@ -4,6 +4,7 @@
       Кулстори
       <twitch-emote emote="coolstorybob"></twitch-emote>
     </h1>
+    <p class="text-center text-gray-500">Свалка историй для пацанов</p>
 
     <hr/>
 

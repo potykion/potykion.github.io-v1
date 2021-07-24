@@ -4,6 +4,9 @@ title: Разработка
 
 # Разработка <twitch-emote emote="support"></twitch-emote>
 
+
+<p class="text-center text-gray-500">Тут можно почитать про мои разработческие навыки</p>
+
 ---
 
 ### Работадателю
