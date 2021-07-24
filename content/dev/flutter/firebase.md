@@ -1,5 +1,6 @@
 ---
 title: Flutter / Firebase
+description: Как подключить Firebase-сервисы во Flutter, экономя на разработке сервера
 ---
 
 ## Flutter / Firebase

@@ -1,13 +1,13 @@
 ---
 title: Flutter / Кодогенерация
+description: Как делать кодогенерацию во Flutter на примере json_serializable
 ---
 
 ## Flutter / Кодогенерация
 
 Многое во Flutter разработке делается через кодогенерацию, потому что рефлекшена нет.
 
-Разберем процесс кодогенерации на процессе генерации джсон сериализаторов с помощью <a
-  href="https://pub.dev/packages/json_serializable">json_serializable</a>.
+Разберем процесс кодогенерации на процессе генерации джсон сериализаторов с помощью [json_serializable](https://pub.dev/packages/json_serializable).
 
 1. Пишем обычный класс:
 
@@ -17,6 +17,7 @@ class Person {
   final String firstName;
   final String lastName;
   final DateTime dateOfBirth;
+  
   Person({this.firstName, this.lastName, this.dateOfBirth});
 }
 ```
@@ -32,13 +33,15 @@ class Person {
   final String firstName;
   final String lastName;
   final DateTime dateOfBirth;
+  
   Person({this.firstName, this.lastName, this.dateOfBirth});
+  
   factory Person.fromJson(Map<String, dynamic> json) => _$PersonFromJson(json);
   Map<String, dynamic> toJson() => _$PersonToJson(this);
 }
 ```
 
-3. Импортируем part-файл - файл, в котором будет сгенерерированный код, реализующий методы определенные выше:
+3. Импортируем с помощью ключевого слова `part` `.g.dart`-файл - файл, в котором будет сгенерированный код, реализующий методы определенные выше:
 
 ```dart
 // example.dart
@@ -51,7 +54,9 @@ class Person {
   final String firstName;
   final String lastName;
   final DateTime dateOfBirth;
+  
   Person({this.firstName, this.lastName, this.dateOfBirth});
+  
   factory Person.fromJson(Map<String, dynamic> json) => _$PersonFromJson(json);
   Map<String, dynamic> toJson() => _$PersonToJson(this);
 }

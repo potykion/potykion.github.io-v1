@@ -1,5 +1,6 @@
 ---
 title: Разработка
+description: Тут можно почитать про мои разработческие навыки
 ---
 
 # Разработка <twitch-emote emote="support"></twitch-emote>
@@ -21,7 +22,7 @@ title: Разработка
 
 - [Любимые либы](/dev/python/libs)
 - [Тесты](/dev/python/tests)
-- [SQL](/dev/python/sql)
+- [Штуки, которые часто забываются](/dev/python/faq)
 
 ### Flutter
 

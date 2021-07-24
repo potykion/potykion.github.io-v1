@@ -52,6 +52,12 @@ export default {
   head() {
     return {
       title: "Блог из-под палки",
+      meta: [
+        {
+          name: 'description',
+          content: "Блог с кулсторями, заметками про разработку и экспериенс жизненный"
+        },
+      ],
     }
   },
 }

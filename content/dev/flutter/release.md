@@ -1,9 +1,12 @@
 ---
-title: Flutter / Релиз приложух в гугл-плее
+title: Flutter / Релиз приложух в Google Play
+description: Заливать приложения в Google Play довольно просто: нужно сгенерить файлик, добавить пару строк в пару файликов, и можно собирать apk     
 ---
 
 
 ## Flutter / Релиз приложух в гугл-плее
+
+Заливать приложения в Google Play довольно просто: нужно сгенерить подпись, добавить пару строк в пару файликов, и можно собирать apk.
 
 1. Генерим `upload-keystore.jks`:
 
@@ -11,7 +14,8 @@ title: Flutter / Релиз приложух в гугл-плее
    keytool -genkey -v -keystore {PATH}\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
    ```
 
-    - Где `PATH` - путь к проекту или директория, куда генерим `upload-keystore.jks`
+    - `keytool` - утилита для генерации подписи, идет в коробке вместе с `java` 
+    - `PATH` - путь к проекту или директория, куда генерим `upload-keystore.jks`
     - Пример команды с путями:
       ```bash
       "C:\Program Files (x86)\Java\jre1.8.0_251\bin\keytool" -genkey -v -keystore C:\Users\potyk\IdeaProjects\dnew\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
@@ -70,5 +74,5 @@ title: Flutter / Релиз приложух в гугл-плее
 
 ### Ссылочки
 
-- [Основа](https://flutter.dev/docs/deployment/android)
+- [Официальный гайд от гугла](https://flutter.dev/docs/deployment/android)
 - [Еще один неплохой гайд](https://codelabs.developers.google.com/codelabs/flutter-in-app-purchases#3)

@@ -23,6 +23,12 @@ glob("./content/**/**.md", {}, function (er, files) {
       if (!metadata.title) {
         throw `Не определен title в файле:\n${f}`;
       }
+
+      // Чекаем есть ли description в /dev-статье
+      if (!metadata.description && f.includes("/dev/")) {
+        throw `Не определен description в файле:\n${f}`;
+      }
+
     }
   )
 });

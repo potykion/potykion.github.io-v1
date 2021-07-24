@@ -1,5 +1,6 @@
 ---
 title: Flutter / Любимые либы
+description: Dart и Flutter библиотеки на все случаи жизни
 ---
 
 ## Flutter / Любимые либы

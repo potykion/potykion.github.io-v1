@@ -12,6 +12,13 @@ export default {
   head() {
     return {
       title: this.page.title,
+      meta: [
+        {
+          name: 'description',
+          content: this.page.description
+        },
+      ],
+
     }
   },
 }

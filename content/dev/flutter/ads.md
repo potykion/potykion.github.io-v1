@@ -1,10 +1,11 @@
 ---
-title: Flutter / Реклама с Admobs
+title: Flutter / Как сделать баннерную рекламу 
+description: Создай баннер в Google Admobs, поставь библиотечку google_mobile_ads и вуаля 
 ---
 
-## Flutter / Реклама с Admobs
+## Flutter / Баннерная реклама с Google AdMob
 
-[Основа](https://www.youtube.com/watch?v=m0d_pbgeeG8&t=2s) - здесь дают минимум теории о рекламе (типа, ad-unit) + сетап
+Основа - [видосик от челов из Гугла](https://www.youtube.com/watch?v=m0d_pbgeeG8&t=2s) - здесь дают минимум теории о рекламе (типа, ad-unit) + сетап
 рекламы во флаттер проекте
 
 ### Туториал текстом
@@ -25,7 +26,7 @@ title: Flutter / Реклама с Admobs
   <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ПЕРВЫЙ АЙДИШНИК АД ЮНИТА"/>
   ```
 
-5. Второй айдишник - айдишник ад юнита - передаем в BannerAd
+5. Второй айдишник - айдишник ад юнита - передаем в BannerAd, предварительно поставив [либу для показа рекламы](https://pub.dev/packages/google_mobile_ads) 
 
    Ниже пример кода, который отписывает riverpod-провайдер для баннеров:
 

@@ -32,7 +32,7 @@ import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
 
     return {allArticles};
   },
-  fetchOnServer: false,
+  // fetchOnServer: false,
   head() {
     return {
       title: "Кулстори"
