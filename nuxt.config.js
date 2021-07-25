@@ -88,9 +88,26 @@ export default {
     // https://www.npmjs.com/package/@nuxtjs/yandex-metrika
     '@nuxtjs/yandex-metrika',
 
-    // https://sitemap.nuxtjs.org/
+    // https://www.npmjs.com/package/@nuxtjs/redirect-module
+    '@nuxtjs/redirect-module',
+
     // Всегда в конце!!!!
+    // https://sitemap.nuxtjs.org/
     '@nuxtjs/sitemap',
+  ],
+
+  redirect: [
+    // Фиксит редиректы на / (/exp/sleep > /exp/sleep/ - так не должно быть)
+    // https://stackoverflow.com/a/60621932/5500609
+    {
+      // eslint-disable-next-line
+      from: '(?!^\/$|^\/[?].*$)(.*\/[?](.*)$|.*\/$)',
+      to: (from, req) => {
+        const base = req._parsedUrl.pathname.replace(/\/$/, '');
+        const search = req._parsedUrl.search;
+        return base + (search != null ? search : '');
+      }
+    },
   ],
 
   yandexMetrika: {
