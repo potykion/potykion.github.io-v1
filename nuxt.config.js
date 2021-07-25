@@ -23,9 +23,6 @@ export default {
 
   router: {
     trailingSlash: false,
-    // Фиксит редиректы на / (/exp/sleep > /exp/sleep/ - так не должно быть)
-    // https://stackoverflow.com/a/63537296/5500609
-    middleware: 'trailingSlashRedirect',
 
   },
 
