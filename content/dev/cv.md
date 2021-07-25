@@ -60,8 +60,8 @@ description: Меня можно нанять!!!!!!!!!!
 ## Навыки
 
 - Английский: Intermediate
-- Серверная разработка: Python + Django / Flask / Aiohttp / FastAPI + Django ORM / SQLAlchemy + [другое](/dev/python/libs)
-- Фронтенд разработка: TypeScript / JavaScript + Vue.js / Nuxt.js + Vuetify / TailwindCSS + [другое](/dev/vue/libs)
-- Мобильная разработка: Flutter + Riverpod + Freezed + [другое](/dev/flutter/libs)
+- Бекенд: Python + Django / Flask / Aiohttp / FastAPI + Django ORM / SQLAlchemy + [другое](/dev/python/libs)
+- Фронтенд: TypeScript / JavaScript + Vue.js / Nuxt.js + Vuetify / TailwindCSS + [другое](/dev/vue/libs)
+- Мобилка: Flutter + Riverpod + Freezed + [другое](/dev/flutter/libs)
 - Работа с БД: PostgreSQL / MySQL / Microsoft SQL Server / Google BigQuery
 - Прочее: Redis, RabbitMQ, ElasticSearch, Docker, Nginx, Jenkins, Firebase  
