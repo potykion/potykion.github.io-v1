@@ -79,7 +79,12 @@ W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status:
 
 2. Когда апп залит в гугл-плей, необходимо скопировать фингерпринт и оттуда:
 
-<img-row :images="['/dev/flutter/gplay.png']"></img-row>
+
+
+<new-img-row>
+  <img-slide src="/images/dev/flutter/firebase/gplay-fingerprint.png" alt="Fingerprint в Google Play Console"></img-slide>
+</new-img-row>
+
 
 
 ### Вебчик

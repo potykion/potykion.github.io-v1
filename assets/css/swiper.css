@@ -1,3 +1,8 @@
 .swiper-pagination-bullet-active {
   @apply bg-pink-400 !important;
 }
+
+.swiper-pagination-bullet {
+  @apply mb-3 !important;
+
+}

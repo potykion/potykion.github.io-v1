@@ -11,8 +11,10 @@ description: Залей приложение в Google Play Console, появи�
 
 2. Переходим в `Monetize > Subscriptions`, создаем подписку, запоминаем `Product ID`
 
-<img-row :images="[{img: '/dev/flutter/subscriptions/gplay-console-subscription-creation.png', alt: 'Созданная подписка в Google Play Console'}]">
-</img-row>
+<new-img-row>
+  <img-slide src="/images/dev/flutter/subscriptions/gplay-console-subscription-creation.png" alt="Созданная подписка в Google Play Console"></img-slide>
+</new-img-row>
+
 
 3. Ставим либу [in_app_purchase](https://pub.dev/packages/in_app_purchase)
 4. Подгружаем плагин + подгружаем инфу о подписке, сохраняя куда-нибудь, напр. в глобальную переменную `subscriptionInfo`:
@@ -87,8 +89,10 @@ InAppPurchase.instance.buyNonConsumable(
 
 7. Все, при вызове метода выше появится панелька от гугла о покупке подписки
 
-<img-row :images="[{img: '/dev/flutter/subscriptions/gplay-subscription-purchase.jpg', alt: 'Панелька покупки подписки'}]">
-</img-row>
+<new-img-row>
+  <img-slide src="/images/dev/flutter/subscriptions/gplay-subscription-purchase.jpg" alt="Панелька покупки подписки"></img-slide>
+</new-img-row>
+
 
 - После покупки, хук выше кинет событие покупки, которое необходимо обработать 
 - Для разработчика покупка подписки будет производиться в [тестовом режиме](https://developer.android.com/google/play/billing/test), у остальных в релизе будет все ок - оплата с реальной карты

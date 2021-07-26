@@ -27,7 +27,7 @@ description: Тут можно почитать про мои разработч
 ### Flutter
 
 - [Любимые либы](/dev/flutter/libs)
-- [Релиз приложух в гугл-плее](/dev/flutter/release)
+- [Как собирать apk для Google Play](/dev/flutter/apk)
 - [Платные подписки](/dev/flutter/subscriptions)
 - [Firebase](/dev/flutter/firebase)
 - [Реклама с Admobs](/dev/flutter/ads)
@@ -37,7 +37,7 @@ description: Тут можно почитать про мои разработч
 ### Vue
 
 - [Любимые либы](/dev/vue/libs)
-- [Семантическая верста](/dev/vue/seo)
+- [Семантическая верстка](/dev/vue/seo)
 
 ### Прочее
 

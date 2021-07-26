@@ -1,5 +1,5 @@
 ---
-title: Flutter / Как сделать баннерную рекламу 
+title: Flutter / Как сделать баннерную рекламу через Google AdMob
 description: Создай баннер в Google Admobs, поставь библиотечку google_mobile_ads и вуаля 
 ---
 
@@ -10,23 +10,27 @@ description: Создай баннер в Google Admobs, поставь библ
 
 ### Туториал текстом
 
-1. Заходим в Admobs, создаем акк
-2. Создаем апп, выбрав в поле "Is the app listed on a supported app store?" варик "No":
+1. Заходим в Google AdMob, создаем апп:
 
-<img-row :images="['/dev/add_app_1.png', '/dev/add_app_2.png']"></img-row>
+<new-img-row>
+  <img-slide src="/images/dev/flutter/ads/add_app_1.png" alt="Интерфейс создания аппа в AdMob"></img-slide>
+  <img-slide src="/images/dev/flutter/ads/add_app_2.png" alt='В поле "Is the app listed on a supported app store?" выбираем "No"'></img-slide>
+</new-img-row>
 
-3. Создаем ад-юнит
 
-<img-row :images="['/dev/ad_unit_1.png']"></img-row>
+2. Создаем ad unit:
 
-4. После создания ад-юнита нам покажут пару айдишников, первый андроидный прописываем
-   в `android/app/src/main/AndroidManifest.xml`:
+<new-img-row>
+  <img-slide src="/images/dev/flutter/ads/ad_unit.png" alt="Интерфейс создания ad unit"></img-slide>
+</new-img-row>
+
+3. После создания ад-юнита нам покажут пару айдишников, первый андроидный прописываем в `android/app/src/main/AndroidManifest.xml`:
 
   ```
   <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ПЕРВЫЙ АЙДИШНИК АД ЮНИТА"/>
   ```
 
-5. Второй айдишник - айдишник ад юнита - передаем в BannerAd, предварительно поставив [либу для показа рекламы](https://pub.dev/packages/google_mobile_ads) 
+4. Второй айдишник - айдишник ад юнита - передаем в BannerAd, предварительно поставив [либу для показа рекламы](https://pub.dev/packages/google_mobile_ads) 
 
    Ниже пример кода, который отписывает riverpod-провайдер для баннеров:
 
@@ -71,7 +75,7 @@ description: Создай баннер в Google Admobs, поставь библ
     );
     ```
 
-6. Используем BannedAd в виджете:
+5. Используем BannedAd в виджете:
 
   ```
   Consumer(
