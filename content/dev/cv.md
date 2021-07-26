@@ -30,12 +30,12 @@ description: Меня можно нанять!!!!!!!!!!
 
 ## Опыт
 
-### ООО “Рубикон”, Москва
+### [ООО “Рубикон”](https://rbcn.mobi/), Москва
 
 **Июнь 2016 - Настоящее время · Full Stack разработчик**
 
 Компания разрабатывает сайты и мобильные приложения по доставке еды, а также занимается заказной
-разработкой: [https://rbcn.mobi/](http://rbcn.mobi/)
+разработкой.
 
 #### Чем занимался
 
@@ -60,8 +60,8 @@ description: Меня можно нанять!!!!!!!!!!
 ## Навыки
 
 - Английский: Intermediate
-- Бекенд: Python + Django / Flask / Aiohttp / FastAPI + Django ORM / SQLAlchemy + [другое](/dev/python/libs)
-- Фронтенд: TypeScript / JavaScript + Vue.js / Nuxt.js + Vuetify / TailwindCSS + [другое](/dev/vue/libs)
-- Мобилка: Flutter + Riverpod + Freezed + [другое](/dev/flutter/libs)
+- Бекенд: Python + Django / Flask / Aiohttp / FastAPI + Django ORM / SQLAlchemy
+- Фронтенд: TypeScript / JavaScript + Vue.js / Nuxt.js + Vuetify / TailwindCSS
+- Мобилка: Flutter + Riverpod + Freezed
 - Работа с БД: PostgreSQL / MySQL / Microsoft SQL Server / Google BigQuery
 - Прочее: Redis, RabbitMQ, ElasticSearch, Docker, Nginx, Jenkins, Firebase  
