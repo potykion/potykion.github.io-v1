@@ -5,11 +5,15 @@ createdAt: 2021-05-05
 
 Как-то раз захожу в ванну, а там тварь какая-то:
 
-<img-row :images="['/cool-story/insect-1.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/stress/insect-1.jpg" alt="Чешуйница обыкновенная" ></img-slide>
+</new-img-row>
 
 Я вспомнил, что Игоречек тоже про каких-то тварей в трубах рассказывал, и решил обрадовать его:
 
-<img-row :images="['/cool-story/insect-2.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/stress/insect-2.jpg" alt="Мерзкая хуйня, да" ></img-slide>
+</new-img-row>
 
 Я вспомнил даже название - мокрица - или по-другому чешуйница
 

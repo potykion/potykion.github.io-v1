@@ -6,13 +6,18 @@ createdAt: 2021-02-12
 Возвращаюсь с танцевали, а тогда метель шла - метель вообще кайф - холод, снег в ебло, все тает прям на тебе. Так вот,
 прихожу домой и вспоминаю, что у меня окна открыты, в тч на балконе. Бегу на балкон и вижу завальчик:
 
-<img-row :images="['/cool-story/small/snow-1.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/snow/snow-1.jpg" alt="Завальчик" ></img-slide>
+</new-img-row>
 
 <!--more-->
 
 Блякаю, выкладываю в инстуху балкон, закрываю второе окно - там тоже приспустило снежка:
 
-<img-row :images="['/cool-story/small/snow-2.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/snow/snow-2.jpg" alt="Приспустило снежка" ></img-slide>
+</new-img-row>
+
 
 Иду жрекать: убирать снег на балконе в 23 часа мне было лень.
 "Уберу завтра" - решил я, ещё решил балкон не закрывать, потому что иначе я боялся, что снег растает за ночь и будет
@@ -20,17 +25,23 @@ createdAt: 2021-02-12
 
 На утро захожу на балкон, а там сугробище:
 
-<img-row :images="['/cool-story/small/snow-3.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/snow/snow-3.jpg" alt="Сугробище" ></img-slide>
+</new-img-row>
 
 Поблякал, начал думать как убирать это, и мне пришла гениальная идея - с помощью совка и ведра. И тупа в детство
 перенёсся - как в песочнице покапался:
 
-<img-row :images="['/cool-story/small/snow-4.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/snow/snow-4.jpg" alt="Тупа бек ин чайлдхуд" ></img-slide>
+</new-img-row>
 
 Таким образом вышло 2 15 литровых ведра со снегом, остался последний вопрос - куда его девать. С балкона ведро снега
 выкидывать как-то не хотелось, решил в ванну за кинуть. В итоге получил снежную ванночку:
 
-<img-row :images="['/cool-story/small/snow-5.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/snow/snow-5.jpg" alt="Ванночка" ></img-slide>
+</new-img-row>
 
 И начался кайф: я взял душик и начал топить снег, и через несколько минут от снега ничего не осталось - класс.
 

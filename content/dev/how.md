@@ -44,3 +44,4 @@ description: Стек, библиотечки, инструменты
   емоуты**: https://www.streamscheme.com/resources/twitch-emotes-meaning-complete-list-monkas-pogchamp-omegalul-kappa/
 - **Генератор оттенков**: https://maketintsandshades.com/
 - **Дезигн инспирейшн**: https://dribbble.com/
+- **Транслитератор**: https://translit.ru/seo/
