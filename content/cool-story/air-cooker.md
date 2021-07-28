@@ -15,7 +15,9 @@ tags:
 ужин
 затестить вот такого красавца:
 
-<img-row :images="['/cool-story/cooking/air-cooker-1.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/air-cooker/air-cooker-1.jpg" alt="Аэрогриль собственной персоной (с приколом)" ></img-slide>
+</new-img-row>
 
 
 Закинул курицу, нажал на кнопку курицы, и ничо не происходит. Я потыкался ещё, и чето начало происходить, что-то
@@ -40,23 +42,32 @@ tags:
 ДА
 БЛЯДЬ ЭТО ЕБАНАЯ НАКЛЕЙКА НА САМОМ ДЕЛЕ ЭИРКУКЕР ВЫГЛЯДИТ ТАК
 
-<img-row :images="['/cool-story/cooking/air-cooker-2.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/air-cooker/air-cooker-2.jpg" alt="Аэрогриль без прикола" ></img-slide>
+</new-img-row>
+
 
 
 Ну побомбили, поржали, поготовили, пожрали, подвыпили, партии 4 загрузили в эиркукер, было неплохо, а потом я
 обнаружил
 вот это:
 
-<img-row :images="['/cool-story/cooking/socket-melt.jpg']"></img-row>
-
-Оказывается, сзади эиркукера выходил пар и он расплавил нахуй розетки))))
+<new-img-row>
+  <img-slide src="/images/cool-story/air-cooker/socket-melt.jpg" alt="Сзади эиркукера выходил пар и он расплавил нахуй розетки))))" ></img-slide>
+</new-img-row>
 
 Говорить о таком лендлорду я стремался, и вместе с Костей мы заменили раму, но постфактум оказалось, что
 заменили с
 приколом)))
 
-<img-row :images="['/cool-story/cooking/socket-replace.jpg', '/cool-story/cooking/socket-upside-down.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/air-cooker/socket-replace.jpg" alt="Разобранная розетка" ></img-slide>
+  <img-slide src="/images/cool-story/air-cooker/socket-upside-down.jpg" alt="Собранная розетка с приколом" ></img-slide>
+</new-img-row>
 
 А так аэрогриль норм тема. Берешь стейк, посыпаешь специями, закидываешь и через 12 минут у тебя вкусный стейк
 
-<img-row :images="['/cool-story/cooking/steak-before.jpg', '/cool-story/cooking/steak-after.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/air-cooker/steak-before.jpg" alt="Закинул стейк и оп" ></img-slide>
+  <img-slide src="/images/cool-story/air-cooker/steak-after.jpg" alt="Стейк готов" ></img-slide>
+</new-img-row>

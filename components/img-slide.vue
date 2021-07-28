@@ -1,7 +1,7 @@
 <template>
   <swiper-slide>
     <div class=" flex justify-center ">
-      <figure>
+      <figure class="flex flex-col items-center  ">
         <img :src="src" :alt="alt" class="rounded" loading="lazy" :width="width" :height="height" />
         <figcaption v-if="showCaption">{{ alt }}</figcaption>
       </figure>

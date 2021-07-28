@@ -1,14 +1,14 @@
 ---
-title: Джейми Оливер
-createdAt: 2021-01-12
-tags: 
+title: Джейми Оливер 
+createdAt: 2021-01-12 
+tags:
   - cooking
 ---
 
 С нового года я поставил себе кучу целей, в частности инвестирование. Помимо инвест учебника, я решил воспользоваться
-супер приложухой [treep](https://treep.ai/). Суть приложухи в том, что оно предлагает тебе чем заняться, то
-есть нечем заняться - открываешь treep и подбираешь себе занятие. В этой приложухе есть ещё *навыки* - по сути набор
-занятий на одну тематику. Среди этих навыков было инвестирование - поэтому я о нем и вспомнил.
+супер приложухой [treep](https://treep.ai/). Суть приложухи в том, что оно предлагает тебе чем заняться, то есть нечем
+заняться - открываешь treep и подбираешь себе занятие. В этой приложухе есть ещё *навыки* - по сути набор занятий на
+одну тематику. Среди этих навыков было инвестирование - поэтому я о нем и вспомнил.
 
 <!--more-->
 
@@ -28,7 +28,12 @@ tags:
 Паста мисо всё-таки была, на озоне, как кунжутная паста, но не горошек. Первая мысль где взять горошек - сходить на
 рынок, т.е. в депошку. Там был горох, который я назвал "где сиськи?":
 
-<img-row :images="['/cool-story/cooking/peas-death-1.jpg', '/cool-story/cooking/peas-death-2.jpg']"></img-row>
+
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/peas-death-1.jpg" alt="Тут горох, да?" ></img-slide>
+  <img-slide src="/images/cool-story/jamie-oliver/peas-death-2.jpg" alt="Нет, тут нет гороха" ></img-slide>
+</new-img-row>
+
 
 Потом загуглил рыночки, нашел центральный рынок - а это на самом деле не центральный рынок, а центральный фудкорт. Рынок
 там - небольшая площадь на -1 этаже. Горох там, соответственно, такой же - миллипиздрический.
@@ -50,7 +55,11 @@ tags:
 она оч соленая. Ещё по поводу кунжута: 30 грамм - это прям в притык на 2 стейка, для комфортного
 "обваливания" я бы рекомендовал 100г.
 
-<img-row :images="['/cool-story/cooking/tuna.jpg']"></img-row>
+
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/tuna.jpg" alt="Стейк из тунца БЕЗ ГОРОХА" ></img-slide>
+</new-img-row>
+
 
 ---
 
@@ -61,20 +70,26 @@ tags:
 Тефтельки делались из смеси фарша и песто. Я соединил это дело, смочил водичкой, как на видосе, скатал тефтельки,
 положил на сковороду и ХУЛИ ВЫ РАЗЛАМЫВАТЬСЯ НАЧАЛИ????
 
-<img-row :images="['/cool-story/cooking/meatballs.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/meatballs.jpg" alt="Ну рил, это че такое???" ></img-slide>
+</new-img-row>
+
 
 Возможно дело в размере, ну да ладно, двигаемся дальше. Дальше надо взять консервированные томаты, взять в руки, и
 выжимать их на сковороду - ахуенно!!! - тупа уничтожаешь помидоры. Дальше сцена на тему "ух бля":
 
-<video autoplay loop muted>
-  <source src="/images/cool-story/cooking/yx-blya.mp4" type="video/mp4">
+<video autoplay loop muted >
+  <source src="/images/cool-story/jamie-oliver/yx-blya.mp4" type="video/mp4">
 </video>
 
 
 Далее выкладываем на это дело моцарелку, поливаем водичкой из-под моцарелки для большего "ух бля" эффекта, и накрываем
 крышкой. Крышки у меня не было, пришлось применить смекалочку - накрыть большую сковороду сковородой поменьше:
 
-<img-row :images="['/cool-story/cooking/krywka-jokera.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/krywka-jokera.jpg" alt="Оно того не стоит, лучше купить крышку" ></img-slide>
+</new-img-row>
+
 
 Эта идея пришла мне еще до начала готовки, но у этого подхода был один минус, который я не учел: как снимать крышку,
 онаж нагреется, а прихватки у меня тоже нет. В итоге я, давя рукой, укутанной в полотенце, поддел лопаточкой сковороду и
@@ -92,27 +107,38 @@ tags:
 слабо, мол приготовь к завтрашнему дню печенье.
 
 Я вызов принял, закупил необходимые ингредиенты без проблем и приступил к готовке. Измельчил хлеб, добавил яичко и
-сахар, расплавил шоколад, добавил масла и все смешал - получилась каловая масса:
+сахар, расплавил шоколад, добавил масла и все смешал - получилась...
 
-<img-row :images="['/cool-story/cooking/cookie-1.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/cookie-1.jpg" alt="Каловая масса" ></img-slide>
+</new-img-row>
 
 Кондитерского мешка у меня не было, на что Николь сказала мне заюзать целофановый пакет. Целофановый пакет тоже
-отсутствовал, но он был во вкусвилле - получился мешок с говном:
+отсутствовал, но он был во вкусвилле - получился...
 
-<img-row :images="['/cool-story/cooking/cookie-2.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/cookie-2.jpg" alt="Мешок с говном" ></img-slide>
+</new-img-row>
 
-Выдавив основу на противень - получилась противень с говном:
+Выдавив основу на противень - получился...
 
-<img-row :images="['/cool-story/cooking/cookie-3.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/cookie-3.jpg" alt="Противень с говном" ></img-slide>
+</new-img-row>
 
 Потом говно запекалась в духовке:
 
-<img-row :images="['/cool-story/cooking/cookie-4.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/cookie-4.jpg" alt="Ну рил че печенье так некрасиво выглядит?" ></img-slide>
+</new-img-row>
 
 В результате печеньки малясь пригорели, и все ещё выглядели как говно, но тем не менее получились неплохими - 10 штук
 слопал + потом на работе с молоком с Николь схомячили.
 
-<img-row :images="['/cool-story/cooking/cookie-5.jpg', '/cool-story/cooking/cookie-6.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/cookie-5.jpg" alt="Результат" ></img-slide>
+  <img-slide src="/images/cool-story/jamie-oliver/cookie-6.jpg" alt="Одна печенька выглядит не так уж и плохо" ></img-slide>
+</new-img-row>
 
 ---
 
@@ -126,7 +152,13 @@ tags:
   вкусненько, сочненько, но жирно, надо чем-то жироабсорбирующим заедать, типа хлебушка
 - карбонара с тефтельками - тупа паста - быстро, вкусно; тефтельки делаются путем расхуячивания колбасок
 
-<img-row :images="['/cool-story/cooking/cheese.jpg', '/cool-story/cooking/rack-of-lamb-3.jpg', '/cool-story/cooking/carbonara.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/cheese.jpg" alt="Ебучий сыр" ></img-slide>
+  <img-slide src="/images/cool-story/jamie-oliver/rack-of-lamb-3.jpg" alt="Баранья корейка" ></img-slide>
+  <img-slide src="/images/cool-story/jamie-oliver/carbonara.jpg" alt="Простая карбонара" ></img-slide>
+</new-img-row>
+
+---
 
 **2021-02-24**
 
@@ -134,7 +166,9 @@ tags:
 сыпать, а он затвердел. Постучал, сыр немного рассыпался, но этого было мало. Потом вилочкой решил разрыхлить, потом
 смотрю а вилка синяя. Я такой хм, странно, чё это вилка синяя, смотрю внутрь банки, а там плесень:
 
-<img-row :images="['/cool-story/cooking/mold.png']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/jamie-oliver/mold.png" alt="Сыр с приколом" ></img-slide>
+</new-img-row>
 
 Начал блякать и ржать, посмотрел на срок годности - 10.02 и сказал "бля не мог 2 недели продолжать что-ли?)))". А Джейми
 в это время говорит "Такой свежий солнечный вкус". Ну почти ебать)))

@@ -1,5 +1,5 @@
 <template>
-  <div v-viewer="{title: false, toolbar: false, navbar: false}" class="images">
+  <div v-viewer="{title: true, toolbar: false, navbar: false}" class="images">
     <swiper ref="mySwiper" :options="swiperOptions">
       <slot></slot>
       <div class="swiper-pagination" slot="pagination"></div>

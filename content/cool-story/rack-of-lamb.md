@@ -36,13 +36,19 @@ allowfullscreen></iframe>
 наебалова. До покупки корейки я не знал как выглядит корейка, во время видоса я не особо обратил внимание на то, как
 выглядит корейка, а потом как обратил:
 
-<img-row :images="['/cool-story/cooking/rack-of-lamb-1.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/rack-of-lamb/rack-of-lamb-1.jpg" alt="Баранья корейка от наебщиков" ></img-slide>
+</new-img-row>
+
 
 Мяса нихуя не было, тупа жир, мне впарили какие-то ошметки за 1700 НАЕБЩИКИ УУУ СУКА НО ПРОДАВЩИЦА БЫЛА ТАДЖИЧКОЙ И
 ПРЕДЛОЖИЛА НАСВАЙ (хз кем продавщица была, ето цитата из <a href="https://youtu.be/wcNh85_N22U?t=130">трека</a>)
 
 То есть все должно было выглядеть получше, типа так:
 
-<img-row :images="['/cool-story/cooking/rack-of-lamb-2.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/rack-of-lamb/rack-of-lamb-2.jpg" alt="Нормальная баранья корейка" ></img-slide>
+</new-img-row>
+
 
 О фото выше расскажу позже

@@ -14,20 +14,30 @@ tags:
 
 Приехал ананас, мы начали фоткаться с ним:
 
-<img-row :images="['/cool-story/fruit-ninja/pineapple.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/pineapple.jpg" alt="Ананас, водка и мы" ></img-slide>
+</new-img-row>
 
 Игоречку очень нравился мой нож, когда я впервые ему показал его, мы сыграли во фрут-нинзя ирл: я подкидывал
 яблоко, а он пытался его рубануть:
 
-<img-row :images="['/cool-story/fruit-ninja/knife.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/knife.jpg" alt="Примерно такой ножичек" ></img-slide>
+</new-img-row>
+
 
 И вот мы решили поиграть еще раз, только я не подкидывал ананас, а держал его за листья
 
-<img-row :images="['/cool-story/fruit-ninja/pineapple-knife.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/pineapple-knife.jpg" alt="Рубанули, у меня ебало уже предвосхищает что будет дальше" ></img-slide>
+</new-img-row>
 
 Первый удар разрубил ананас, а второй удар разрубил мой палец)))
 
-<img-row :images="['/cool-story/fruit-ninja/deep-cuts-1.jpg', '/cool-story/fruit-ninja/deep-cuts-2.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/deep-cuts-1.jpg" alt="А как флексите вы?)" ></img-slide>
+  <img-slide src="/images/cool-story/fruit-ninja/deep-cuts-2.jpg" alt="Пальчик на фоне поляны" ></img-slide>
+</new-img-row>
 
 Очевидно что я тогда испытывал разные чувства, но боль не особо, ведь я был синий.
 
@@ -41,7 +51,9 @@ tags:
 По пути в аптеку, я выложил сторис “А как флексите вы?)” (которую удалил спустя несколько часов, а зря), на
 которую внезапно ответила Мальвушка:
 
-<img-row :images="['/cool-story/fruit-ninja/malvushk.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/malvushk.jpg" alt="Типичный русский вечер" ></img-slide>
+</new-img-row>
 
 А ответила она когда Игорь обнаружил, что проебал свою карту. И нет чтобы забить хуй и перевыпустить карту, он
 настаивал на том, чтобы вернуться в аптеку и поискать ее. А я тем временем продолжал истекать кровью, и согласился
@@ -60,7 +72,9 @@ tags:
 Вернувшись домой, мы начали смотреть прекрасный фильм “Экстаз”. Игоречек уже умирал, но он понимал, что в фильме
 происходит полный пиздец:
 
-<img-row :images="['/cool-story/fruit-ninja/climax.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/climax.jpg" alt="Игоречек умирает, в Экстазе тоже умирают" ></img-slide>
+</new-img-row>
 
 
 Я всю ночь переживал, что на утро моему пальчику пизда, но обошлось, и с утреца я чувствовал себя нормально.
@@ -78,7 +92,10 @@ tags:
 
 На пути в аптеку произошло чудо - Игоречек боковым зрением увидел остатки своей проебанной карты:
 
-<img-row :images="['/cool-story/fruit-ninja/card.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/card.jpg" alt="Леджендари селфачок на след день" ></img-slide>
+</new-img-row>
+
 
 Также на пути в аптеку мы увидели следы крови на асфальте, которые оставил я))
 
@@ -88,4 +105,6 @@ tags:
 По итогу, могу дать один совет: не играйте во Фрут Ниндзя в оффлайне на бухую голову, а то может неприятно
 закончится))
 
-<img-row :images="['/cool-story/fruit-ninja/seam.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/fruit-ninja/seam.jpg" alt="Шовчик" ></img-slide>
+</new-img-row>

@@ -16,7 +16,9 @@ tags:
 Книга состоит из ебанутых блюд, от которых хз что ожидать,
 но я всё-таки налистал кое-что несложное и понятное - потофе.
 
-<img-row :images="['/cool-story/cooking/pot-au-feu.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/gourmet/pot-au-feu.jpg" alt="Потофе" ></img-slide>
+</new-img-row>
 
 Закупил миллиард ингредиентов, типа лука порей умри еврей, сельдерея, картохи, моркови, говядины, специй; начал
 все
@@ -39,7 +41,10 @@ tags:
 заказывать
 лень было, там и привозят на след день!!!
 
-<img-row :images="['/cool-story/cooking/paella.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/gourmet/paella.jpg" alt="Паэлья" ></img-slide>
+</new-img-row>
+
 
 ---
 
@@ -54,7 +59,9 @@ tags:
 побежал за 3 пачками йогурта, то есть сделал 2 доставки и ещё сходил в магаз. По итогу тупа соусец, норм тема,
 хорошо с тостовым хлебом заходит.
 
-<img-row :images="['/cool-story/cooking/tzatziki.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/gourmet/tzatziki.jpg" alt="Дзадзики" ></img-slide>
+</new-img-row>
 
 ---
 
@@ -75,7 +82,10 @@ tags:
 минут), а я эту жижу уже залил в тарелку, а значит надо переливать все в блендер - класс. Что в итоге-то? Кислое
 масло с послевкусием икры - ахуенно (нет).
 
-<img-row :images="['/cool-story/cooking/tarama.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/gourmet/tarama.jpg" alt="Тарама" ></img-slide>
+</new-img-row>
+
 
 ---
 
@@ -90,6 +100,8 @@ tags:
 получился,
 но кисленький.
 
-<img-row :images="['/cool-story/cooking/hummus.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/cool-story/gourmet/hummus.jpg" alt="Хумус" ></img-slide>
+</new-img-row>
 
 На этом книгу "Мечта гурмана" я отложил. До новых мечтаний приготовить ебанутые блюда, книжечка.
