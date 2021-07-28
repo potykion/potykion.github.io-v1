@@ -30,8 +30,6 @@ export default class CoolStoryViewer extends Vue {
   limit = this.pageLimit;
 
   get articlesToShow() {
-    console.log(this.allArticles.slice(0, this.limit));
-
     return this.allArticles.slice(0, this.limit);
 
   }
@@ -42,7 +40,6 @@ export default class CoolStoryViewer extends Vue {
 
   async loadMoreArticles() {
     this.limit += this.pageLimit;
-    console.log(this.limit);
   }
 
 }

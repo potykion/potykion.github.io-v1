@@ -2,14 +2,17 @@
   <div>
     <h1>ГИГИ</h1>
 
-    <img-row :images="['/exp/gigs.jpg']"></img-row>
 
+    <new-img-row>
+      <img-slide src="/images/exp/gigs/ovsi.jpg" alt="Овси гигосик на нг"></img-slide>    
+    </new-img-row>
+    
     <p>
       Здесь будет список конциков, на которые я хочу сходить в этому году, если ковид конечно закончится.
     </p>
 
     <ul>
-      <li v-for="c in concerts">
+      <li v-for="c in concerts" :key="c.title">
         <a :href="c.link"><b>{{ c.title }}</b> · {{ c.date.toLocaleDateString('ru-RU') }} · {{ c.club }}</a>
       </li>
     </ul>

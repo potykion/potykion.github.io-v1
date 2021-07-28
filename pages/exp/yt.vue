@@ -4,7 +4,9 @@
 
     <h1>Ютуб</h1>
 
-    <img-row :images="['/exp/yt/channels.png']"></img-row>
+    <new-img-row>
+      <img-slide src="/images/exp/yt/channels.png" alt="Подписочки"></img-slide>
+    </new-img-row>
 
     <p>
       На момент записи я обнаружил, что подписан на 200 каналов на ютубе. Бывает меня спрашивают, что порекоммендуешь
@@ -20,7 +22,10 @@
         Видики смешного характера я смотрю с детства, и про них могу рассказать целую историю.
       </p>
 
-      <img-row :images="['/exp/yt/humor.jpg']"></img-row>
+      <new-img-row>
+        <img-slide src="/images/exp/yt/humor.jpg" alt="Связи в ржаке на ютубе"></img-slide>
+      </new-img-row>
+
 
       <p>
         Раньше, в году 2010, был <a href="https://www.youtube.com/user/Maddyblog/featured"><b>Maddyson</b></a>, потом
@@ -33,7 +38,7 @@
       </p>
 
 
-      <img-card img="/exp/yt/xaa.png" :streamline="true">
+      <img-card img="/exp/yt/xaa.png" alt="XAAPAKTEP" :streamline="true">
         <p>
           В той же тусовке был <a
           href="https://www.youtube.com/user/XAAPAKTEP"><b>XAAPAKTEP</b></a>, который поначалу записывал как ребятки
@@ -167,11 +172,13 @@
         я выше: сложный монтаж, а ля ХААРАКТЕР; работа в г-моде + фотошопе; куча мемов; смешные словечки и фразочки,
         типа
         <i>хедятина</i>, <i>приколдобина</i>, <i>психобаза конкретная</i>, <i>пушечка басяцкая</i>, <i>классно +
-        прикольно</i>. Бтв он один из немногих
-        cuntent-мейкеров, которым я доначу:
+        прикольно</i>.
       </p>
 
-      <img-row :images="['/exp/yt/humas-donate.png']"></img-row>
+
+      <new-img-row>
+        <img-slide src="/images/exp/yt/humas-donate.png" alt="Бтв он один из немногих cuntent-мейкеров, которым я доначу"></img-slide>
+      </new-img-row>
 
       <p>
         Похожие на Хумаса видео-мейкеры тоже существуют и все они достойны внимания. Он их собственно и пиарит: <a

@@ -4,11 +4,9 @@
 
     <h2> Как научиться рисовать?</h2>
 
-    <p>
-      Берешь и рисуешь.
-    </p>
-
-    <img-row :images="['/exp/art/berew-i-risyew.png']"></img-row>
+    <new-img-row>
+      <img-slide src="/images/exp/art/berew-i-risyew.png" alt="Берешь и рисуешь"></img-slide>
+    </new-img-row>
 
     <h2>Лень</h2>
 
@@ -44,7 +42,9 @@
 
     <p><a href="http://art-55.ru/">А-ля прима</a></p>
 
-    <img-row :images="[{img: '/exp/art/ebalo.png', caption: 'Даже моя ебучка есть'}]"></img-row>
+    <new-img-row>
+      <img-slide src="/images/exp/art/ebalo.png" alt="Даже моя ебучка есть"></img-slide>
+    </new-img-row>
 
     <h2>Скок стоит?</h2>
 
