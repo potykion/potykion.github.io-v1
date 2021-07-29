@@ -24,8 +24,7 @@ description: Что-то воплощаю в жизнь, что-то хз как
 Есть мысль, что будучи авторизованным, такие видео можно будет
 смотреть ([видимо незя](https://www.reddit.com/r/youtube/comments/k536y3/any_way_to_play_age_restricted_youtube_videos))
 
-Ещё мысль, что в апишке есть <a href="https://developers.google.com/youtube/v3/docs/playlistItems">возможность менять
-порядок плейлиста</a> =&gt; приложуха будет перемешивать плейлист и все заебок будет
+Ещё мысль, что в апишке есть [возможность менять порядок плейлиста](https://developers.google.com/youtube/v3/docs/playlistItems) => приложуха будет перемешивать плейлист и все заебок будет
 
 ---
 
