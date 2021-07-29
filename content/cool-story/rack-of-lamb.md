@@ -1,5 +1,6 @@
 ---
 title: Баранья корейка
+description: Ее тяжело найти в Москве
 createdAt: 2020-12-25
 tags: 
   - cooking

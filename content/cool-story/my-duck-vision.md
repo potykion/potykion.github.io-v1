@@ -1,5 +1,6 @@
 ---
 title: Утка и рукав
+description: Кулинарный кретинизм на новогоднем столе
 createdAt: 2020-12-31
 tags: 
   - cooking

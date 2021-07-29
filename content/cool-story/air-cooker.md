@@ -1,5 +1,6 @@
 ---
 title: Аэрогриль
+description: Мне подарили аэрогриль и вот как я с ним веселился
 createdAt: 2020-12-19
 tags:
   - cooking

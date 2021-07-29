@@ -1,5 +1,6 @@
 ---
-title: "Фрут Ниндзя"
+title: Фрут Ниндзя
+description: Про то, что не стоит играть во Fruit Ninja в реальной жизни по пьяне
 createdAt: 2020-10-16
 tags:
   - epic

@@ -1,5 +1,6 @@
 ---
 title: Мечта гурмана
+description: Книги с рецептами могут быть ужасными
 createdAt: 2020-11-07
 tags:
   - cooking

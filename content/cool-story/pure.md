@@ -1,5 +1,6 @@
 ---
 title: Pure
+description: Изнанка дейтинг аппов
 createdAt: 2021-03-10
 tags:
   - epic

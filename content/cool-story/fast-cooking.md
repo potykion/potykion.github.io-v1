@@ -1,5 +1,6 @@
 ---
 title: Готовка по фасту
+description: Про то, что не стоит готовить в торопях
 createdAt: 2020-12-09
 tags:
   - cooking
