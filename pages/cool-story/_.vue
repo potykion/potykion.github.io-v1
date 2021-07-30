@@ -12,6 +12,7 @@ import {
 import {Context} from "@nuxt/types";
 import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
 import {IContentDocument} from "@nuxt/content/types/content";
+import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
   async asyncData({$content, params}: Context) {
@@ -25,9 +26,7 @@ export default class SingleCoolStoryPage extends Vue {
   article!: ArticleVM;
 
   head() {
-    return {
-      title: this.article.title,
-    }
+    return generateSeoHead(this.article.title, this.article.description);
   };
 }
 </script>

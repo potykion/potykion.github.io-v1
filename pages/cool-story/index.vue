@@ -1,10 +1,17 @@
 <template>
   <div>
-    <h1>
-      Кулстори
-      <twitch-emote emote="coolstorybob"></twitch-emote>
-    </h1>
-    <p class="text-center text-gray-500">Свалка историй для пацанов</p>
+    <div class="flex justify-between ">
+      <div></div>
+      <div>
+        <h1>
+          Кулстори
+          <twitch-emote emote="coolstorybob"></twitch-emote>
+        </h1>
+        <p class="text-center text-gray-500">Свалка историй для пацанов</p>
+      </div>
+      <div><nuxt-link class="no-underline" to="/cool-story/list">📖</nuxt-link></div>
+    </div>
+
 
     <hr/>
 
@@ -20,6 +27,7 @@ import {Component, Vue} from "nuxt-property-decorator";
 import {IContentDocument} from "@nuxt/content/types/content";
 import {Context} from "@nuxt/types";
 import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
+import {generateSeoHead} from "~/logic/core/seo";
 
 
 @Component({
@@ -34,9 +42,10 @@ import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
   },
   // fetchOnServer: false,
   head() {
-    return {
-      title: "Кулстори"
-    }
+    return generateSeoHead(
+      "Кулстори",
+      "Свалка историй для пацанов"
+    );
   }
 })
 export default class coolStory extends Vue {

@@ -227,12 +227,16 @@ import {
 } from "nuxt-property-decorator"
 import Spoiler from "~/components/spoiler.vue";
 import GoalStep from "~/components/exp/goal-step.vue";
+import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
   components: {Spoiler, "exp-goal-step": GoalStep},
-  head: () => ({
-    title: "Цели 2021"
-  }),
+  head() {
+    return generateSeoHead(
+      "Цели 2021",
+      "Список того, что хотелось сделать в 2021 году"
+    );
+  },
 })
 export default class goals2021 extends Vue {
 

@@ -285,12 +285,16 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 import ImgRow from "~/components/img-row.vue";
+import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
   components: {ImgRow},
-  head: () => ({
-    title: "Рисовач"
-  })
+  head() {
+    return generateSeoHead(
+      "Рисовач",
+      "Как научится рисовать, что делать если лень, куда я хожу"
+    );
+  }
 })
 export default class art extends Vue {
   material: string = "";

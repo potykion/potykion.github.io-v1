@@ -11,19 +11,19 @@
 
         <div class="flex flex-col space-y-2">
           <nuxt-link to="/cool-story">
-            <button >
+            <button>
               Что со мной происходит
               <twitch-emote small emote="coolstorybob"></twitch-emote>
             </button>
           </nuxt-link>
           <nuxt-link to="/exp">
-            <button >
+            <button>
               Как я живу
               <twitch-emote small emote="5Head"></twitch-emote>
             </button>
           </nuxt-link>
           <nuxt-link to="/dev">
-            <button >
+            <button>
               Про разработку
               <twitch-emote small emote="support"></twitch-emote>
             </button>
@@ -34,7 +34,9 @@
         <div class="flex-grow"></div>
 
         <div>
-          <nuxt-link to="/changelog">v2.6.0</nuxt-link> © <nuxt-link to="/n">потикон</nuxt-link>
+          <nuxt-link to="/changelog">v2.6.0</nuxt-link>
+          ©
+          <nuxt-link to="/n">потикон</nuxt-link>
         </div>
 
       </div>
@@ -42,23 +44,19 @@
     </div>
 
 
-
   </main>
 </template>
 
 <script>
+import {generateSeoHead} from "@/logic/core/seo";
+
 export default {
   layout: "blank",
   head() {
-    return {
-      title: "Блог из-под палки",
-      meta: [
-        {
-          name: 'description',
-          content: "Блог с кулсторями, заметками про разработку и экспериенс жизненный"
-        },
-      ],
-    }
+    return generateSeoHead(
+      "Блог из-под палки",
+      "Блог с кулсторями, заметками про разработку и экспериенс жизненный"
+    );
   },
 }
 </script>

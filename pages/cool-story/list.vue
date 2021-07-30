@@ -18,11 +18,15 @@ import {
 } from "nuxt-property-decorator"
 import {IContentDocument} from "@nuxt/content/types/content";
 import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
+import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
-  head: () => ({
-    title: "Список всех кулстори"
-  }),
+  head() {
+    return generateSeoHead(
+      "Список всех кулстори",
+      "Только заголовки и даты"
+    );
+  },
   async asyncData({$content}) {
     const articles = (
       await $content("/cool-story")

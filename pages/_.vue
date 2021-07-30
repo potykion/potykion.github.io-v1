@@ -4,22 +4,15 @@
 </template>
 
 <script>
+import {generateSeoHead} from "@/logic/core/seo";
+
 export default {
   async asyncData({$content, params}) {
     const page = await $content(params.pathMatch).fetch();
     return {page};
   },
   head() {
-    return {
-      title: this.page.title,
-      meta: [
-        {
-          name: 'description',
-          content: this.page.description
-        },
-      ],
-
-    }
+    return generateSeoHead(this.page.title, this.page.description);
   },
 }
 </script>

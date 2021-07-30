@@ -4,9 +4,9 @@
 
 
     <new-img-row>
-      <img-slide src="/images/exp/gigs/ovsi.jpg" alt="Овси гигосик на нг"></img-slide>    
+      <img-slide src="/images/exp/gigs/ovsi.jpg" alt="Овси гигосик на нг"></img-slide>
     </new-img-row>
-    
+
     <p>
       Здесь будет список конциков, на которые я хочу сходить в этому году, если ковид конечно закончится.
     </p>
@@ -38,6 +38,7 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 import ImgRow from "~/components/img-row.vue";
+import {generateSeoHead} from "~/logic/core/seo";
 
 
 type Club = "Главclub" | "Город";
@@ -52,9 +53,12 @@ interface Concert {
 
 @Component({
   components: {ImgRow},
-  head: () => ({
-    title: "ГИГИ"
-  }),
+  head() {
+    return generateSeoHead(
+      "Гиги",
+      "Концертики, которые я планирую посетить в этом году (если конечно они состоятся в такие ковидные времена)"
+    );
+  },
 })
 export default class gigs extends Vue {
   concerts: Concert[] = [

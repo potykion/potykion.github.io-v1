@@ -177,7 +177,8 @@
 
 
       <new-img-row>
-        <img-slide src="/images/exp/yt/humas-donate.png" alt="Бтв он один из немногих cuntent-мейкеров, которым я доначу"></img-slide>
+        <img-slide src="/images/exp/yt/humas-donate.png"
+                   alt="Бтв он один из немногих cuntent-мейкеров, которым я доначу"></img-slide>
       </new-img-row>
 
       <p>
@@ -485,12 +486,16 @@ import {
 } from "nuxt-property-decorator"
 import ImgCard from "~/components/img-card.vue";
 import ImgRow from "~/components/img-row.vue";
+import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
   components: {ImgRow, ImgCard},
-  head: () => ({
-    title: "Ютуб"
-  }),
+  head() {
+    return generateSeoHead(
+      "Ютуб",
+      "Моя история познания ютуба и каналы, которые я смотрю"
+    );
+  },
 })
 export default class yt extends Vue {
 }

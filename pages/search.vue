@@ -30,11 +30,15 @@ import {
 import {Context} from "@nuxt/types";
 import {IContentDocument} from "@nuxt/content/types/content";
 import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
+import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
-  head: () => ({
-    title: "Поиск"
-  }),
+  head() {
+    return generateSeoHead(
+      "Поиск",
+      "Чувак, ты думал что-то здесь будет? О, нет. От тебя воняет говном, даже отсюда чувствую. Закрывай, закрывай блог и иди нахуй. Я крутой, а ты лоханулся, сука."
+    );
+  },
   async asyncData({$content, query}: Context) {
     let searchQuery = $content("/cool-story")
       .sortBy("createdAt", "desc");
