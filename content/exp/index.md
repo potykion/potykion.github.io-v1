@@ -1,5 +1,6 @@
 ---
 title: Экспериенс
+description: Не кулстори, не разработка, что-то посередине
 ---
 
 # Экспериенс <twitch-emote emote="5Head"></twitch-emote>
