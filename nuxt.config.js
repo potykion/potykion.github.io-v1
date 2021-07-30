@@ -21,9 +21,11 @@ export default {
     host: "0.0.0.0",
   },
 
+  generate: {
+    subFolders: false
+  },
+
   router: {
-    // Не робит(((((
-    // https://github.com/potykion/potykion.github.io/issues/93
     trailingSlash: false,
   },
 
