@@ -1,11 +1,14 @@
 const createSitemapRoutes = async () => {
   const {$content} = require('@nuxt/content')
-  return (await Promise.all([
-    $content('/cool-story').fetch(),
-    $content('/dev').fetch(),
-    $content('/exp').fetch(),
-  ])).flatMap(pages => pages.map(p => p.path)
-    .map(p => p.endsWith("/index") ? p.slice(0, "index".length) : p));
+  return [... new Set((await Promise.all([
+    $content('cool-story', {deep: true}).fetch(),
+    $content('dev', {deep: true}).fetch(),
+    $content('exp', {deep: true}).fetch(),
+  ])).flatMap(
+    pages =>
+      pages.map(p => p.path)
+        .map(p => p.endsWith("/index") ? p.slice(0, p.length - "/index".length) : p)
+  ))];
 }
 
 export default {
