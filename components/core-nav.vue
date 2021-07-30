@@ -9,7 +9,8 @@
           <nav-item class="flex-grow lg:flex-grow-0" to="/dev" title="Разработка" emote="support"/>
           <div class="hidden lg:inline lg:flex-grow"></div>
 
-          <button class="border-none flex-grow lg:flex-grow-0 flex items-center justify-center" @click="showSearch = true">
+          <button class="border-none flex-grow lg:flex-grow-0 flex items-center justify-center"
+                  @click="showSearch = true">
             🔍
           </button>
 
@@ -17,29 +18,43 @@
         </div>
       </div>
 
-      <form v-else class="flex h-full space-x-2" method="get" action="/search">
-        <button type="submit" class="border-none flex flex-grow-0 items-center justify-center">🔍</button>
-        <input class="my-2 px-2 flex-grow rounded outline-none" autofocus placeholder="Поиск (пока ток по кулсторям)" name="q" v-model="q"/>
-        <button class="border-none flex flex-grow-0 items-center justify-center" @click="showSearch = false">❌</button>
-      </form>
-
-      <ul
-        v-if="articles.length"
-        class="z-10 absolute w-auto flex-1 top-40 bg-white dark:bg-gray-900 rounded-md border border-gray-300 overflow-hidden"
-      >
-        <li v-for="article of articles" :key="article.slug">
-          <NuxtLink
-            :to="{ name: 'blog-slug', params: { slug: article.slug } }"
-            class="flex px-4 py-2 items-center leading-5 transition ease-in-out duration-150 text-green-500 hover:text-black"
-          >
-            {{ article.title }}
-          </NuxtLink>
-        </li>
-      </ul>
+      <div v-else class="flex h-full space-x-2">
+        <div type="submit" class=" px-2 border-none flex flex-grow-0 items-center justify-center">🔍</div>
+        <input class="my-2 px-2 flex-grow rounded outline-none" autofocus placeholder="Поиск"
+               v-model="q" autocomplete="off"/>
+        <button class="border-none flex flex-grow-0 items-center justify-center" @click="closeSearch">❌</button>
+      </div>
 
 
     </div>
 
+    <div
+      v-if="articles"
+      class="z-10 absolute w-full  top-14 bg-white rounded-md border  overflow-hidden"
+    >
+      <template v-if="articles.length">
+        <template v-for="article of articles">
+          <NuxtLink
+            :to="article.link"
+            @click.native="closeSearch"
+            class="flex px-4 py-2 items-center  hover:text-black visited:text-pink-400 no-underline"
+            :key="article.slug"
+          >
+            <div>
+              <div>{{ article.title }}</div>
+              <div class="text-sm text-gray-500">{{ article.description }}</div>
+            </div>
+          </NuxtLink>
+        </template>
+
+      </template>
+      <template v-else-if="q">
+        <div class="px-4 py-2">
+          Чувак, ты думал что-то здесь будет? О, нет. От тебя воняет говном, даже отсюда чувствую.
+          Закрывай, закрывай блог и иди нахуй. Я крутой, а ты лоханулся, сука.
+        </div>
+      </template>
+    </div>
 
   </nav>
 </template>
@@ -57,7 +72,7 @@ import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
 export default class CoreNav extends Vue {
   showSearch = false;
 
-  articles: ArticleVM[] = [];
+  articles: ArticleVM[] | null = null;
 
   q: string = "";
 
@@ -68,10 +83,16 @@ export default class CoreNav extends Vue {
       return
     }
 
-    this.articles = (await this.$content('cool-story')
-      .limit(6)
+    this.articles = (await this.$content(["cool-story", "dev", "exp"], {deep: true})
+      .limit(10)
       .search(this.q)
       .fetch()).map(buildArticleVM);
+  }
+
+  closeSearch() {
+    this.q = "";
+    this.showSearch = false;
+    this.articles = [];
   }
 
 }

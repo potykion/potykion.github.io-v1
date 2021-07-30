@@ -15,7 +15,7 @@ export function buildArticleVM(rawArticle: IContentDocument) {
     createdAtStr: rawArticle.createdAt.toString().substr(0, 10),
     title: rawArticle.title,
     description: rawArticle.description,
-    link: `/cool-story/${rawArticle.slug}`,
+    link: rawArticle.path,
     tags: (rawArticle.tags ?? []) as string[]
   }
 }
