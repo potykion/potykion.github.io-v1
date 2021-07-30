@@ -13,10 +13,6 @@ description: Стек, библиотечки, инструменты
 
 - Идеи по поводу контента оформляются в [гх-ишью](https://github.com/potykion/potykion.github.io/issues)
 - Они появляются на [доске](https://github.com/potykion/potykion.github.io/projects/1)
-  - Ишью без майлстоуна находятся в колонке *sortirovochnaya fabrika*
-  - Ишью с майлстоуном с высоким приоритетом в колоночке *high priority*
-  - Ишью с майлстоуном с низким приоритетом в колоночке *low priority*
-  - Закрытые ишью попадают в *closed*
 
 ---
 
