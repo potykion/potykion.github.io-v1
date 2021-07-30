@@ -3,6 +3,8 @@
     <h1>Поиск 🔍🔍🔍</h1>
     <hr>
 
+    <input @input="search" :value="$route.query.q" />
+
     <template v-if="allArticles.length > 0">
       <cool-story-viewer :all-articles="allArticles"/>
 
@@ -25,7 +27,7 @@
 import {
   Component,
   Prop,
-  Vue,
+  Vue, Watch,
 } from "nuxt-property-decorator"
 import {Context} from "@nuxt/types";
 import {IContentDocument} from "@nuxt/content/types/content";
@@ -55,8 +57,19 @@ import {generateSeoHead} from "~/logic/core/seo";
   }
 })
 export default class search extends Vue {
-  allArticles!: ArticleVM[];
+  allArticles: ArticleVM[] = [];
 
+
+  async search() {
+    const query = this.$route.query;
+    let searchQuery = this.$content("/cool-story")
+      .sortBy("createdAt", "desc");
+    searchQuery = query.q ? searchQuery.search(query.q) : searchQuery;
+    searchQuery = query.tag ? searchQuery.where({"tags": {$contains: query.tag}}) : searchQuery;
+
+
+    this.allArticles = (await searchQuery.fetch() as IContentDocument).map(buildArticleVM);
+  }
 }
 </script>
 

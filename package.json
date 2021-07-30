@@ -11,7 +11,8 @@
     "test": "jest",
     "lint": "node lint.js",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
-    "bump": "bump package.json package-lock.json pages/index.vue components/core-nav.vue"
+    "bump": "bump package.json package-lock.json pages/index.vue components/core-nav.vue",
+    "serve": "nuxt start"
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
