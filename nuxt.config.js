@@ -5,7 +5,7 @@ const createSitemapRoutes = async () => {
     $content('/dev').fetch(),
     $content('/exp').fetch(),
   ])).flatMap(pages => pages.map(p => p.path)
-    .map(p => p.endsWith("/index") ? p.slice(0, "/index".length) : p));
+    .map(p => p.endsWith("/index") ? p.slice(0, "index".length) : p));
 }
 
 export default {
@@ -22,8 +22,9 @@ export default {
   },
 
   router: {
+    // Не робит(((((
+    // https://github.com/potykion/potykion.github.io/issues/93
     trailingSlash: false,
-
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
