@@ -47,7 +47,7 @@
         <div class="flex-grow"></div>
 
         <div class="py-4">
-          <nuxt-link to="/changelog">v2.6.0</nuxt-link>
+          <nuxt-link to="/changelog">v2.7.0</nuxt-link>
           ©
           <nuxt-link to="/n">потикон</nuxt-link>
         </div>
