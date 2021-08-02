@@ -1,9 +1,11 @@
 ---
-title: хто я?
-description: Все что вы хотели знать обо мне
+title: Обо мне
+description: Кто я, что я, пробую преподнести себя
 ---
 
-# хто я?
+# Обо мне <twitch-emote emote="kappa"></twitch-emote>
+
+<p class="text-center text-gray-500">Кто я, что я, пробую преподнести себя</p>
 
 <img-row :images="['/me1.jpg', '/me2.jpg']"></img-row>
 
@@ -33,4 +35,5 @@ description: Все что вы хотели знать обо мне
 - [резюмеха](/dev/cv)
 - [встретиться](https://calendly.com/potykion/vstrechalovo)
 - [дать денег](https://www.tinkoff.ru/rm/leybovich.nikita1/8PkYa74332)
-- [вишлист](/exp/wishlist)
+- [вишлист](/n/wishlist)
+- [цели](/n/goals2021)

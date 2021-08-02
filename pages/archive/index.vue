@@ -8,7 +8,7 @@ import {generateSeoHead} from "@/logic/core/seo";
 
 export default {
   async asyncData({$content, params}) {
-    const page = await $content("exp/index").fetch();
+    const page = await $content("archive/index").fetch();
     return {page};
   },
   head() {

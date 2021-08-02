@@ -3,9 +3,9 @@ title: Кукинг
 description: Свалка опробованных рецептов
 ---
 
-# Кукинг
+# Кукинг <twitch-emote emote="salt"></twitch-emote>
 
-Здесь будет свалка рецептов
+<p class="text-gray-500 text-center">Свалка опробованных рецептов</p>
 
 ---
 

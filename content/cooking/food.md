@@ -13,7 +13,9 @@ description: Тир-листы еды
 <template #a>Пинк Леди</template>
 <template #b>Гренни Смит</template>
 <template #c>Голден · Спартан · Чемпион · Черный принц</template>
-<template #e>Гала</template>
+<template #d> </template>
+<template #e>Гала · Ред Чиф</template>
+<template #f>Золото Азии</template>
 </tier-list>
 
 ## Колбаска

@@ -16,7 +16,6 @@ description: Тут можно почитать про мои разработч
 - [Ожидания от работы](/dev/work-expectations)
 - [Фронтенд-биография](/dev/vue/bio)
 - [Алгоритмы](/dev/algo)
-- [Бекенд-биография](/dev/python/bio)
 
 ### Python
 

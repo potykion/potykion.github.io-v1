@@ -12,28 +12,41 @@
         <div class="flex flex-col space-y-2">
           <nuxt-link to="/cool-story">
             <button>
-              Что со мной происходит
+              Кулстори
               <twitch-emote small emote="coolstorybob"></twitch-emote>
             </button>
           </nuxt-link>
-          <nuxt-link to="/exp">
-            <button>
-              Как я живу
-              <twitch-emote small emote="5Head"></twitch-emote>
-            </button>
-          </nuxt-link>
+
           <nuxt-link to="/dev">
             <button>
-              Про разработку
+              Разработка
               <twitch-emote small emote="support"></twitch-emote>
             </button>
           </nuxt-link>
+          <nuxt-link to="/cooking">
+            <button>
+              Кукинг
+              <twitch-emote small emote="salt"></twitch-emote>
+            </button>
+          </nuxt-link>
 
+          <nuxt-link to="/n">
+            <button>
+              Обо мне
+              <twitch-emote small emote="kappa"></twitch-emote>
+            </button>
+          </nuxt-link>
+          <nuxt-link to="/archive">
+            <button>
+              Архив
+              <twitch-emote small emote="sleep"></twitch-emote>
+            </button>
+          </nuxt-link>
         </div>
 
         <div class="flex-grow"></div>
 
-        <div>
+        <div class="py-4">
           <nuxt-link to="/changelog">v2.6.0</nuxt-link>
           ©
           <nuxt-link to="/n">потикон</nuxt-link>
