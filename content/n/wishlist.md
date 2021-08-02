@@ -1,11 +1,9 @@
 ---
 title: Вишлист
 description: Хотелочки вещественные различные
+big: true
 ---
 
-# Вишлист
-
----
 
 - **[SSD](https://www.citilink.ru/catalog/computers_and_notebooks/hdd/ssd_in/1134605/)**
 - Смарт-часы на WearOS, напр. [такие](https://www.ozon.ru/product/smart-chasy-oppo-watch-46mm-ow19w8-black-259438398)

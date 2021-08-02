@@ -108,6 +108,29 @@
     @apply text-sm text-gray-500 text-center;
   }
 
+
+  /*
+  Двигает маркер summary вправо
+  https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary
+  */
+  details {
+    @apply my-2;
+  }
+  details>summary {
+
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none
+  }
+
+  summary::after {
+    content: ' ▼';
+  }
+  details[open] summary:after {
+    content: " ▲";
+  }
+
 }
 
 @tailwind components;
