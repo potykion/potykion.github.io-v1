@@ -1,5 +1,7 @@
 const createSitemapRoutes = async () => {
   const {$content} = require('@nuxt/content')
+  // Берем все страницы, сливая страницы каждого разделы в один массив,
+  // обрезаем /index где надо, удаляем дубликаты
   return [... new Set((await Promise.all([
     $content('cool-story', {deep: true}).fetch(),
     $content('dev', {deep: true}).fetch(),
