@@ -25,7 +25,7 @@ import {ArticleVM} from "~/logic/cool-story/vms";
 @Component({})
 export default class CoolStoryViewer extends Vue {
   @Prop() allArticles!: ArticleVM[];
-  @Prop({default: 5}) pageLimit!: number;
+  @Prop({default: 6}) pageLimit!: number;
 
   limit = this.pageLimit;
 

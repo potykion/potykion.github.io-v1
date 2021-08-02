@@ -15,12 +15,11 @@
     </template>
 
 
-    <template v-if="full || !article.rawArticle.excerpt">
+    <template v-if="full">
       <nuxt-content :document="article.rawArticle"/>
     </template>
     <template v-else>
-      <nuxt-content :document="{ body: article.rawArticle.excerpt }"/>
-      <nuxt-link :to="article.link">Читать далее</nuxt-link>
+      <p>{{ article.description }}</p>
     </template>
 
 
