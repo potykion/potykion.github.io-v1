@@ -3,8 +3,6 @@ title: Flutter / Firebase
 description: Как подключить Firebase-сервисы во Flutter, экономя на разработке сервера
 ---
 
-## Flutter / Firebase
-
 [Firebase](https://firebase.google.com/) - baas решение от гугл. BAAS - backend as a service - то есть есть все
 необходимое, что нужно фронту/мобилке от сервера: цдн, бд, аутентификация, бизнес логика и тд.
 

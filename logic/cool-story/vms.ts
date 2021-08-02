@@ -7,16 +7,21 @@ export interface ArticleVM {
   description: string;
   link: string;
   tags: string[];
+  tagStrings: string[];
 }
 
 export function buildArticleVM(rawArticle: IContentDocument) {
+  const tags = (rawArticle.tags ?? []) as string[];
+
   return {
     rawArticle,
     createdAtStr: rawArticle.createdAt.toString().substr(0, 10),
     title: rawArticle.title,
     description: rawArticle.description,
     link: rawArticle.path,
-    tags: (rawArticle.tags ?? []) as string[]
+    tags,
+    // @ts-ignore
+    tagStrings: tags.map(t => tagToStr[t] ?? t),
   }
 }
 

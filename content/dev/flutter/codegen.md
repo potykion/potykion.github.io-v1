@@ -3,8 +3,6 @@ title: Flutter / Кодогенерация
 description: Как делать кодогенерацию во Flutter на примере json_serializable
 ---
 
-## Flutter / Кодогенерация
-
 Многое во Flutter разработке делается через кодогенерацию, потому что рефлекшена нет.
 
 Разберем процесс кодогенерации на процессе генерации джсон сериализаторов с помощью [json_serializable](https://pub.dev/packages/json_serializable).

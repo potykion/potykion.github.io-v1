@@ -3,10 +3,6 @@ title: Vue / Любимые либы
 description: Vue и JS библиотеки на все случаи фронтенд разработки 
 ---
 
-## Vue / Любимые либы
-
----
-
 ### UI
 
 -  [vuetify](https://github.com/vuetifyjs/vuetify) <nuxt-emoji-link to="https://github.com/nuxt-community/vuetify-module"></nuxt-emoji-link>  - лучший ui фреймворк про материал дезигн, все что надо есть: сетка, дейтпикеры, селекты и тд

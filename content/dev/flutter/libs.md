@@ -3,10 +3,6 @@ title: Flutter / Любимые либы
 description: Dart и Flutter библиотеки на все случаи жизни
 ---
 
-## Flutter / Любимые либы
-
----
-
 ### Мастхев
 
 - [freezed](https://pub.dev/packages/freezed) - юнионы и иммутабельные датаклассы; есть интеграция с json_serializable

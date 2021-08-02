@@ -3,8 +3,6 @@ title: Python / Тесты
 description: Как писать тесты на Python и почему моки - это важно
 ---
 
-## Python / Тесты
-
 Все просто:
 
 - ставим [pytest](https://docs.pytest.org/en/stable/)

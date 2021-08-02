@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>ГИГИ</h1>
+    <h1>Гиги</h1>
 
 
     <new-img-row>

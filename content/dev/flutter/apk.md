@@ -3,11 +3,6 @@ title: Flutter / Как собирать apk для Google Play
 description: Нужно сгенерить файлик, добавить пару строк в пару файликов, и можно собирать apk     
 ---
 
-
-## Flutter / Как собирать apk для Google Play
-
-<p class="text-gray-500">Нужно сгенерить файлик, добавить пару строк в пару файликов, и можно собирать apk</p>
-
 1. Генерим `upload-keystore.jks`:
 
    ```bash

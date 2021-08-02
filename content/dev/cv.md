@@ -1,10 +1,7 @@
 ---
 title: Резюмеха
-description: Меня можно нанять!!!!!!!!!! 
----
-
-# Резюмеха
-
+description: "Открыт для проектной работы / part time работы, прайс от 150к руб." 
+big: true
 ---
 
 <img-card align="right" img="/me1.jpg" :streamline="true">

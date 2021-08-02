@@ -6,10 +6,7 @@
     </h1>
     <p class="text-center text-gray-500">Свалка историй для пацанов</p>
 
-    <hr/>
-
-    <cool-story-viewer :all-articles="allArticles"/>
-
+    <article-preview v-for="article in allArticles" :article="article" :show-extra="true"></article-preview>
   </div>
 
 

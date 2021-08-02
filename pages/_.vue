@@ -1,5 +1,10 @@
 <template>
-  <nuxt-content :document="page"/>
+  <article>
+    <article-heading :title="page.title" :description="page.description" :small="!page.big" />
+    <hr />
+    <nuxt-content :document="page"/>
+  </article>
+
 
 </template>
 

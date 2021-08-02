@@ -1,12 +1,16 @@
 @tailwind base;
 
 @layer base {
+  body {
+    @apply bg-gray-50;
+  }
+
   h1 {
     @apply my-2 text-5xl font-display font-black text-center;
   }
 
   h2 {
-    @apply text-3xl my-2  font-display font-black;
+    @apply text-3xl my-4  font-display font-black;
   }
 
   h3 {
@@ -14,7 +18,7 @@
   }
 
   h4 {
-    @apply text-xl my-2 font-bold font-display;
+    @apply text-xl font-bold font-display;
   }
 
   h5 {
