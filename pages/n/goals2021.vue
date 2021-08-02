@@ -52,7 +52,7 @@
       </exp-goal-step>
       <exp-goal-step>2021-06-06 начал Inter курс</exp-goal-step>
       <exp-goal-step>2021-03-11 начал смотреть Друзей в оригинале</exp-goal-step>
-      <exp-goal-step>2021-06-05 начал вести базу знаний по инглишу <nuxt-link to="/exp/eng/articles">в блоге</nuxt-link></exp-goal-step>
+      <exp-goal-step>2021-06-05 начал вести базу знаний по инглишу <nuxt-link to="/archive/eng/articles">в блоге</nuxt-link></exp-goal-step>
       <exp-goal-step>Выполнить все <a href="https://www.ozon.ru/product/angliyskiy-yazyk-grammatika-sbornik-uprazhneniy-golitsynskiy-yuriy-borisovich-225727453"> упражнения по грамматике</a> (37 / 567)</exp-goal-step>
     </ul>
     <hr/>

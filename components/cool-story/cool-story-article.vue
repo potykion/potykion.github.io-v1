@@ -3,7 +3,8 @@
 
     <template v-if="article.tags.length">
       <template v-for="tag in article.tags">
-        <nuxt-link :to="`/search?tag=${tag}`" class="no-underline text-black visited:text-black"><span class="font-bold">{{ tagToStr[tag] || tag }}</span></nuxt-link>
+<!--        <nuxt-link :to="`/search?tag=${tag}`" class="no-underline text-black visited:text-black"></nuxt-link>-->
+        <span class="font-bold">{{ tagToStr[tag] || tag }}</span>
       </template>
       <span>·</span>
     </template>

@@ -5,7 +5,9 @@ const createSitemapRoutes = async () => {
   return [... new Set((await Promise.all([
     $content('cool-story', {deep: true}).fetch(),
     $content('dev', {deep: true}).fetch(),
-    $content('exp', {deep: true}).fetch(),
+    $content('cooking', {deep: true}).fetch(),
+    $content('n', {deep: true}).fetch(),
+    $content('archive', {deep: true}).fetch(),
   ])).flatMap(
     pages =>
       pages.map(p => p.path)
