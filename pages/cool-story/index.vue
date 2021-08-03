@@ -6,7 +6,7 @@
     </h1>
     <p class="text-center text-gray-500">Свалка историй для пацанов</p>
 
-    <article-preview v-for="article in allArticles" :article="article" :show-extra="true"></article-preview>
+    <article-preview v-for="article in allArticles" :key="article.title" :article="article" :show-extra="true"></article-preview>
   </div>
 
 

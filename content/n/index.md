@@ -7,7 +7,10 @@ description: Кто я, что я, пробую преподнести себя
 
 <p class="text-center text-gray-500">Кто я, что я, пробую преподнести себя</p>
 
-<img-row :images="['/me1.jpg', '/me2.jpg']"></img-row>
+<new-img-row>
+  <img-slide src="/images/n/me1.jpg" alt="Офисная ебучка"></img-slide>
+  <img-slide src="/images/n/me2.jpg" alt="Ебучка после новоселья"></img-slide>
+</new-img-row>
 
 ### Био
 
@@ -37,3 +40,9 @@ description: Кто я, что я, пробую преподнести себя
 - [дать денег](https://www.tinkoff.ru/rm/leybovich.nikita1/8PkYa74332)
 - [вишлист](/n/wishlist)
 - [цели](/n/goals2021)
+
+### Про хаточки
+
+- **Любимый район:** Тверской (Менделеевская, Белорусская)
+- **Аренда:** до 60к, площадь от 40м, кондик, посудомойка
+- **Ипотека:** до 12кк, первый взнос до 2кк, ставка до 8%
