@@ -4,7 +4,7 @@ description: "Открыт для проектной работы / part time р
 big: true
 ---
 
-<img-card align="right" img="/me1.jpg" :streamline="true">
+<img-card align="right" img="/n/me1.jpg" :streamline="true">
 
 ## О себе
 
