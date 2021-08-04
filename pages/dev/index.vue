@@ -50,6 +50,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
     ]) as IContentDocument[]).map(buildArticleVM);
 
     const pythonPages = (await Promise.all([
+      $content("/dev/python/gsheets").fetch(),
       $content("/dev/python/libs").fetch(),
       $content("/dev/python/tests").fetch(),
       $content("/dev/python/faq").fetch(),
