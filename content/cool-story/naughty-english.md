@@ -1,7 +1,7 @@
 ---
 title: Рофлы на английском
 description: Enlarge your vocabulary with bdsm & sex stuff
-createdAt: 2021-05-16
+createdAt: 2021-05-09
 ---
 
 Сижу на инглише, препод выписывает слово "plaster", и спрашивает типа каким еще словом можно пластырь назвать.
