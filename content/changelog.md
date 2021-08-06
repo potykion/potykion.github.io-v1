@@ -9,6 +9,7 @@ big: true
 - Симпотное оглавление + больше воздуха
 - [/dev/python/gsheets](/dev/python/gsheets): Работа с Google таблицами с помощью Sheets API
 - [/cool-story/time-to-leave](/cool-story/time-to-leave): Новая кулстори - "Пророчество сбылось"
+- [/cool-story/naughty-english](/cool-story/naughty-english): Новая кулстори - "Рофлы на английском"
 
 ## 2.7.0 - 2021-08-02
 
