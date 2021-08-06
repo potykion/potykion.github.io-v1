@@ -35,14 +35,14 @@ big: true
 <tier-list>
 <template #b>Бархатный мед</template>
 <template #c>Черри · Бычье сердце · Розовые</template>
-<template #d>Конфетто · Пинк Парадайз</template>
+<template #d>Конфетто · Пинк Парадайз · Сливка</template>
 </tier-list>
 
 ## Стейки
 
 <tier-list>
-<template #а>Рибай</template>
-<template #b>Шейка</template>
+<template #a>Рибай</template>
+<template #b>Шейка / Денвер</template>
 <template #d>Рамп</template>
 </tier-list>
 
