@@ -18,7 +18,7 @@
   }
 
   h4 {
-    @apply text-xl font-bold font-display;
+    @apply text-xl my-2 font-bold font-display;
   }
 
   h5 {
