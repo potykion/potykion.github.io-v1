@@ -1,62 +1,37 @@
 <template>
-  <main class="flex h-screen">
-    <div class="mx-auto text-center p-2 ">
+  <main >
+    <div class="bg-black my-auto h-screen px-3 lg:px-32 xl:px-64 2xl:px-96 grid grid-rows-4 grid-flow-col items-center justify-items-center">
 
-      <div class="h-full flex flex-col between space-y-2">
-
-
-        <div class="flex-grow"></div>
-
-        <h1 class="tracking-widest uppercase">блог из-под палки</h1>
-
-        <div class="flex flex-col space-y-2">
-          <nuxt-link to="/cool-story">
-            <button>
-              Кулстори
-              <twitch-emote small emote="coolstorybob"></twitch-emote>
-            </button>
-          </nuxt-link>
-
-          <nuxt-link to="/dev">
-            <button>
-              Разработка
-              <twitch-emote small emote="support"></twitch-emote>
-            </button>
-          </nuxt-link>
-          <nuxt-link to="/cooking">
-            <button>
-              Кукинг
-              <twitch-emote small emote="salt"></twitch-emote>
-            </button>
-          </nuxt-link>
-
-          <nuxt-link to="/n">
-            <button>
-              Обо мне
-              <twitch-emote small emote="kappa"></twitch-emote>
-            </button>
-          </nuxt-link>
-          <nuxt-link to="/archive">
-            <button>
-              Архив
-              <twitch-emote small emote="sleep"></twitch-emote>
-            </button>
-          </nuxt-link>
-        </div>
-
-        <div class="flex-grow"></div>
-
-        <div class="py-4">
-          <nuxt-link to="/changelog">v2.8.0</nuxt-link>
-          ©
-          <nuxt-link to="/n">потикон</nuxt-link>
-        </div>
-
+      <div >
+        <div class="header ">Блог из-под палк<span class="last">И</span></div>
       </div>
 
+      <div class="row-span-2 flex flex-col space-y-2">
+        <nuxt-link  to="/cool-story">
+          <img src="/images/index/cool-story.png" alt="Кулстори">
+        </nuxt-link>
+
+        <nuxt-link  to="/dev">
+          <img src="/images/index/dev.png" alt="Разработка">
+        </nuxt-link>
+        <nuxt-link  to="/cooking">
+          <img src="/images/index/cooking.png" alt="Кукинг">
+        </nuxt-link>
+
+        <nuxt-link  to="/n">
+          <img src="/images/index/n.png" alt="Обо мне">
+        </nuxt-link>
+        <nuxt-link  to="/archive">
+          <img src="/images/index/archive.png" alt="Архив">
+        </nuxt-link>
+
+
+        <nuxt-link   to="/changelog">
+          <img src="/images/index/changelog.png" alt="Ченжлог">
+        </nuxt-link>
+
+      </div>
     </div>
-
-
   </main>
 </template>
 
@@ -76,7 +51,16 @@ export default {
 
 
 <style scoped>
-button {
-  @apply w-full py-2
+.header {
+  font-family: AmazDooMLeft;
+  @apply text-6xl lg:text-8xl text-center text-white;
 }
+.last {
+  font-family: AmazDooMRight;
+}
+
+img {
+  @apply h-11
+}
+
 </style>
