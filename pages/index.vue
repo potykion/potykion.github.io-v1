@@ -2,7 +2,7 @@
   <main >
     <div class="bg-black my-auto h-screen px-3 lg:px-32 xl:px-64 2xl:px-96 grid grid-rows-4 grid-flow-col items-center justify-items-center">
 
-      <div >
+      <div class="self-end">
         <div class="header ">Блог из-под палк<span class="last">И</span></div>
       </div>
 
