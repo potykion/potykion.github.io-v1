@@ -11,7 +11,7 @@ createdAt: 2021-02-12
   <img-slide src="/images/cool-story/snow/snow-1.jpg" alt="Завальчик" ></img-slide>
 </new-img-row>
 
-<!--more-->
+
 
 Блякаю, выкладываю в инстуху балкон, закрываю второе окно - там тоже приспустило снежка:
 

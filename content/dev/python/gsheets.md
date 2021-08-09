@@ -14,7 +14,7 @@ description: Sheets API - одна из самых непонятных апиш
     <img-slide src="/images/dev/python/gsheets/credentials-creation-2.png" alt="Создание доступов: тип - Desktop app, название - произвольное"></img-slide>
 </new-img-row>
 
-2. Скачиваем доступы, получаем файлик, типа `client_secret_406798162311-63us552o41nrs0ashvt87h58gbgivjsh.apps.googleusercontent.com.json`, и закидываем его в директорию с проектом:
+2. Скачиваем доступы, получаем файлик, типа `client_secret_***.json`, и закидываем его в директорию с проектом:
 
 <new-img-row>
     <img-slide src="/images/dev/python/gsheets/credentials-download.png" alt="Кнопочка скачивания доступов"></img-slide>
@@ -42,9 +42,9 @@ description: Sheets API - одна из самых непонятных апиш
 
         Токен читается из файла
         Если этого файла нет, то используются доступы из {secrets_file}
-        После чтения доступов из файла в консоли появится ссылке, перейдя по которой надо будет авторизоваться
+        После чтения доступов из файла в консоли появится ссылка, перейдя по которой надо будет авторизоваться
 
-        Если возникает надпись This app isn't verified, то надо прожать  Advanced > Go to {Project Name} (unsafe)
+        Если возникает надпись "This app isn't verified", то надо прожать  Advanced > Go to {Project Name} (unsafe)
         https://developers.google.com/sheets/api/quickstart/python#this_app_isnt_verified
         
         После авторизации токен сохранится на диск
@@ -99,17 +99,17 @@ description: Sheets API - одна из самых непонятных апиш
 Получить эти данные можно из ссылки на таблицу. Например, для такой ссылки:
 
 ```
-https://docs.google.com/spreadsheets/d/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b/edit#gid=1340597691
+https://docs.google.com/spreadsheets/d/e3b0c44298fc1c149afbf4c8996fb92427/edit#gid=1340597691
 ```
 
-- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b - айди таблицы
+- e3b0c44298fc1c149afbf4c8996fb92427 - айди таблицы
 - 1340597691 - численный айди листа
 - Строковой айди листа — это собственно название листа
 
 Вынесем это в константы, которые будем юзать в примерах запросов:
 
 ```python
-TABLE = 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b'
+TABLE = 'e3b0c44298fc1c149afbf4c8996fb92427'
 SHEET = "Лист 1"
 SHEET_ID = 1340597691
 ```
@@ -140,7 +140,7 @@ END_COL_INDEX = column_index_from_string(END_COL) - 1
 END_ROW_INDEX = END_ROW - 1
 # GridRange наполовину инклюзивный - [startIndex, endIndex), 
 # т.е. включает начальный индекс диапазона и не включает конечный индекс, 
-# т. е. чтобы включить последний индекс нужно плюсануть 1
+# т.е. чтобы включить последний индекс нужно плюсануть 1
 RANGE = {
     "sheetId": SHEET_ID,
     "startRowIndex": START_ROW_INDEX,
@@ -155,9 +155,13 @@ RANGE = {
 
 ### Пример: обновление ссылок в ячейках 
 
-Рассмотрим как пользоваться методами апи на примере задачи обновления ссылок. Суть задачи — проверить есть ли в ячейке ссылка, если есть, то нужно заменить в ссылке домен.
+Рассмотрим как пользоваться методами апи на примере задачи обновления ссылок. 
 
-Метод [spreadsheets.get](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/get) позволяет получить всю информацию о таблице, то есть помимо значений ячеек можно получить информацию о форматировании и ссылках.
+Суть задачи — проверить есть ли в ячейке ссылка, если есть, то нужно заменить в ссылке домен.
+
+#### spreadsheets.get
+
+Метод [spreadsheets.get](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/get) позволяет получить всю информацию о таблице, то есть помимо значений ячеек можно получить информацию о стилях и ссылках.
 
 Пример вызова:
 
@@ -172,8 +176,10 @@ rows = resp["sheets"][0]["data"][0]["rowData"]
 ```
 
 - `resp` - это большой объект, включающий в себя, помимо данных о ячейках, другие данные, напр. данных о листах
-- `rows = resp["sheets"][0]["data"][0]["rowData"]` - таким образом получаем данные о строках с ячейками
+- `rows = resp["sheets"][0]["data"][0]["rowData"]` - таким образом получаем данные о строках
 - `cells = rows[0]["values"]` - таким образом получаем ячейки строки
+
+#### Алгоритм замены ссылок
 
 Теперь напишем алгоритм замены ссылок, который будет создавать массив обновлений ячеек — массив [RowData](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/sheets#RowData):
 
@@ -210,9 +216,11 @@ for row in rows:
 
 > Текст функции `value_by_path` будет приведен в итоговом коде скрипта
 
+#### spreadsheets.batchUpdate
+
 Наконец нужно вызвать метод обновления данных таблицы - [spreadsheets.batchUpdate](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/batchUpdate).
 
-Чтобы вызвать метод `spreadsheets.batchUpdate` нужно передать в него массив [Request](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/request#Request). Объект `Request` олицетворяет операцию над таблицей, такую как вставка графиков, удаление ячеек, добавление листов и др. Нас интересует обновление ячеек — то есть [UpdateCellsRequest](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/request#updatecellsrequest):
+Чтобы вызвать метод `spreadsheets.batchUpdate` нужно передать в него массив [Request](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/request#Request). Объект `Request` олицетворяет операцию над таблицей, такую как вставка графиков, удаление ячеек, добавление листов и другие. Нас интересует обновление ячеек — то есть [UpdateCellsRequest](https://developers.google.com/sheets/api/reference/rest/v4/spreadsheets/request#updatecellsrequest):
 
 ```python
 service.spreadsheets().batchUpdate(
