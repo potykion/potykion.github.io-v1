@@ -1,9 +1,9 @@
 <template>
-  <div class="rounded shadow bg-white w-44 h-60 flex hover:bg-pink-200 align-middle justify-center px-2 pt-4 cursor-pointer flex-shrink-0">
-    <div class="grid grid-rows-4">
-      <img class="object-scale-down row-span-3 h-full p-5"  :src="img" :alt="title">
+  <div class="rounded shadow bg-white w-32 h-40 flex hover:bg-pink-200 align-middle justify-center py-2 cursor-pointer flex-shrink-0">
+    <div class="grid grid-rows-4 justify-items-center">
+      <img class="object-scale-down row-span-3 h-full p-3"  :src="img" :alt="title">
       <div class="row-span-1 m-auto">
-        <div class="text-center text-current">{{ title }}</div>
+        <div class="text-center text-sm">{{ title }}</div>
       </div>
     </div>
   </div>
