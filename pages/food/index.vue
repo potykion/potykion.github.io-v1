@@ -29,7 +29,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
     ])).map(buildArticleVM);
 
     const outsidePages = (await Promise.all([
-      $content("food/outside/index").fetch(),
+      $content("food/outside").fetch(),
     ])).map(buildArticleVM);
 
     return {homePages, outsidePages};
