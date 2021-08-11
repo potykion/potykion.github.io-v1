@@ -45,7 +45,7 @@ big: true
 ## 2.4.0 - 2021-07-08
 
 - [/dev/cv](/dev/cv): Резюмеха
-- [/cooking](/cooking): База + пара новых рецептиков
+- [/food](/food): База + пара новых рецептиков
 - [/dev/how](/dev/how): Доска с задачками
 
 ---
@@ -94,7 +94,7 @@ big: true
 ## 1.8.0 - 2021-06-05
 
 - [/archive/sleep](/archive/sleep): Переписал слипыч
-- [/cooking/food](/cooking/food): Тир-листы еды
+- [/food](/food): Тир-листы еды
 - [/archive/eng/articles](/archive/eng/articles): Артикли в инглише
 
 ---
@@ -116,7 +116,7 @@ big: true
 
 ## 1.7.0 - 2021-05-17
 
-- [/cooking](/cooking): Свалка рецептов
+- [/food](/food): Свалка рецептов
 
 ---
 

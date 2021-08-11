@@ -2,7 +2,7 @@
   <section>
     <article-heading title="Кукинг" description="Несложные, опробованные рецепты" :small="true"></article-heading>
 
-    <article-preview v-for="page in cookingPages" :key="page.title" :article="page" ></article-preview>
+    <article-preview v-for="page in cookingPages" :key="page.title" :article="page"></article-preview>
   </section>
 
 </template>
@@ -25,7 +25,7 @@ import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
       "Несложные, опробованные рецепты",
     );
   },
-  async asyncData(ctx: Context): Promise<object | void> | object | void {
+  async asyncData(ctx) {
     const cookingPages = (await ctx.$content("food/home/cooking").fetch()).map(buildArticleVM);
     return {cookingPages};
   }
