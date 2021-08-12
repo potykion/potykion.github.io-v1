@@ -98,10 +98,6 @@ export default class DevIndex extends Vue {
   flutterPages!: ArticleVM[];
   vuePages!: ArticleVM[];
   otherPages!: ArticleVM[];
-
-  created() {
-    console.log(this.jobPages);
-  }
 }
 
 

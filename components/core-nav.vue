@@ -6,7 +6,7 @@
         <div class="flex-grow flex justify-between space-x-2 lg:space-x-6">
           <nav-item class="flex-grow lg:flex-grow-0" to="/cool-story" title="Кулстори" emote="coolstorybob"/>
           <nav-item class="flex-grow lg:flex-grow-0" to="/dev" title="Разработка" emote="support"/>
-          <nav-item class="flex-grow lg:flex-grow-0" to="/cooking" title="Кукинг" emote="salt"/>
+          <nav-item class="flex-grow lg:flex-grow-0" to="/food" title="Про еду" emote="salt"/>
 
           <nav-item class="flex-grow lg:flex-grow-0" to="/n" title="Обо мне" emote="kappa"/>
           <nav-item class="flex-grow lg:flex-grow-0" to="/archive" title="Архив" emote="sleeper"/>

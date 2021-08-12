@@ -14,8 +14,8 @@
         <nuxt-link  to="/dev">
           <img src="/images/index/dev.png" alt="Разработка">
         </nuxt-link>
-        <nuxt-link  to="/cooking">
-          <img src="/images/index/cooking.png" alt="Кукинг">
+        <nuxt-link  to="/food">
+          <img src="/images/index/food.png" alt="Про еду">
         </nuxt-link>
 
         <nuxt-link  to="/n">

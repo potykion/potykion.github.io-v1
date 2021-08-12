@@ -26,7 +26,7 @@ description: Кто я, что я, пробую преподнести себя
 - [приколы](https://vk.com/peplix)
 - [разработка](https://github.com/potykion)
 - [рисование](https://www.instagram.com/poty_risovach)
-- [еда](/cooking/food), [алкоголь](https://www.instagram.com/potykion/), [готовка](/cooking)
+- [еда](/food) и [алкоголь](https://www.instagram.com/potykion/) 
 - танцы
 - [музычка](https://open.spotify.com/user/1srdxgefrloip7wopd30dntkd?si=1nyoyb-fQOi4OIq6s9IHmA), [клипчики](https://youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
 - [кинчики](https://www.kinopoisk.ru/user/4445656/)
