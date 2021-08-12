@@ -43,6 +43,9 @@ export default class TwitchEmote
     if (normalized === "salt" || normalized === "pjsalt") {
       return "/images/twitch-emote/pjsalt.png";
     }
+    if (normalized === "casino") {
+      return "/images/n/Чувак_из_казино.png";
+    }
   }
 }
 </script>

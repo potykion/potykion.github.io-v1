@@ -3,14 +3,47 @@ title: Обо мне
 description: Кто я, что я, пробую преподнести себя
 ---
 
-# Обо мне <twitch-emote emote="kappa"></twitch-emote>
+<div class="flex">
 
-<p class="text-center text-gray-500">Кто я, что я, пробую преподнести себя</p>
+  <div class="flex-grow">
+  
+  ## Ты кто такой, сука? <twitch-emote emote="casino"></twitch-emote>
+  
+  Приколист, разраб, пацан
+  
+  </div>
 
-<new-img-row>
-  <img-slide src="/images/n/me1.jpg" alt="Офисная ебучка"></img-slide>
-  <img-slide src="/images/n/me2.jpg" alt="Ебучка после новоселья"></img-slide>
-</new-img-row>
+  <div class="flex-initial w-32">
+    <new-img-row>
+      <img-slide  src="/images/n/me2.jpg" alt="Флексить люблю"></img-slide>
+    </new-img-row>
+  </div>
+</div>
+
+
+---
+
+<div class="flex flex-col md:flex-row md:space-x-4">
+
+  <div>
+    <new-img-row>
+      <img-slide  src="/images/n/programmer.png" alt="Программист? Пошел нахуй!" :show-caption="false"></img-slide>
+    </new-img-row>
+  </div>
+
+  <div>
+
+  ## Ооо, ты программист, коды пишешь?
+  
+  Ну да, бложек вот написал, есть [приложуха в гугл-плей](https://play.google.com/store/apps/details?id=dev.palka.yaxxxta),
+  на работке серверочки-сайтики пишу, [доступен для парт-тайм работы](/dev/cv)
+
+  </div>
+
+</div>
+
+---
+
 
 ### Био
 
