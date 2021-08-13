@@ -2,4 +2,5 @@
 
 Бложек с кулсторями, заметками про разработку и экспериенс жизненный.
 
-![image](https://user-images.githubusercontent.com/8466011/128735407-f9fa52a6-9236-46b4-8d6f-81fe4410d0a9.png)
+![image](https://user-images.githubusercontent.com/8466011/129366849-55a2d084-8892-44bd-848b-16d1669cc343.png)
+
