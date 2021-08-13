@@ -1,16 +1,26 @@
 ---
-title: Обо мне
-description: Кто я, что я, пробую преподнести себя
+title: Обо мне 
+description: Кто я, что я, рассказываю о себе
+---
+
+## Так, стоп, где я нахожусь?
+
+Ты находишься на моем бложике!
+
+<new-img-row>
+  <img-slide src="/images/n/blog.png" alt="Главная бложика"></img-slide>
+</new-img-row>
+
 ---
 
 <div class="flex">
 
   <div class="flex-grow">
-  
-  ## Ты кто такой, сука? <twitch-emote emote="casino"></twitch-emote>
-  
-  Приколист, разраб, пацан
-  
+
+## Ты кто такой, сука? <twitch-emote emote="casino"></twitch-emote>
+
+Пацан, приколист, разраб
+
   </div>
 
   <div class="flex-initial w-32">
@@ -33,10 +43,11 @@ description: Кто я, что я, пробую преподнести себя
 
   <div>
 
-  ## Ооо, ты программист, коды пишешь?
-  
-  Ну да, бложек вот написал, есть [приложуха в гугл-плей](https://play.google.com/store/apps/details?id=dev.palka.yaxxxta),
-  на работке серверочки-сайтики пишу, [доступен для парт-тайм работы](/dev/cv)
+## Ооо, ты программист, коды пишешь?
+
+Ну да, [бложек](https://github.com/potykion/potykion.github.io) вот написал,
+есть [приложуха в гугл-плей](https://play.google.com/store/apps/details?id=dev.palka.yaxxxta),
+на [работке](https://rbcn.mobi/) серверочки-сайтики пишу, [доступен для парт-тайм работы](/dev/cv)
 
   </div>
 
@@ -44,38 +55,94 @@ description: Кто я, что я, пробую преподнести себя
 
 ---
 
+## Че чем интересуешься?
 
-### Био
+Все как у людей: музычка, киношки, игрушки
 
-- **ФИО:** Лейбович Никита Максимович
-- **Дата рождения:** 1996-12-18
-- **Место проживания:** Москва
-- **Работа:** фулстак разраб в [rbcn](https://rbcn.mobi/)
-- **Рост:** 183 см; **вес:** ~88 кг
-- **Размер одежды:** XL / 54; **обуви:** 45 / 46
+### Че слушаешь?
 
-### Интересы
+Да все подряд: попсу, метальчик, репчик, электронщину
 
-- [приколы](https://vk.com/peplix)
-- [разработка](https://github.com/potykion)
-- [рисование](https://www.instagram.com/poty_risovach)
-- [еда](/food) и [алкоголь](https://www.instagram.com/potykion/) 
-- танцы
-- [музычка](https://open.spotify.com/user/1srdxgefrloip7wopd30dntkd?si=1nyoyb-fQOi4OIq6s9IHmA), [клипчики](https://youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
-- [кинчики](https://www.kinopoisk.ru/user/4445656/)
-- [игрушки](https://steamcommunity.com/id/potykion)
+<iframe src="https://open.spotify.com/embed/playlist/6ZOBCtTPzXI49MXwARyZRj" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-### Cсылочки
+Еще я люблю клипачки и веду коллекцию клипачков - [**"танцевальное по
+лайту"**](https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
 
-- [тележка](https://t.me/potykion)
-- [резюмеха](/dev/cv)
-- [встретиться](https://calendly.com/potykion/vstrechalovo)
-- [дать денег](https://www.tinkoff.ru/rm/leybovich.nikita1/8PkYa74332)
-- [вишлист](/n/wishlist)
-- [цели](/n/goals2021)
+### Че какой кинчик посоветуешь?
 
-### Про хаточки
+Из последнего понравился фильм ["В доме"](https://www.kinopoisk.ru/film/596266/),
+серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
 
-- **Любимый район:** Тверской (Менделеевская, Белорусская)
-- **Аренда:** до 60к, площадь от 40м, кондик, посудомойка
-- **Ипотека:** до 12кк, первый взнос до 2кк, ставка до 8%
+<new-img-row>
+  <img-slide src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"' ></img-slide>
+  <img-slide src="/images/n/Utopia.webp" alt='Серик "Утопия"' ></img-slide>
+  <img-slide src="/images/n/Soul.jpg" alt='Мульт "Душа"'></img-slide>
+</new-img-row>
+
+Вообще, мои [оценочки](https://www.kinopoisk.ru/user/4445656/votes/) открыты, можно там что-нибудь поискать
+
+### Во че гамаешь?
+
+Ща
+в [Айзека <twitch-emote emote="isaac" :small="true" ></twitch-emote>](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/)
+, планирую выдрочить все ачивки - то есть играть буду где-то год
+
+<new-img-row>
+  <img-slide src="/images/n/isaac-progress.png" alt="Прогресс на 12.08.2021" ></img-slide>
+</new-img-row>
+
+### А че по хобби?
+
+<new-img-row>
+  <img-slide src="/images/n/berew-i-risyew.png" alt="Берешь и рисуешь" :show-caption="false"></img-slide>
+</new-img-row>
+
+
+В художку хожу, маслом [рисую](https://www.instagram.com/poty_risovach)
+
+---
+
+## А у тебя цели есть или ты просто по течению плывешь?
+
+[Цели есть](/n/goals2021)
+
+---
+
+## Окей, давай познакомимся поближе?
+
+Да, давай
+
+# со мной можно встретиться!
+
+Можем покушать, побухать, поделать дела, за жизнь попиздеть,
+только [забронь времячко](https://calendly.com/potykion/vstrechalovo)
+
+---
+
+## А как можно поддержать тебя и твой блог?
+
+- Можно предложить идеи по улучшению блога, написав мне в [телеграм](https://t.me/potykion)
+- Можно помочь мне [по коду](https://github.com/potykion/potykion.github.io/issues)
+- Можно [дать мне денег](https://www.tinkoff.ru/rm/leybovich.nikita1/8PkYa74332)
+- Можно подарить мне что-нибудь из [вишлиста](/n/wishlist)
+
+---
+
+И самое главное...
+
+# Что обозначает potykion?
+
+**Ничего**
+
+Просто выдумал набор букв, когда нужно было придумать ник в Battle.net в Warcraft III
+
+Теперь он используется везде, например в [инстухе](https://www.instagram.com/potykion/)
+
+
+[comment]: <> (- **Рост:** 183 см; **вес:** ~88 кг)
+
+[comment]: <> (- **Любимый район:** Тверской &#40;Менделеевская, Белорусская&#41;)
+
+[comment]: <> (- **Аренда:** до 60к, площадь от 40м, кондик, посудомойка)
+
+[comment]: <> (- **Ипотека:** до 12кк, первый взнос до 2кк, ставка до 8%)
