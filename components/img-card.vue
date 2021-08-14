@@ -1,8 +1,12 @@
 <template>
   <div>
     <template v-if="streamline">
-      <img v-viewer="{title: false, toolbar: false, navbar: false}" :src="`/images${img}`" :alt="alt || img"
-           :class="[align === 'left' ? 'float-left' : 'float-right', 'm-3']">
+      <figure :class="[align === 'left' ? 'float-left' : 'float-right', 'm-3']">
+        <img v-viewer="{title: false, toolbar: false, navbar: false}" :src="`/images${img}`" :alt="alt || img"
+        :class="['mx-auto', 'rounded', full ? 'max-h-96' : 'w-28']">
+        <figcaption v-if="alt">{{ alt }}</figcaption>
+      </figure>
+
       <div>
         <h3 v-if="header">{{ header }}</h3>
 
@@ -50,6 +54,7 @@ export default class ImgCard extends Vue {
   @Prop() img!: string;
   @Prop() alt!: string;
   @Prop() header!: string;
+  @Prop({default: false}) full!: boolean;
 
   @Prop({default: false}) streamline!: boolean;
 }
@@ -57,8 +62,5 @@ export default class ImgCard extends Vue {
 
 <style scoped>
 
-img {
-  @apply w-28  rounded;
-}
 
 </style>

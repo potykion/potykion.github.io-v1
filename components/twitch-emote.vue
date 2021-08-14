@@ -1,7 +1,7 @@
 <template>
   <img :src="emotePath" :alt="emote"
-       :class="small ? 'emote-small': 'emote'"
-       :width="small ? 24 : 32" :height="small ? 24 : 32">
+       class="inline-block"
+       :width="small ? 24 : big ? 64 : 32" :height="small ? 24 : big ? 64 : 32">
 </template>
 
 <script lang="ts">
@@ -18,6 +18,7 @@ export default class TwitchEmote
 
   @Prop() emote!: string;
   @Prop({default: false}) small!: boolean;
+  @Prop({default: false}) big!: boolean;
 
   get emotePath() {
     const normalized = this.emote.toLowerCase();
@@ -43,6 +44,15 @@ export default class TwitchEmote
     if (normalized === "salt" || normalized === "pjsalt") {
       return "/images/twitch-emote/pjsalt.png";
     }
+    if (normalized === "casino") {
+      return "/images/twitch-emote/Чувак_из_казино.png";
+    }
+    if (normalized === "isaac") {
+      return "/images/twitch-emote/isaac.png";
+    }
+    if (normalized === "vdud") {
+      return "/images/twitch-emote/vdud.gif";
+    }
   }
 }
 </script>
@@ -56,4 +66,7 @@ export default class TwitchEmote
   @apply h-6 w-6 inline-block;
 }
 
+.emote-big {
+  @apply h-16 w-16 inline-block;
+}
 </style>

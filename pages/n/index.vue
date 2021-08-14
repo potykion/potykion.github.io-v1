@@ -1,6 +1,9 @@
 <template>
-  <nuxt-content :document="page"/>
-
+  <article>
+    <article-heading :title="page.title" :description="page.description" emote="kappa" />
+    <hr/>
+    <nuxt-content :document="page"/>
+  </article>
 </template>
 
 <script>
