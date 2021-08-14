@@ -83,6 +83,18 @@ export default {
     '@nuxtjs/google-fonts'
   ],
 
+  tailwindcss: {
+    config: {
+      purge: {
+        // purge-css будет искать tailwind-классы в md-файлах =>
+        // классы в md-файлах не будут проебываться в проде
+        content: [
+          'content/**/**.md'
+        ]
+      }
+    }
+  },
+
   googleFonts: {
     // subsets: 'cyrillic',
     families: {
