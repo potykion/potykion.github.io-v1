@@ -43,7 +43,7 @@ description: Кто я, что я, рассказываю о себе
 
   <div>
 
-## Ооо, ты программист, коды пишешь?
+## Ооо, ты программист, *коды пишешь?*
 
 Ну да, [бложек](https://github.com/potykion/potykion.github.io) вот написал,
 есть [приложуха в гугл-плей](https://play.google.com/store/apps/details?id=dev.palka.yaxxxta),
@@ -65,13 +65,11 @@ description: Кто я, что я, рассказываю о себе
 
 <iframe src="https://open.spotify.com/embed/playlist/6ZOBCtTPzXI49MXwARyZRj" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-Еще я люблю клипачки и веду коллекцию клипачков - [**"танцевальное по
-лайту"**](https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
+Еще я люблю клипачки и веду коллекцию клипачков - [**"танцевальное по лайту"**](https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
 
 ### Че какой кинчик посоветуешь?
 
-Из последнего понравился фильм ["В доме"](https://www.kinopoisk.ru/film/596266/),
-серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
+Из последнего понравился фильм ["В доме"](https://www.kinopoisk.ru/film/596266/), серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
 
 <new-img-row>
   <img-slide src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"' ></img-slide>
@@ -83,9 +81,7 @@ description: Кто я, что я, рассказываю о себе
 
 ### Во че гамаешь?
 
-Ща
-в [Айзека <twitch-emote emote="isaac" :small="true" ></twitch-emote>](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/)
-, планирую выдрочить все ачивки - то есть играть буду где-то год
+Ща в [Айзека <twitch-emote emote="isaac" :small="true" ></twitch-emote>](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/), планирую выдрочить все ачивки — то есть играть буду где-то год
 
 <new-img-row>
   <img-slide src="/images/n/isaac-progress.png" alt="Прогресс на 12.08.2021" ></img-slide>
@@ -100,11 +96,24 @@ description: Кто я, что я, рассказываю о себе
 
 В художку хожу, маслом [рисую](https://www.instagram.com/poty_risovach)
 
+### Что еще расскажешь?
+
+Я веду [**цели**](/n/goals2021)!
+
 ---
 
-## А у тебя цели есть или ты просто по течению плывешь?
+<h2 class="text-center">
+<twitch-emote :big="true" emote="vdud" ></twitch-emote> vdud moment <twitch-emote emote="vdud" :big="true" ></twitch-emote>
+</h2>
 
-[Цели есть](/n/goals2021)
+
+### Когда у тебя был последний секс?
+
+Летом 2020
+
+### Сколько ты зарабатываешь?
+
+170 000 ₽
 
 ---
 
@@ -114,8 +123,7 @@ description: Кто я, что я, рассказываю о себе
 
 # со мной можно встретиться!
 
-Можем покушать, побухать, поделать дела, за жизнь попиздеть,
-только [забронь времячко](https://calendly.com/potykion/vstrechalovo)
+Можем покушать, побухать, поделать дела, за жизнь попиздеть, только [забронь времячко](https://calendly.com/potykion/vstrechalovo)
 
 ---
 
@@ -130,7 +138,7 @@ description: Кто я, что я, рассказываю о себе
 
 И самое главное...
 
-# Что обозначает potykion?
+# Что означает potykion?
 
 **Ничего**
 
@@ -139,10 +147,3 @@ description: Кто я, что я, рассказываю о себе
 Теперь он используется везде, например в [инстухе](https://www.instagram.com/potykion/)
 
 
-[comment]: <> (- **Рост:** 183 см; **вес:** ~88 кг)
-
-[comment]: <> (- **Любимый район:** Тверской &#40;Менделеевская, Белорусская&#41;)
-
-[comment]: <> (- **Аренда:** до 60к, площадь от 40м, кондик, посудомойка)
-
-[comment]: <> (- **Ипотека:** до 12кк, первый взнос до 2кк, ставка до 8%)

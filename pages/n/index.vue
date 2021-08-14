@@ -1,6 +1,6 @@
 <template>
   <article>
-    <article-heading :title="page.title" :description="page.description" />
+    <article-heading :title="page.title" :description="page.description" emote="kappa" />
     <hr/>
     <nuxt-content :document="page"/>
   </article>
