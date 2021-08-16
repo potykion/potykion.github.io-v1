@@ -128,9 +128,20 @@ description: Все, что вы хотели знать обо мне
 
 </div>
 
-### Что еще расскажешь?
+### Чем еще занимаешься?
 
-Я веду [**цели**](/n/goals2021)!
+<div class="aim">
+
+
+<div class="font-bold">Я СТАВЛЮ</div> 
+
+
+# [ЦЕЛИ](/n/goals2021)
+
+<div class="invisible font-bold">Я СТАВЛЮ</div> 
+
+
+</div>
 
 
 <div class="vdud">
@@ -155,10 +166,10 @@ description: Все, что вы хотели знать обо мне
 
 Можно написать мне в [телеграм](https://t.me/potykion), а можно...
 
-# со мной встретиться!
+# встретиться со мной!
 
 Можем покушать, побухать, поделать дела, за жизнь попиздеть,
-только <a class="calendly" href="https://calendly.com/potykion/vstrechalovo">забронь времячко</a>
+только <a class="calendly" href="https://calendly.com/potykion/vstrechalovo">забронь время</a>
 
 
 ---

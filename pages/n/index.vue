@@ -181,4 +181,14 @@ export default {
   background: #FF0000;
 }
 
+.aim {
+  @apply text-center h-52 rounded flex justify-center flex-col py-6;
+  background: url("/images/n/aim.png") center;
+  background-size: cover ;
+
+}
+.aim a {
+  @apply text-black no-underline;
+}
+
 </style>
