@@ -26,7 +26,11 @@ export default class SingleCoolStoryPage extends Vue {
   article!: ArticleVM;
 
   head() {
-    return generateSeoHead(this.article.title, this.article.description);
+    return generateSeoHead(
+      this.article.title,
+      this.article.description,
+      this.article.link,
+    );
   };
 }
 </script>

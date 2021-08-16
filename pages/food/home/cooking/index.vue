@@ -23,6 +23,7 @@ import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
     return generateSeoHead(
       "Кукинг",
       "Несложные, опробованные рецепты",
+      "/food/home/cooking"
     );
   },
   async asyncData(ctx) {

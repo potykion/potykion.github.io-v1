@@ -17,7 +17,11 @@ export default {
     return {page};
   },
   head() {
-    return generateSeoHead(this.page.title, this.page.description);
+    return generateSeoHead(
+      this.page.title,
+      this.page.description,
+      this.page.path,
+    );
   },
 }
 </script>

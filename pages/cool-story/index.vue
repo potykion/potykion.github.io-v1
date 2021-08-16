@@ -34,7 +34,8 @@ import {generateSeoHead} from "~/logic/core/seo";
   head() {
     return generateSeoHead(
       "Кулстори",
-      "Свалка историй для пацанов"
+      "Свалка историй для пацанов",
+      "/cool-story"
     );
   }
 })

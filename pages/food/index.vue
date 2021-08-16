@@ -3,11 +3,11 @@
     <article-heading title="Про еду" description='Пробую решить проблему "бля что поесть"'
                      emote="salt"></article-heading>
 
-    <h3>Едим дома</h3>
+    <h2>Едим дома</h2>
 
     <article-preview v-for="page in homePages" :article="page" :key="page.title"></article-preview>
 
-    <h3>Едим не дома</h3>
+    <h2>Едим не дома</h2>
 
     <article-preview v-for="page in outsidePages" :article="page" :key="page.title"></article-preview>
 
@@ -38,7 +38,8 @@ import {IContentDocument} from "@nuxt/content/types/content";
   head() {
     return generateSeoHead(
       "Про еду",
-      'Пробую решить проблему "бля что поесть"'
+      'Пробую решить проблему "бля что поесть"',
+      "/food"
     );
   }
 })

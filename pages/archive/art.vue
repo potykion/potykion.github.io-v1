@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Рисовач</h1>
+    <article-heading title="Рисовач" description="Как научится рисовать, что делать если лень, куда я хожу"></article-heading>
 
     <h2> Как научиться рисовать?</h2>
 
@@ -292,7 +292,8 @@ import {generateSeoHead} from "~/logic/core/seo";
   head() {
     return generateSeoHead(
       "Рисовач",
-      "Как научится рисовать, что делать если лень, куда я хожу"
+      "Как научится рисовать, что делать если лень, куда я хожу",
+      "/archive/art"
     );
   }
 })

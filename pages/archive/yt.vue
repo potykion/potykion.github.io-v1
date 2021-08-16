@@ -493,7 +493,8 @@ import {generateSeoHead} from "~/logic/core/seo";
   head() {
     return generateSeoHead(
       "Ютуб",
-      "Моя история познания ютуба и каналы, которые я смотрю"
+      "Моя история познания ютуба и каналы, которые я смотрю",
+      "/archive/yt"
     );
   },
 })
