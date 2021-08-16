@@ -70,8 +70,8 @@ description: Все, что вы хотели знать обо мне
 
 <iframe src="https://open.spotify.com/embed/playlist/6ZOBCtTPzXI49MXwARyZRj" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-Еще я люблю клипачки и веду коллекцию клипачков - [**"танцевальное по
-лайту"**](https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
+Еще я люблю клипачки и веду коллекцию клипачков - 
+<a class="yt" href="https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q">танцевальное по лайту</a>
 
 </div>
 
@@ -84,11 +84,11 @@ description: Все, что вы хотели знать обо мне
 Из последнего понравился фильм ["В доме"](https://www.kinopoisk.ru/film/596266/),
 серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
 
-  <new-img-row>
-    <img-slide src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"' ></img-slide>
-    <img-slide src="/images/n/Utopia.webp" alt='Серик "Утопия"' ></img-slide>
-    <img-slide src="/images/n/Soul.jpg" alt='Мульт "Душа"'></img-slide>
-  </new-img-row>
+  <div class="flex justify-around space-x-2 h-40 md:h-80">
+    <img class="rounded w-1/3 object-contain" src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"'/>
+    <img class="rounded w-1/3 object-contain" src="/images/n/Utopia.webp" alt='Серик "Утопия"'/>
+    <img class="rounded w-1/3 object-contain" src="/images/n/Soul.jpg" alt='Мульт "Душа"'/>
+  </div>
 
 Вообще, мои <a class="kp-link" href="https://www.kinopoisk.ru/user/4445656/votes/">оценочки</a> открыты, можно там
 что-нибудь поискать
@@ -151,22 +151,25 @@ description: Все, что вы хотели знать обо мне
 
 ---
 
-## Окей, давай познакомимся поближе?
+## Как с тобой связаться?
 
-Да, давай
+Можно написать мне в [телеграм](https://t.me/potykion), а можно...
 
-# со мной можно встретиться!
+# со мной встретиться!
 
 Можем покушать, побухать, поделать дела, за жизнь попиздеть,
-только [забронь времячко](https://calendly.com/potykion/vstrechalovo)
+только <a class="calendly" href="https://calendly.com/potykion/vstrechalovo">забронь времячко</a>
+
 
 ---
 
-## А как можно поддержать тебя и твой блог?
+## Как можно поддержать тебя и твой блог?
+
+- Можно просто <a class="money" href="https://www.tinkoff.ru/rm/leybovich.nikita1/8PkYa74332">дать мне денег</a>
+
 
 - Можно предложить идеи по улучшению блога, написав мне в [телеграм](https://t.me/potykion)
 - Можно помочь мне [по коду](https://github.com/potykion/potykion.github.io/issues)
-- Можно [дать мне денег](https://www.tinkoff.ru/rm/leybovich.nikita1/8PkYa74332)
 - Можно подарить мне что-нибудь из [вишлиста](/n/wishlist)
 
 ---

@@ -47,6 +47,11 @@ export default {
   @apply text-white !important;
 }
 
+.link-btn {
+  @apply py-1 px-2 rounded no-underline inline-block font-bold;
+}
+
+/* Custom */
 
 .steam {
   @apply card white-text;
@@ -93,7 +98,7 @@ export default {
 }
 
 .kp-link {
-  @apply text-white no-underline py-1 px-2 rounded !important;
+  @apply link-btn text-white !important;
   background: #f60;
 }
 
@@ -151,6 +156,29 @@ export default {
   @apply card;
   background: rgb(185,255,216);
   background: linear-gradient(180deg, rgba(185,255,216,1) 0%, rgba(90,114,152,1) 100%);
+}
+
+
+.money {
+  @apply link-btn text-black;
+  background: #FFDD2D
+}
+.money:hover {
+  background: #FCC521;
+}
+
+.calendly {
+  @apply link-btn text-white;
+  background: #006BFF;
+}
+
+.calendly:hover {
+  background: #66A6FF;
+}
+
+.yt {
+  @apply link-btn ;
+  background: #FF0000;
 }
 
 </style>
