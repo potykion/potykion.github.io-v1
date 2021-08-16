@@ -1,7 +1,7 @@
 <template>
   <img :src="emotePath" :alt="emote"
        class="inline-block"
-       :width="small ? 24 : big ? 64 : 32" :height="small ? 24 : big ? 64 : 32">
+       :width="small ? 24 : big ? 60 : 32" :height="small ? 24 : big ? 60 : 32">
 </template>
 
 <script lang="ts">

@@ -71,7 +71,6 @@
 
   iframe {
     @apply h-80 w-full;
-
   }
 
   video {
@@ -148,6 +147,10 @@
     font-display: swap;
     src: url('~assets/fonts/AmazDooMRight.ttf') format('truetype');
   }
+
+
+
+
 
 }
 

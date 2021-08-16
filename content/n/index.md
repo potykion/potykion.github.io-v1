@@ -1,19 +1,21 @@
 ---
-title: Обо мне
+title: Обо мне 
 description: Все, что вы хотели знать обо мне
 ---
+
+<div class="card white-text bg-black">
 
 ## Так, стоп, где я нахожусь?
 
 Ты находишься на моем бложике!
 
 <new-img-row>
-  <img-slide src="/images/n/blog.png" alt="Главная бложика"></img-slide>
+  <img-slide  img-class="border-2 rounded border-white" src="/images/n/blog.png" alt="Главная бложика"></img-slide>
 </new-img-row>
 
----
+</div>
 
-<div class="flex">
+<div class="flex casino">
 
   <div class="flex-grow">
 
@@ -31,9 +33,7 @@ description: Все, что вы хотели знать обо мне
 </div>
 
 
----
-
-<div class="flex flex-col md:flex-row md:space-x-4">
+<div class="flex flex-col md:flex-row md:space-x-4 programmer">
 
   <div>
     <new-img-row>
@@ -41,23 +41,28 @@ description: Все, что вы хотели знать обо мне
     </new-img-row>
   </div>
 
-  <div>
+  <div >
 
-## Ооо, ты программист, *коды пишешь?*
+  ## Ооо, ты программист, *коды пишешь?*
 
-Ну да, [бложек](https://github.com/potykion/potykion.github.io) вот написал,
-есть [приложуха в гугл-плей](https://play.google.com/store/apps/details?id=dev.palka.yaxxxta),
-на [работке](https://rbcn.mobi/) серверочки-сайтики пишу, [доступен для парт-тайм работы](/dev/cv)
+  <div class="white-text">
+  
+  Ну да, [бложек](https://github.com/potykion/potykion.github.io) вот написал,
+  есть [приложуха в гугл-плей](https://play.google.com/store/apps/details?id=dev.palka.yaxxxta),
+  на [работке](https://rbcn.mobi/) серверочки-сайтики пишу, [доступен для парт-тайм работы](/dev/cv)
+
+  </div>
 
   </div>
 
 </div>
 
----
 
 ## Че чем интересуешься?
 
 Все как у людей: музычка, киношки, игрушки
+
+<div class="spotify">
 
 ### Че слушаешь?
 
@@ -65,47 +70,74 @@ description: Все, что вы хотели знать обо мне
 
 <iframe src="https://open.spotify.com/embed/playlist/6ZOBCtTPzXI49MXwARyZRj" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-Еще я люблю клипачки и веду коллекцию клипачков - [**"танцевальное по лайту"**](https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
+Еще я люблю клипачки и веду коллекцию клипачков - [**"танцевальное по
+лайту"**](https://www.youtube.com/playlist?list=PLdb8DVmvU9i5bGINNz10f-ga_bqD41O4q)
+
+</div>
+
+<div class="kp">
 
 ### Че какой кинчик посоветуешь?
 
-Из последнего понравился фильм ["В доме"](https://www.kinopoisk.ru/film/596266/), серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
+  <div class="kp-body">
 
-<new-img-row>
-  <img-slide src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"' ></img-slide>
-  <img-slide src="/images/n/Utopia.webp" alt='Серик "Утопия"' ></img-slide>
-  <img-slide src="/images/n/Soul.jpg" alt='Мульт "Душа"'></img-slide>
-</new-img-row>
+Из последнего понравился фильм ["В доме"](https://www.kinopoisk.ru/film/596266/),
+серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
 
-Вообще, мои [оценочки](https://www.kinopoisk.ru/user/4445656/votes/) открыты, можно там что-нибудь поискать
+  <new-img-row>
+    <img-slide src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"' ></img-slide>
+    <img-slide src="/images/n/Utopia.webp" alt='Серик "Утопия"' ></img-slide>
+    <img-slide src="/images/n/Soul.jpg" alt='Мульт "Душа"'></img-slide>
+  </new-img-row>
+
+Вообще, мои <a class="kp-link" href="https://www.kinopoisk.ru/user/4445656/votes/">оценочки</a> открыты, можно там
+что-нибудь поискать
+
+  </div>
+
+</div>
+
+<div class="steam">
 
 ### Во че гамаешь?
 
-Ща в [Айзека <twitch-emote emote="isaac" :small="true" ></twitch-emote>](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/), планирую выдрочить все ачивки — то есть играть буду где-то год
+Ща
+в [Айзека <twitch-emote emote="isaac" :small="true" ></twitch-emote>](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/)
+, планирую выдрочить все ачивки — то есть играть буду где-то год
 
 <new-img-row>
   <img-slide src="/images/n/isaac-progress.png" alt="Прогресс на 12.08.2021" ></img-slide>
 </new-img-row>
 
+</div>
+
+
+<div class="flex justify-between risovach">
+
+  <div class="self-end">
+
 ### А че по хобби?
 
-<new-img-row>
-  <img-slide src="/images/n/berew-i-risyew.png" alt="Берешь и рисуешь" :show-caption="false"></img-slide>
-</new-img-row>
-
-
 В художку хожу, маслом [рисую](https://www.instagram.com/poty_risovach)
+
+  </div>
+
+  <div class="py-2 ">
+    <img class="h-full object-contain rounded" src="/images/n/risovach.jpg" alt="Прогресс на 12.08.2021" ></img>
+  </div>
+
+</div>
 
 ### Что еще расскажешь?
 
 Я веду [**цели**](/n/goals2021)!
 
----
 
-<h2 class="text-center">
-<twitch-emote :big="true" emote="vdud" ></twitch-emote> vdud moment <twitch-emote emote="vdud" :big="true" ></twitch-emote>
+<div class="vdud">
+
+<h2 class="text-center italic">
+  <twitch-emote :big="true" emote="vdud" ></twitch-emote> vdud moment <twitch-emote emote="vdud" :big="true" ></twitch-emote>
 </h2>
-
 
 ### Когда у тебя был последний секс?
 
@@ -115,6 +147,8 @@ description: Все, что вы хотели знать обо мне
 
 170 000 ₽
 
+</div>
+
 ---
 
 ## Окей, давай познакомимся поближе?
@@ -123,7 +157,8 @@ description: Все, что вы хотели знать обо мне
 
 # со мной можно встретиться!
 
-Можем покушать, побухать, поделать дела, за жизнь попиздеть, только [забронь времячко](https://calendly.com/potykion/vstrechalovo)
+Можем покушать, побухать, поделать дела, за жизнь попиздеть,
+только [забронь времячко](https://calendly.com/potykion/vstrechalovo)
 
 ---
 

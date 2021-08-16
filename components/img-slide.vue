@@ -2,7 +2,7 @@
   <swiper-slide>
     <div class=" flex justify-center ">
       <figure class="flex flex-col items-center  ">
-        <img :src="src" :alt="alt" class="rounded" loading="lazy" :width="width" :height="height" />
+        <img :src="src" :alt="alt" :class="['rounded', imgClass]" loading="lazy" :width="width" :height="height" />
         <figcaption v-if="showCaption">{{ alt }}</figcaption>
       </figure>
     </div>
@@ -23,6 +23,7 @@ import {SwiperOptions} from "swiper";
 export default class ImgSlide extends Vue {
   @Prop({required: true}) src!: string;
   @Prop({required: true}) alt!: string;
+  @Prop() imgClass!: string;
 
   @Prop({default: true}) showCaption!: boolean;
 
