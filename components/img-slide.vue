@@ -2,7 +2,7 @@
   <swiper-slide>
     <div class=" flex justify-center ">
       <figure class="flex flex-col items-center  ">
-        <img :src="src" :alt="alt" :class="['rounded', imgClass]" loading="lazy" :width="width" :height="height" />
+        <img loading="lazy" :src="src" :alt="alt" :class="['rounded', imgClass]" loading="lazy" :width="width" :height="height" />
         <figcaption v-if="showCaption">{{ alt }}</figcaption>
       </figure>
     </div>

@@ -85,9 +85,9 @@ description: Все, что вы хотели знать обо мне
 серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
 
   <div class="flex justify-around space-x-2 h-40 md:h-80">
-    <img class="rounded w-1/3 object-contain" src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"'/>
-    <img class="rounded w-1/3 object-contain" src="/images/n/Utopia.webp" alt='Серик "Утопия"'/>
-    <img class="rounded w-1/3 object-contain" src="/images/n/Soul.jpg" alt='Мульт "Душа"'/>
+    <img loading="lazy" class="rounded w-1/3 object-contain" src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"'/>
+    <img loading="lazy" class="rounded w-1/3 object-contain" src="/images/n/Utopia.webp" alt='Серик "Утопия"'/>
+    <img loading="lazy" class="rounded w-1/3 object-contain" src="/images/n/Soul.jpg" alt='Мульт "Душа"'/>
   </div>
 
 Вообще, мои <a class="kp-link" href="https://www.kinopoisk.ru/user/4445656/votes/">оценочки</a> открыты, можно там
@@ -123,7 +123,7 @@ description: Все, что вы хотели знать обо мне
   </div>
 
   <div class="py-2 ">
-    <img class="h-full object-contain rounded" src="/images/n/risovach.jpg" alt="Прогресс на 12.08.2021" ></img>
+    <img loading="lazy" class="h-full object-contain rounded" src="/images/n/risovach.jpg" alt="Прогресс на 12.08.2021" ></img>
   </div>
 
 </div>
