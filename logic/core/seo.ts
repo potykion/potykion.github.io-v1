@@ -47,9 +47,10 @@ export function generateSeoHead(
         "articleBody": description,
         "description": description,
         "author": {
-          "name": "Nikita Leybovich"
+          "@type": "Person",
+          "name": "Nikita Leybovich",
+          "url": "https://potyk.io/n"
         }
-
       }),
       type: 'application/ld+json'
     }],
