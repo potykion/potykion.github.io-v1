@@ -54,8 +54,21 @@ export default {
 /* Custom */
 
 .steam {
+  position: relative;
+}
+
+.steam > .steam-content {
   @apply card white-text;
-  background: url(https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2) center top no-repeat #1b2838;
+  /*background: url() center top no-repeat #1b2838;*/
+}
+
+.steam > img.steam-bg {
+  @apply rounded object-cover;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .spotify {
@@ -182,10 +195,19 @@ export default {
 }
 
 .aim {
-  @apply text-center h-52 rounded flex justify-center flex-col py-6;
-  background: url("/images/n/aim.png") center;
-  background-size: cover ;
+  position: relative;
 
+}
+.aim > .aim-content {
+  @apply text-center h-52 rounded flex justify-center flex-col py-6;
+}
+.aim > img.aim-bg {
+  @apply rounded object-cover;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 .aim a {
   @apply text-black no-underline;

@@ -99,6 +99,10 @@ description: Все, что вы хотели знать обо мне
 
 <div class="steam">
 
+<img class="steam-bg" src="https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2" alt="steam-background" />
+
+<div class="steam-content">
+
 ### Во че гамаешь?
 
 Ща
@@ -108,6 +112,8 @@ description: Все, что вы хотели знать обо мне
 <new-img-row>
   <img-slide src="/images/n/isaac-progress.png" alt="Прогресс на 12.08.2021" ></img-slide>
 </new-img-row>
+
+</div>
 
 </div>
 
@@ -132,14 +138,17 @@ description: Все, что вы хотели знать обо мне
 
 <div class="aim">
 
+<img class="aim-bg" src="/images/n/aim.png" alt="aim-background" />
+
+<div class="aim-content">
 
 <div class="font-bold">Я СТАВЛЮ</div> 
-
 
 # [ЦЕЛИ](/n/goals2021)
 
 <div class="invisible font-bold">Я СТАВЛЮ</div> 
 
+</div>
 
 </div>
 
