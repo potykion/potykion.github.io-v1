@@ -37,6 +37,7 @@ big: true
 - [Дезигн инспирейшн](https://dribbble.com/) 
 - [Транслитератор](https://translit.ru/seo/) 
 - [Конвертер rem > px](http://www.standardista.com/px-to-rem-conversion-if-root-font-size-is-16px/)
+- [Конвертер в WEBP](https://image.online-convert.com/convert-to-webp)
 
 ---
 
