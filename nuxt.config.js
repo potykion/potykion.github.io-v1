@@ -111,6 +111,9 @@ export default {
     // https://www.npmjs.com/package/@nuxtjs/yandex-metrika
     '@nuxtjs/yandex-metrika',
 
+    //https://www.npmjs.com/package/nuxt-lazy-load
+    'nuxt-lazy-load',
+
     // Всегда в конце!!!!
     // https://sitemap.nuxtjs.org/
     '@nuxtjs/sitemap',

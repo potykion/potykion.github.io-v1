@@ -17,6 +17,7 @@ big: true
 - Любые беспроводные науши с микро, напр. [SteelSeries](https://www.ozon.ru/category/igrovye-naushniki-15827/steelseries-26303411)
   - **Важно**: без активного шумоподавления - я потраил и чуть шизу не словил
 - Кухонная техника: мультиварка, электрогриль
+- [Механическая клава](https://geekboards.ru/product/durgod-taurus-k310-nature-white)
   
 
 ## Шмот
