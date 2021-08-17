@@ -99,7 +99,7 @@ description: Все, что вы хотели знать обо мне
 
 <div class="steam">
 
-<img class="steam-bg" src="https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2" alt="steam-background" />
+<img loading="lazy" class="steam-bg" src="https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2" alt="steam-background" />
 
 <div class="steam-content">
 
@@ -138,7 +138,7 @@ description: Все, что вы хотели знать обо мне
 
 <div class="aim">
 
-<img class="aim-bg" src="/images/n/aim.png" alt="aim-background" />
+<img loading="lazy" class="aim-bg" src="/images/n/aim.png" alt="aim-background" />
 
 <div class="aim-content">
 
