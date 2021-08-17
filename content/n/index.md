@@ -37,7 +37,7 @@ description: Все, что вы хотели знать обо мне
 
   <div>
     <new-img-row>
-      <img-slide  src="/images/n/programmer.png" alt="Программист? Пошел нахуй!" :show-caption="false"></img-slide>
+      <img-slide  src="/images/n/programmer.webp" alt="Программист? Пошел нахуй!" :show-caption="false"></img-slide>
     </new-img-row>
   </div>
 
@@ -99,7 +99,7 @@ description: Все, что вы хотели знать обо мне
 
 <div class="steam">
 
-<img loading="lazy" class="steam-bg" src="https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top.png?v=2" alt="steam-background" />
+<img loading="lazy" class="steam-bg" src="/images/n/steam-bg.png" alt="steam-background" />
 
 <div class="steam-content">
 
