@@ -30,6 +30,7 @@ export default class SingleCoolStoryPage extends Vue {
       this.article.title,
       this.article.description,
       this.article.link,
+      this.article.createdAtStr,
     );
   };
 }

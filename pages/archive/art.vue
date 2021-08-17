@@ -293,7 +293,9 @@ import {generateSeoHead} from "~/logic/core/seo";
     return generateSeoHead(
       "Рисовач",
       "Как научится рисовать, что делать если лень, куда я хожу",
-      "/archive/art"
+      "/archive/art",
+      "2021-06-18",
+
     );
   }
 })

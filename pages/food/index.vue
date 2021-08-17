@@ -39,7 +39,8 @@ import {IContentDocument} from "@nuxt/content/types/content";
     return generateSeoHead(
       "Про еду",
       'Пробую решить проблему "бля что поесть"',
-      "/food"
+      "/food",
+      "2021-08-11"
     );
   }
 })

@@ -89,7 +89,9 @@ import {IContentDocument} from "@nuxt/content/types/content";
     return generateSeoHead(
       "Разработка",
       "Тут можно почитать про мои разработческие навыки",
-      "/dev"
+      "/dev",
+      "2021-06-26",
+
     );
   },
 })

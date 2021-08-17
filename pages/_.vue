@@ -21,6 +21,7 @@ export default {
       this.page.title,
       this.page.description,
       this.page.path,
+      this.page.createdAt,
     );
   },
 }

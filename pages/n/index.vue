@@ -19,6 +19,7 @@ export default {
       this.page.title,
       this.page.description,
       "/n",
+      "2021-08-17",
     );
   },
 }

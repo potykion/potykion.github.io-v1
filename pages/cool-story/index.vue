@@ -35,7 +35,8 @@ import {generateSeoHead} from "~/logic/core/seo";
     return generateSeoHead(
       "Кулстори",
       "Свалка историй для пацанов",
-      "/cool-story"
+      "/cool-story",
+      "2021-06-26",
     );
   }
 })

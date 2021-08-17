@@ -1,5 +1,5 @@
 /**
- * Проставляет html-title, description-метатег, og-матетеги, twitter-метатеги
+ * Проставляет html-title, метатеги, структурированные данные
  *
  * Использование в компоненте:
  * head() {
@@ -7,14 +7,21 @@
  *      "Про еду",
  *      'Пробую решить проблему "бля что поесть"',
  *      "/food",
+ *      "2021-08-11",
  *    );
  * }
  *
  * @param title Заголовок
  * @param description Описание
  * @param path Путь к статье
+ * @param created Когда статья создана
  */
-export function generateSeoHead(title: string, description: string, path: string) {
+export function generateSeoHead(
+  title: string,
+  description: string,
+  path: string,
+  created: string,
+) {
   return {
     title,
     meta: [
@@ -29,5 +36,25 @@ export function generateSeoHead(title: string, description: string, path: string
       {name: 'twitter:title',  content: title},
       {name: 'twitter:description',  content: description},
     ],
+    script: [{
+      hid: 'ldjson-schema',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org" ,
+        "@type": "BlogPosting",
+        "datePublished": created,
+        "headline": title,
+        "name": title,
+        "articleBody": description,
+        "description": description,
+        "author": {
+          "name": "Nikita Leybovich"
+        }
+
+      }),
+      type: 'application/ld+json'
+    }],
+    __dangerouslyDisableSanitizersByTagID: {
+      'ldjson-schema': ['innerHTML']
+    },
   };
 }

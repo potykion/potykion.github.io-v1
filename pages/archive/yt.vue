@@ -494,7 +494,8 @@ import {generateSeoHead} from "~/logic/core/seo";
     return generateSeoHead(
       "Ютуб",
       "Моя история познания ютуба и каналы, которые я смотрю",
-      "/archive/yt"
+      "/archive/yt",
+      "2021-06-18",
     );
   },
 })
