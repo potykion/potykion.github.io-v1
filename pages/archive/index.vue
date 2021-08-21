@@ -23,10 +23,10 @@ import {buildArticleVM} from "@/logic/cool-story/vms";
 
 export default {
   async asyncData({$content, params}) {
-    const pages = (await $content("archive", {deep: true}).fetch()).map(buildArticleVM);
-
+    const pages = (await $content("archive", {deep: true}).fetch()).map(buildArticleVM).filter(a => a.title);
     return {pages};
   },
+  // fetchOnServer: false,
   head() {
     return generateSeoHead(
       "Архив",
