@@ -112,21 +112,21 @@
   Двигает маркер summary вправо
   https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary
   */
-  details {
+  details.right-details {
     @apply my-2;
   }
-  details>summary {
+  details.right-details>summary {
 
     list-style: none;
   }
-  summary::-webkit-details-marker {
+  summary.right-details::-webkit-details-marker {
     display: none
   }
 
-  summary::after {
+  summary.right-details::after {
     content: ' ▼';
   }
-  details[open] summary:after {
+  details[open].right-details summary:after {
     content: " ▲";
   }
 
