@@ -18,6 +18,7 @@ import {Context} from "@nuxt/types";
 
 @Component({})
 export default class TaskItem extends Vue {
+  @Prop() exercise!: GrammarExercises.Exercise;
   @Prop() task!: string;
   @Prop() answer!: string;
 
@@ -29,7 +30,13 @@ export default class TaskItem extends Vue {
     return this.$refs["task-textarea"] as HTMLElement;
   }
 
+  // get doneTaskIsCorrect() {
+  //   if (this.task)
+  // }
+
   mounted() {
+    // Изменение высоты текстового поля в зависимости от контента
+    // https://stackoverflow.com/questions/995168/textarea-to-resize-based-on-content-length
     this.taskTextarea.addEventListener(
       "input",
       function () {
@@ -37,6 +44,7 @@ export default class TaskItem extends Vue {
         this.style.height = (this.scrollHeight) + "px";
       },
     );
+    // Когда ответы скрыты, то проставляем высоты текстовым полям
     if (!this.showAnswer) {
       this.taskTextarea.dispatchEvent(new Event("input"));
 
@@ -45,6 +53,7 @@ export default class TaskItem extends Vue {
 
   @Watch("showAnswer")
   onShowAnswer() {
+    // Когда ответы скрыты, то проставляем высоты текстовым полям
     if (!this.showAnswer) {
       this.taskTextarea.dispatchEvent(new Event("input"));
     }

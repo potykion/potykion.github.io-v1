@@ -21,7 +21,7 @@
         <div class="py-1 italic">{{ ex.exercise_text }}</div>
 
         <template v-for="(task, taskIndex) in ex.tasks">
-          <task-item :key="taskIndex" :task="task" :answer="answer.tasks[taskIndex]"
+          <task-item :key="taskIndex" :task="task" :answer="answer.tasks[taskIndex]" :exercise="ex"
                      :show-answer="showAnswer"/>
         </template>
 
