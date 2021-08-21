@@ -11,7 +11,7 @@
       "Are there _ maps on the walls? — No, there aren't _ .",
       "Are there _ pens on the desk? — Yes, there are _ .",
       "Are there _ sweets in your bag? — Yes, there are _ .",
-      "Have you got_ English books at home? — Yes, I have _ .",
+      "Have you got _ English books at home? — Yes, I have _ .",
       "There are _ beautiful pictures in the magazine. Look at them.",
       "There is _ ink in my pen: I cannot write.",
       "Is there _ paper on your table?",
@@ -21,7 +21,7 @@
       "Did you buy _ oranges? Did you buy _ orange juice?",
       "Is there _ tea left? — No, there isn't _ . I'll make _ coffee if you don't mind. The apple pie is wonderful. Would you like _? — Oh, yes, please. Can I have _ milk in my coffee, please?",
       "There is _ butter in the fridge, but there isn't _ milk.",
-      "Are there — eggs?— There aren't _ eggs left.",
+      "Are there _ eggs?— There aren't _ eggs left.",
       "We haven't got _ flour.",
       "To make cabbage soup I need _ cabbage, _ onions, _ carrots, _ beetroots, _ dill and _ parsley, _ potatoes, _ good oil and _ salt.",
       "I need to buy a lot of things. There is _ time to waste.",
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "rules": "something — что-нибудь, что-то\n\nУпотребление\n\nУтвердительная форма:\nI can see something onthe table.\n\nОтрицательная форма:\nI can see nothing on the table.\nI cannot see anything on the table.\n\nВопросительная форма:\nCan you see anything on the table?\n\neverything — всё",
+    "rules": "something — что-нибудь, что-то\n\nУпотребление\n\nУтвердительная форма:\nI can see something on the table.\n\nОтрицательная форма:\nI can see nothing on the table.\nI cannot see anything on the table.\n\nВопросительная форма:\nCan you see anything on the table?\n\neverything — всё",
     "exercise_number": 105,
     "exercise_text": "Вставьте something, anything, nothing или everything",
     "tasks": [
@@ -97,7 +97,7 @@
       "He felt terrible. He couldn't do _ else.",
       "_ is all right, the patient it much better today.",
       "Is there _ interesting in the theatre programme?",
-      "I could see _ : it was'quite dark.",
+      "I could see _ : it was quite dark.",
       "Give me _ to drink.",
       "I didn't take any money with me, so I couldn't buy _ .",
       "My new eyeglasses are very good, I can see _ now.",
@@ -184,14 +184,14 @@
       "He has given them some money.",
       "You have brought something for us.",
       "I have taken some English books from you.",
-      "She was reading som ething.",
-      "H e has w ritten a letter to somebody.",
+      "She was reading something.",
+      "He has written a letter to somebody.",
       "Somebody by the name of Petrov lives on the th ird  floor.",
       "They have some English books.",
       "There are some ta ll trees in front of their house.",
-      "P eter has som ething in his box.",
+      "Peter has something in his box.",
       "There are some parks in this town.",
-      "There are some good bookshops in our d istric ts"
+      "There are some good bookshops in our districts"
     ]
   },
   {
@@ -218,7 +218,7 @@
       "Мой дядя хочет мне что-то сказать.",
       "На другой день мой брат знал всех.",
       "Если вы захотите что-нибудь поесть, идите в вагон-ресторан.",
-      "Расскаж ите нам все о вашем путешествии.",
+      "Расскажите нам все о вашем путешествии.",
       "Я могу что-то сделать для вас?"
     ]
   },
@@ -287,7 +287,7 @@
     "exercise_text": "Вставьте одно из следующих слов:",
     "tasks": [
       {
-        "exercise_text": "a) some, any, по",
+        "exercise_text": "some, any, по",
         "tasks": [
           "There were _ of my friends there.",
           "Well, anyway, there is _ need to hurry, now that we have missed the train.",
@@ -298,7 +298,7 @@
         ]
       },
       {
-        "exercise_text": "b) somebody / someone, anybody ¿anyone, nobody",
+        "exercise_text": "somebody, someone, anybody, anyone, nobody",
         "tasks": [
           "I saw _ I knew at the lecture.",
           "I dare say that there may be _ that I know at the lecture, but what does that matter?",
@@ -311,13 +311,13 @@
         ]
       },
       {
-        "exercise_text": "c) somewhere, anywhere, nowhere",
+        "exercise_text": "somewhere, anywhere, nowhere",
         "tasks": [
           "I haven't seen him _.",
           "I know the place is _ about here, but I don't know exactly where.",
           "Did you go _ yesterday? — No, I went _ , I stayed at home the whole day.",
           "_ is safe anymore.",
-          "‘_' is usually used instead of ‘_' in negative sentences and questions.",
+          "'_' is usually used instead of '_' in negative sentences and questions.",
           "Bad manners will get you _ ."
         ]
       }
@@ -388,7 +388,7 @@
     "exercise_number": 118,
     "exercise_text": "Вставьте одно из следующих слов: some, any, по, а, the или оставьте пропуски незаполненными.",
     "tasks": [
-      "Передай мне масло. Pass т е _ butter, please.",
+      "Передай мне масло. Pass the _ butter, please.",
       "Дай ему масла. Give him _ butter.",
       "Я не хочу масла. I don't w ant_ butter.",
       "Эта ферма производит масло. This farm produces _ butter.",
@@ -402,7 +402,7 @@
       "Суп (вообще) — жидкое кушанье_. soup is a liquid food.",
       "Суп готов. _ soup is ready.",
       "Дайте мне супу. Give me _ soup.",
-      "Название этого супа — борщ. The name o f_ soup is borshch.",
+      "Название этого супа — борщ. The name of _ soup is borshch.",
       "Прежде всего нам нужно согреть воды. First of all we must heat_ water.",
       "Прежде всего нам нужно согреть воду. First of all we must h eat_ water.",
       "Вода состоит из водорода и кислорода_. water consists of hydrogen and oxygen.",
@@ -425,43 +425,43 @@
     "tasks": [
       {
         "tasks": [
-          "a) I've just made _ coffee. Would you like _ ?",
-          "b) W ait_ minute!_ coffee is very hot. — I'd like _ milk, please. — I prefer _ black coffee."
+          "I've just made _ coffee. Would you like _ ?",
+          "W ait_ minute!_ coffee is very hot. — I'd like _ milk, please. — I prefer _ black coffee."
         ]
       },
       {
         "tasks": [
-          "a) Give me _ water, please. I am thirsty.",
-          "b) _ water in this river is always pure.",
-          "c) _ water is necessary for animal and plant d) There is no life without _ water on the life. Earth. J?"
+          "Give me _ water, please. I am thirsty.",
+          "_ water in this river is always pure.",
+          "_ water is necessary for animal and plant d) There is no life without _ water on the life. Earth. J?"
         ]
       },
       {
         "tasks": [
-          "a) Do you like _ brown bread?",
-          "b) Please go to the shop and get _ brown bread.",
-          "c) How much does _ bread cost?"
+          "Do you like _ brown bread?",
+          "Please go to the shop and get _ brown bread.",
+          "How much does _ bread cost?"
         ]
       },
       {
         "tasks": [
-          "a) He likes _ modem music.",
-          "b) I should like to listen to _ music.",
-          "c) I don't like _ music, it is too noisy. Can you * turn _ music down a bit?"
+          "He likes _ modem music.",
+          "I should like to listen to _ music.",
+          "I don't like _ music, it is too noisy. Can you * turn _ music down a bit?"
         ]
       },
       {
         "tasks": [
-          "a) Ann has bought _ cheese.",
-          "b) Where did she put _ cheese?",
-          "c) Give me _ cheese, please."
+          "Ann has bought _ cheese.",
+          "Where did she put _ cheese?",
+          "Give me _ cheese, please."
         ]
       },
       {
         "tasks": [
-          "a) Yesterday she invited us to dinner. It was _",
-          "b) I cannot forget _ dinner we had at the Savoy",
-          "c) What time do you usually have _ dinner? marvellous dinner. voy."
+          "Yesterday she invited us to dinner. It was _",
+          "I cannot forget _ dinner we had at the Savoy",
+          "What time do you usually have _ dinner? marvellous dinner. voy."
         ]
       }
     ]

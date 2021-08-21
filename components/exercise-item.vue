@@ -21,8 +21,22 @@
         <div class="py-1 italic">{{ ex.exercise_text }}</div>
 
         <template v-for="(task, taskIndex) in ex.tasks">
-          <task-item :key="taskIndex" :task="task" :answer="answer.tasks[taskIndex]" :exercise="ex"
-                     :show-answer="showAnswer"/>
+          <template v-if="typeof task === 'object'">
+            <!-- Таски могут быть вложенными -->
+
+            <div class="py-1 italic">{{ `${taskIndex + 1}. ${task.exercise_text || ''}` }}</div>
+
+            <template v-for="(t, tIndex) in task.tasks">
+              <task-item :key="taskIndex.toString() + tIndex.toString()" :task="t" :answer="answer.tasks[taskIndex].tasks[tIndex]" :exercise="ex"
+                         :show-answer="showAnswer"/>
+            </template>
+
+
+          </template>
+          <template v-else>
+            <task-item :key="taskIndex" :task="task" :answer="answer.tasks[taskIndex]" :exercise="ex"
+                       :show-answer="showAnswer"/>
+          </template>
         </template>
 
       </div>

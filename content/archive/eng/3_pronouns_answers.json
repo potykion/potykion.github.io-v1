@@ -398,43 +398,43 @@
     "tasks": [
       {
         "tasks": [
-          "a) some, some",
-          "b) a, the, some, -"
+          "some, some",
+          "a, the, some, -"
         ]
       },
       {
         "tasks": [
-          "a) some",
-          "b) the",
-          "c) -"
+          "some",
+          "the",
+          "-"
         ]
       },
       {
         "tasks": [
-          "a) -",
-          "b) some",
-          "c) the"
+          "-",
+          "some",
+          "the"
         ]
       },
       {
         "tasks": [
-          "a) -",
-          "b) some",
-          "c) the, the"
+          "-",
+          "some",
+          "the, the"
         ]
       },
       {
         "tasks": [
-          "a) some",
-          "b) the",
-          "c) some"
+          "some",
+          "the",
+          "some"
         ]
       },
       {
         "tasks": [
-          "a) a",
-          "b) the",
-          "c) -"
+          "a",
+          "the",
+          "-"
         ]
       }
     ]

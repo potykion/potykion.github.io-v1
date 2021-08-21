@@ -1,13 +1,10 @@
 <template>
   <div class="border rounded bg-white p-2 mb-2">
     <div class="flex space-x-2">
-      <!-- ~135 вмещается на одну строку => doneTask.length / 135 + 1 = кол-во строк, занимаемое инпутом -->
       <textarea ref="task-textarea" class="w-4/5 flex-grow" v-model="doneTask"/>
-
-      <!--        <button v-if="!showAnswer" @click="showAnswer = !showAnswer">✔️</button>-->
     </div>
-    <div v-if="showAnswer" :class="['italic', doneTask === answer ? 'text-green-400' : 'text-red-400' ]">
-      {{ answer }}
+    <div v-if="showAnswer" :class="[doneTaskIsCorrect ? 'text-green-400' : 'text-red-400' ]"
+         v-html="fullAnswer">
     </div>
   </div>
 </template>
@@ -15,6 +12,7 @@
 <script lang="ts">
 import {Vue, Component, Prop, Watch} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
+import {replaceWithArray} from "~/logic/core/str";
 
 @Component({})
 export default class TaskItem extends Vue {
@@ -30,9 +28,43 @@ export default class TaskItem extends Vue {
     return this.$refs["task-textarea"] as HTMLElement;
   }
 
-  // get doneTaskIsCorrect() {
-  //   if (this.task)
-  // }
+  /**
+   * Является ли упражнение упражнением на заполнение пропусков
+   *
+   * Нужно, чтобы подставлять ответ в пропуски и сравнивать с введенным текстом
+   *
+   * Не является заполнением пропусков:
+   * Поставьте следующие предложения в отрицательную и вопросительную форму.
+   * Переведите на английский язык.
+   */
+  get isFillTheGapsExercise() {
+    return (
+      // Вставьте some, any или по.
+      this.exercise.exercise_text.startsWith("Вставьте") ||
+      // Заполните пропуски, вставив одно из слов, данных в скобках.
+      this.exercise.exercise_text.startsWith("Заполните")
+    );
+  }
+
+  get doneTaskIsCorrect(): boolean {
+    const normalizedAnswer = this.fullAnswer
+      .replace("<b>", "")
+      .replace("</b>", "");
+    return normalizedAnswer === this.doneTask;
+  }
+
+  get fullAnswer() {
+    if (!this.isFillTheGapsExercise) {
+      return this.answer;
+    } else {
+      // There are _ pictures in the book. + "some" =
+      // There are some pictures in the book. + "some" =
+      return replaceWithArray(
+        this.task,
+        this.answer.split(",").map(a => a.trim()).map(a => `<b>${a}</b>`)
+      );
+    }
+  }
 
   mounted() {
     // Изменение высоты текстового поля в зависимости от контента
@@ -41,7 +73,7 @@ export default class TaskItem extends Vue {
       "input",
       function () {
         this.style.height = "15px";
-        this.style.height = (this.scrollHeight) + "px";
+        this.style.height = (this.scrollHeight || 40) + "px";
       },
     );
     // Когда ответы скрыты, то проставляем высоты текстовым полям
