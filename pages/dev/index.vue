@@ -68,6 +68,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
 
     const vuePages = (await Promise.all([
       $content("/dev/vue/libs").fetch(),
+      $content("/dev/vue/firebase").fetch(),
       $content("/dev/vue/seo").fetch(),
     ]) as IContentDocument[]).map(buildArticleVM);
 
