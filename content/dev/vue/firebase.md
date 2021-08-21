@@ -3,7 +3,7 @@ title: Vue / Firebase Auth
 description: Немного про Firebase, а также про Firebase Auth во Vue, точнее в Nuxt
 ---
 
-[Firebase](https://firebase.google.com/) - BAAS (Backend As A Service) решение от Google, тут есть все необходимое для разработки приложений, например, бд, аутентификация, cdn и тд.
+[Firebase](https://firebase.google.com/) - BAAS (Backend As A Service) решение от Google, тут есть всё необходимое для разработки приложений, например, бд, аутентификация, cdn и тд.
 
 Рассмотрим один из сервисов Firebase - Firebase Auth - сервис для аутентификации (другие в вебчике пока не трогал).
 
@@ -20,7 +20,7 @@ description: Немного про Firebase, а также про Firebase Auth 
   <img-slide src="/images/dev/vue/firebase/project-creation-4.png" alt="Выбираем дефолтовый GA-акк"></img-slide>
 </new-img-row>
 
-2. Создаем приложение типа Web, при создании которого получаем доступы для подключения Firebase JS SDK:
+2. Создаем приложение типа Web, после создания которого получаем доступы для подключения Firebase JS SDK:
 
 <new-img-row>
   <img-slide src="/images/dev/vue/firebase/web-app-creation-1.png" alt="Обзываем приложение"></img-slide>
@@ -75,11 +75,11 @@ modules: [
 ]
 ```
 
-Все можно, начинать работать с Firebase Auth.
+Всё, можно, начинать работать с Firebase Auth.
 
 ### Работа с Firebase Auth
 
-Помимо того, что в Firebase все есть, с этим еще и просто работать. Убедимся в этом на примере аутентификации через Google.
+Помимо того, что в Firebase всё есть, с этим еще и просто работать. Убедимся в этом на примере аутентификации через Google.
 
 1. Определим кнопочку, которая по клику будет открывать окошко с Google-аутентификацией:
 
@@ -97,7 +97,7 @@ modules: [
 ```
 
   - `user` - это данные о юзере, полученные в результате аутентификации; изначально = `null`
-  - *Классы, указанные в div-ах - это [TailwindCSS](https://tailwindcss.com/)-классы*
+  - *(классы, указанные в div-ах, - это [TailwindCSS](https://tailwindcss.com/)-классы)*
 
 2. Пишем код для Google-аутентификации:
 
@@ -125,13 +125,12 @@ export default class index extends Vue {
 </script>
 ```
   
-  - Либа `nuxt-firebase` инжектит в Nuxt-context (`this`) поле `$fire`, который предоставляет доступ к Firebase-сервисам
+  - Либа `nuxt-firebase` инжектит в Nuxt-context (`this`) поле `$fire`, которое предоставляет доступ к Firebase-сервисам
   - `$fire.auth` содержит метод `signInWithPopup`, который выводит попап с формочкой аутентификации; формочка предоставляется провайдером, соответственно для Google-аутентификации, это будет `GoogleAuthProvider` 
   - После успешной аутентификации, [данные о входе записываются в память браузера](https://firebase.google.com/docs/auth/web/auth-state-persistence); получить их можно из `$fire.auth.currentUser`
-  - *Используется [TypeScript-обертка над Nuxt](https://github.com/nuxt-community/nuxt-property-decorator)* 
+  - *(используется [TypeScript-обертка над Nuxt](https://github.com/nuxt-community/nuxt-property-decorator))* 
   
-Все: в пару строчек получили кнопку для аутентификации через Google!
-
+Всё, в пару строчек получили кнопку для аутентификации через Google!
 
 ### Ссылочки
 
