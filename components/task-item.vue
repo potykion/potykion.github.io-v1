@@ -10,9 +10,11 @@
 </template>
 
 <script lang="ts">
-import {Vue, Component, Prop, Watch} from "nuxt-property-decorator";
+import {Vue, Component, Prop, Watch, ProvideReactive, InjectReactive} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
 import {replaceWithArray} from "~/logic/core/str";
+import {ExerciseProgressRepo} from "~/logic/eng/db";
+import {debounce} from "ts-debounce";
 
 @Component({})
 export default class TaskItem extends Vue {
@@ -20,9 +22,12 @@ export default class TaskItem extends Vue {
   @Prop() task!: string;
   @Prop() answer!: string;
 
-  doneTask = this.task;
+
+  doneTask: string = this.task;
+  @InjectReactive() exerciseProgressRepo!: ExerciseProgressRepo;
 
   @Prop({default: false}) showAnswer!: boolean;
+
 
   get taskTextarea() {
     return this.$refs["task-textarea"] as HTMLElement;
@@ -67,6 +72,7 @@ export default class TaskItem extends Vue {
   }
 
   mounted() {
+
     // Изменение высоты текстового поля в зависимости от контента
     // https://stackoverflow.com/questions/995168/textarea-to-resize-based-on-content-length
     this.taskTextarea.addEventListener(
@@ -81,6 +87,9 @@ export default class TaskItem extends Vue {
       this.taskTextarea.dispatchEvent(new Event("input"));
 
     }
+
+    this.doneTask = this.exerciseProgressRepo.tryGetTask(this.exercise.exercise_number, this.task) ?? this.task;
+
   }
 
   @Watch("showAnswer")
@@ -88,8 +97,30 @@ export default class TaskItem extends Vue {
     // Когда ответы скрыты, то проставляем высоты текстовым полям
     if (!this.showAnswer) {
       this.taskTextarea.dispatchEvent(new Event("input"));
+      this.doneTask = this.task;
     }
   }
+
+  @Watch("doneTask")
+  onDoneTaskChange() {
+    console.log("heyyyy")
+    this.saveTaskDebounce();
+  }
+
+  saveTask() {
+
+    this.exerciseProgressRepo.save(
+      this.exercise.exercise_number,
+      this.task,
+      this.doneTask
+    )
+  }
+
+  saveTaskDebounce = debounce(
+    () => this.saveTask(),
+    100
+  );
+
 
 }
 </script>

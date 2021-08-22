@@ -27,7 +27,8 @@
             <div class="py-1 italic">{{ `${taskIndex + 1}. ${task.exercise_text || ''}` }}</div>
 
             <template v-for="(t, tIndex) in task.tasks">
-              <task-item :key="taskIndex.toString() + tIndex.toString()" :task="t" :answer="answer.tasks[taskIndex].tasks[tIndex]" :exercise="ex"
+              <task-item :key="taskIndex.toString() + tIndex.toString()" :task="t"
+                         :answer="answer.tasks[taskIndex].tasks[tIndex]" :exercise="ex"
                          :show-answer="showAnswer"/>
             </template>
 
@@ -48,9 +49,9 @@
 </template>
 
 <script lang="ts">
-import {Vue, Component, Prop} from "nuxt-property-decorator";
+import {Vue, Component, Prop, ProvideReactive} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
-import {DoneExerciseRepo} from "~/logic/eng/db";
+import {DoneExerciseRepo, ExerciseProgressRepo} from "~/logic/eng/db";
 
 
 @Component({})
@@ -61,21 +62,27 @@ export default class ExerciseItem
   showAnswer = false;
   exerciseDone = false;
 
-  repo!: DoneExerciseRepo;
+  doneExerciseRepo!: DoneExerciseRepo;
+  @ProvideReactive() exerciseProgressRepo!: ExerciseProgressRepo;
 
   toggleExercise(exerciseNumber: number) {
+    // Выполнение таски
     if (!this.showAnswer) {
       this.showAnswer = true;
-      this.repo.doExercise(exerciseNumber);
-    } else {
+      this.doneExerciseRepo.doExercise(exerciseNumber);
+    }
+    // Откат таски
+    else {
+      this.exerciseProgressRepo.reset(exerciseNumber);
       this.showAnswer = false;
-      this.repo.undoExercise(exerciseNumber);
+      this.doneExerciseRepo.undoExercise(exerciseNumber);
     }
   }
 
   mounted() {
-    this.repo = new DoneExerciseRepo(localStorage);
-    this.showAnswer = this.repo.isExerciseDone(this.ex.exercise_number);
+    this.exerciseProgressRepo = new ExerciseProgressRepo(localStorage);
+    this.doneExerciseRepo = new DoneExerciseRepo(localStorage);
+    this.showAnswer = this.doneExerciseRepo.isExerciseDone(this.ex.exercise_number);
     this.exerciseDone = !this.showAnswer;
   }
 }
