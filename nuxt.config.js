@@ -2,7 +2,7 @@ const createSitemapRoutes = async () => {
   const {$content} = require('@nuxt/content')
   // Берем все страницы, сливая страницы каждого разделы в один массив,
   // обрезаем /index где надо, удаляем дубликаты
-  return [... new Set((await Promise.all([
+  return [...new Set((await Promise.all([
     $content('cool-story', {deep: true}).fetch(),
     $content('dev', {deep: true}).fetch(),
     $content('food', {deep: true}).fetch(),
@@ -10,8 +10,12 @@ const createSitemapRoutes = async () => {
     $content('archive', {deep: true}).fetch(),
   ])).flatMap(
     pages =>
-      pages.map(p => p.path)
+      pages
+        .filter(p => p.title && p.description)
+        .map(p => p.path)
         .map(p => p.endsWith("/index") ? p.slice(0, p.length - "/index".length) : p)
+        .sort()
+
   ))];
 }
 
@@ -107,16 +111,52 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
+    // https://github.com/nuxt-community/feed-module
+    '@nuxtjs/feed',
+
     // https://www.npmjs.com/package/@nuxtjs/yandex-metrika
     '@nuxtjs/yandex-metrika',
-
-    //https://www.npmjs.com/package/nuxt-lazy-load
-    // 'nuxt-lazy-load',
 
     // Всегда в конце!!!!
     // https://sitemap.nuxtjs.org/
     '@nuxtjs/sitemap',
   ],
+
+  feed() {
+    const {$content} = require('@nuxt/content')
+
+    const createFeedArticles = async function (feed) {
+      feed.options = {
+        title: 'Блог из-под палки',
+        description: 'Блог с кулсторями, заметками про разработку и экспериенс жизненный',
+        link: "https://potyk.io/feed.xml",
+      }
+
+      const articles = (await Promise.all([
+        $content('cool-story', {deep: true}).fetch(),
+        $content('dev', {deep: true}).fetch(),
+        $content('food', {deep: true}).fetch(),
+        $content('n', {deep: true}).fetch(),
+        $content('archive', {deep: true}).fetch(),
+      ])).flatMap(a => a).filter(a => a.title && a.description);
+      articles.forEach((article) => {
+        feed.addItem({
+          title: article.title,
+          id: `https://potyk.io${article.path}`,
+          link: `https://potyk.io${article.path}`,
+          date: new Date(article.createdAt),
+          description: article.description,
+        })
+      })
+    }
+
+    return {
+      path: `/feed.xml`,
+      create: createFeedArticles,
+      cacheTime: 1000 * 60 * 15,
+      type: 'rss2',
+    };
+  },
 
   yandexMetrika: {
     id: '82960681',
