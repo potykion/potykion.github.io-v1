@@ -23,9 +23,14 @@ import {IContentDocument} from "@nuxt/content/types/content";
     const exercises = eng.filter(item => item.slug === params.slug);
     const keys = eng.filter(item => item.slug === `${params.slug}_answers`);
 
+    console.log(exercises[0]);
+    console.log(keys[0]);
+    console.log(exercises.length);
+    console.log(keys.length);
+
     return {grammarExercisesToc, exercises, keys};
   },
-  fetchOnServer: false
+  // fetchOnServer: false
 })
 export default class ExercisePage extends Vue {
   grammarExercisesToc!: GrammarExercises.TocItem[];
