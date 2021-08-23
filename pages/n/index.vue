@@ -20,6 +20,10 @@ export default {
       this.page.description,
       "/n",
       "2021-08-17",
+      {
+        "@type": "Person",
+        "name": "Nikita Leybovich",
+      }
     );
   },
 }
