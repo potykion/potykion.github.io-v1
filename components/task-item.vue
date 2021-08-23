@@ -45,9 +45,9 @@ export default class TaskItem extends Vue {
   get isFillTheGapsExercise() {
     return (
       // Вставьте some, any или по.
-      this.exercise.exercise_text.startsWith("Вставьте") ||
+      this.exercise.exerciseText.startsWith("Вставьте") ||
       // Заполните пропуски, вставив одно из слов, данных в скобках.
-      this.exercise.exercise_text.startsWith("Заполните")
+      this.exercise.exerciseText.startsWith("Заполните")
     );
   }
 
@@ -88,7 +88,7 @@ export default class TaskItem extends Vue {
 
     }
 
-    this.doneTask = this.exerciseProgressRepo.tryGetTask(this.exercise.exercise_number, this.task) ?? this.task;
+    this.doneTask = this.exerciseProgressRepo.tryGetTask(this.exercise.exerciseNumber, this.task) ?? this.task;
 
   }
 
@@ -110,7 +110,7 @@ export default class TaskItem extends Vue {
   saveTask() {
 
     this.exerciseProgressRepo.save(
-      this.exercise.exercise_number,
+      this.exercise.exerciseNumber,
       this.task,
       this.doneTask
     )

@@ -5,18 +5,18 @@
     <details :open="exerciseDone">
       <summary>
             <h3 :class="['inline-block',  showAnswer ? 'line-through' : '']">
-              Упражнение {{ ex.exercise_number }}
+              Упражнение {{ ex.exerciseNumber }}
             </h3>
       </summary>
 
       <div>
-        <div class="py-1 italic">{{ ex.exercise_text }}</div>
+        <div class="py-1 italic">{{ ex.exerciseText }}</div>
 
         <template v-for="(task, taskIndex) in ex.tasks">
           <template v-if="typeof task === 'object'">
             <!-- Таски могут быть вложенными -->
 
-            <div class="py-1 italic">{{ `${taskIndex + 1}. ${task.exercise_text || ''}` }}</div>
+            <div class="py-1 italic">{{ `${taskIndex + 1}. ${task.exerciseText || ''}` }}</div>
 
             <template v-for="(t, tIndex) in task.tasks">
               <task-item :key="taskIndex.toString() + tIndex.toString()" :task="t"
@@ -37,7 +37,7 @@
     </details>
 
     <div class="flex justify-center">
-      <button @click="toggleExercise(ex.exercise_number)" class="w-full py-3">
+      <button @click="toggleExercise(ex.exerciseNumber)" class="w-full py-3">
         <span v-if="!showAnswer">Проверить ✔️</span>
         <span v-else>Заново 🔁</span>
       </button>
@@ -81,7 +81,7 @@ export default class ExerciseItem
   mounted() {
     this.exerciseProgressRepo = new ExerciseProgressRepo(localStorage);
     this.doneExerciseRepo = new DoneExerciseRepo(localStorage);
-    this.showAnswer = this.doneExerciseRepo.isExerciseDone(this.ex.exercise_number);
+    this.showAnswer = this.doneExerciseRepo.isExerciseDone(this.ex.exerciseNumber);
     this.exerciseDone = !this.showAnswer;
   }
 }

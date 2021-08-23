@@ -1,17 +1,17 @@
 [
   {
     "rules": "Some обозначает некоторое количество.\n\nУпотребление\n\nУтвердительная форма:\nWe have got some dictionaries.\n\nОтрицательная форма:\nWe have got no dictionaries.\nWe haven't got any dictionaries.\n\nВопросительная форма:\nHave you got any dictionaries?\n",
-    "exercise_number": 102,
-    "exercise_text": "Вставьте some, any или по.",
+    "exerciseNumber": 102,
+    "exerciseText": "Вставьте some, any или по.",
     "tasks": [
       "There are _ pictures in the book.",
       "Are there _ new students in your group?",
       "There are _ old houses in our street.",
-      "Are there _ English text-books on the desks? — Yes, there are _ .",
-      "Are there _ maps on the walls? — No, there aren't _ .",
-      "Are there _ pens on the desk? — Yes, there are _ .",
-      "Are there _ sweets in your bag? — Yes, there are _ .",
-      "Have you got _ English books at home? — Yes, I have _ .",
+      "Are there _ English text-books on the desks? — Yes, there are _.",
+      "Are there _ maps on the walls? — No, there aren't _.",
+      "Are there _ pens on the desk? — Yes, there are _.",
+      "Are there _ sweets in your bag? — Yes, there are _.",
+      "Have you got _ English books at home? — Yes, I have _.",
       "There are _ beautiful pictures in the magazine. Look at them.",
       "There is _ ink in my pen: I cannot write.",
       "Is there _ paper on your table?",
@@ -19,7 +19,7 @@
       "It is winter. There are _ leaves on the trees.",
       "I didn't buy _ bananas yesterday.",
       "Did you buy _ oranges? Did you buy _ orange juice?",
-      "Is there _ tea left? — No, there isn't _ . I'll make _ coffee if you don't mind. The apple pie is wonderful. Would you like _? — Oh, yes, please. Can I have _ milk in my coffee, please?",
+      "Is there _ tea left? — No, there isn't _. I'll make _ coffee if you don't mind. The apple pie is wonderful. Would you like _? — Oh, yes, please. Can I have _ milk in my coffee, please?",
       "There is _ butter in the fridge, but there isn't _ milk.",
       "Are there _ eggs?— There aren't _ eggs left.",
       "We haven't got _ flour.",
@@ -29,8 +29,8 @@
     ]
   },
   {
-    "exercise_number": 103,
-    "exercise_text": "Вставьте some, any или no.",
+    "exerciseNumber": 103,
+    "exerciseText": "Вставьте some, any или no.",
     "tasks": [
       "We haven't got _ milk. We can't make an omelette.",
       "Bob always likes _ sugar in his coffee.",
@@ -56,12 +56,12 @@
   },
   {
     "rules": "Сравните следующие предложения:\n\nAfter dinner he drank some juice. \nсока (некоторое количество)\n\nI borrowed some books from the library.\n(некоторое количество книг)\n\nHe does not drink milk after dinner, he drinks juice.\nсок (не некоторое количество, а сок вообще; сок,а не молоко)\n\n1 like some books.\n(не некоторое количество, а вообще книги)\n",
-    "exercise_number": 104,
-    "exercise_text": "Вставьте some, any, no или оставьте пропуски незаполненными, смотря по смыслу.",
+    "exerciseNumber": 104,
+    "exerciseText": "Вставьте some, any, no или оставьте пропуски незаполненными, смотря по смыслу.",
     "tasks": [
       "There are _ buses today and I can't go shopping.",
       "There is _ caviare in the can. I love it. Would you like _ ?",
-      "Please don't offer her _ chips. She doesn't want _ .",
+      "Please don't offer her _ chips. She doesn't want _.",
       "Can I have _ milk in my tea? I don't like it black.",
       "There is _ ink in my pen.",
       "Is there _ snow in the street this morning?",
@@ -85,29 +85,29 @@
   },
   {
     "rules": "something — что-нибудь, что-то\n\nУпотребление\n\nУтвердительная форма:\nI can see something on the table.\n\nОтрицательная форма:\nI can see nothing on the table.\nI cannot see anything on the table.\n\nВопросительная форма:\nCan you see anything on the table?\n\neverything — всё",
-    "exercise_number": 105,
-    "exercise_text": "Вставьте something, anything, nothing или everything",
+    "exerciseNumber": 105,
+    "exerciseText": "Вставьте something, anything, nothing или everything",
     "tasks": [
       "My husband taught his son _ he knows.",
-      "Her patient has a bad memory. She can't remember _ .",
+      "Her patient has a bad memory. She can't remember _.",
       "I think there is _ wrong with my watch.",
       "We've got _ to eat. We've got only _ to drink.",
-      "The student didn't understand _ because she heard _ .",
+      "The student didn't understand _ because she heard _.",
       "Does he know _ about computers? — Yes, he knows _ because he is the best specialist in computer science at Harvard University.",
       "He felt terrible. He couldn't do _ else.",
       "_ is all right, the patient it much better today.",
       "Is there _ interesting in the theatre programme?",
       "I could see _ : it was quite dark.",
       "Give me _ to drink.",
-      "I didn't take any money with me, so I couldn't buy _ .",
+      "I didn't take any money with me, so I couldn't buy _.",
       "My new eyeglasses are very good, I can see _ now.",
       "Near the wood I saw _ that looked like a tent.",
       "My friends had _ they wanted, but they weren't happy, because they didn't have any children."
     ]
   },
   {
-    "exercise_number": 106,
-    "exercise_text": "Вставьте something, anything, nothing или everything.",
+    "exerciseNumber": 106,
+    "exerciseText": "Вставьте something, anything, nothing или everything.",
     "tasks": [
       "She has to go to the supermarket. There isn't _ in the fridge.",
       "I've had a terrible day. _ went wrong.",
@@ -129,13 +129,13 @@
   },
   {
     "rules": "somebody / someone — кто-то / кто-нибудь\n\nУпотребление\n\nУтвердительная форма:\nНе asked somebody/someone to help him.\n\nОтрицательная форма:\nHe asked nobody/no one to help him.\nHe did not ask anybody/anyone to help him.\n\nВопросительная форма:\nDid he ask anybody/anyone to help him?\n\neverybody / everyone — все\n",
-    "exercise_number": 107,
-    "exercise_text": "Вставьте somebody/someone, anybody/anyone, nobody/по one или everybody/everyone.",
+    "exerciseNumber": 107,
+    "exerciseText": "Вставьте somebody/someone, anybody/anyone, nobody/по one или everybody/everyone.",
     "tasks": [
       "Don't tell _ about it. It's a secret.",
-      "Life is tough!_ has problems.",
-      "_ has eaten all the ice cream. That's terrible!_ will be able to have it for dessert tonight.",
-      "I think, _ in our class is honest. That's why we trust _ .",
+      "Life is tough _ has problems.",
+      "_ has eaten all the ice cream. That's terrible _ will be able to have it for dessert tonight.",
+      "I think, _ in our class is honest. That's why we trust _.",
       "If you look in the yellow pages, I am sure you'll find _ who can fix your TV.",
       "I am not a perfectionist. _ is perfect in this world.",
       "Is there _ in the office?",
@@ -157,15 +157,15 @@
     ]
   },
   {
-    "exercise_number": 108,
-    "exercise_text": "Заполните пропуски, вставив одно из слов, данных в скобках.",
+    "exerciseNumber": 108,
+    "exerciseText": "Заполните пропуски, вставив одно из слов, данных в скобках.",
     "tasks": [
       "We haven't _ black trousers (no, any).",
       "They have _ red boots, Kate (any, no).",
       "I don't want _ today, thank you (nothing, anything).",
       "“I haven't got _ clean exercise books, Mother,” said the boy (any, no).",
       "“We shall not buy _ in this shop, children,” said the mother (nothing, anything).",
-      "Didn't you buy_ potatoes yesterday (any, no)?",
+      "Didn't you buy _ potatoes yesterday (any, no)?",
       "I didn't see _ in the street when I went out (anybody, nobody).",
       "We did not play _ games in the yard because it was raining all day long (no, any).",
       "There is _ at home (anybody, nobody).",
@@ -177,8 +177,8 @@
     ]
   },
   {
-    "exercise_number": 109,
-    "exercise_text": "Поставьте следующие предложения в отрицательную и вопросительную форму.",
+    "exerciseNumber": 109,
+    "exerciseText": "Поставьте следующие предложения в отрицательную и вопросительную форму.",
     "tasks": [
       "They have done something.",
       "He has given them some money.",
@@ -195,11 +195,11 @@
     ]
   },
   {
-    "exercise_number": 110,
-    "exercise_text": "Переведите на английский язык.",
+    "exerciseNumber": 110,
+    "exerciseText": "Переведите на английский язык.",
     "tasks": [
       "Я ничего не сказал. Ни слова.",
-      "Все хотели получить автограф Ю рия Гагарина.",
+      "Все хотели получить автограф Юрия Гагарина.",
       "Все, что у меня есть, принадлежит тебе.",
       "В столовой есть кто-нибудь?",
       "В саду никого нет.",
@@ -224,20 +224,20 @@
   },
   {
     "rules": "Заметьте, что в утвердительных предложениях:\n\nany — любой\nanything — что угодно\nanybody — кто угодно\n\nМестоимения some, any, по, every\n",
-    "exercise_number": 111,
-    "exercise_text": "Вставьте some, any, по или их производные.",
+    "exerciseNumber": 111,
+    "exerciseText": "Вставьте some, any, по или их производные.",
     "tasks": [
       "Here are _ books by English writers. Take _ book you like.",
       "There are _ boys in the garden because they-are at school.",
       "I can see _ on the snow, but I don't know what it is.",
       "Are there _ desks in the classroom? — Yes, there are many.",
       "There are _ books on this desk, but there are _ exercise books.",
-      "Did he say _ about it? — No, he said _ .",
+      "Did he say _ about it? — No, he said _.",
       "What shall I do now, Mom? I have done my homework. — You can do _ you like.",
       "There was _ in the street because it was very late.",
       "_ wants to see him.",
       "Is there _ here who knows this man?",
-      "Have you g o t_ books on Dickens? I want to read _ about him. I have read _ books by Dickens and I am interested in the life of the writer.",
+      "Have you got _ books on Dickens? I want to read _ about him. I have read _ books by Dickens and I am interested in the life of the writer.",
       "Can _ tell me how to get to the Public Library? — Yes, take _ bus that goes from here towards the railway station and get off at the third stop.",
       "Please bring me _ grapes, Mary.",
       "That is a very easy question — _ can answer it."
@@ -245,27 +245,27 @@
   },
   {
     "rules": "somewhere — где-нибудь, куда-нибудь,\n\nгде-то, куда-то\n\nУпотребление\n\nУтвердительная форма:\nI saw this man somewhere.\n\nОтрицательная форма:\nI saw this man nowhere.\nI did not see this man anywhere.\n\nВопросительная форма:\nDid you see this man anywhere?\n\neverywhere — везде",
-    "exercise_number": 112,
-    "exercise_text": "Вставьте somewhere, anywhere, nowhere или everywhere.",
+    "exerciseNumber": 112,
+    "exerciseText": "Вставьте somewhere, anywhere, nowhere или everywhere.",
     "tasks": [
-      "I can't find my book _ . I have looked all over the house.",
+      "I can't find my book _. I have looked all over the house.",
       "Johnny lives _ near Chicago.",
       "It so happened that he had _ to go to. So last summer he stayed at home in his beloved city for his holidays.",
-      "This book can be found _ . Let's buy it.",
+      "This book can be found _. Let's buy it.",
       "Do you live _ near them?",
       "Is it _ in Russia? — Yes, it's _ in Russia.",
-      "Where are you going? — I am not going _ .",
-      "I put my dictionary _ yesterday and now I can't find it _ . — Of course, that is because you leave your books _ .",
+      "Where are you going? — I am not going _.",
+      "I put my dictionary _ yesterday and now I can't find it _. — Of course, that is because you leave your books _.",
       "You must go _ next summer.",
       "Did you go _ on Sunday?",
-      "Let's go _ . The weather is fine. I don't want to stay at home in such weather.",
-      "I cannot find my glasses _ . I always put them _ and then look for them for hours.",
-      "It is holiday today. The streets are full of people. There are flags, banners and flowers _ ."
+      "Let's go _. The weather is fine. I don't want to stay at home in such weather.",
+      "I cannot find my glasses _. I always put them _ and then look for them for hours.",
+      "It is holiday today. The streets are full of people. There are flags, banners and flowers _."
     ]
   },
   {
-    "exercise_number": 113,
-    "exercise_text": "Переведите на английский язык.",
+    "exerciseNumber": 113,
+    "exerciseText": "Переведите на английский язык.",
     "tasks": [
       "На столе лежит что-то круглое. Что это такое?",
       "Никто об этом ничего не знает.",
@@ -283,26 +283,26 @@
     ]
   },
   {
-    "exercise_number": 114,
-    "exercise_text": "Вставьте одно из следующих слов:",
+    "exerciseNumber": 114,
+    "exerciseText": "Вставьте одно из следующих слов:",
     "tasks": [
       {
-        "exercise_text": "some, any, по",
+        "exerciseText": "some, any, по",
         "tasks": [
           "There were _ of my friends there.",
           "Well, anyway, there is _ need to hurry, now that we have missed the train.",
-          "Have you ever se n _ of these pictures before?",
+          "Have you ever seen _ of these pictures before?",
           "There is _ water in the kettle: they have drunk it all.",
           "There were _ fir-trees in that forest, but so many pines.",
           "We could not buy cherries, so we bought _ plums instead."
         ]
       },
       {
-        "exercise_text": "somebody, someone, anybody, anyone, nobody",
+        "exerciseText": "somebody, someone, anybody, anyone, nobody",
         "tasks": [
           "I saw _ I knew at the lecture.",
           "I dare say that there may be _ that I know at the lecture, but what does that matter?",
-          "Do you really think th a t_ visits this place?",
+          "Do you really think that _ visits this place?",
           "I have never seen _ lace their boots like that.",
           "Does _ know anything about him?",
           "_ knows anything about him.",
@@ -311,27 +311,27 @@
         ]
       },
       {
-        "exercise_text": "somewhere, anywhere, nowhere",
+        "exerciseText": "somewhere, anywhere, nowhere",
         "tasks": [
           "I haven't seen him _.",
           "I know the place is _ about here, but I don't know exactly where.",
           "Did you go _ yesterday? — No, I went _ , I stayed at home the whole day.",
           "_ is safe anymore.",
           "'_' is usually used instead of '_' in negative sentences and questions.",
-          "Bad manners will get you _ ."
+          "Bad manners will get you _."
         ]
       }
     ]
   },
   {
-    "exercise_number": 115,
-    "exercise_text": "Вставьте some, any, no, every или их производные.",
+    "exerciseNumber": 115,
+    "exerciseText": "Вставьте some, any, no, every или их производные.",
     "tasks": [
-      "To know _ is to know _ .",
+      "To know _ is to know _.",
       "_ is rotten in the state of Denmark (W. Shakespeare).",
       "Wealth is _ without health.",
       "_ is good in its season.",
-      "Can I have _ milk? — Yes, you can have _ .",
+      "Can I have _ milk? — Yes, you can have _.",
       "Will you have _ tea?",
       "Give me _ books, please. I have _ to read at home.",
       "Put _ sugar in her tea: she does not like sweet tea.",
@@ -350,22 +350,22 @@
     ]
   },
   {
-    "exercise_number": 116,
-    "exercise_text": "Вставьте some, any, no, every или их производные.",
+    "exerciseNumber": 116,
+    "exerciseText": "Вставьте some, any, no, every или их производные.",
     "tasks": [
       "Can you see _ in an empty box? — No, I can't see _ in an empty box. I can see _ in an empty box. — Why not? — Because there is _ in an empty box. There isn't _ in an empty box. — What is an empty box? — An empty box is a box that has _ in it. An empty box is a box without _ in it. An empty room is a room without _ in it.",
-      "Can _ see? — No, _ people can't see. _ people are blind. Blind people can't see. They can't see _ ; they can see _ .",
-      "Can _ hear? — No, _ people can't hear. _ people are deaf. People who are quite deaf can't hear. They can't hear _, they can't hear _ . They can hear _ ; they can hear _ .",
-      "Can we see _ ? — No, we can't see _ . We cannot see the air. _ can see the air.",
-      "We can't walk without legs and feet. People without legs and feet can't walk. They can't walk _ . They can walk _ ."
+      "Can _ see? — No, _ people can't see. _ people are blind. Blind people can't see. They can't see _ ; they can see _.",
+      "Can _ hear? — No, _ people can't hear. _ people are deaf. People who are quite deaf can't hear. They can't hear _, they can't hear _. They can hear _ ; they can hear _.",
+      "Can we see _ ? — No, we can't see _. We cannot see the air. _ can see the air.",
+      "We can't walk without legs and feet. People without legs and feet can't walk. They can't walk _. They can walk _."
     ]
   },
   {
-    "exercise_number": 117,
-    "exercise_text": "Вставьте some, any, no или их производные.",
+    "exerciseNumber": 117,
+    "exerciseText": "Вставьте some, any, no или их производные.",
     "tasks": [
-      "Are there _ cinemas or theatres in your town? — There aren't _ cinemas» but there is a theatre festival in summer.",
-      "Is there _ for young people to visit a zoo, interesting museums? — Г т sorry, there is Ú. zoo in our town. But there are _ museums, _ discos and every three weeks there is a rock concert for young people here.",
+      "Are there _ cinemas or theatres in your town? — There aren't _ cinemas, but there is a theatre festival in summer.",
+      "Is there _ for young people to visit a zoo, interesting museums? — I'm sorry, there is _ zoo in our town. But there are _ museums, _ discos and every three weeks there is a rock concert for young people here.",
       "Do you have _ relatives? — No, I don't. I don't have _ relatives.",
       "Does she have _ nephews or nieces? — She has _ nephews.",
       "She has _ sisters, she has only brothers.",
@@ -378,19 +378,19 @@
       "Do you have _ friends in America?",
       "He has _ English books in this bookcase.",
       "Did, you meet _ on your way to school?",
-      "Have you g o t_ pencils in your bag?",
+      "Have you got _ pencils in your bag?",
       "Do we have _ chalk on the blackboard?",
-      "How could I know that he was ill? _ told me _ .",
+      "How could I know that he was ill? _ told me _.",
       "She has made _ mistakes in her test."
     ]
   },
   {
-    "exercise_number": 118,
-    "exercise_text": "Вставьте одно из следующих слов: some, any, по, а, the или оставьте пропуски незаполненными.",
+    "exerciseNumber": 118,
+    "exerciseText": "Вставьте одно из следующих слов: some, any, по, а, the или оставьте пропуски незаполненными.",
     "tasks": [
       "Передай мне масло. Pass the _ butter, please.",
       "Дай ему масла. Give him _ butter.",
-      "Я не хочу масла. I don't w ant_ butter.",
+      "Я не хочу масла. I don't want _ butter.",
       "Эта ферма производит масло. This farm produces _ butter.",
       "В этом стакане нет молока. There is _ milk in this glass.",
       "Возьми варенья. Take _ jam.",
@@ -403,13 +403,13 @@
       "Суп готов. _ soup is ready.",
       "Дайте мне супу. Give me _ soup.",
       "Название этого супа — борщ. The name of _ soup is borshch.",
-      "Прежде всего нам нужно согреть воды. First of all we must heat_ water.",
-      "Прежде всего нам нужно согреть воду. First of all we must h eat_ water.",
+      "Прежде всего нам нужно согреть воды. First of all we must heat _ water.",
+      "Прежде всего нам нужно согреть воду. First of all we must heat _ water.",
       "Вода состоит из водорода и кислорода_. water consists of hydrogen and oxygen.",
       "Мыло необходимо для мытья_. soap is necessary for washing.",
       "В мыльнице нет мыла. There is _ soap in the soap dish.",
       "Мыло на полке. _ soap is on the shelf.",
-      "Мне не нравится идет этого мыла. I don't like the colour o f_ soap.",
+      "Мне не нравится идет этого мыла. I don't like the colour of _ soap.",
       "Есть у вас жидкое мыло для рук? Have you got _ liquid hand soap?",
       "В Карелии есть фабрика, которая производит бумагу. There in a factory in Karelia that produces _ paper.",
       "Бумага для стенгазеты на столе. _ paper for the wall newspaper is on the table.",
@@ -420,13 +420,13 @@
     ]
   },
   {
-    "exercise_number": 119,
-    "exercise_text": "Вставьте a, the, some или оставьте пропуски незаполненными.",
+    "exerciseNumber": 119,
+    "exerciseText": "Вставьте a, the, some или оставьте пропуски незаполненными.",
     "tasks": [
       {
         "tasks": [
           "I've just made _ coffee. Would you like _ ?",
-          "W ait_ minute!_ coffee is very hot. — I'd like _ milk, please. — I prefer _ black coffee."
+          "Wait _ minute _ coffee is very hot. — I'd like _ milk, please. — I prefer _ black coffee."
         ]
       },
       {
@@ -467,8 +467,8 @@
     ]
   },
   {
-    "exercise_number": 120,
-    "exercise_text": "Вставьте одно из следующих слов: some, the, а или оставьте пропуски незаполненными.",
+    "exerciseNumber": 120,
+    "exerciseText": "Вставьте одно из следующих слов: some, the, а или оставьте пропуски незаполненными.",
     "tasks": [
       "In _ bedroom of this flat there are twin beds, _ little bedside table between them, and _ chair. There are clothes thrown over _ chair.",
       "Here is _ book that you left on my table yesterday.",
@@ -491,8 +491,8 @@
     ]
   },
   {
-    "exercise_number": 121,
-    "exercise_text": "Вставьте одно из следующих слов: some, any, по, the, а или оставьте пропуски незаполненными.",
+    "exerciseNumber": 121,
+    "exerciseText": "Вставьте одно из следующих слов: some, any, по, the, а или оставьте пропуски незаполненными.",
     "tasks": [
       "I'm afraid there's _ juice in _ fridge. Would you like _ lemonade?",
       "My friends from Chicago can't speak _ foreign languages.",
