@@ -114,15 +114,16 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
-    // https://www.npmjs.com/package/yandex-turbo-feed-module
-    'yandex-turbo-feed-module',
+
 
     // https://www.npmjs.com/package/@nuxtjs/yandex-metrika
     '@nuxtjs/yandex-metrika',
 
-    // Всегда в конце!!!!
+    // Либы ниже надо после @nuxt/content обязон
     // https://sitemap.nuxtjs.org/
     '@nuxtjs/sitemap',
+    // https://www.npmjs.com/package/yandex-turbo-feed-module
+    'yandex-turbo-feed-module',
   ],
 
   yandexTurboFeed: {
@@ -157,8 +158,6 @@ export default {
           content: fs.readFileSync(path.join(__dirname, `dist${article.path}.html`), 'utf8'),
         }))
     },
-    cacheTime: 1000 * 60 * 15,
-    type: 'rss2',
   },
 
   yandexMetrika: {

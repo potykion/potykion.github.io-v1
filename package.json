@@ -27,7 +27,7 @@
     "v-viewer": "^1.6.3",
     "vue-awesome-swiper": "^4.1.1",
     "vue-clipboard2": "^0.3.1",
-    "yandex-turbo-feed-module": "0.0.5"
+    "yandex-turbo-feed-module": "git+https://github.com/potykion/yandex-turbo-feed-module.git"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
