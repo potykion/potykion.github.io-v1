@@ -1,3 +1,7 @@
+function normalizePath(p) {
+  return p.endsWith("/index") ? p.slice(0, p.length - "/index".length) : p
+}
+
 const createSitemapRoutes = async () => {
   const {$content} = require('@nuxt/content')
   // Берем все страницы, сливая страницы каждого разделы в один массив,
@@ -13,9 +17,8 @@ const createSitemapRoutes = async () => {
       pages
         .filter(p => p.title && p.description)
         .map(p => p.path)
-        .map(p => p.endsWith("/index") ? p.slice(0, p.length - "/index".length) : p)
+        .map(normalizePath)
         .sort()
-
   ))];
 }
 
@@ -111,8 +114,8 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
-    // https://github.com/nuxt-community/feed-module
-    '@nuxtjs/feed',
+    // https://www.npmjs.com/package/yandex-turbo-feed-module
+    'yandex-turbo-feed-module',
 
     // https://www.npmjs.com/package/@nuxtjs/yandex-metrika
     '@nuxtjs/yandex-metrika',
@@ -122,15 +125,16 @@ export default {
     '@nuxtjs/sitemap',
   ],
 
-  feed() {
-    const {$content} = require('@nuxt/content')
+  yandexTurboFeed: {
+    path: `/feed.xml`,
+    link: "https://potyk.io",
+    title: 'Блог из-под палки',
+    description: 'Блог с кулсторями, заметками про разработку и экспериенс жизненный',
+    async create(feed) {
+      const {$content} = require('@nuxt/content')
 
-    const createFeedArticles = async function (feed) {
-      feed.options = {
-        title: 'Блог из-под палки',
-        description: 'Блог с кулсторями, заметками про разработку и экспериенс жизненный',
-        link: "https://potyk.io/feed.xml",
-      }
+      const fs = require('fs');
+      const path = require('path');
 
       const articles = (await Promise.all([
         $content('cool-story', {deep: true}).fetch(),
@@ -138,24 +142,23 @@ export default {
         $content('food', {deep: true}).fetch(),
         $content('n', {deep: true}).fetch(),
         $content('archive', {deep: true}).fetch(),
-      ])).flatMap(a => a).filter(a => a.title && a.description);
-      articles.forEach((article) => {
-        feed.addItem({
+      ]))
+        .flatMap(a => a)
+        .filter(a => a.title && a.description)
+        .map(a => ({...a, path: normalizePath(a.path)}));
+
+      articles.forEach((article) =>
+        feed.item({
           title: article.title,
           id: `https://potyk.io${article.path}`,
           link: `https://potyk.io${article.path}`,
-          date: new Date(article.createdAt),
           description: article.description,
-        })
-      })
-    }
-
-    return {
-      path: `/feed.xml`,
-      create: createFeedArticles,
-      cacheTime: 1000 * 60 * 15,
-      type: 'rss2',
-    };
+          date: new Date(article.createdAt),
+          content: fs.readFileSync(path.join(__dirname, `dist${article.path}.html`), 'utf8'),
+        }))
+    },
+    cacheTime: 1000 * 60 * 15,
+    type: 'rss2',
   },
 
   yandexMetrika: {
