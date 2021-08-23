@@ -119,14 +119,13 @@
 
     list-style: none;
   }
-  summary.right-details::-webkit-details-marker {
+  details.right-details > summary::-webkit-details-marker {
     display: none
   }
-
-  summary.right-details::after {
+  details.right-details > summary::after {
     content: ' ▼';
   }
-  details[open].right-details summary:after {
+  details.right-details[open] summary:after {
     content: " ▲";
   }
 

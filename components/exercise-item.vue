@@ -4,17 +4,9 @@
 
     <details :open="exerciseDone">
       <summary>
-        <div class="inline-block" style="width: calc(100% - 40px)">
-          <div class=" flex items-center justify-between">
-            <h2 :class="['inline-block',  showAnswer ? 'line-through' : '']">
+            <h3 :class="['inline-block',  showAnswer ? 'line-through' : '']">
               Упражнение {{ ex.exercise_number }}
-            </h2>
-            <button @click="toggleExercise(ex.exercise_number)">
-              <span v-if="!showAnswer">✔️</span>
-              <span v-else>🔁</span>
-            </button>
-          </div>
-        </div>
+            </h3>
       </summary>
 
       <div>
@@ -43,6 +35,13 @@
       </div>
 
     </details>
+
+    <div class="flex justify-center">
+      <button @click="toggleExercise(ex.exercise_number)" class="w-full py-3">
+        <span v-if="!showAnswer">Проверить ✔️</span>
+        <span v-else>Заново 🔁</span>
+      </button>
+    </div>
 
 
   </div>

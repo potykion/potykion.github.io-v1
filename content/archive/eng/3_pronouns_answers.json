@@ -55,27 +55,27 @@
     "exercise_number": 104,
     "tasks": [
       "no",
-      "some; some",
-      "any; any",
+      "some, some",
+      "any, any",
       "some",
       "some",
       "any",
-      "-",
+      "_",
       "any",
       "some",
       "any",
-      "-, -",
+      "_, _",
       "some",
-      "-, -",
+      "_, _",
       "some",
-      "-",
+      "_",
       "any",
       "some",
       "any",
       "some",
-      "",
+      "_",
       "any, some",
-      "-"
+      "_"
     ]
   },
   {
@@ -253,7 +253,7 @@
       "Nobody knows anything about it.",
       "There are many parks in the town. There are trees and flowers every where.",
       "There is someone in that room.",
-      "Ann lives -somewhere in this district.",
+      "Ann lives somewhere in this district.",
       "I don't know anybody in this town.",
       "Give me something to eat, please.",
       "Does anybody know our teacher's address?",
@@ -365,31 +365,31 @@
       "the",
       "some",
       "any",
-      "-",
+      "_",
       "no",
       "some",
       "the",
-      "-",
+      "_",
       "the",
       "any",
-      "-",
-      "-",
+      "_",
+      "_",
       "the",
       "some",
       "the",
       "some",
       "the",
-      "-",
-      "-",
+      "_",
+      "_",
       "no",
       "the",
       "the",
-      "-",
-      "-",
+      "_",
+      "_",
       "the",
       "some",
-      "-",
-      "-",
+      "_",
+      "_",
       "the"
     ]
   },
@@ -399,26 +399,26 @@
       {
         "tasks": [
           "some, some",
-          "a, the, some, -"
+          "a, the, some, _"
         ]
       },
       {
         "tasks": [
           "some",
           "the",
-          "-"
+          "_"
         ]
       },
       {
         "tasks": [
-          "-",
+          "_",
           "some",
           "the"
         ]
       },
       {
         "tasks": [
-          "-",
+          "_",
           "some",
           "the, the"
         ]
@@ -434,7 +434,7 @@
         "tasks": [
           "a",
           "the",
-          "-"
+          "_"
         ]
       }
     ]
@@ -446,20 +446,20 @@
       "the",
       "the, a, the",
       "a",
-      "-, -",
+      "_, _",
       "some",
       "the",
-      "-",
-      "a, -",
-      "-",
+      "_",
+      "a, _",
+      "_",
       "some, the",
-      "-, -",
+      "_, _",
       "a, the",
       "some",
       "the",
-      "-",
+      "_",
       "a",
-      "a, -, -, an, -"
+      "a, _, _, an, _"
     ]
   },
   {
@@ -470,25 +470,25 @@
       "some",
       "the, the",
       "any, the",
-      "-, the",
-      "a, -",
-      "-",
+      "_, the",
+      "a, _",
+      "_",
       "some, some",
       "some",
-      "-, -",
-      "-, the",
+      "_, _",
+      "_, the",
       "the, the",
       "the, the",
       "some",
       "the",
       "the, the",
       "no, the, the, some, the",
-      "-",
+      "_",
       "some",
-      "a, -, -",
+      "a, _, _",
       "a",
       "any, any",
-      "-, a, -"
+      "_, a, _"
     ]
   }
 ]

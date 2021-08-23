@@ -53,8 +53,8 @@ export default class TaskItem extends Vue {
 
   get doneTaskIsCorrect(): boolean {
     const normalizedAnswer = this.fullAnswer
-      .replace("<b>", "")
-      .replace("</b>", "");
+      .replaceAll("<b>", "")
+      .replaceAll("</b>", "");
     return normalizedAnswer === this.doneTask;
   }
 
