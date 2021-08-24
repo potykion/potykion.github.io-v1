@@ -103,7 +103,6 @@ export default class TaskItem extends Vue {
 
   @Watch("doneTask")
   onDoneTaskChange() {
-    console.log("heyyyy")
     this.saveTaskDebounce();
   }
 
