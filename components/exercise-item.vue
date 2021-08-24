@@ -4,7 +4,7 @@
 
     <details :open="exerciseDone">
       <summary>
-            <h3 :class="['inline-block',  showAnswer ? 'line-through' : '']">
+            <h3 :class="['inline-block',  showAnswer ? 'line-through' : '']" :id="ex.exerciseNumber">
               Упражнение {{ ex.exerciseNumber }}
             </h3>
       </summary>
@@ -65,6 +65,8 @@ export default class ExerciseItem
   @ProvideReactive() exerciseProgressRepo!: ExerciseProgressRepo;
 
   toggleExercise(exerciseNumber: number) {
+    document.getElementById(exerciseNumber.toString())!.scrollIntoView();
+
     // Выполнение таски
     if (!this.showAnswer) {
       this.showAnswer = true;
