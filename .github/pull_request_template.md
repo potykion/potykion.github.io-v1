@@ -11,14 +11,10 @@
 
 ## Картинки
 
-- [ ] Картинки хранятся по аналогичному пути
-  - Напр. для `/dev/vue/bio` картинки хранятся в `/images/dev/vue/bio/admin-2020.png`
-- [ ] Картинки должны быть сжаты по-максимому - желательно чтобы размер был не больше 100kb
-  - Сжать можно в jpg через телеграм, или в webp через [конвертер](https://image.online-convert.com/convert-to-webp)
-- [ ] Картинки оформлять в `new-img-swiper` + `img-block`, указывая `alt`
-  ```
-  <img-swiper>
-    <img-block src="/images/dev/vue/bio/admin-2020.png" alt="Новый диз админки"></img-block>
-  </img-swiper>
-  ```
+- [ ] Картинки должны находится по аналогичному пути
+  - Например, для страницы `/dev/how` картинки должны находится в `/images/dev/how`
+- [ ] Картинки нужно отображать, используя компоненты из `components/img`: `ImgBlock`, `ImgInlineBlock`
+  - Элементы `ImgBlock` нужно оформлять в `ImgSwiper`
+- [ ] Желательно, чтобы размер картинки не превышал 100 Кб
+  - Сжать можно через телеграм или перевести в [WEBP](https://image.online-convert.com/convert-to-webp)
 
