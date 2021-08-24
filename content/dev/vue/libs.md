@@ -5,7 +5,7 @@ description: Vue и JS библиотеки на все случаи фронт�
 
 ### UI
 
--  [vuetify](https://github.com/vuetifyjs/vuetify) <nuxt-emoji-link to="https://github.com/nuxt-community/vuetify-module"></nuxt-emoji-link>  - лучший ui фреймворк про материал дезигн, все что надо есть: сетка, дейтпикеры, селекты и тд
+- [vuetify](https://github.com/vuetifyjs/vuetify) <nuxt-emoji-link to="https://github.com/nuxt-community/vuetify-module"></nuxt-emoji-link>  - лучший ui фреймворк про материал дезигн, все что надо есть: сетка, дейтпикеры, селекты и тд
 - [tailwindcss](https://github.com/tailwindlabs/tailwindcss) <nuxt-emoji-link to="https://github.com/nuxt-community/tailwindcss-module"></nuxt-emoji-link> - 
   лучший css фреймворк, если не разрешили пользоваться vuetify
 - [vuejs-datepicker](https://github.com/charliekassel/vuejs-datepicker) - нормальный дейтпикер; альтернативы: [vue-flatpickr-component](https://github.com/ankurk91/vue-flatpickr-component)
@@ -28,7 +28,8 @@ description: Vue и JS библиотеки на все случаи фронт�
 - [jest](https://github.com/facebook/jest) - лучший фреймворк для юнит и интегрейшн тестов
 - [cypress](https://github.com/cypress-io/cypress) - аналог Selenium - позволяет писать ui тесты для джс + куча плюшек,
   типа моканья хттп-запросов
-- [husky](https://github.com/typicode/husky) - коммит хуки
+- [husky](https://github.com/typicode/husky) - коммит хуки - команды (напр. тесты, линтинг), которые будут запускаться до совершения коммита
+- [json-server     ](https://github.com/typicode/json-server) - превращает json файл в сервер! - оч удобно для моков
 
 ---
 
@@ -54,5 +55,4 @@ description: Vue и JS библиотеки на все случаи фронт�
 - [lodash          ](https://github.com/lodash/lodash) - утилитки
 - [humps           ](https://github.com/domchristie/humps) - конвертит данные из одного нейминга в другой, напр. из camelCase в under_score
 - [ramda           ](https://github.com/ramda/ramda) - фп утилитки
-- [json-server     ](https://github.com/typicode/json-server) - превращает json файл в сервер! - оч удобно для моков
 - [libphonenumber-js](https://www.npmjs.com/package/libphonenumber-js) - парс и форматирование телефонов
