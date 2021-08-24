@@ -41,10 +41,10 @@ big: true
 
   - Суть в том, что ты разбиваешь расходы на категории и прикидываешь сколько ты потратишь на каждую категорию
 
-  <new-img-row>
+  <new-img-swiper>
     <img-slide src="/images/exp/money/budget_1.png" alt="Расходики"></img-slide>
     <img-slide src="/images/exp/money/budget_2.png" alt="Пьюр ебучий вышел в копеечку"></img-slide>
-  </new-img-row>
+  </new-img-swiper>
 
 
   - В конце месяца, смотришь че как и планируешь траты на некст месяц - то есть, если не считать [пьюр ебучий](/cool-story/pure),

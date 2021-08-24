@@ -1,5 +1,5 @@
 <template>
-  <div v-viewer="{title: true, toolbar: false, navbar: false}" class="images">
+  <div v-viewer="{title: true, toolbar: false, navbar: false}">
     <swiper ref="mySwiper" :options="swiperOptions">
       <slot></slot>
       <div class="swiper-pagination" slot="pagination"></div>
@@ -17,8 +17,17 @@ import {
 } from "nuxt-property-decorator"
 import {SwiperOptions} from "swiper";
 
-@Component
-export default class NewImgRow extends Vue {
+/**
+ * Свайпер/каруселька картинок
+ * Работает только с ImgBlock
+ *
+ * Пример использования content/n/index.md:
+ * <img-swiper>
+ *  <img-block src="/images/n/blog.png" alt="Главная бложика"></img-block>
+ * </img-swiper>
+ */
+@Component({})
+export default class ImgSwiper extends Vue {
   get swiperOptions(): SwiperOptions {
     const slides = this.$slots.default?.filter(t => !!t.tag).length ?? 0;
     return {

@@ -15,10 +15,10 @@
   - Напр. для `/dev/vue/bio` картинки хранятся в `/images/dev/vue/bio/admin-2020.png`
 - [ ] Картинки должны быть сжаты по-максимому - желательно чтобы размер был не больше 100kb
   - Сжать можно в jpg через телеграм, или в webp через [конвертер](https://image.online-convert.com/convert-to-webp)
-- [ ] Картинки оформлять в `new-img-row` + `img-slide`, указывая `alt`
+- [ ] Картинки оформлять в `new-img-swiper` + `img-block`, указывая `alt`
   ```
-  <new-img-row>
-    <img-slide src="/images/dev/vue/bio/admin-2020.png" alt="Новый диз админки"></img-slide>
-  </new-img-row>
+  <img-swiper>
+    <img-block src="/images/dev/vue/bio/admin-2020.png" alt="Новый диз админки"></img-block>
+  </img-swiper>
   ```
 
