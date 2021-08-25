@@ -109,7 +109,7 @@ import firebase from "firebase";
 
 @Component({})
 export default class index extends Vue {
-  user!: object | null = null;
+  user: object | null = null;
 
   async auth() {
     // Если юзер уже вошел - то выходим из метода
