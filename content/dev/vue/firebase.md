@@ -13,25 +13,25 @@ description: Немного про Firebase, а также про Firebase Auth 
 
 1. Заходим в [Firebase Console](https://console.firebase.google.com/) и создаем проект:
 
-<new-img-row>
-  <img-slide src="/images/dev/vue/firebase/project-creation-1.jpg" alt="Firebase Console"></img-slide>
-  <img-slide src="/images/dev/vue/firebase/project-creation-2.jpg" alt="Обзываем проект"></img-slide>
-  <img-slide src="/images/dev/vue/firebase/project-creation-3.jpg" alt="Подключаем Google Analytics"></img-slide>
-  <img-slide src="/images/dev/vue/firebase/project-creation-4.jpg" alt="Выбираем дефолтовый GA-акк"></img-slide>
-</new-img-row>
+<img-swiper>
+  <img-block src="/images/dev/vue/firebase/project-creation-1.jpg" alt="Firebase Console"></img-block>
+  <img-block src="/images/dev/vue/firebase/project-creation-2.jpg" alt="Обзываем проект"></img-block>
+  <img-block src="/images/dev/vue/firebase/project-creation-3.jpg" alt="Подключаем Google Analytics"></img-block>
+  <img-block src="/images/dev/vue/firebase/project-creation-4.jpg" alt="Выбираем дефолтовый GA-акк"></img-block>
+</img-swiper>
 
 2. Создаем приложение типа Web, после создания которого получаем доступы для подключения Firebase JS SDK:
 
-<new-img-row>
-  <img-slide src="/images/dev/vue/firebase/web-app-creation-1.jpg" alt="Обзываем приложение"></img-slide>
-  <img-slide src="/images/dev/vue/firebase/web-app-creation-2.jpg" alt="Получаем доступы"></img-slide>
-</new-img-row>
+<img-swiper>
+  <img-block src="/images/dev/vue/firebase/web-app-creation-1.jpg" alt="Обзываем приложение"></img-block>
+  <img-block src="/images/dev/vue/firebase/web-app-creation-2.jpg" alt="Получаем доступы"></img-block>
+</img-swiper>
 
 3. Наконец, подключаем аутентификацию через Google:
 
-<new-img-row>
-  <img-slide src="/images/dev/vue/firebase/auth-panel.jpg" alt="Панель провайдеров аутентификации"></img-slide>
-</new-img-row>
+<img-swiper>
+  <img-block src="/images/dev/vue/firebase/auth-panel.jpg" alt="Панель провайдеров аутентификации"></img-block>
+</img-swiper>
 
 
 

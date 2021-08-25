@@ -1,8 +1,12 @@
+function normalizePath(p) {
+  return p.endsWith("/index") ? p.slice(0, p.length - "/index".length) : p
+}
+
 const createSitemapRoutes = async () => {
   const {$content} = require('@nuxt/content')
   // Берем все страницы, сливая страницы каждого разделы в один массив,
   // обрезаем /index где надо, удаляем дубликаты
-  return [... new Set((await Promise.all([
+  return [...new Set((await Promise.all([
     $content('cool-story', {deep: true}).fetch(),
     $content('dev', {deep: true}).fetch(),
     $content('food', {deep: true}).fetch(),
@@ -10,8 +14,11 @@ const createSitemapRoutes = async () => {
     $content('archive', {deep: true}).fetch(),
   ])).flatMap(
     pages =>
-      pages.map(p => p.path)
-        .map(p => p.endsWith("/index") ? p.slice(0, p.length - "/index".length) : p)
+      pages
+        .filter(p => p.title && p.description)
+        .map(p => p.path)
+        .map(normalizePath)
+        .sort()
   ))];
 }
 
@@ -107,16 +114,51 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
 
+
+
     // https://www.npmjs.com/package/@nuxtjs/yandex-metrika
     '@nuxtjs/yandex-metrika',
 
-    //https://www.npmjs.com/package/nuxt-lazy-load
-    // 'nuxt-lazy-load',
-
-    // Всегда в конце!!!!
+    // Либы ниже надо после @nuxt/content обязон
     // https://sitemap.nuxtjs.org/
     '@nuxtjs/sitemap',
+    // https://www.npmjs.com/package/yandex-turbo-feed-module
+    'yandex-turbo-feed-module',
   ],
+
+  yandexTurboFeed: {
+    path: `/feed.xml`,
+    link: "https://potyk.io",
+    title: 'Блог из-под палки',
+    description: 'Блог с кулсторями, заметками про разработку и экспериенс жизненный',
+    async create(feed) {
+      const {$content} = require('@nuxt/content')
+
+      const fs = require('fs');
+      const path = require('path');
+
+      const articles = (await Promise.all([
+        $content('cool-story', {deep: true}).fetch(),
+        $content('dev', {deep: true}).fetch(),
+        $content('food', {deep: true}).fetch(),
+        $content('n', {deep: true}).fetch(),
+        $content('archive', {deep: true}).fetch(),
+      ]))
+        .flatMap(a => a)
+        .filter(a => a.title && a.description)
+        .map(a => ({...a, path: normalizePath(a.path)}));
+
+      articles.forEach((article) =>
+        feed.item({
+          title: article.title,
+          id: `https://potyk.io${article.path}`,
+          link: `https://potyk.io${article.path}`,
+          description: article.description,
+          date: new Date(article.createdAt),
+          content: fs.readFileSync(path.join(__dirname, `dist${article.path}.html`), 'utf8'),
+        }))
+    },
+  },
 
   yandexMetrika: {
     id: '82960681',

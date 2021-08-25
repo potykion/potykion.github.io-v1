@@ -5,7 +5,7 @@
                active-class="font-bold border-b-4 border-black">
       <div>
         <span :class="emote ? 'hidden lg:inline' : ''">{{ title }}</span>
-        <twitch-emote v-if="emote" :small="true" :emote="emote"></twitch-emote>
+        <img-emote v-if="emote" size="small" :emote="emote"></img-emote>
       </div>
     </nuxt-link>
   </div>

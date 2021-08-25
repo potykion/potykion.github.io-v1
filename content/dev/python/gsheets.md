@@ -9,16 +9,16 @@ description: Sheets API - одна из самых непонятных апиш
 
 1. Заходим на [страницу создания доступов для API](https://console.cloud.google.com/apis/api/sheets.googleapis.com/credentials) и создаем доступы: `Create credentials > OAuth client ID`:
 
-<new-img-row>
-    <img-slide src="/images/dev/python/gsheets/credentials-creation-1.png" alt="Страница создания доступов"></img-slide>
-    <img-slide src="/images/dev/python/gsheets/credentials-creation-2.png" alt="Создание доступов: тип - Desktop app, название - произвольное"></img-slide>
-</new-img-row>
+<img-swiper>
+    <img-block src="/images/dev/python/gsheets/credentials-creation-1.png" alt="Страница создания доступов"></img-block>
+    <img-block src="/images/dev/python/gsheets/credentials-creation-2.png" alt="Создание доступов: тип - Desktop app, название - произвольное"></img-block>
+</img-swiper>
 
 2. Скачиваем доступы, получаем файлик, типа `client_secret_***.json`, и закидываем его в директорию с проектом:
 
-<new-img-row>
-    <img-slide src="/images/dev/python/gsheets/credentials-download.png" alt="Кнопочка скачивания доступов"></img-slide>
-</new-img-row>
+<img-swiper>
+    <img-block src="/images/dev/python/gsheets/credentials-download.png" alt="Кнопочка скачивания доступов"></img-block>
+</img-swiper>
 
 3. Ставим Python-либы для работы с Sheets API:
 

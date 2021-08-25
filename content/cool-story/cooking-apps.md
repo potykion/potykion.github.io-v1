@@ -19,33 +19,33 @@ tags:
 рецептов
 тысячи. Как из них выбрать что я хочу? Да и приложухи всратенькие
 
-<new-img-row>
+<img-swiper>
   <img-slide src="/images/cool-story/cooking-apps/app-1.jpg" alt="Что ни фотка то хрючево" ></img-slide>
   <img-slide src="/images/cool-story/cooking-apps/app-2.jpg" alt="Просто пресетный материал дезигн" ></img-slide>
   <img-slide src="/images/cool-story/cooking-apps/app-3.jpg" alt="15к рецептов для меня - человека, имеющего трудности с выбором" ></img-slide>
-</new-img-row>
+</img-swiper>
 
 
 Другое дело kitchen stories - оно ахуеть как выглядит
 
-<new-img-row>
+<img-swiper>
   <img-slide src="/images/cool-story/cooking-apps/kitchen-stories-1.jpg" alt="Вау" ></img-slide>
   <img-slide src="/images/cool-story/cooking-apps/kitchen-stories-2.jpg" alt="Вааау" ></img-slide>
   <img-slide src="/images/cool-story/cooking-apps/kitchen-stories-3.jpg" alt="Вааааау" ></img-slide>
-</new-img-row>
+</img-swiper>
 
 Есть куча топ фич типа ГРАММОВКИ ИНГРЕДИЕНТОВ ПО ПОРЦИЯМ: типа обычно рецепты блюд пишут на 4, 5, 6 и тд порций,
 а тут можно на 1, 2 порции - ахуенно. Прикольная фича - просмотр приготовленного хрючева в разных странах.
 Россия узнаваема)))
 
-<new-img-row>
+<img-swiper>
   <img-slide src="/images/cool-story/cooking-apps/ks-country-1.jpg" alt="Чили" ></img-slide>
   <img-slide src="/images/cool-story/cooking-apps/ks-country-2.jpg" alt="Грейт Британ" ></img-slide>
   <img-slide src="/images/cool-story/cooking-apps/ks-country-3.jpg" alt="Россиюшка" ></img-slide>
-</new-img-row>
+</img-swiper>
 
 Крч все круто, но...
 
-<new-img-row>
+<img-swiper>
   <img-slide src="/images/cool-story/cooking-apps/19.jpg" alt="19 ИНГРЕДИЕНТОВ ДЛЯ БЛЮДА ИЗ КУРИЦЫ ВЫ ЕБНУЛИСЬ???" ></img-slide>
-</new-img-row>
+</img-swiper>

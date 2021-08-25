@@ -37,9 +37,9 @@ allowfullscreen></iframe>
 наебалова. До покупки корейки я не знал как выглядит корейка, во время видоса я не особо обратил внимание на то, как
 выглядит корейка, а потом как обратил:
 
-<new-img-row>
+<new-img-swiper>
   <img-slide src="/images/cool-story/rack-of-lamb/rack-of-lamb-1.jpg" alt="Баранья корейка от наебщиков" ></img-slide>
-</new-img-row>
+</new-img-swiper>
 
 
 Мяса нихуя не было, тупа жир, мне впарили какие-то ошметки за 1700 НАЕБЩИКИ УУУ СУКА НО ПРОДАВЩИЦА БЫЛА ТАДЖИЧКОЙ И
@@ -47,9 +47,9 @@ allowfullscreen></iframe>
 
 То есть все должно было выглядеть получше, типа так:
 
-<new-img-row>
+<new-img-swiper>
   <img-slide src="/images/cool-story/rack-of-lamb/rack-of-lamb-2.jpg" alt="Нормальная баранья корейка" ></img-slide>
-</new-img-row>
+</new-img-swiper>
 
 
 О фото выше расскажу позже

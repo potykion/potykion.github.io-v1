@@ -14,6 +14,9 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 
+/**
+ * @deprecated Юзай ImgEmote
+ */
 @Component({})
 export default class NuxtEmojiLink extends Vue {
   @Prop() to!: string;

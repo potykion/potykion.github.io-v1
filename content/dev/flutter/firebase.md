@@ -79,9 +79,9 @@ W/Firestore( 8432): (22.1.2) [WriteStream]: (86b47da) Stream closed with status:
 
 
 
-<new-img-row>
+<img-swiper>
   <img-slide src="/images/dev/flutter/firebase/gplay-fingerprint.png" alt="Fingerprint в Google Play Console"></img-slide>
-</new-img-row>
+</img-swiper>
 
 
 

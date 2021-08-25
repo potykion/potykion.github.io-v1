@@ -9,36 +9,35 @@ description: Все, что вы хотели знать обо мне
 
 Ты находишься на моем бложике!
 
-<new-img-row>
-  <img-slide  img-class="border-2 rounded border-white" src="/images/n/blog.png" alt="Главная бложика"></img-slide>
-</new-img-row>
+<img-swiper>
+  <img-block  img-class="border-2 rounded border-white" src="/images/n/blog.png" alt="Главная бложика"></img-block>
+</img-swiper>
 
 </div>
 
+
+<img-bg src="/images/n/casino.jpg" alt="casino-bg" :opacity="0.2" >
 <div class="flex casino">
 
   <div class="flex-grow">
 
-## Ты кто такой, сука? <twitch-emote emote="casino"></twitch-emote>
+## Ты кто такой, сука? <img-emote emote="casino"></emote>
 
 Пацан, приколист, разраб
 
   </div>
 
   <div class="flex-initial w-32">
-    <new-img-row>
-      <img-slide  src="/images/n/me2.jpg" alt="Флексить люблю"></img-slide>
-    </new-img-row>
+    <img-inline-block :show-caption="true"  src="/images/n/me2.jpg" alt="Флексить люблю"></img-inline-block>
   </div>
-</div>
 
+</div>
+</img-bg>
 
 <div class="flex flex-col md:flex-row md:space-x-4 programmer">
 
   <div>
-    <new-img-row>
-      <img-slide  src="/images/n/programmer.webp" alt="Программист? Пошел нахуй!" :show-caption="false"></img-slide>
-    </new-img-row>
+    <img-inline-block src="/images/n/programmer.webp" alt="Программист? Пошел нахуй!"></img-inline-block>
   </div>
 
   <div >
@@ -85,9 +84,9 @@ description: Все, что вы хотели знать обо мне
 серик ["Утопия"](https://www.kinopoisk.ru/series/731962/) и мультик ["Душа"](https://www.kinopoisk.ru/film/775273/)
 
   <div class="flex justify-around space-x-2 h-40 md:h-80">
-    <img loading="lazy" class="rounded w-1/3 object-contain" src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"'/>
-    <img loading="lazy" class="rounded w-1/3 object-contain" src="/images/n/Utopia.webp" alt='Серик "Утопия"'/>
-    <img loading="lazy" class="rounded w-1/3 object-contain" src="/images/n/Soul.jpg" alt='Мульт "Душа"'/>
+    <img-inline-block class="flex-1" src="/images/n/Dans-la-maison.webp" alt='Кинчик "В доме"'></img-inline-block>
+    <img-inline-block class="flex-1" src="/images/n/Utopia.webp" alt='Серик "Утопия"'></img-inline-block>
+    <img-inline-block class="flex-1" src="/images/n/Soul.jpg" alt='Мульт "Душа"'></img-inline-block>
   </div>
 
 Вообще, мои <a class="kp-link" href="https://www.kinopoisk.ru/user/4445656/votes/">оценочки</a> открыты, можно там
@@ -97,66 +96,59 @@ description: Все, что вы хотели знать обо мне
 
 </div>
 
-<div class="steam">
-
-<img loading="lazy" class="steam-bg" src="/images/n/steam-bg.png" alt="steam-background" />
-
-<div class="steam-content">
-
-### Во че гамаешь?
-
-Ща
-в [Айзека <twitch-emote emote="isaac" :small="true" ></twitch-emote>](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/)
-, планирую выдрочить все ачивки — то есть играть буду где-то год
-
-<new-img-row>
-  <img-slide src="/images/n/isaac-progress.png" alt="Прогресс на 12.08.2021" ></img-slide>
-</new-img-row>
-
+<img-bg src="/images/n/steam-bg.png" alt="steam-background">
+<div class="card white-text">
+  
+  ### Во че гамаешь?
+  
+  Ща в [Айзека <img-emote emote="isaac" :small="true"></emote>](https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/), 
+  планирую выдрочить все ачивки — то есть играть буду где-то год
+  
+  <img-swiper>
+    <img-block src="/images/n/isaac-progress.png" alt="Прогресс на 12.08.2021" ></img-block>
+  </img-swiper>
+  
 </div>
+</img-bg>
 
-</div>
 
-
-<div class="flex justify-between risovach">
+<img-bg src="/images/n/berew-i-risyew.png" alt="risovach-bg" :opacity="0.2">
+<div class="flex justify-between card h-52 md:h-80 ">
 
   <div class="self-end">
-
-### А че по хобби?
-
-В художку хожу, маслом [рисую](https://www.instagram.com/poty_risovach)
-
+  
+  ### А че по хобби?
+  
+  В художку хожу, маслом [рисую](https://www.instagram.com/poty_risovach)
+  
   </div>
-
-  <div class="py-2 ">
-    <img loading="lazy" class="h-full object-contain rounded" src="/images/n/risovach.jpg" alt="Прогресс на 12.08.2021" ></img>
-  </div>
+  
+  <img-inline-block src="/images/n/risovach.jpg" alt="@poty_risovach"></img-inline-block>
 
 </div>
+</img-bg>
+
 
 ### Чем еще занимаешься?
 
+
+<img-bg src="/images/n/aim.png" alt="aim-background">
 <div class="aim">
 
-<img loading="lazy" class="aim-bg" src="/images/n/aim.png" alt="aim-background" />
-
-<div class="aim-content">
-
-<div class="font-bold">Я СТАВЛЮ</div> 
-
-# [ЦЕЛИ](/n/goals2021)
-
-<div class="invisible font-bold">Я СТАВЛЮ</div> 
+  <div class="font-bold">Я СТАВЛЮ</div> 
+  
+  # [ЦЕЛИ](/n/goals2021)
+  
+  <div class="invisible font-bold">Я СТАВЛЮ</div> 
 
 </div>
-
-</div>
+</img-bg>
 
 
 <div class="vdud">
 
 <h2 class="text-center italic">
-  <twitch-emote :big="true" emote="vdud" ></twitch-emote> vdud moment <twitch-emote emote="vdud" :big="true" ></twitch-emote>
+  <img-emote size="big" emote="vdud" ></img-emote> vdud moment <img-emote emote="vdud" size="big" ></img-emote>
 </h2>
 
 ### Когда у тебя был последний секс?

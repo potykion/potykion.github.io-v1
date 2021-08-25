@@ -47,6 +47,9 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 
+/**
+ * @deprecated Юзай img-block, img-inline-block
+ */
 @Component({})
 export default class ImgCard extends Vue {
   @Prop({default: "left"}) align!: "left" | "right";

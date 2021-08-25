@@ -10,18 +10,18 @@ namespace GrammarExercises {
 
   export interface Exercise {
     rules?: string;
-    exercise_number: number;
-    exercise_text: string;
+    exerciseNumber: number;
+    exerciseText: string;
     tasks: Array<Task | string>;
   }
 
   export interface Task {
-    exercise_text?: string;
+    exerciseText?: string;
     tasks: string[];
   }
 
   export interface Answer {
-    exercise_number: number;
+    exerciseNumber: number;
     tasks: Array<Task | string>;
   }
 

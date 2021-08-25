@@ -3,9 +3,9 @@
     <h1>Гиги</h1>
 
 
-    <new-img-row>
+    <img-swiper>
       <img-slide src="/images/exp/gigs/ovsi.jpg" alt="Овси гигосик на нг"></img-slide>
-    </new-img-row>
+    </img-swiper>
 
     <p>
       Здесь будет список конциков, на которые я хочу сходить в этому году, если ковид конечно закончится.
@@ -37,7 +37,7 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
-import ImgRow from "~/components/img-row.vue";
+import ImgSwiper from "~/components/img/swiper.vue";
 import {generateSeoHead} from "~/logic/core/seo";
 
 
@@ -52,7 +52,7 @@ interface Concert {
 
 
 @Component({
-  components: {ImgRow},
+  components: {ImgRow: ImgSwiper},
   head() {
     return generateSeoHead(
       "Гиги",

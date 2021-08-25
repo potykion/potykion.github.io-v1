@@ -11,7 +11,7 @@ createdAt: 2021-04-13
 
 Upd: это наркоматы были - после них колпачки от шприцов остались<br>
 
-<new-img-row>
+<new-img-swiper>
   <img-slide src="/images/cool-story/padik/syringe.jpg" alt="И не только колпачки" ></img-slide>
-</new-img-row>
+</new-img-swiper>
 

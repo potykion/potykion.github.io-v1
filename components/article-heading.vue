@@ -3,13 +3,13 @@
     <template v-if="small">
       <h2>
         {{ title }}
-        <twitch-emote v-if="emote" :emote="emote"></twitch-emote>
+        <img-emote v-if="emote" :emote="emote"></img-emote>
       </h2>
     </template>
     <template v-else>
       <h1>
         {{ title }}
-        <twitch-emote v-if="emote" :emote="emote"></twitch-emote>
+        <img-emote v-if="emote" :emote="emote"></img-emote>
       </h1>
 
     </template>

@@ -4,9 +4,9 @@
 
     <h1>Ютуб</h1>
 
-    <new-img-row>
+    <img-swiper>
       <img-slide src="/images/exp/yt/channels.png" alt="Подписочки"></img-slide>
-    </new-img-row>
+    </img-swiper>
 
     <p>
       На момент записи я обнаружил, что подписан на 200 каналов на ютубе. Бывает меня спрашивают, что порекоммендуешь
@@ -22,9 +22,9 @@
         Видики смешного характера я смотрю с детства, и про них могу рассказать целую историю.
       </p>
 
-      <new-img-row>
+      <img-swiper>
         <img-slide src="/images/exp/yt/humor.jpg" alt="Связи в ржаке на ютубе"></img-slide>
-      </new-img-row>
+      </img-swiper>
 
 
       <p>
@@ -176,10 +176,10 @@
       </p>
 
 
-      <new-img-row>
+      <img-swiper>
         <img-slide src="/images/exp/yt/humas-donate.png"
                    alt="Бтв он один из немногих cuntent-мейкеров, которым я доначу"></img-slide>
-      </new-img-row>
+      </img-swiper>
 
       <p>
         Похожие на Хумаса видео-мейкеры тоже существуют и все они достойны внимания. Он их собственно и пиарит: <a
@@ -484,12 +484,12 @@ import {
   Component,
   Vue,
 } from "nuxt-property-decorator"
-import ImgCard from "~/components/img-card.vue";
-import ImgRow from "~/components/img-row.vue";
+import ImgCard from "~/components/img/card.vue";
+import ImgSwiper from "~/components/img/swiper.vue";
 import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
-  components: {ImgRow, ImgCard},
+  components: {ImgRow: ImgSwiper, ImgCard},
   head() {
     return generateSeoHead(
       "Ютуб",

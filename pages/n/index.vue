@@ -20,6 +20,10 @@ export default {
       this.page.description,
       "/n",
       "2021-08-17",
+      {
+        "@type": "Person",
+        "name": "Nikita Leybovich",
+      }
     );
   },
 }
@@ -58,19 +62,7 @@ export default {
   position: relative;
 }
 
-.steam > .steam-content {
-  @apply card white-text;
-  /*background: url() center top no-repeat #1b2838;*/
-}
 
-.steam > img.steam-bg {
-  @apply rounded object-cover;
-  pointer-events: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
 
 .spotify {
   @apply card white-text;
@@ -128,43 +120,12 @@ export default {
   @apply card;
   position: relative;
 }
-.casino::after {
-  @apply rounded;
-  background-image: url("/images/n/casino.jpg");
-  background-size: cover;
-  background-position: bottom;
-  content: "";
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
+
 
 .vdud {
   @apply card white-text bg-black;
 }
 
-.risovach {
-  @apply card h-52 md:h-80;
-  position: relative;
-}
-
-.risovach::after {
-  @apply rounded;
-  background-image: url("/images/n/berew-i-risyew.png");
-  background-size: cover;
-  content: "";
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
 
 .programmer {
   @apply card;
@@ -196,19 +157,7 @@ export default {
 }
 
 .aim {
-  position: relative;
-
-}
-.aim > .aim-content {
   @apply text-center h-52 rounded flex justify-center flex-col py-6;
-}
-.aim > img.aim-bg {
-  @apply rounded object-cover;
-  pointer-events: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
 }
 .aim a {
   @apply text-black no-underline;

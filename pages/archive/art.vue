@@ -4,9 +4,9 @@
 
     <h2> Как научиться рисовать?</h2>
 
-    <new-img-row>
-      <img-slide src="/images/exp/art/berew-i-risyew.png" alt="Берешь и рисуешь"></img-slide>
-    </new-img-row>
+    <img-swiper>
+      <img-block src="/images/exp/art/berew-i-risyew.png" alt="Берешь и рисуешь"></img-block>
+    </img-swiper>
 
     <h2>Лень</h2>
 
@@ -34,7 +34,9 @@
 
     <template v-if="showYobnemImg">
       <div>
-        <img-row :images="['/exp/art/yobnem.jpg']"/>
+        <img-swiper >
+          <img-block src="/images/exp/art/yobnem.jpg" alt="Пост новогодний стол"></img-block>
+        </img-swiper>
       </div>
     </template>
 
@@ -42,9 +44,9 @@
 
     <p><a href="http://art-55.ru/">А-ля прима</a></p>
 
-    <new-img-row>
-      <img-slide src="/images/exp/art/ebalo.png" alt="Даже моя ебучка есть"></img-slide>
-    </new-img-row>
+    <img-swiper>
+      <img-block src="/images/exp/art/ebalo.png" alt="Даже моя ебучка есть"></img-block>
+    </img-swiper>
 
     <h2>Скок стоит?</h2>
 
@@ -114,7 +116,7 @@
     <!--        бутылочку вина или типа того, и всем классом это дело распивается. А под новый год проводится корпоратив, и-->
     <!--        алкоголя останется ещё на несколько недель:-->
 
-    <!--        <img-row :images="['/art/yobnem.jpg']"></img-row>-->
+    <!--        <img-swiper :images="['/art/yobnem.jpg']"></img-swiper>-->
 
     <!--      </li>-->
     <!--    </ul>-->
@@ -129,7 +131,7 @@
     <!--      <li>-->
     <!--        Процесс выглядит так: перед тобой что-нибудь ставят - ты рисуешь, получая обратную связь:-->
 
-    <!--        <img-row :images="['/art/process-1.jpg', '/art/process-2.jpg']"></img-row>-->
+    <!--        <img-swiper :images="['/art/process-1.jpg', '/art/process-2.jpg']"></img-swiper>-->
 
 
     <!--      </li>-->
@@ -138,7 +140,7 @@
     <!--    <h3 id="purchase-what">Что закупать</h3>-->
 
     <!--    <div class="img-container">-->
-    <!--      <img-row :images="['/art/inventory.jpg']"></img-row>-->
+    <!--      <img-swiper :images="['/art/inventory.jpg']"></img-swiper>-->
 
 
     <!--      &lt;!&ndash;-->
@@ -171,7 +173,7 @@
     <!--      <li>-->
     <!--        А для масла надо ЗАКУПИТЬСЯ НА 5К+:-->
 
-    <!--        <img-row :images="['/art/oil.jpg']"></img-row>-->
+    <!--        <img-swiper :images="['/art/oil.jpg']"></img-swiper>-->
 
     <!--        <ul>-->
     <!--          <li> Холст</li>-->
@@ -182,7 +184,7 @@
     <!--          <li>-->
     <!--            Масляные краски - 16 основных цветов-->
 
-    <!--            <img-row :images="['/art/paint.jpg']"></img-row>-->
+    <!--            <img-swiper :images="['/art/paint.jpg']"></img-swiper>-->
 
     <!--          </li>-->
     <!--          <li> Тряпочки / салфеточки (для чистки всего)</li>-->
@@ -284,11 +286,11 @@ import {
   Component,
   Vue,
 } from "nuxt-property-decorator"
-import ImgRow from "~/components/img-row.vue";
+import ImgSwiper from "~/components/img/swiper.vue";
 import {generateSeoHead} from "~/logic/core/seo";
 
 @Component({
-  components: {ImgRow},
+  components: {ImgRow: ImgSwiper},
   head() {
     return generateSeoHead(
       "Рисовач",

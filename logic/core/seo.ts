@@ -15,12 +15,14 @@
  * @param description Описание
  * @param path Путь к статье
  * @param created Когда статья создана
+ * @param ldjson Schema.org структурированные данные
  */
 export function generateSeoHead(
   title: string,
   description: string,
   path: string,
   created: string,
+  ldjson?: object,
 ) {
   return {
     title,
@@ -40,17 +42,18 @@ export function generateSeoHead(
       hid: 'ldjson-schema',
       innerHTML: JSON.stringify({
         "@context": "https://schema.org" ,
-        "@type": "BlogPosting",
-        "datePublished": created,
-        "headline": title,
-        "name": title,
-        "articleBody": description,
-        "description": description,
-        "author": {
-          "@type": "Person",
-          "name": "Nikita Leybovich",
-          "url": "https://potyk.io/n"
-        }
+        ...(ldjson ?? {
+          "@type": "BlogPosting",
+          "datePublished": created,
+          "headline": title,
+          "name": title,
+          "description": description,
+          "author": {
+            "@type": "Person",
+            "name": "Nikita Leybovich",
+            "url": "https://potyk.io/n"
+          }
+        })
       }),
       type: 'application/ld+json'
     }],
