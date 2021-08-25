@@ -23,4 +23,8 @@ export default class mendel extends Vue {
 </script>
 
 <style scoped>
+.card {
+  @apply bg-white rounded py-4 px-2 md:p-6
+}
+
 </style>

@@ -10,22 +10,39 @@ description: Кальянная философия и пониженная со�
   </div>
 </img-bg>
 
-<h2>Шаурма</h2>
+<!-- region: Shawarma -->
 
-<div class=" bg-white rounded py-6 px-8">
+
+<h2 class="text-center">Шаурма</h2>
+
+<div class="card">
+
+<div class="flex items-center space-x-2">
+
+<div>
 
 Несмотря на то, что на Менделеевской 10+ точек с шаурмой, все они - **среднестатистические**
 
-<img-swiper>
-<img-block src="/images/food/mendel/average-shawarma-fan.png" alt="Типичный отзыв о шаве" ></img-block>
-</img-swiper>
+</div>
 
+<img-inline-block src="/images/food/mendel/average-shawarma-fan.png" alt="Типичный отзыв о шаве" :show-caption="true" ></img-inline-block>
 
-Бывают пиздатые места, но они либо закрываются, либо у них меняется владелец
+</div>
 
-<img-swiper>  
-  <img-block src="/images/food/mendel/gastronomic-crime.png" alt="Гастрономическое преступление" :show-caption="true" ></img-block>
-</img-swiper>
+---
+
+<div class="flex space-x-2">
+
+<div>
+  <p>Бывают пиздатые места, но либо у них меняется владелец, они либо закрываются </p>
+  <img-inline-block src="/images/food/mendel/closed-shawarma.png" alt="Вот тут топ-шава была, но увы" :show-caption="true" ></img-inline-block>
+</div>
+
+<img-inline-block class=" self-start" src="/images/food/mendel/gastronomic-crime.png" alt="Гастрономическое преступление" :show-caption="true" ></img-inline-block>
+
+</div>
+
+---
 
 Из нормальных мест, можно брать в [Шаурму Х@чу](https://depomoscow.ru/corners/shaurmu-h-chu/) - за кринжовым
 прособянинским названием стоит неплохая шава
@@ -36,3 +53,71 @@ description: Кальянная философия и пониженная со�
 
 
 </div>
+
+<!-- endregion -->
+
+<!-- region: Грузины -->
+
+<h2 class="text-center">Грузины</h2>
+
+<div class="card">
+
+Грузинская кухня на Менделе представлена 3 хорошими сетевухами:
+
+<img-swiper>
+  <img-block  src="/images/food/mendel/chito-ra.png" alt="Самые дешевые хинкали - 55 руб. за штуку"></img-block>
+  <img-block  src="/images/food/mendel/batoni.png" alt="18 видов хачапури"></img-block>
+  <img-block  src="/images/food/mendel/jonjoly.jpg" alt="Просто норм рест)))"></img-block>
+
+</img-swiper>
+
+
+
+
+
+
+
+</div>
+
+<!-- endregion -->
+
+
+
+<!-- region: Stolovki -->
+
+<h2 class="text-center">Столовки</h2>
+
+<div class="card">
+
+Начав жить на Менделе, я открыл для себя мир столовок
+
+
+
+</div>
+
+<!-- endregion -->
+
+
+<!-- region: Low life -->
+
+<h2 class="text-center">Низкая социальная ответственность</h2>
+
+<div class="card">
+
+
+
+</div>
+
+<!-- endregion -->
+
+<!-- region: Other -->
+
+<h2 class="text-center">А что помимо еды?</h2>
+
+<div class="card">
+
+Банька
+
+</div>
+
+<!-- endregion -->
