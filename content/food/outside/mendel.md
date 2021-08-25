@@ -67,7 +67,7 @@ description: Кальянная философия и пониженная со�
 <img-swiper>
   <img-block  src="/images/food/mendel/chito-ra.png" alt="Самые дешевые хинкали - 55 руб. за штуку"></img-block>
   <img-block  src="/images/food/mendel/batoni.png" alt="18 видов хачапури"></img-block>
-  <img-block  src="/images/food/mendel/jonjoly.jpg" alt="Просто норм рест)))"></img-block>
+  <img-block  src="/images/food/mendel/jonjoly.jpg" alt="Просто норм рест: цены средние, есть обеды, но обслуживание бывает медленным"></img-block>
 
 </img-swiper>
 
