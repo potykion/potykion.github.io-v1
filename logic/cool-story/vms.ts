@@ -1,4 +1,5 @@
 import {IContentDocument} from "@nuxt/content/types/content";
+import {generateSeoHead} from "~/logic/core/seo";
 
 /**
  * ВМка статьи = IContentDocument + доп-поля, типа даты, тегов
@@ -31,6 +32,15 @@ export function buildArticleVM(rawArticle: IContentDocument) {
     // @ts-ignore
     tagStrings: tags.map(t => tagToStr[t] ?? t),
   }
+}
+
+export function articleVMToSeoHead(page: ArticleVM) {
+  return generateSeoHead(
+    page.title,
+    page.description,
+    page.link,
+    page.createdAtStr,
+  )
 }
 
 export const tagToStr = {
