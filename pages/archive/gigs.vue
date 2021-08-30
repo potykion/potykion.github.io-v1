@@ -4,7 +4,7 @@
 
 
     <img-swiper>
-      <img-slide src="/images/exp/gigs/ovsi.jpg" alt="Овси гигосик на нг"></img-slide>
+      <img-block src="/images/exp/gigs/ovsi.jpg" alt="Овси гигосик на нг"></img-block>
     </img-swiper>
 
     <p>

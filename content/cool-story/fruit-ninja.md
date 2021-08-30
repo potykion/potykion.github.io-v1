@@ -15,30 +15,30 @@ tags:
 
 Приехал ананас, мы начали фоткаться с ним:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/pineapple.jpg" alt="Ананас, водка и мы" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/pineapple.jpg" alt="Ананас, водка и мы" ></img-block>
+</img-swiper>
 
 Игоречку очень нравился мой нож, когда я впервые ему показал его, мы сыграли во фрут-нинзя ирл: я подкидывал
 яблоко, а он пытался его рубануть:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/knife.jpg" alt="Примерно такой ножичек" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/knife.jpg" alt="Примерно такой ножичек" ></img-block>
+</img-swiper>
 
 
 И вот мы решили поиграть еще раз, только я не подкидывал ананас, а держал его за листья
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/pineapple-knife.jpg" alt="Рубанули, у меня ебало уже предвосхищает что будет дальше" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/pineapple-knife.jpg" alt="Рубанули, у меня ебало уже предвосхищает что будет дальше" ></img-block>
+</img-swiper>
 
 Первый удар разрубил ананас, а второй удар разрубил мой палец)))
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/deep-cuts-1.jpg" alt="А как флексите вы?)" ></img-slide>
-  <img-slide src="/images/cool-story/fruit-ninja/deep-cuts-2.jpg" alt="Пальчик на фоне поляны" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/deep-cuts-1.jpg" alt="А как флексите вы?)" ></img-block>
+  <img-block src="/images/cool-story/fruit-ninja/deep-cuts-2.jpg" alt="Пальчик на фоне поляны" ></img-block>
+</img-swiper>
 
 Очевидно что я тогда испытывал разные чувства, но боль не особо, ведь я был синий.
 
@@ -52,9 +52,9 @@ tags:
 По пути в аптеку, я выложил сторис “А как флексите вы?)” (которую удалил спустя несколько часов, а зря), на
 которую внезапно ответила Мальвушка:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/malvushk.jpg" alt="Типичный русский вечер" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/malvushk.jpg" alt="Типичный русский вечер" ></img-block>
+</img-swiper>
 
 А ответила она когда Игорь обнаружил, что проебал свою карту. И нет чтобы забить хуй и перевыпустить карту, он
 настаивал на том, чтобы вернуться в аптеку и поискать ее. А я тем временем продолжал истекать кровью, и согласился
@@ -73,9 +73,9 @@ tags:
 Вернувшись домой, мы начали смотреть прекрасный фильм “Экстаз”. Игоречек уже умирал, но он понимал, что в фильме
 происходит полный пиздец:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/climax.jpg" alt="Игоречек умирает, в Экстазе тоже умирают" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/climax.jpg" alt="Игоречек умирает, в Экстазе тоже умирают" ></img-block>
+</img-swiper>
 
 
 Я всю ночь переживал, что на утро моему пальчику пизда, но обошлось, и с утреца я чувствовал себя нормально.
@@ -93,9 +93,9 @@ tags:
 
 На пути в аптеку произошло чудо - Игоречек боковым зрением увидел остатки своей проебанной карты:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/card.jpg" alt="Леджендари селфачок на след день" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/card.jpg" alt="Леджендари селфачок на след день" ></img-block>
+</img-swiper>
 
 
 Также на пути в аптеку мы увидели следы крови на асфальте, которые оставил я))
@@ -106,6 +106,6 @@ tags:
 По итогу, могу дать один совет: не играйте во Фрут Ниндзя в оффлайне на бухую голову, а то может неприятно
 закончится))
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/fruit-ninja/seam.jpg" alt="Шовчик" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/fruit-ninja/seam.jpg" alt="Шовчик" ></img-block>
+</img-swiper>

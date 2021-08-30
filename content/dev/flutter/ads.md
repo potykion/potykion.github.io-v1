@@ -10,17 +10,17 @@ description: Создай баннер в Google Admobs, поставь библ
 
 1. Заходим в Google AdMob, создаем апп:
 
-<new-img-swiper>
-  <img-slide src="/images/dev/flutter/ads/add_app_1.png" alt="Интерфейс создания аппа в AdMob"></img-slide>
-  <img-slide src="/images/dev/flutter/ads/add_app_2.png" alt='В поле "Is the app listed on a supported app store?" выбираем "No"'></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/dev/flutter/ads/add_app_1.png" alt="Интерфейс создания аппа в AdMob"></img-block>
+  <img-block src="/images/dev/flutter/ads/add_app_2.png" alt='В поле "Is the app listed on a supported app store?" выбираем "No"'></img-block>
+</img-swiper>
 
 
 2. Создаем ad unit:
 
-<new-img-swiper>
-  <img-slide src="/images/dev/flutter/ads/ad_unit.png" alt="Интерфейс создания ad unit"></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/dev/flutter/ads/ad_unit.png" alt="Интерфейс создания ad unit"></img-block>
+</img-swiper>
 
 3. После создания ад-юнита нам покажут пару айдишников, первый андроидный прописываем в `android/app/src/main/AndroidManifest.xml`:
 

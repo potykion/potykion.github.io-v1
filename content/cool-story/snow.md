@@ -7,17 +7,17 @@ createdAt: 2021-02-12
 Возвращаюсь с танцевали, а тогда метель шла - метель вообще кайф - холод, снег в ебло, все тает прям на тебе. Так вот,
 прихожу домой и вспоминаю, что у меня окна открыты, в тч на балконе. Бегу на балкон и вижу завальчик:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/snow/snow-1.jpg" alt="Завальчик" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/snow/snow-1.jpg" alt="Завальчик" ></img-block>
+</img-swiper>
 
 
 
 Блякаю, выкладываю в инстуху балкон, закрываю второе окно - там тоже приспустило снежка:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/snow/snow-2.jpg" alt="Приспустило снежка" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/snow/snow-2.jpg" alt="Приспустило снежка" ></img-block>
+</img-swiper>
 
 
 Иду жрекать: убирать снег на балконе в 23 часа мне было лень.
@@ -26,23 +26,23 @@ createdAt: 2021-02-12
 
 На утро захожу на балкон, а там сугробище:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/snow/snow-3.jpg" alt="Сугробище" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/snow/snow-3.jpg" alt="Сугробище" ></img-block>
+</img-swiper>
 
 Поблякал, начал думать как убирать это, и мне пришла гениальная идея - с помощью совка и ведра. И тупа в детство
 перенёсся - как в песочнице покапался:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/snow/snow-4.jpg" alt="Тупа бек ин чайлдхуд" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/snow/snow-4.jpg" alt="Тупа бек ин чайлдхуд" ></img-block>
+</img-swiper>
 
 Таким образом вышло 2 15 литровых ведра со снегом, остался последний вопрос - куда его девать. С балкона ведро снега
 выкидывать как-то не хотелось, решил в ванну за кинуть. В итоге получил снежную ванночку:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/snow/snow-5.jpg" alt="Ванночка" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/snow/snow-5.jpg" alt="Ванночка" ></img-block>
+</img-swiper>
 
 И начался кайф: я взял душик и начал топить снег, и через несколько минут от снега ничего не осталось - класс.
 

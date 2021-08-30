@@ -30,10 +30,10 @@ tags:
 рынок, т.е. в депошку. Там был горох, который я назвал "где сиськи?":
 
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/peas-death-1.jpg" alt="Тут горох, да?" ></img-slide>
-  <img-slide src="/images/cool-story/jamie-oliver/peas-death-2.jpg" alt="Нет, тут нет гороха" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/peas-death-1.jpg" alt="Тут горох, да?" ></img-block>
+  <img-block src="/images/cool-story/jamie-oliver/peas-death-2.jpg" alt="Нет, тут нет гороха" ></img-block>
+</img-swiper>
 
 
 Потом загуглил рыночки, нашел центральный рынок - а это на самом деле не центральный рынок, а центральный фудкорт. Рынок
@@ -57,9 +57,9 @@ tags:
 "обваливания" я бы рекомендовал 100г.
 
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/tuna.jpg" alt="Стейк из тунца БЕЗ ГОРОХА" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/tuna.jpg" alt="Стейк из тунца БЕЗ ГОРОХА" ></img-block>
+</img-swiper>
 
 
 ---
@@ -71,9 +71,9 @@ tags:
 Тефтельки делались из смеси фарша и песто. Я соединил это дело, смочил водичкой, как на видосе, скатал тефтельки,
 положил на сковороду и ХУЛИ ВЫ РАЗЛАМЫВАТЬСЯ НАЧАЛИ????
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/meatballs.jpg" alt="Ну рил, это че такое???" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/meatballs.jpg" alt="Ну рил, это че такое???" ></img-block>
+</img-swiper>
 
 
 Возможно дело в размере, ну да ладно, двигаемся дальше. Дальше надо взять консервированные томаты, взять в руки, и
@@ -87,9 +87,9 @@ tags:
 Далее выкладываем на это дело моцарелку, поливаем водичкой из-под моцарелки для большего "ух бля" эффекта, и накрываем
 крышкой. Крышки у меня не было, пришлось применить смекалочку - накрыть большую сковороду сковородой поменьше:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/krywka-jokera.jpg" alt="Оно того не стоит, лучше купить крышку" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/krywka-jokera.jpg" alt="Оно того не стоит, лучше купить крышку" ></img-block>
+</img-swiper>
 
 
 Эта идея пришла мне еще до начала готовки, но у этого подхода был один минус, который я не учел: как снимать крышку,
@@ -110,36 +110,36 @@ tags:
 Я вызов принял, закупил необходимые ингредиенты без проблем и приступил к готовке. Измельчил хлеб, добавил яичко и
 сахар, расплавил шоколад, добавил масла и все смешал - получилась...
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/cookie-1.jpg" alt="Каловая масса" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/cookie-1.jpg" alt="Каловая масса" ></img-block>
+</img-swiper>
 
 Кондитерского мешка у меня не было, на что Николь сказала мне заюзать целофановый пакет. Целофановый пакет тоже
 отсутствовал, но он был во вкусвилле - получился...
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/cookie-2.jpg" alt="Мешок с говном" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/cookie-2.jpg" alt="Мешок с говном" ></img-block>
+</img-swiper>
 
 Выдавив основу на противень - получился...
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/cookie-3.jpg" alt="Противень с говном" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/cookie-3.jpg" alt="Противень с говном" ></img-block>
+</img-swiper>
 
 Потом говно запекалась в духовке:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/cookie-4.jpg" alt="Ну рил че печенье так некрасиво выглядит?" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/cookie-4.jpg" alt="Ну рил че печенье так некрасиво выглядит?" ></img-block>
+</img-swiper>
 
 В результате печеньки малясь пригорели, и все ещё выглядели как говно, но тем не менее получились неплохими - 10 штук
 слопал + потом на работе с молоком с Николь схомячили.
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/cookie-5.jpg" alt="Результат" ></img-slide>
-  <img-slide src="/images/cool-story/jamie-oliver/cookie-6.jpg" alt="Одна печенька выглядит не так уж и плохо" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/cookie-5.jpg" alt="Результат" ></img-block>
+  <img-block src="/images/cool-story/jamie-oliver/cookie-6.jpg" alt="Одна печенька выглядит не так уж и плохо" ></img-block>
+</img-swiper>
 
 ---
 
@@ -153,11 +153,11 @@ tags:
   вкусненько, сочненько, но жирно, надо чем-то жироабсорбирующим заедать, типа хлебушка
 - карбонара с тефтельками - тупа паста - быстро, вкусно; тефтельки делаются путем расхуячивания колбасок
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/cheese.jpg" alt="Ебучий сыр" ></img-slide>
-  <img-slide src="/images/cool-story/jamie-oliver/rack-of-lamb-3.jpg" alt="Баранья корейка" ></img-slide>
-  <img-slide src="/images/cool-story/jamie-oliver/carbonara.jpg" alt="Простая карбонара" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/cheese.jpg" alt="Ебучий сыр" ></img-block>
+  <img-block src="/images/cool-story/jamie-oliver/rack-of-lamb-3.jpg" alt="Баранья корейка" ></img-block>
+  <img-block src="/images/cool-story/jamie-oliver/carbonara.jpg" alt="Простая карбонара" ></img-block>
+</img-swiper>
 
 ---
 
@@ -167,9 +167,9 @@ tags:
 сыпать, а он затвердел. Постучал, сыр немного рассыпался, но этого было мало. Потом вилочкой решил разрыхлить, потом
 смотрю а вилка синяя. Я такой хм, странно, чё это вилка синяя, смотрю внутрь банки, а там плесень:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/jamie-oliver/mold.png" alt="Сыр с приколом" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/jamie-oliver/mold.png" alt="Сыр с приколом" ></img-block>
+</img-swiper>
 
 Начал блякать и ржать, посмотрел на срок годности - 10.02 и сказал "бля не мог 2 недели продолжать что-ли?)))". А Джейми
 в это время говорит "Такой свежий солнечный вкус". Ну почти ебать)))
