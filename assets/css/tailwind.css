@@ -74,7 +74,11 @@
   }
 
   video {
-    @apply h-96 w-full;
+    /*@apply h-96 w-full;*/
+  }
+
+  video {
+    @apply max-w-none;
   }
 
   button {
