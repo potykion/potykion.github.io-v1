@@ -31,6 +31,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
 
     const outsidePages = (await Promise.all([
       $content("food/outside/index").fetch(),
+      $content("food/outside/mendel").fetch(),
     ]) as IContentDocument[]).map(buildArticleVM);
 
     return {homePages, outsidePages};
