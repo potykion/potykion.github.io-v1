@@ -70,15 +70,11 @@
   }
 
   iframe {
-    @apply h-80 w-full;
+    @apply h-52 md:h-96 w-full;
   }
 
   video {
-    /*@apply h-96 w-full;*/
-  }
-
-  video {
-    @apply max-w-none;
+    @apply max-h-96 w-full;
   }
 
   button {
