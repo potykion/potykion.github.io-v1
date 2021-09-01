@@ -2,7 +2,111 @@
   {
     "exerciseNumber": 122,
     "tasks": [
-      "Many exercise books, much milk, much water, many days, many newspapers, much chalk, much snow, many years,  many pictures,  much  music,  many boys,  many girls, much tea, many lemons, much meat, many rooms, many  teachers,  much  work,  much  air,  many  birds, many cars"
+      {
+        "tasks": [
+          "Many exercise books"
+        ]
+      },
+      {
+        "tasks": [
+          "Much milk"
+        ]
+      },
+      {
+        "tasks": [
+          "Much water"
+        ]
+      },
+      {
+        "tasks": [
+          "Many days"
+        ]
+      },
+      {
+        "tasks": [
+          "Many newspapers"
+        ]
+      },
+      {
+        "tasks": [
+          "Much chalk"
+        ]
+      },
+      {
+        "tasks": [
+          "Much snow"
+        ]
+      },
+      {
+        "tasks": [
+          "Many years"
+        ]
+      },
+      {
+        "tasks": [
+          "Many pictures"
+        ]
+      },
+      {
+        "tasks": [
+          "Much music"
+        ]
+      },
+      {
+        "tasks": [
+          "Many boys"
+        ]
+      },
+      {
+        "tasks": [
+          "Many girls"
+        ]
+      },
+      {
+        "tasks": [
+          "Much tea"
+        ]
+      },
+      {
+        "tasks": [
+          "Many lemons"
+        ]
+      },
+      {
+        "tasks": [
+          "Much meat"
+        ]
+      },
+      {
+        "tasks": [
+          "Many rooms"
+        ]
+      },
+      {
+        "tasks": [
+          "Many teachers"
+        ]
+      },
+      {
+        "tasks": [
+          "Much work"
+        ]
+      },
+      {
+        "tasks": [
+          "Much air"
+        ]
+      },
+      {
+        "tasks": [
+          "Many birds"
+        ]
+      },
+      {
+        "tasks": [
+          "Many cars"
+        ]
+      }
     ]
   },
   {
@@ -13,10 +117,10 @@
       "much",
       "much, many",
       "much",
-      "many,  much",
+      "many, much",
       "much",
       "many",
-      "many,  many",
+      "many, many",
       "many",
       "much",
       "much",
@@ -36,7 +140,121 @@
   {
     "exerciseNumber": 124,
     "tasks": [
-      "Few  houses,  little  tea,  few  cups,  few  apples,  few windows,  little paper,  little coffee,  few articles,  little joy,  little  soup,  few  trees,  little  grass,  few  children, few  toys,  little  light,  few  desks,  little  sausage,  little juice,  few books,  few flowers,  little salt,  few friends, few palaces"
+      {
+        "tasks": [
+          "Few houses"
+        ]
+      },
+      {
+        "tasks": [
+          "Little tea"
+        ]
+      },
+      {
+        "tasks": [
+          "Few cups"
+        ]
+      },
+      {
+        "tasks": [
+          "Few apples"
+        ]
+      },
+      {
+        "tasks": [
+          "Few windows"
+        ]
+      },
+      {
+        "tasks": [
+          "Little paper"
+        ]
+      },
+      {
+        "tasks": [
+          "Little coffee"
+        ]
+      },
+      {
+        "tasks": [
+          "Few articles"
+        ]
+      },
+      {
+        "tasks": [
+          "Little joy"
+        ]
+      },
+      {
+        "tasks": [
+          "Little soup"
+        ]
+      },
+      {
+        "tasks": [
+          "Few trees"
+        ]
+      },
+      {
+        "tasks": [
+          "Little grass"
+        ]
+      },
+      {
+        "tasks": [
+          "Few children"
+        ]
+      },
+      {
+        "tasks": [
+          "Few toys"
+        ]
+      },
+      {
+        "tasks": [
+          "Little light"
+        ]
+      },
+      {
+        "tasks": [
+          "Few desks"
+        ]
+      },
+      {
+        "tasks": [
+          "Little sausage"
+        ]
+      },
+      {
+        "tasks": [
+          "Little juice"
+        ]
+      },
+      {
+        "tasks": [
+          "Few books"
+        ]
+      },
+      {
+        "tasks": [
+          "Few flowers"
+        ]
+      },
+      {
+        "tasks": [
+          "Little salt"
+        ]
+      },
+      {
+        "tasks": [
+          "Few friends"
+        ]
+      },
+      {
+        "tasks": [
+          "Few palaces"
+        ]
+      }
     ]
   },
   {
@@ -48,7 +266,7 @@
       "few",
       "little",
       "few",
-      "little;  few",
+      "little; few",
       "little",
       "few",
       "little",
@@ -68,10 +286,10 @@
     "tasks": [
       "many",
       "much",
-      "much,  much",
+      "much, much",
       "few",
       "much, many, little",
-      "much,  much",
+      "much, much",
       "little",
       "few",
       "much",
@@ -86,7 +304,146 @@
   {
     "exerciseNumber": 127,
     "tasks": [
-      "A  little  money,  little  money,  a  few  chairs,  few chairs,  a few songs,  few songs,  a little fun,  little fun, few boys, a little water, a few people, little water, little air,  few tables,  a few minutes,  a few cats,  little grass, a little luck, a few days,  little work, a little salt,  a few spoons,  little  light,  few  windows,  a  few  cars,  a  little sugar,  few eggs,  little cheese"
+      {
+        "tasks": [
+          "A little money"
+        ]
+      },
+      {
+        "tasks": [
+          "Little money"
+        ]
+      },
+      {
+        "tasks": [
+          "A few chairs"
+        ]
+      },
+      {
+        "tasks": [
+          "Few chairs"
+        ]
+      },
+      {
+        "tasks": [
+          "A few songs"
+        ]
+      },
+      {
+        "tasks": [
+          "Few songs"
+        ]
+      },
+      {
+        "tasks": [
+          "A little fun"
+        ]
+      },
+      {
+        "tasks": [
+          "Little fun"
+        ]
+      },
+      {
+        "tasks": [
+          "Few boys"
+        ]
+      },
+      {
+        "tasks": [
+          "A little water"
+        ]
+      },
+      {
+        "tasks": [
+          "A few people"
+        ]
+      },
+      {
+        "tasks": [
+          "Little water"
+        ]
+      },
+      {
+        "tasks": [
+          "Little air"
+        ]
+      },
+      {
+        "tasks": [
+          "Few tables"
+        ]
+      },
+      {
+        "tasks": [
+          "A few minutes"
+        ]
+      },
+      {
+        "tasks": [
+          "A few cats"
+        ]
+      },
+      {
+        "tasks": [
+          "Little grass"
+        ]
+      },
+      {
+        "tasks": [
+          "A little luck"
+        ]
+      },
+      {
+        "tasks": [
+          "A few days"
+        ]
+      },
+      {
+        "tasks": [
+          "Little work"
+        ]
+      },
+      {
+        "tasks": [
+          "A little salt"
+        ]
+      },
+      {
+        "tasks": [
+          "A few spoons"
+        ]
+      },
+      {
+        "tasks": [
+          "Little light"
+        ]
+      },
+      {
+        "tasks": [
+          "Few windows"
+        ]
+      },
+      {
+        "tasks": [
+          "A few cars"
+        ]
+      },
+      {
+        "tasks": [
+          "A little sugar"
+        ]
+      },
+      {
+        "tasks": [
+          "Few eggs"
+        ]
+      },
+      {
+        "tasks": [
+          "Little cheese"
+        ]
+      }
     ]
   },
   {
@@ -106,10 +463,10 @@
       "a little",
       "a few, a little, a few",
       "a few",
-      "a  little",
-      "a  little",
-      "a  few",
-      "a  few,  a  little",
+      "a little",
+      "a little",
+      "a few",
+      "a few, a little",
       "a few",
       "a little",
       "a little"
@@ -119,8 +476,8 @@
     "exerciseNumber": 129,
     "tasks": [
       "little",
-      "a  little",
-      "a  little",
+      "a little",
+      "a little",
       "little",
       "little",
       "a few",
@@ -143,13 +500,13 @@
       "few",
       "a little, a few",
       "a few",
-      "a little,  a little",
+      "a little, a little",
       "few",
-      "a  little",
-      "a  few",
-      "a  little",
-      "a  little",
-      "many,  much",
+      "a little",
+      "a few",
+      "a little",
+      "a little",
+      "many, much",
       "much",
       "much",
       "a little",
