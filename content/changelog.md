@@ -7,6 +7,7 @@ big: true
 ## Unreleased 
 
 - [/food/outside/mendel](/food/outside/mendel): Про Менделеевскую: про шаурму и пониженную социальную ответственность
+- [/cool-story/gigs-08-21](/cool-story/gigs-08-21): Про гигосики августовские
 
 ## 2.9.0 - 2021-08-22
 

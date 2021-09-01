@@ -73,10 +73,6 @@
     @apply h-52 md:h-96 w-full;
   }
 
-  video {
-    @apply max-h-96 w-full;
-  }
-
   button {
     @apply px-2 lg:px-4 py-2 bg-pink-400 text-black rounded-lg   border-2 border-black ;
   }
