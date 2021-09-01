@@ -64,10 +64,12 @@ export default class TaskItem extends Vue {
     } else {
       // There are _ pictures in the book. + "some" =
       // There are some pictures in the book. + "some" =
-      return replaceWithArray(
+      let ans = replaceWithArray(
         this.task,
         this.answer.split(",").map(a => a.trim()).map(a => `<b>${a}</b>`)
       );
+      ans = ans.charAt(0).toUpperCase() + ans.substr(1);
+      return ans
     }
   }
 
