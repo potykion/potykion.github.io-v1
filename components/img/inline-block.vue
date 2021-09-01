@@ -1,5 +1,5 @@
 <template>
-  <div class="inline-block">
+  <div  style="display: inline-block">
     <figure v-viewer="{title: true, toolbar: false, navbar: false}" style="cursor: zoom-in"
             class="flex justify-center flex-col h-full">
       <img :src="src" :alt="alt" class="rounded object-contain h-full" loading="lazy"/>

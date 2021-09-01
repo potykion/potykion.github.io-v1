@@ -5,7 +5,7 @@
     <h1>Ютуб</h1>
 
     <img-swiper>
-      <img-slide src="/images/exp/yt/channels.png" alt="Подписочки"></img-slide>
+      <img-block src="/images/exp/yt/channels.png" alt="Подписочки"></img-block>
     </img-swiper>
 
     <p>
@@ -23,7 +23,7 @@
       </p>
 
       <img-swiper>
-        <img-slide src="/images/exp/yt/humor.jpg" alt="Связи в ржаке на ютубе"></img-slide>
+        <img-block src="/images/exp/yt/humor.jpg" alt="Связи в ржаке на ютубе"></img-block>
       </img-swiper>
 
 
@@ -177,8 +177,8 @@
 
 
       <img-swiper>
-        <img-slide src="/images/exp/yt/humas-donate.png"
-                   alt="Бтв он один из немногих cuntent-мейкеров, которым я доначу"></img-slide>
+        <img-block src="/images/exp/yt/humas-donate.png"
+                   alt="Бтв он один из немногих cuntent-мейкеров, которым я доначу"></img-block>
       </img-swiper>
 
       <p>

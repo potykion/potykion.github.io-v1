@@ -14,9 +14,9 @@ tags:
 
 Так вот, купил утку, яблоки, маринад, начал делать фистинг:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/my-duck-vision/duck-1.jpg" alt="Фистинг утке" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/my-duck-vision/duck-1.jpg" alt="Фистинг утке" ></img-block>
+</img-swiper>
 
 
 
@@ -24,9 +24,9 @@ tags:
 утку и произошел затуп:
 
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/my-duck-vision/sleeve-1.jpg" alt="Как лежала утка на примере водки в виде золотого слитка" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/my-duck-vision/sleeve-1.jpg" alt="Как лежала утка на примере водки в виде золотого слитка" ></img-block>
+</img-swiper>
 
 
 Надо было как-то обернуть утку, сначала думал накрыть утку рукавом сверху, но ее надо было как-то замотать с 2 сторон, а
@@ -34,17 +34,17 @@ tags:
 получил - на видосах блюдо оказывалось внутри рукава методом склейки)) Спустя пару минут я заорал на весь дом БЛЯЯЯ,
 закрывая себе рот. Я понял, что блядь рукав надо сначала раскрыть!!!
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/my-duck-vision/sleeve-2.jpg" alt="Вот так надо раскрывать" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/my-duck-vision/sleeve-2.jpg" alt="Вот так надо раскрывать" ></img-block>
+</img-swiper>
 
 
 Ну и все вложил как надо, завязал с 2 сторон, загрузил в духовку - и снова затуп - я хз как пользоваться плитой. На
 плите только название фирмы, модели нет. Проскролив несколько страниц с плитами, я ничо не нашел ну и наощупь чето
 выкрутил, загрузив уточку
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/my-duck-vision/duck-2.jpg" alt="Уточка" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/my-duck-vision/duck-2.jpg" alt="Уточка" ></img-block>
+</img-swiper>
 
 По итогу все вышло неплохо. Утка конечно сама по себе оч костлявая, жирная, но как блюдо под новый год самое то.

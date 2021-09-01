@@ -8,7 +8,7 @@ description: Залей приложение в Google Play Console, появи�
 2. Переходим в `Monetize > Subscriptions`, создаем подписку, запоминаем `Product ID`
 
 <new-img-row>
-  <img-slide src="/images/dev/flutter/subscriptions/gplay-console-subscription-creation.png" alt="Созданная подписка в Google Play Console"></img-slide>
+  <img-block src="/images/dev/flutter/subscriptions/gplay-console-subscription-creation.png" alt="Созданная подписка в Google Play Console"></img-block>
 </new-img-row>
 
 
@@ -86,7 +86,7 @@ InAppPurchase.instance.buyNonConsumable(
 7. Все, при вызове метода выше появится панелька от гугла о покупке подписки
 
 <new-img-row>
-  <img-slide src="/images/dev/flutter/subscriptions/gplay-subscription-purchase.jpg" alt="Панелька покупки подписки"></img-slide>
+  <img-block src="/images/dev/flutter/subscriptions/gplay-subscription-purchase.jpg" alt="Панелька покупки подписки"></img-block>
 </new-img-row>
 
 

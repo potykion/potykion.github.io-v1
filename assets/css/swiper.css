@@ -3,6 +3,5 @@
 }
 
 .swiper-pagination-bullet {
-  @apply mb-8 lg:mb-3  !important;
-
+  @apply mb-2  !important;
 }

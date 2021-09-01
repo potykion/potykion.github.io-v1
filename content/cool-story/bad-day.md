@@ -8,7 +8,7 @@ createdAt: 2021-06-28
 Др Кости, я набухался *в сосиску*, на утро смотрю на боты — на них куски грязи
 
 <img-swiper>
-  <img-slide src="/images/cool-story/bad-day/dirty-boots.jpg" alt="Грязненькие боты" ></img-slide>
+  <img-block src="/images/cool-story/bad-day/dirty-boots.jpg" alt="Грязненькие боты" ></img-block>
 </img-swiper>
 
 На следующий день я был не в состоянии их мыть, во вторник была Юляша, в среду тоже не мыл - в общем только к концу недели помыл
@@ -23,7 +23,7 @@ createdAt: 2021-06-28
 Никогда в жизни мою обувь так не оценивали<br>
 
 <img-swiper>
-  <img-slide src="/images/cool-story/bad-day/new-boots.jpg" alt="Новенькие боты" ></img-slide>
+  <img-block src="/images/cool-story/bad-day/new-boots.jpg" alt="Новенькие боты" ></img-block>
 </img-swiper>
 
 Потом, спустя пару недель, собрались с пацанами и девочками в настолки играть 

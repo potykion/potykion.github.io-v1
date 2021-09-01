@@ -6,9 +6,9 @@ createdAt: 2021-02-06
 
 Сидим с Игоречком припеваючи, вдруг в ВК пишут "Вас взломали":
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/vk-hack/hacker-correspondence.png" alt="Переписка с хакером" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/vk-hack/hacker-correspondence.png" alt="Переписка с хакером" ></img-block>
+</img-swiper>
 
 И хакер-пиздюк прислал токен от вк апи - ну как бы зря))<br>
 Я удалил все вк аппы, которые у меня есть, и токен деактивировался - с чего у хакера бомбануло)))

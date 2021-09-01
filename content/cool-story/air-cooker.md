@@ -16,9 +16,9 @@ tags:
 ужин
 затестить вот такого красавца:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/air-cooker/air-cooker-1.jpg" alt="Аэрогриль собственной персоной (с приколом)" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/air-cooker/air-cooker-1.jpg" alt="Аэрогриль собственной персоной (с приколом)" ></img-block>
+</img-swiper>
 
 
 Закинул курицу, нажал на кнопку курицы, и ничо не происходит. Я потыкался ещё, и чето начало происходить, что-то
@@ -43,9 +43,9 @@ tags:
 ДА
 БЛЯДЬ ЭТО ЕБАНАЯ НАКЛЕЙКА НА САМОМ ДЕЛЕ ЭИРКУКЕР ВЫГЛЯДИТ ТАК
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/air-cooker/air-cooker-2.jpg" alt="Аэрогриль без прикола" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/air-cooker/air-cooker-2.jpg" alt="Аэрогриль без прикола" ></img-block>
+</img-swiper>
 
 
 
@@ -53,22 +53,22 @@ tags:
 обнаружил
 вот это:
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/air-cooker/socket-melt.jpg" alt="Сзади эиркукера выходил пар и он расплавил нахуй розетки))))" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/air-cooker/socket-melt.jpg" alt="Сзади эиркукера выходил пар и он расплавил нахуй розетки))))" ></img-block>
+</img-swiper>
 
 Говорить о таком лендлорду я стремался, и вместе с Костей мы заменили раму, но постфактум оказалось, что
 заменили с
 приколом)))
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/air-cooker/socket-replace.jpg" alt="Разобранная розетка" ></img-slide>
-  <img-slide src="/images/cool-story/air-cooker/socket-upside-down.jpg" alt="Собранная розетка с приколом" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/air-cooker/socket-replace.jpg" alt="Разобранная розетка" ></img-block>
+  <img-block src="/images/cool-story/air-cooker/socket-upside-down.jpg" alt="Собранная розетка с приколом" ></img-block>
+</img-swiper>
 
 А так аэрогриль норм тема. Берешь стейк, посыпаешь специями, закидываешь и через 12 минут у тебя вкусный стейк
 
-<new-img-swiper>
-  <img-slide src="/images/cool-story/air-cooker/steak-before.jpg" alt="Закинул стейк и оп" ></img-slide>
-  <img-slide src="/images/cool-story/air-cooker/steak-after.jpg" alt="Стейк готов" ></img-slide>
-</new-img-swiper>
+<img-swiper>
+  <img-block src="/images/cool-story/air-cooker/steak-before.jpg" alt="Закинул стейк и оп" ></img-block>
+  <img-block src="/images/cool-story/air-cooker/steak-after.jpg" alt="Стейк готов" ></img-block>
+</img-swiper>
