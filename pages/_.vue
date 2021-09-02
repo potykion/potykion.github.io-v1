@@ -1,6 +1,6 @@
 <template>
   <article>
-    <article-heading :title="page.title" :description="page.description" :small="!page.big" />
+    <article-heading :title="page.title" :description="page.description" :small="!page.big" :cover="page.cover" />
     <hr />
     <nuxt-content :document="page"/>
   </article>

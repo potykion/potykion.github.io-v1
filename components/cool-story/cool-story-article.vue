@@ -3,17 +3,17 @@
 
     <template v-if="article.tags.length">
       <template v-for="tag in article.tags">
-<!--        <nuxt-link :to="`/search?tag=${tag}`" class="no-underline text-black visited:text-black"></nuxt-link>-->
+<!-- <nuxt-link :to="`/search?tag=${tag}`" class="no-underline text-black visited:text-black"></nuxt-link>-->
         <span class="font-bold">{{ tagToStr[tag] || tag }}</span>
       </template>
       <span>·</span>
     </template>
     <span class="text-gray-500 text-sm">{{ article.createdAtStr }}</span>
 
+<!--    todo -->
+<!--    <article-heading :title="article.title" :cover="article.cover"></article-heading>-->
 
-    <template v-if="article.title">
-      <nuxt-link class="no-underline" :to="article.link"><h2>{{ article.title }}</h2></nuxt-link>
-    </template>
+    <nuxt-link class="no-underline" :to="article.link"><h2>{{ article.title }}</h2></nuxt-link>
 
 
     <template v-if="full">
