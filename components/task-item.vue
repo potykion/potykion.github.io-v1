@@ -12,7 +12,7 @@
 <script lang="ts">
 import {Vue, Component, Prop, Watch, ProvideReactive, InjectReactive} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
-import {replaceWithArray} from "~/logic/core/str";
+import {replaceWithArray, toTitleCase} from "~/logic/core/str";
 import {ExerciseProgressRepo} from "~/logic/eng/db";
 import {debounce} from "ts-debounce";
 
@@ -62,13 +62,20 @@ export default class TaskItem extends Vue {
     if (!this.isFillTheGapsExercise) {
       return this.answer;
     } else {
-      // There are _ pictures in the book. + "some" =
-      // There are some pictures in the book. + "some" =
+      // Было:  There are _ pictures in the book. + "some" =
+      // Стало: There are some pictures in the book. + "some" =
       let ans = replaceWithArray(
         this.task,
-        this.answer.split(",").map(a => a.trim()).map(a => `<b>${a}</b>`)
+        this.answer
+          .split(",")
+          .map(a => a.trim())
+          .map(a => `<b>${a}</b>`)
       );
-      ans = ans.charAt(0).toUpperCase() + ans.substr(1);
+      // Было:  <b>much</b> of her advice was not useful at all.
+      // Стало: <b>Much</b> of her advice was not useful at all.
+      if (ans.startsWith("<b>")) {
+        ans = `<b>${toTitleCase(ans.slice("<b>".length))}`;
+      }
       return ans
     }
   }
