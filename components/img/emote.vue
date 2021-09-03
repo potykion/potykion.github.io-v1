@@ -51,7 +51,7 @@ export default class ImgEmote extends Vue {
       case "pjsalt":
         return "/images/emote/pjsalt.png";
       case "casino":
-        return "/images/emote/Чувак_из_казино.png";
+        return "/images/emote/casino-dude.png";
       case "isaac":
         return "/images/emote/isaac.png";
       case "vdud":

@@ -75,7 +75,7 @@
 
       <!--    todo refactor with img-card -->
 
-      <img src="/static/images/exp/yt/atmta.png" class="streamline-img float-right" alt="Всякая Атмта">
+      <img src=" /images/exp/yt/atmta.png" class="streamline-img float-right" alt="Всякая Атмта">
 
       <p>
         Это дело форсилось в ВК в паблосе <a href="https://vk.com/hynta_atmta"><b>Всякая Атмта</b></a>. Как следует из
@@ -92,7 +92,7 @@
       </p>
 
 
-      <img src="/static/images/exp/yt/gm.png" class="streamline-img float-left" alt="Garry's Mod">
+      <img src=" /images/exp/yt/gm.png" class="streamline-img float-left" alt="Garry's Mod">
 
 
       <p>
@@ -109,7 +109,7 @@
         представляет собой сборную солянку мемов того времени.
       </p>
 
-      <img src="/static/images/exp/yt/mashup.png" class="streamline-img float-right" alt="Mashup">
+      <img src=" /images/exp/yt/mashup.png" class="streamline-img float-right" alt="Mashup">
 
       <p>
         Среди неигровых форсов Всякой Атмты хочется отметить такой пабос как <a
@@ -145,7 +145,7 @@
       <hr/>
 
 
-      <img src="/static/images/exp/yt/peplix.png" class="streamline-img float-right" alt="Пепликсы">
+      <img src=" /images/exp/yt/peplix.png" class="streamline-img float-right" alt="Пепликсы">
 
 
       <p>
@@ -161,7 +161,7 @@
       </p>
 
 
-      <img src="/static/images/exp/yt/humas.png" class="streamline-img float-left" alt="Хумас">
+      <img src=" /images/exp/yt/humas.png" class="streamline-img float-left" alt="Хумас">
 
 
       <p>
@@ -203,7 +203,7 @@
         передачу.
       </p>
 
-      <img src="/static/images/exp/yt/twitch.png" class="streamline-img float-right" alt="Чвич">
+      <img src=" /images/exp/yt/twitch.png" class="streamline-img float-right" alt="Чвич">
 
 
       <p>
@@ -217,7 +217,7 @@
       </p>
 
 
-      <img src="/static/images/exp/yt/stream.png" class="streamline-img float-left" alt="Струмушка">
+      <img src=" /images/exp/yt/stream.png" class="streamline-img float-left" alt="Струмушка">
 
       <p>
         А стримеры народ особый: стримеры знают остальных стримеров; стримеры рейдят друг друга - заканчивая трансляцию
