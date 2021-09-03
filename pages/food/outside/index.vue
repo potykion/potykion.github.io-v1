@@ -1,28 +1,33 @@
 <template>
   <article>
-    <article-heading :title="page.title" :description="page.description" :small="!page.big" />
-    <hr />
+    <article-heading :article="article"/>
+
     <nuxt-content :document="page"/>
   </article>
 
 
 </template>
 
-<script>
-import {generateSeoHead} from "@/logic/core/seo";
+<script lang="ts">
+import {Component, Vue} from "nuxt-property-decorator";
+import {CoreArticle} from "@/logic/core/models";
+import {IContentDocument} from "@nuxt/content/types/content";
 
-export default {
+@Component({
   async asyncData({$content, params}) {
     const page = await $content("food/outside/index").fetch();
     return {page};
-  },
+  }
+})
+export default class OutsidePage extends Vue {
+  page!: IContentDocument;
+
+  get article() {
+    return CoreArticle.fromNuxtContent(this.page);
+  }
+
   head() {
-    return generateSeoHead(
-      this.page.title,
-      this.page.description,
-      this.page.path,
-      this.page.createdAt,
-    );
-  },
+    return this.article.seoHead;
+  }
 }
 </script>

@@ -1,36 +1,39 @@
 <template>
   <article>
-    <article-heading :title="page.title" :description="page.description" emote="kappa"/>
-    <hr/>
-    <nuxt-content :document="page"/>
+    <article-heading :article="article" />
+    <nuxt-content :document="article.content"/>
   </article>
 </template>
 
-<script>
-import {generateSeoHead} from "@/logic/core/seo";
+<script lang="ts">
+import {IContentDocument} from "@nuxt/content/types/content";
+import {Component, Vue} from "nuxt-property-decorator";
+import {CoreArticle} from "~/logic/core/models";
 
-export default {
+@Component({
   async asyncData({$content, params}) {
     const page = await $content("n/index").fetch();
     return {page};
   },
+})
+export default class NPages extends Vue {
+  page!: IContentDocument;
+
+  get article() {
+    let article_ = CoreArticle.fromNuxtContent(this.page);
+    article_.big = true;
+    article_.emote = "kappa";
+    article_.ldjson = {"@type": "Person", "name": "Nikita Leybovich",};
+    return article_;
+  }
+
   head() {
-    return generateSeoHead(
-      this.page.title,
-      this.page.description,
-      "/n",
-      "2021-08-17",
-      {
-        "@type": "Person",
-        "name": "Nikita Leybovich",
-      }
-    );
-  },
+    return this.article.seoHead;
+  }
 }
 </script>
 
 <style scoped>
-
 .card {
   @apply px-4 md:px-4 py-4 rounded my-4;
 
@@ -61,7 +64,6 @@ export default {
 .steam {
   position: relative;
 }
-
 
 
 .spotify {
@@ -129,8 +131,8 @@ export default {
 
 .programmer {
   @apply card;
-  background: rgb(185,255,216);
-  background: linear-gradient(180deg, rgba(185,255,216,1) 0%, rgba(90,114,152,1) 100%);
+  background: rgb(185, 255, 216);
+  background: linear-gradient(180deg, rgba(185, 255, 216, 1) 0%, rgba(90, 114, 152, 1) 100%);
 }
 
 
@@ -138,6 +140,7 @@ export default {
   @apply link-btn text-black;
   background: #FFDD2D
 }
+
 .money:hover {
   background: #FCC521;
 }
@@ -159,6 +162,7 @@ export default {
 .aim {
   @apply text-center h-52 rounded flex justify-center flex-col py-6;
 }
+
 .aim a {
   @apply text-black no-underline;
 }

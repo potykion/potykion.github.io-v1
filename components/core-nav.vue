@@ -38,10 +38,10 @@
       <template v-if="articles.length">
         <template v-for="article of articles">
           <NuxtLink
-            :to="article.link"
+            :to="article.path"
             @click.native="closeSearch"
             class="flex px-4 py-2 items-center  hover:text-black visited:text-pink-400 no-underline"
-            :key="article.slug"
+            :key="article.path"
           >
             <div>
               <div>{{ article.title }}</div>
@@ -69,13 +69,14 @@ import {
   Prop,
   Vue, Watch,
 } from "nuxt-property-decorator"
-import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
+import {CoreArticle} from "~/logic/core/models";
+import {IContentDocument} from "@nuxt/content/types/content";
 
 @Component({})
 export default class CoreNav extends Vue {
   showSearch = false;
 
-  articles: ArticleVM[] | null = null;
+  articles: CoreArticle[] | null = null;
 
   q: string = "";
 
@@ -86,10 +87,12 @@ export default class CoreNav extends Vue {
       return
     }
 
-    this.articles = (await this.$content(["cool-story", "dev", "cooking", "n", "archive"], {deep: true})
+    this.articles = (
+      await this.$content(["cool-story", "dev", "cooking", "n", "archive"], {deep: true})
       .limit(10)
       .search(this.q)
-      .fetch()).map(buildArticleVM);
+      .fetch() as IContentDocument[]
+    ).map(p => CoreArticle.fromNuxtContent(p));
   }
 
   closeSearch() {
