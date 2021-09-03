@@ -3,9 +3,28 @@ title: Python / Работа с Google таблицами с помощью Shee
 description: Sheets API - одна из самых непонятных апишек, здесь я опишу понятное руководство по этой апишке на примере задачи обновления ссылок в таблице
 ---
 
-### Установка 
+Работа с Google таблицами с помощью Sheets API осуществляется в 2 этапа: **получение доступов** и **вызовы api-методов**
 
-0. Создаем проект в Google Cloud и включаем [Sheets API](https://console.cloud.google.com/apis/library/sheets.googleapis.com)
+**Но сначала нужно создать проект в Google Cloud и включить [Sheets API](https://console.cloud.google.com/apis/library/sheets.googleapis.com)**  
+
+### Получение доступов
+
+Есть несколько способов получить доступы:
+
+1. Service Account 
+2. OAuth 
+3. Apps Script
+
+#### Service Account
+
+Service Account - служебный Google аккаунт; считай, что это обычный пользователь, которому можно дать права доступа на любые сервисы Google
+
+1. TODO аналогично шагу 1 из OAuth 
+
+
+#### OAuth
+
+OAuth - позволяет любым пользователям, включая тебя, взаимодействовать с Google таблицей, если есть доступы
 
 1. Заходим на [страницу создания доступов для API](https://console.cloud.google.com/apis/api/sheets.googleapis.com/credentials) и создаем доступы: `Create credentials > OAuth client ID`:
 
