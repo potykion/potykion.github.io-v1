@@ -1,28 +1,33 @@
 <template>
   <article>
-    <article-heading :title="page.title" :description="page.description" :small="!page.big" />
-    <hr />
-    <nuxt-content :document="page"/>
+    <article-heading :article="article"></article-heading>
+    <nuxt-content :document="article.content"/>
   </article>
 
 
 </template>
 
-<script>
-import {generateSeoHead} from "@/logic/core/seo";
+<script lang="ts">
+import {Component, Vue} from "nuxt-property-decorator";
+import {Context} from "@nuxt/types";
+import {CoreArticle} from "~/logic/core/models";
+import {IContentDocument} from "@nuxt/content/types/content";
 
-export default {
-  async asyncData({$content, params}) {
-    const page = await $content(params.pathMatch).fetch();
-    return {page};
-  },
+@Component({
+  async asyncData({$content, params}: Context) {
+    return {page: await $content(params.pathMatch).fetch() as IContentDocument};
+  }
+})
+export default class ArticlePage extends Vue {
+  // article!: CoreArticle;
+  page!: IContentDocument;
+
+  get article(): CoreArticle {
+    return CoreArticle.fromNuxtContent(this.page);
+  }
+
   head() {
-    return generateSeoHead(
-      this.page.title,
-      this.page.description,
-      this.page.path,
-      this.page.createdAt,
-    );
-  },
+    return this.article.seoHead;
+  }
 }
 </script>

@@ -10,19 +10,22 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 import {IContentDocument} from "@nuxt/content/types/content";
-import {ArticleVM, articleVMToSeoHead, buildArticleVM} from "~/logic/cool-story/vms";
-import {generateSeoHead} from "~/logic/core/seo";
+import {CoreArticle} from "../../../logic/core/models";
 
 @Component({
   async asyncData({$content, params}) {
-    return {page: buildArticleVM(await $content("food/outside/mendel").fetch() as IContentDocument)};
+    return {page: await $content("food/outside/mendel").fetch() as IContentDocument};
   },
 })
 export default class mendel extends Vue {
-  page!: ArticleVM;
+  page!: IContentDocument;
+
+  get article() {
+    return CoreArticle.fromNuxtContent(this.page);
+  }
 
   head() {
-    return articleVMToSeoHead(this.page);
+    return this.article.seoHead;
   }
 
 }

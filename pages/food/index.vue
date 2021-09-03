@@ -1,25 +1,21 @@
 <template>
   <div>
-    <article-heading title="Про еду" description='Пробую решить проблему "бля что поесть"'
-                     emote="salt"></article-heading>
+    <article-heading :article="article"></article-heading>
 
     <h2>Едим дома</h2>
-
-    <article-preview v-for="page in homePages" :article="page" :key="page.title"></article-preview>
+    <article-preview v-for="a in homeArticles" :article="a" :key="a.title"></article-preview>
 
     <h2>Едим не дома</h2>
-
-    <article-preview v-for="page in outsidePages" :article="page" :key="page.title"></article-preview>
+    <article-preview v-for="a in outsideArticles" :article="a" :key="a.title"></article-preview>
 
   </div>
 
 </template>
 
 <script lang="ts">
-import {generateSeoHead} from "@/logic/core/seo";
 import {Component, Vue} from "nuxt-property-decorator";
-import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
 import {IContentDocument} from "@nuxt/content/types/content";
+import {CoreArticle} from "~/logic/core/models";
 
 @Component({
   async asyncData({$content, params}) {
@@ -27,27 +23,42 @@ import {IContentDocument} from "@nuxt/content/types/content";
       {title: "Кукинг", description: "Несложные, опробованные рецепты", path: "/food/home/cooking"},
       $content("food/home/products").fetch(),
       $content("food/home/delivery").fetch(),
-    ]) as IContentDocument[]).map(buildArticleVM);
+    ]) as IContentDocument[]);
 
     const outsidePages = (await Promise.all([
       $content("food/outside/index").fetch(),
       $content("food/outside/mendel").fetch(),
-    ]) as IContentDocument[]).map(buildArticleVM);
+    ]) as IContentDocument[]);
 
     return {homePages, outsidePages};
   },
-  head() {
-    return generateSeoHead(
-      "Про еду",
-      'Пробую решить проблему "бля что поесть"',
-      "/food",
-      "2021-08-11"
-    );
-  }
 })
 export default class Food extends Vue {
-  homePages!: ArticleVM[];
-  outsidePages!: ArticleVM[];
+  homePages!: IContentDocument[];
+  outsidePages!: IContentDocument[];
+
+  get homeArticles(){
+    return this.homePages.map(p => CoreArticle.fromNuxtContent(p));
+  }
+  get outsideArticles(){
+    return this.outsidePages.map(p => CoreArticle.fromNuxtContent(p));
+  }
+
+  article = new CoreArticle(
+    null,
+    "/food",
+    "Про еду",
+    'Пробую решить проблему "бля что поесть"',
+    new Date(2021, 8, 11),
+    [],
+    true,
+    undefined,
+    "salt"
+  );
+
+  head(){
+    return this.article.seoHead;
+  }
 }
 </script>
 

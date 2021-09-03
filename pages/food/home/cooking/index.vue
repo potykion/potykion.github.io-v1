@@ -1,8 +1,8 @@
 <template>
   <section>
-    <article-heading title="Кукинг" description="Несложные, опробованные рецепты" :small="true"></article-heading>
+    <article-heading :article="article"></article-heading>
 
-    <article-preview v-for="page in cookingPages" :key="page.title" :article="page"></article-preview>
+    <article-preview v-for="a in cookingArticles" :key="a.title" :article="a"></article-preview>
   </section>
 
 </template>
@@ -14,26 +14,35 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
-import {generateSeoHead} from "~/logic/core/seo";
-import {Context} from "@nuxt/types";
-import {ArticleVM, buildArticleVM} from "~/logic/cool-story/vms";
+import {CoreArticle} from "~/logic/core/models";
+import {IContentDocument} from "@nuxt/content/types/content";
 
 @Component({
-  head() {
-    return generateSeoHead(
-      "Кукинг",
-      "Несложные, опробованные рецепты",
-      "/food/home/cooking",
-      "2021-08-11"
-    );
-  },
   async asyncData(ctx) {
-    const cookingPages = (await ctx.$content("food/home/cooking").fetch()).map(buildArticleVM);
+    const cookingPages = (await ctx.$content("food/home/cooking").fetch());
     return {cookingPages};
   }
 })
 export default class CookingPage extends Vue {
-  cookingPages!: ArticleVM[];
+  cookingPages!: IContentDocument[];
+
+  get cookingArticles() {
+    return this.cookingPages.map(p => CoreArticle.fromNuxtContent(p));
+  }
+
+  article = new CoreArticle(
+    null,
+    "/food/home/cooking",
+    "Кукинг",
+    "Несложные, опробованные рецепты",
+    new Date("2021-08-11"),
+    [],
+    false,
+  );
+
+  head() {
+    return this.article.seoHead;
+  }
 }
 </script>
 

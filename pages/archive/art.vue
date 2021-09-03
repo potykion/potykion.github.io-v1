@@ -1,6 +1,6 @@
 <template>
   <div>
-    <article-heading title="Рисовач" description="Как научится рисовать, что делать если лень, куда я хожу"></article-heading>
+    <article-heading :article="article"></article-heading>
 
     <h2> Как научиться рисовать?</h2>
 
@@ -288,20 +288,27 @@ import {
 } from "nuxt-property-decorator"
 import ImgSwiper from "~/components/img/swiper.vue";
 import {generateSeoHead} from "~/logic/core/seo";
+import {CoreArticle} from "~/logic/core/models";
 
 @Component({
-  components: {ImgRow: ImgSwiper},
-  head() {
-    return generateSeoHead(
-      "Рисовач",
-      "Как научится рисовать, что делать если лень, куда я хожу",
-      "/archive/art",
-      "2021-06-18",
-
-    );
-  }
 })
 export default class art extends Vue {
+  article = new CoreArticle(
+    null,
+    "/archive/art",
+    'Рисовач',
+    'Как научится рисовать, что делать если лень, куда я хожу',
+    new Date("2021-06-18"),
+    [],
+    true,
+  );
+
+  head() {
+    return this.article.seoHead;
+  }
+
+
+
   material: string = "";
   theme: string = "";
 
