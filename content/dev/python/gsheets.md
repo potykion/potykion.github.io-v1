@@ -355,10 +355,10 @@ service.spreadsheets().batchUpdate(
 #### Плагины
 
 - Как я говорил, можно плагины писать для тех же Гугл таблиц
-- Вот [пример работы с Youtube API](https://developers.google.com/youtube/v3/quickstart/apps-script), который добавляет кастомную кнопулю в Гугл таблицу, которая подгружает данные о YT-канале:
+- Вот [пример работы с Youtube API](https://developers.google.com/youtube/v3/quickstart/apps-script), который добавляет в Гугл таблицу кастомную кнопулю, которая подгружает данные о YT-канале:
 
   <img-swiper>
     <img-block src="/images/dev/python/gsheets/apps-script-gsheet-integration.png" alt="Кастомная кнопочка в Google Sheets"></img-block>
   </img-swiper>
 
-- Возможно это не так удобно как из Питона, но суть в том, что такой инструмент существует, и мб для каких-то задач он пригоден
+- Возможно, это не так удобно как из Питона, но суть в том, что такой инструмент существует, и мб для каких-то задач он пригоден
