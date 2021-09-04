@@ -1,14 +1,10 @@
 ---
 title: Менделеевская 
 description: Кальянная философия и пониженная социальная ответственность
+cover: /images/food/mendel/mendel.jpg
+big: true
 ---
 
-<img-bg src="/images/food/mendel/mendel.jpg" alt="Мендеевская" :opacity="0.5">
-  <div class="py-5 md:py-14">
-    <h1>Мендлеевская</h1>
-    <p class="text-center text-gray-500">Кальянная философия и пониженная социальная ответственность</p>
-  </div>
-</img-bg>
 
 <!-- region: Shawarma -->
 
