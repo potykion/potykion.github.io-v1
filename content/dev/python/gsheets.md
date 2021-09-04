@@ -314,6 +314,51 @@ service.spreadsheets().batchUpdate(
 
 ### Apps Script
 
-- А еще есть [Apps Script](https://developers.google.com/apps-script) - это как JS, только там из коробки гугловые апишки + можно напрямую взаимодействовать с гугловыми сервисами, типа плагины писать для гугл-шитс
+- А еще есть [Apps Script](https://developers.google.com/apps-script) - это JS-подобный язык (бтв ему 12 лет)))), только там из коробки гугловые апишки + можно напрямую взаимодействовать с гугловыми сервисами, типа плагины писать для гугл-шитс
 - И самое главное - не нужно вообще писать код для авторизации / делать какие-либо телодвижения по этому поводу
-- (а еще этому языку 12 лет)))
+- То есть для Apps Script часть с Авторизацией можно пропустить и сразу юзать методы апи:
+
+  ```js
+  // Метод spreadsheets.get
+  const resp = Sheets.Spreadsheets.get(
+    TABLE, 
+    {
+      ranges: [RANGE_STR], 
+      includeGridData: true
+    },
+  );
+  const rows = resp.sheets[0].data[0].rowData;
+  
+  // Метод spreadsheets.batchUpdate
+  service.spreadsheets().batchUpdate(
+    {
+      requests: [
+        {
+          updateCells:{
+            rows: update_rows,
+            fields: "userEnteredFormat.textFormat.link.uri",
+            range: RANGE
+          }
+        }
+      ]
+    },
+    TABLE,
+  )
+  ```
+
+- Запускать это дело можно из [редактора](https://script.google.com/home):
+
+  <img-swiper>
+    <img-block src="/images/dev/python/gsheets/apps-script-editor.png" alt="Apps Script редактор"></img-block>
+  </img-swiper>
+
+#### Плагины
+
+- Как я говорил, можно плагины писать для тех же Гугл таблиц
+- Вот [пример работы с Youtube API](https://developers.google.com/youtube/v3/quickstart/apps-script), который добавляет кастомную кнопулю в Гугл таблицу, которая подгружает данные о YT-канале:
+
+  <img-swiper>
+    <img-block src="/images/dev/python/gsheets/apps-script-gsheet-integration.png" alt="Кастомная кнопочка в Google Sheets"></img-block>
+  </img-swiper>
+
+- Возможно это не так удобно как из Питона, но суть в том, что такой инструмент существует, и мб для каких-то задач он пригоден
