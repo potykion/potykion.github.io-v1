@@ -9,6 +9,7 @@ big: true
 - [/food/outside/mendel](/food/outside/mendel): Про Менделеевскую: про шаурму и пониженную социальную ответственность
 - [/cool-story/gigs-08-21](/cool-story/gigs-08-21): Про гигосики августовские
 - Теперь все статьи в одном формате, написание статей теперь ускорится agakakskagesh
+- [/dev/python/gsheets](/dev/python/gsheets): Авторизация через Service Account + немного про Apps Script
 
 ## 2.9.0 - 2021-08-22
 
