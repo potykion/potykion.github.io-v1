@@ -3,28 +3,69 @@ title: Python / Работа с Google таблицами с помощью Shee
 description: Sheets API - одна из самых непонятных апишек, здесь я опишу понятное руководство по этой апишке на примере задачи обновления ссылок в таблице
 ---
 
-Работа с Google таблицами с помощью Sheets API осуществляется в 2 этапа: **получение доступов** и **вызовы api-методов**
+Чтобы работать с Гугл шитс апи, надо авторизоваться, а потом можно запросики кидать.
 
-**Но сначала нужно создать проект в Google Cloud и включить [Sheets API](https://console.cloud.google.com/apis/library/sheets.googleapis.com)**  
+Но сначала пререквизиты: 
 
-### Получение доступов
+### Пререквизиты
 
-Есть несколько способов получить доступы:
+- Создать проект в Google Cloud + включить [Sheets API](https://console.cloud.google.com/apis/library/sheets.googleapis.com)
+- Поставить клиентские либы:
 
-1. Service Account 
-2. OAuth 
-3. Apps Script
+  ```
+  pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+  ```
 
-#### Service Account
+### Авторизация
 
-Service Account - служебный Google аккаунт; считай, что это обычный пользователь, которому можно дать права доступа на любые сервисы Google
+- Чтобы авторизоваться можно использовать **OAuth**, можно использовать **сервисный аккаунт**
+- OAuth нужен когда разные пользователи могут взаимодействовать с гугл таблицей
+- Обычно нам это не надо, обычно у нас один пользователь какие-то операции над таблицей делает и все (мы просто апи методы хотим покидать, *нам похуй ваще как это делать*, авторизоваться через гугл - нахуя?)
+- Плюс это не наш вариант, потому что на сервере ты не будешь авторизовываться через гугл: открывать окошко, входить в гугл и все такое - на сервере нет такой возможности
+- Соответсвенно, мы используем сервисный аккаунт
+  
+#### Сервисный аккаунт
 
-1. TODO аналогично шагу 1 из OAuth 
+Сервисный аккаунт - это специальный пользователь, которому даем доступы к гугловым сервисам (не только гугл шитс)
 
+1. То есть создаем пользователя
+
+<img-swiper>
+  <img-block src="/images/dev/python/gsheets/service-acc-creation-1.png" alt="Страничка создания доступов"></img-block>
+  <img-block src="/images/dev/python/gsheets/service-acc-creation-2.png" alt="Создание сервисного акка - достаточно только имя ввести"></img-block>
+</img-swiper>
+
+2. Создаем апи-ключ для этого пользователя - с помощью ключа мы будем вызывать методы от имени сервисного акка
+
+<img-swiper>
+  <img-block src="/images/dev/python/gsheets/service-acc-page.png" alt="Страничка сервисного акка"></img-block>
+  <img-block src="/images/dev/python/gsheets/service-acc-api-key-creation-1.png" alt="Создаем ключик"></img-block>
+  <img-block src="/images/dev/python/gsheets/service-acc-api-key-creation-2.png" alt="После создания автоматически начнется скачивание JSON-а с ключом"></img-block>
+</img-swiper>
+
+3. Даем доступ к гугл таблице для этого пользователя
+
+<img-swiper>
+  <img-block src="/images/dev/python/gsheets/gsheets-share.png" alt="Даем доступы"></img-block>
+</img-swiper>
+
+4. И в одну строчечку получаем `Сredentials`, с помощью которых мы можем кидать запросики
+
+  ```python
+  from google.oauth2 import service_account
+  
+  creds = service_account.Credentials.from_service_account_file(
+      # Путь к json-у, полученному выше
+      'yaxxxta-b337157255d8.json',
+      # scopes - необходимые права доступа - в данном случае чтение и редактирование гугл-таблиц
+      scopes=['https://www.googleapis.com/auth/spreadsheets']
+  )
+  ```
+
+
+Если все-таки интересует OAuth, то вот:
 
 #### OAuth
-
-OAuth - позволяет любым пользователям, включая тебя, взаимодействовать с Google таблицей, если есть доступы
 
 1. Заходим на [страницу создания доступов для API](https://console.cloud.google.com/apis/api/sheets.googleapis.com/credentials) и создаем доступы: `Create credentials > OAuth client ID`:
 
@@ -39,13 +80,7 @@ OAuth - позволяет любым пользователям, включая
     <img-block src="/images/dev/python/gsheets/credentials-download.png" alt="Кнопочка скачивания доступов"></img-block>
 </img-swiper>
 
-3. Ставим Python-либы для работы с Sheets API:
-
-    ```
-    pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-    ```
-
-4. Генерируем токен, который нужен для работы с апи, используя функцию `get_creds`:
+3. Генерируем токен, который нужен для работы с апи, используя функцию `get_creds`:
 
     ```python
     import os.path
@@ -90,19 +125,27 @@ OAuth - позволяет любым пользователям, включая
         return creds
     ```
 
-5. Используя токен, создаем апи-клиент, который будет кидать запросы:
+4. Ну и вызываем метод выше, чтобы получить `Credentials`:
+
+  ```python
+  creds = get_creds(
+      secrets_file='client_secret_406798162311-63us552o41nrs0ashvt87h58gbgivjsh.apps.googleusercontent.com.json',
+      scopes=['https://www.googleapis.com/auth/spreadsheets']
+  )
+  ```
+
+
+### Кидание запросиков
+
+1. Используя `Credentials`, создаем апи-клиент, который будет кидать запросы:
 
     ```python
     from googleapiclient.discovery import build
 
-    creds = get_creds(
-        secrets_file='client_secret_406798162311-63us552o41nrs0ashvt87h58gbgivjsh.apps.googleusercontent.com.json',
-        scopes=['https://www.googleapis.com/auth/spreadsheets']
-    )
     service = build('sheets', 'v4', credentials=creds)
     ```
 
-6. Запросы кидаются аналогично путям методов, напр. для запроса `spreadsheets.get` вызов будет выглядеть так:
+2. Запросы кидаются аналогично путям методов, напр. для запроса `spreadsheets.get` вызов будет выглядеть так:
 
 
     ```python
@@ -263,8 +306,14 @@ service.spreadsheets().batchUpdate(
 
 Код выгрузит ячейки таблицы в диапазоне и заменит ссылки, содержащие google.com, на yandex.ru.
 
-
 ### Ссылочки
 
 - [Итоговый код скрипта](https://gist.github.com/potykion/880b9971cfd54700ddc93410722a2149)
 - [Начало работы с Sheets API в Python](https://developers.google.com/sheets/api/quickstart/python)
+
+
+### Apps Script
+
+- А еще есть [Apps Script](https://developers.google.com/apps-script) - это как JS, только там из коробки гугловые апишки + можно напрямую взаимодействовать с гугловыми сервисами, типа плагины писать для гугл-шитс
+- И самое главное - не нужно вообще писать код для авторизации / делать какие-либо телодвижения по этому поводу
+- (а еще этому языку 12 лет)))
