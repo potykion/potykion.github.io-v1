@@ -52,7 +52,8 @@ export default {
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-    ],
+      {name: "robots", content: "index, follow"},
+      ],
     link: [
       {rel: "apple-touch-icon", sizes: "180x180", href: "/favicon/apple-touch-icon.png"},
       {rel: "icon", type: "image/png", href: "https://potyk.io/favicon.ico"},

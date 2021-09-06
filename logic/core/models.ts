@@ -65,14 +65,7 @@ export class CoreArticle {
    * SEO-данные, типа всяких метатегов
    */
   get seoHead(): object {
-    return generateSeoHead(
-      this.title,
-      this.description,
-      this.path,
-      this.createdAtStr,
-      // todo: cover
-      this.ldjson,
-    )
+    return generateSeoHead(this);
   }
 
   static tagToStr = {
