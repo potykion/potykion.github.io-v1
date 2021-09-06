@@ -40,17 +40,17 @@ big: true
 
 - Кнопочки на главной
 - Поиск по кулсторям
-- [/dev/work-expectations](/dev/work-expectations): Ожидания от работы
-- [/dev/algo](/dev/algo): Пара слов про алгоритмы
-- [/dev/vue/seo](/dev/vue/seo): Семантическая верстка (бтв так лень ее тут делать, тк хз че пользователю интересно, если ты это читаешь, [напиши мне](https://t.me/potykion) что тебе интересно)
-- [/archive/python/bio](/archive/python/bio): Пара слов про опыт в бекенд разработке
+- [/dev/work-expectations](/archive/dev/work-expectations): Ожидания от работы
+- [/dev/algo](/archive/dev/algo): Пара слов про алгоритмы
+- [/dev/vue/seo](/archive/dev/vue/seo): Семантическая верстка (бтв так лень ее тут делать, тк хз че пользователю интересно, если ты это читаешь, [напиши мне](https://t.me/potykion) что тебе интересно)
+- [/archive/python/bio](/archive/dev/python/bio): Пара слов про опыт в бекенд разработке
 
 ---
 
 ## 2.5.0 - 2021-07-12
 
 - Внешний вид причесал: шрифты завез, навигация, новый вид кулсторей
-- [/dev/vue/bio](/dev/vue/bio): Дополнил фронтенд-биографию
+- [/dev/vue/bio](/archive/dev/vue/bio): Дополнил фронтенд-биографию
 
 ---
 
@@ -92,7 +92,7 @@ big: true
 
 ## 2.1.0 - 2021-06-19
 
-- [/dev/vue/bio](/dev/vue/bio): Фронтенд-биография
+- [/dev/vue/bio](/archive/dev/vue/bio): Фронтенд-биография
 
 ---
 
@@ -115,14 +115,14 @@ big: true
 
 - [/dev/flutter/ads](/dev/flutter/ads): Текстовый туториал
 - [/dev/flutter/apk](/dev/flutter/apk): Добавил больше деталек: пути всяки, куда че вставлять
-- [/dev/ideas](/dev/ideas): Ютуб рандомайзер сделан
+- [/archive/dev/ideas](/archive/dev/ideas): Ютуб рандомайзер сделан
 - [/cool-story/oksana](/cool-story/oksana): Оксана
 
 ---
 
 ## 1.7.1 - 2021-05-18
 
-- [/dev/ideas](/dev/ideas): Шаринг едой с соседями
+- [/archive/dev/ideas](/archive/dev/ideas): Шаринг едой с соседями
 
 ---
 
@@ -149,20 +149,20 @@ big: true
 
 ## 1.6.2 - 2021-04-28
 
-- [/dev/flutter/faq](/dev/flutter/faq): Аналог initState для hook-виджетов
+- [/dev/flutter/faq](/archive/dev/flutter/faq): Аналог initState для hook-виджетов
 - [/dev/base](/dev/base): supabase
 
 ---
 
 ## 1.6.1 - 2021-04-28
 
-- [/dev/flutter/faq](/dev/flutter/faq):   Получение аргументов роута
+- [/dev/flutter/faq](/archive/dev/flutter/faq):   Получение аргументов роута
 
 ---
 
 ## 1.6.0 - 2021-04-26
 
-- [/dev/ideas](/dev/ideas): Идеи для проектов
+- [/archive/dev/ideas](/archive/dev/ideas): Идеи для проектов
 
 ---
 

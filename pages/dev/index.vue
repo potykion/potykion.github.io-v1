@@ -2,8 +2,7 @@
   <div>
     <article-heading :article="article"></article-heading>
 
-    <h2>Работадателю</h2>
-    <article-preview v-for="a in jobArticles" :article="a" :key="a.title"></article-preview>
+    <article-preview card-class="border-4 border-black" v-for="a in jobArticles" :article="a" :key="a.title"></article-preview>
 
     <h2>Python</h2>
     <article-preview v-for="a in pythonArticles" :article="a" :key="a.title"></article-preview>
@@ -29,38 +28,29 @@ import {CoreArticle} from "~/logic/core/models";
   async asyncData({$content, params}) {
     const jobPages = (await Promise.all([
       $content("/dev/cv").fetch(),
-      $content("/dev/work-expectations").fetch(),
-      $content("/dev/vue/bio").fetch(),
-      $content("/dev/algo").fetch(),
     ]) as IContentDocument[]);
 
     const pythonPages = (await Promise.all([
       $content("/dev/python/gsheets").fetch(),
       $content("/dev/python/libs").fetch(),
-      $content("/dev/python/tests").fetch(),
-      $content("/dev/python/faq").fetch(),
     ]) as IContentDocument[]);
 
     const flutterPages = (await Promise.all([
-      $content("/dev/flutter/libs").fetch(),
-      $content("/dev/flutter/apk").fetch(),
-      $content("/dev/flutter/subscriptions").fetch(),
-      $content("/dev/flutter/firebase").fetch(),
       $content("/dev/flutter/ads").fetch(),
-      $content("/dev/flutter/codegen").fetch(),
-      $content("/dev/flutter/faq").fetch(),
+      $content("/dev/flutter/apk").fetch(),
+      $content("/dev/flutter/firebase").fetch(),
+      $content("/dev/flutter/subscriptions").fetch(),
+      $content("/dev/flutter/libs").fetch(),
     ]) as IContentDocument[]);
 
     const vuePages = (await Promise.all([
-      $content("/dev/vue/libs").fetch(),
       $content("/dev/vue/firebase").fetch(),
-      $content("/dev/vue/seo").fetch(),
+      $content("/dev/vue/libs").fetch(),
     ]) as IContentDocument[]);
 
     const otherPages = (await Promise.all([
       $content("/dev/how").fetch(),
       $content("/dev/base").fetch(),
-      $content("/dev/ideas").fetch(),
     ]) as IContentDocument[]);
 
     return {

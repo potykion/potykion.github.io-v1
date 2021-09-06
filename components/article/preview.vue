@@ -1,6 +1,6 @@
 <template>
   <nuxt-link :to="article.path" class="no-underline ">
-    <div class="rounded shadow px-3 py-3 my-1 hover:bg-pink-200 bg-white">
+    <div :class="['rounded shadow px-3 py-3 my-1 hover:bg-pink-200 bg-white', cardClass]">
       <template v-if="showExtra">
 
         <template v-if="article.tagStrings.length">
@@ -34,6 +34,7 @@ import {CoreArticle} from "~/logic/core/models";
 export default class ArticlePreview extends Vue {
   @Prop({required: true}) article!: CoreArticle;
   @Prop({default: false}) showExtra!: boolean;
+  @Prop() cardClass!: string;
 }
 </script>
 

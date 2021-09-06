@@ -2,11 +2,12 @@
   <div>
     <article-heading :article="article"></article-heading>
 
+    <h2>Едим не дома</h2>
+    <article-preview v-for="a in outsideArticles" :article="a" :key="a.title"></article-preview>
+
     <h2>Едим дома</h2>
     <article-preview v-for="a in homeArticles" :article="a" :key="a.title"></article-preview>
 
-    <h2>Едим не дома</h2>
-    <article-preview v-for="a in outsideArticles" :article="a" :key="a.title"></article-preview>
 
   </div>
 
@@ -20,13 +21,10 @@ import {CoreArticle} from "~/logic/core/models";
 @Component({
   async asyncData({$content, params}) {
     const homePages = (await Promise.all([
-      {title: "Кукинг", description: "Несложные, опробованные рецепты", path: "/food/home/cooking"},
-      $content("food/home/products").fetch(),
       $content("food/home/delivery").fetch(),
     ]) as IContentDocument[]);
 
     const outsidePages = (await Promise.all([
-      $content("food/outside/index").fetch(),
       $content("food/outside/mendel").fetch(),
     ]) as IContentDocument[]);
 

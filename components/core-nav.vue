@@ -7,9 +7,7 @@
           <nav-item class="flex-grow lg:flex-grow-0" to="/cool-story" title="Кулстори" emote="coolstorybob"/>
           <nav-item class="flex-grow lg:flex-grow-0" to="/dev" title="Разработка" emote="support"/>
           <nav-item class="flex-grow lg:flex-grow-0" to="/food" title="Про еду" emote="salt"/>
-
           <nav-item class="flex-grow lg:flex-grow-0" to="/n" title="Обо мне" emote="kappa"/>
-          <nav-item class="flex-grow lg:flex-grow-0" to="/archive" title="Архив" emote="sleeper"/>
           <div class="hidden lg:inline lg:flex-grow"></div>
 
           <button class="border-none flex-grow lg:flex-grow-0 flex items-center justify-center"

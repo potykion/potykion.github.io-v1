@@ -11,7 +11,7 @@ description: Что заказывать в Самокате/Лавке/Озон
 ### Перекус
 
 - Творог, типа Активиа
-- [Бутербродный набор](/food/home/cooking/sandwich): хлеб, масло, сыр, колбаска
+- [Бутербродный набор](/archive/food/home/cooking/sandwich): хлеб, масло, сыр, колбаска
   - Хлеб: батон, черный, бриошь, багетик 
 - Сушки / хлебцы / [пенопласт](https://www.ozon.ru/product/dr-korner-klyukvennyy-zlakovyy-kokteyl-hlebtsy-100-g-143230994/)
 

@@ -3,9 +3,6 @@
     <article-heading :article="article"></article-heading>
 
     <article-preview v-for="a in articles" :article="a" :key="a.title"></article-preview>
-    <article-preview :article="artArticle"></article-preview>
-    <article-preview :article="gigsArticle"></article-preview>
-    <article-preview :article="ytArticle"></article-preview>
   </div>
 
 </template>
@@ -35,33 +32,6 @@ export default class ArchivePage extends Vue {
     "sleep",
   );
 
-  artArticle = new CoreArticle(
-    null,
-    "/archive/art",
-    'Рисовач',
-    'Как научится рисовать, что делать если лень, куда я хожу',
-    new Date("2021-06-18"),
-    [],
-    true,
-  );
-  gigsArticle = new CoreArticle(
-    null,
-    "/archive/gigs",
-    'Гиги',
-    'Концертики, которые я планирую посетить в этом году (если конечно они состоятся в такие ковидные времена)',
-    new Date("2021-06-18"),
-    [],
-    true,
-  );
-  ytArticle = new CoreArticle(
-    null,
-    "/archive/yt",
-    'Ютуб',
-    'Моя история познания ютуба и каналы, которые я смотрю',
-    new Date("2021-06-18"),
-    [],
-    true,
-  );
 
   pages!: IContentDocument[];
 

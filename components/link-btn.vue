@@ -26,7 +26,7 @@ export default class LinkBtn
   extends Vue {
   @Prop({required: true}) href!: string;
 
-  get type(): "ig" | "tg" | "calendly" | "tinkoff" | null {
+  get type(): string {
     if (this.href.includes("t.me")) return "tg";
     if (this.href.includes("instagram.com")) return "ig";
     if (this.href.includes("tinkoff.ru")) return "tinkoff";
