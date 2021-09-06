@@ -11,7 +11,7 @@ const createSitemapRoutes = async () => {
     $content('dev', {deep: true}).fetch(),
     $content('food', {deep: true}).fetch(),
     $content('n', {deep: true}).fetch(),
-    $content('archive', {deep: true}).fetch(),
+    // $content('archive', {deep: true}).fetch(),
   ])).flatMap(
     pages =>
       pages
@@ -142,7 +142,7 @@ export default {
         $content('dev', {deep: true}).fetch(),
         $content('food', {deep: true}).fetch(),
         $content('n', {deep: true}).fetch(),
-        $content('archive', {deep: true}).fetch(),
+        // $content('archive', {deep: true}).fetch(),
       ]))
         .flatMap(a => a)
         .filter(a => a.title && a.description)
