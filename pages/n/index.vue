@@ -35,7 +35,7 @@ export default class NPages extends Vue {
 
 <style scoped>
 .card {
-  @apply px-4 md:px-4 py-4 rounded my-4;
+  @apply px-4 md:px-4 py-4 rounded my-4 shadow;
 
 }
 
@@ -53,10 +53,6 @@ export default class NPages extends Vue {
 
 .white-text figcaption {
   @apply text-white !important;
-}
-
-.link-btn {
-  @apply py-1 px-2 rounded no-underline inline-block font-bold;
 }
 
 /* Custom */
@@ -78,45 +74,34 @@ export default class NPages extends Vue {
 }
 
 
-.kp {
-  @apply my-4 rounded;
+.kp-card {
+  @apply my-4 rounded shadow;
   background: linear-gradient(90deg, #fff, #f9f9f9 5%, #f9f9f9 95%, #fff);
 }
 
-.kp > h3 {
+/* region: kp */
+.kp-card > h3 {
   @apply text-white py-4 px-4;
   background: #1F1F1F;
 }
 
-.kp > .kp-body {
-  @apply px-3 md:px-4 pb-2;
+.kp-card > .kp-body {
+  @apply px-3 md:px-4 pb-1;
 }
 
-.kp a {
+.kp-card a {
   @apply no-underline;
   color: #060077;
 }
 
-.kp a:hover {
+.kp-card a:hover {
   color: #f60;
 }
 
-.kp a:visited {
+.kp-card a:visited {
   color: #060077;
 }
-
-.kp-link {
-  @apply link-btn text-white !important;
-  background: #f60;
-}
-
-.kp-link {
-  @apply text-white;
-}
-
-.kp .swiper-pagination-bullet-active {
-  color: #f60 !important;
-}
+/* endregion */
 
 .casino {
   @apply card;
@@ -135,32 +120,8 @@ export default class NPages extends Vue {
   background: linear-gradient(180deg, rgba(185, 255, 216, 1) 0%, rgba(90, 114, 152, 1) 100%);
 }
 
-
-.money {
-  @apply link-btn text-black;
-  background: #FFDD2D
-}
-
-.money:hover {
-  background: #FCC521;
-}
-
-.calendly {
-  @apply link-btn text-white;
-  background: #006BFF;
-}
-
-.calendly:hover {
-  background: #66A6FF;
-}
-
-.yt {
-  @apply link-btn ;
-  background: #FF0000;
-}
-
 .aim {
-  @apply text-center h-52 rounded flex justify-center flex-col py-6;
+  @apply text-center h-52 rounded flex justify-center flex-col py-6 shadow;
 }
 
 .aim a {
