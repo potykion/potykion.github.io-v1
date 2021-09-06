@@ -24,30 +24,40 @@ export function generateSeoHead(
       {name: 'twitter:creator', content: "@potykion"},
       {name: 'twitter:title', content: article.title},
       {name: 'twitter:description', content: article.description},
-
-      ...(article.cover ? [
-        {property: "og:image", content: article.cover},
-        {name: "twitter:image", content: article.cover},
-      ] : [])
-
+      ...(
+        article.cover
+          ? [
+            {property: "og:image", content: `https://potyk.io${article.cover}`},
+            {name: "twitter:image", content: `https://potyk.io${article.cover}`},
+          ]
+          : []
+      )
     ],
     script: [{
       hid: 'ldjson-schema',
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
-        ...(article.ldjson ?? {
-          "@type": "BlogPosting",
-          "datePublished": article.createdAtStr,
-          "headline": article.title,
-          "name": article.title,
-          "description": article.description,
-          "author": {
-            "@type": "Person",
-            "name": "Nikita Leybovich",
-            "url": "https://potyk.io/n"
-          },
-          ...(article.content ? {image: article.cover} : {})
-        })
+        ...(
+          article.ldjson ?? {
+            "@type": "BlogPosting",
+            "datePublished": article.createdAtStr,
+            "headline": article.title,
+            "name": article.title,
+            "description": article.description,
+            "author": {
+              "@type": "Person",
+              "name": "Nikita Leybovich",
+              "url": "https://potyk.io/n"
+            },
+            ...(
+              article.content
+                ? {
+                  image: `https://potyk.io${article.cover}`
+                }
+                : {}
+            )
+          }
+        )
       }),
       type: 'application/ld+json'
     }],
