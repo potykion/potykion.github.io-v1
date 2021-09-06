@@ -144,7 +144,11 @@
   }
 
 
-
+  /* Пока используется официально только в food/outside/mendel */
+  /* Есть еще подобие в /n */
+  .mendel-card {
+    @apply bg-white rounded py-4 px-2 md:px-6 shadow;
+  }
 
 
 }

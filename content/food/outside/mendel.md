@@ -11,7 +11,7 @@ big: true
 <div class="h-4"></div>
 
 
-<div class="card">
+<div class="mendel-card">
 
 <h2 class="text-center">Шаурма</h2>
 
@@ -76,7 +76,7 @@ big: true
 <!-- region: Грузины -->
 
 
-<div class="card">
+<div class="mendel-card">
 
 <h2 class="text-center">Грузины и монголы</h2>
 
@@ -123,7 +123,7 @@ big: true
 <!-- region: Stolovki -->
 
 
-<div class="card">
+<div class="mendel-card">
 
 <h2 class="text-center">Столовки</h2>
 
@@ -184,7 +184,7 @@ big: true
 <!-- region: Low life -->
 
 
-<div class="card">
+<div class="mendel-card">
 
 <h2 class="text-center">Пониженная социальная ответственность</h2>
 
@@ -212,7 +212,7 @@ big: true
 <!-- region: Other -->
 
 
-<div class="card">
+<div class="mendel-card">
 
 <h2 class="text-center">А что помимо еды?</h2>
 

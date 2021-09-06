@@ -1,7 +1,6 @@
 <template>
   <main >
     <div class="bg-black my-auto h-screen px-3 lg:px-32 xl:px-64 2xl:px-96 grid grid-rows-4 grid-flow-col items-center justify-items-center">
-
       <div class="self-end">
         <div class="header ">Блог из-под палк<span class="last">И</span></div>
       </div>
@@ -10,26 +9,21 @@
         <nuxt-link  to="/cool-story">
           <img src="/images/index/cool-story.png" alt="Кулстори">
         </nuxt-link>
-
         <nuxt-link  to="/dev">
           <img src="/images/index/dev.png" alt="Разработка">
         </nuxt-link>
         <nuxt-link  to="/food">
           <img src="/images/index/food.png" alt="Про еду">
         </nuxt-link>
-
         <nuxt-link  to="/n">
           <img src="/images/index/n.png" alt="Обо мне">
         </nuxt-link>
-        <nuxt-link  to="/archive">
-          <img src="/images/index/archive.png" alt="Архив">
-        </nuxt-link>
-
-
+<!--        <nuxt-link  to="/archive">-->
+<!--          <img src="/images/index/archive.png" alt="Архив">-->
+<!--        </nuxt-link>-->
         <nuxt-link   to="/changelog">
           <img src="/images/index/changelog.png" alt="Ченжлог">
         </nuxt-link>
-
       </div>
     </div>
   </main>

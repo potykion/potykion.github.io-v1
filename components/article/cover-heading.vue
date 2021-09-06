@@ -1,5 +1,5 @@
 <template>
-  <img-bg :src="article.cover" alt="cover" :opacity="0.2">
+  <img-bg :src="article.cover" alt="cover" :opacity="0.2" class="shadow">
     <div class="px-4 py-8">
       <template v-if="article.big">
         <h1>
