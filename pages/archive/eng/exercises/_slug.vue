@@ -25,7 +25,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
 
     return {grammarExercisesToc, exercises, keys};
   },
-  // fetchOnServer: false
+  fetchOnServer: false
 })
 export default class ExercisePage extends Vue {
   grammarExercisesToc!: GrammarExercises.TocItem[];

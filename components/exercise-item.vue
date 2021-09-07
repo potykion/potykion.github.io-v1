@@ -19,9 +19,26 @@
             <div class="py-1 italic">{{ `${taskIndex + 1}. ${task.exerciseText || ''}` }}</div>
 
             <template v-for="(t, tIndex) in task.tasks">
-              <task-item :key="taskIndex.toString() + tIndex.toString()" :task="t"
-                         :answer="answer.tasks[taskIndex].tasks[tIndex]" :exercise="ex"
-                         :show-answer="showAnswer"/>
+
+              <template v-if="typeof t === 'object'">
+                <!-- Таски могут быть вложенными дважды -->
+
+                <div class="py-1 italic">{{ `${"abcdef"[tIndex]}) ${t.exerciseText || ''}` }}</div>
+
+                <template v-for="(t_, tIndex_) in t.tasks">
+                  <task-item :key="taskIndex.toString() + tIndex.toString() + tIndex_.toString()" :task="t_"
+                             :answer="answer.tasks[taskIndex].tasks[tIndex].tasks[tIndex_]" :exercise="ex"
+                             :show-answer="showAnswer"/>
+                </template>
+
+
+              </template>
+              <template v-else>
+                <task-item :key="taskIndex.toString() + tIndex.toString()" :task="t"
+                           :answer="answer.tasks[taskIndex].tasks[tIndex]" :exercise="ex"
+                           :show-answer="showAnswer"/>
+              </template>
+
             </template>
 
 
@@ -51,6 +68,7 @@
 import {Vue, Component, Prop, ProvideReactive} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
 import {DoneExerciseRepo, ExerciseProgressRepo} from "~/logic/eng/db";
+import Task = GrammarExercises.Task;
 
 
 @Component({})

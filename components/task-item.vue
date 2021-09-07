@@ -47,7 +47,9 @@ export default class TaskItem extends Vue {
       // Вставьте some, any или по.
       this.exercise.exerciseText.startsWith("Вставьте") ||
       // Заполните пропуски, вставив одно из слов, данных в скобках.
-      this.exercise.exerciseText.startsWith("Заполните")
+      this.exercise.exerciseText.startsWith("Заполните") ||
+      // Раскройте скобки, употребляя требующуюся форму прилагательного.
+      this.exercise.exerciseText.startsWith("Раскройте скобки")
     );
   }
 
