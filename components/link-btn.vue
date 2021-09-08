@@ -46,7 +46,7 @@ export default class LinkBtn
 }
 
 .regular {
-  @apply bg-pink-400 ;
+  @apply bg-pink-400 text-black;
 }
 .regular:hover {
   @apply  bg-pink-500;
