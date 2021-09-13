@@ -147,7 +147,7 @@
   /* Пока используется официально только в food/outside/mendel */
   /* Есть еще подобие в /n */
   .mendel-card {
-    @apply bg-white rounded py-4 px-2 md:px-6 shadow;
+    @apply bg-white rounded py-2 px-4 md:px-6 shadow mt-4;
   }
 
 
