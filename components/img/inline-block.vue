@@ -3,7 +3,7 @@
     <figure v-viewer="{title: true, toolbar: false, navbar: false}" style="cursor: zoom-in"
             class="flex justify-center flex-col h-full">
       <img :src="src" :alt="alt" class="rounded object-contain h-full" loading="lazy"/>
-      <figcaption v-if="showCaption">{{ alt }}</figcaption>
+      <figcaption class="pt-4" v-if="showCaption">{{ alt }}</figcaption>
     </figure>
   </div>
 </template>
