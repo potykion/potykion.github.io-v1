@@ -54,19 +54,31 @@ export default class TaskItem extends Vue {
   }
 
   get doneTaskIsCorrect(): boolean {
-    const normalizedAnswer = this.fullAnswer
+    let userAnswer = this.doneTask.trim();
+
+    let correctAnswer = this.fullAnswer
       .replaceAll("<b>", "")
       .replaceAll("</b>", "");
-    return normalizedAnswer === this.doneTask;
+
+    if (userAnswer.endsWith(".") && !correctAnswer.endsWith(".")){
+      correctAnswer = correctAnswer + ".";
+    }
+    if (!this.doneTask.endsWith(".") && correctAnswer.endsWith(".")) {
+      userAnswer = userAnswer + "."
+    }
+
+    return userAnswer === correctAnswer;
   }
 
   get fullAnswer() {
+    let ans: string;
+
     if (!this.isFillTheGapsExercise) {
-      return this.answer;
+      ans = this.answer;
     } else {
       // Было:  There are _ pictures in the book. + "some" =
       // Стало: There are some pictures in the book. + "some" =
-      let ans = replaceWithArray(
+      ans = replaceWithArray(
         this.task,
         this.answer
           .split(",")
@@ -78,8 +90,10 @@ export default class TaskItem extends Vue {
       if (ans.startsWith("<b>")) {
         ans = `<b>${toTitleCase(ans.slice("<b>".length))}`;
       }
-      return ans
     }
+
+    ans = ans.trim();
+    return ans;
   }
 
   mounted() {
