@@ -1,6 +1,11 @@
 <template>
   <article>
     <article-heading :article="article"></article-heading>
+
+    <template v-if="article.showToc">
+      <article-toc :toc="article.content.toc"></article-toc>
+    </template>
+
     <nuxt-content :document="article.content"/>
   </article>
 
@@ -19,7 +24,6 @@ import {IContentDocument} from "@nuxt/content/types/content";
   }
 })
 export default class ArticlePage extends Vue {
-  // article!: CoreArticle;
   page!: IContentDocument;
 
   get article(): CoreArticle {
@@ -31,3 +35,7 @@ export default class ArticlePage extends Vue {
   }
 }
 </script>
+
+<style scoped>
+
+</style>

@@ -51,6 +51,10 @@ export class CoreArticle {
      * https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data?hl=ru
      */
     public ldjson?: object,
+    /**
+     * Показывать ли оглавление
+     */
+    public showToc?: boolean,
   ) {
   }
 
@@ -91,7 +95,10 @@ export class CoreArticle {
       page.createdAt ?? new Date(),
       page.tags ?? [],
       page.big ?? false,
-      page.cover
+      page.cover,
+      undefined,
+      undefined,
+      page.showToc
     );
   }
 }
