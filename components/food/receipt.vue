@@ -7,7 +7,7 @@
         <span>{{ p.title }}<span v-if="p.price"> - {{ p.price }}р</span></span><br>
       </template>
       ---<br>
-      Итог {{ sum_ }}р
+      Итого {{ sum_ }}р
     </div>
 
   </div>
