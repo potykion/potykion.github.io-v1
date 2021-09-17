@@ -72,7 +72,7 @@ showToc: true
 </div>
 
 <div class="col-span-3 p-8 md:p-2 md:col-span-1">
-  <img-inline-block src="/images/food/home/breakfast/porridge.png" alt="Вот такой порридж получается" :show-caption="true"></img-inline-block>
+  <img-inline-block src="/images/food/home/breakfast/porridge.webp" alt="Вот такой порридж получается" :show-caption="true"></img-inline-block>
 </div>
 
 </div>
@@ -128,7 +128,7 @@ showToc: true
 
 
 <img-swiper>
-<img-block src="/images/food/home/breakfast/toast.png" alt="Получается идеальный тост" :show-caption="true"></img-block>
+<img-block src="/images/food/home/breakfast/toast.webp" alt="Получается идеальный тост" :show-caption="true"></img-block>
 </img-swiper>
 
 
@@ -187,7 +187,7 @@ showToc: true
 </div>
 
 <div class="col-span-3 md:col-span-1">
-<img-inline-block src="/images/food/home/breakfast/avocado.png" alt="Двумя таким бутриками наедаешься сполна"></img-inline-block>
+<img-inline-block src="/images/food/home/breakfast/avocado.webp" alt="Двумя таким бутриками наедаешься сполна"></img-inline-block>
 </div>
 
 </div>
@@ -317,8 +317,8 @@ showToc: true
 3. Выкладываем весь стаффчик
 
 <img-swiper>
-  <img-block src="/images/food/home/breakfast/eggs-2.png" alt='Получается такое'></img-block>
-  <img-block src="/images/food/home/breakfast/eggs-3.png" alt='Еще вариант прибамбасов'></img-block>
+  <img-block src="/images/food/home/breakfast/eggs-2.webp" alt='Получается такое'></img-block>
+  <img-block src="/images/food/home/breakfast/eggs-3.webp" alt='Еще вариант прибамбасов'></img-block>
 </img-swiper>
 
 Получается некий конструктор: то есть у нас есть топпинги/наполнители, которые мы миксуем с яичком. 
