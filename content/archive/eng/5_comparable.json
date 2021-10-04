@@ -1133,10 +1133,10 @@
       "Her eyes are _ (grey) than mine,",
       "He was the _ (fat) man in the village.",
       "As he went on, the box became _ (heavy) and _ (heavy).",
-      "My sister is the _ (tall) girl in her class.",
-      "Who is the _ (attentive) student in your group?",
+      "My sister is _ (tall) girl in her class.",
+      "Who is _ (attentive) student in your group?",
       "It is autumn. Every day the air becomes _ (cold), the leaves _ (yellow).",
-      "This is the _ (beautiful) view I have ever seen in my life.",
+      "This is _ (beautiful) view I have ever seen in my life.",
       "Your handwriting is now _ (good) than it was last year; but still it is not so _ (good) as Nick's handwriting. Nick has a _ (good) handwriting than you. And of course Nellie has the _ (good) handwriting of all.",
       "Oil is _ (light) than water.",
       "We shall wait for a _ (dry) day to go on the excursion.",
@@ -1224,7 +1224,7 @@
         "tasks": [
           ""
         ],
-        "exerciseText": "Погода сегодня хуж е, чем вчера. Сегодня холоднее, и идет дождь."
+        "exerciseText": "Погода сегодня хуже, чем вчера. Сегодня холоднее, и идет дождь."
       },
       {
         "tasks": [
