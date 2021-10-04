@@ -27,7 +27,7 @@ big: true
 - [/dev/vue/firebase](/dev/vue/firebase): Работа с Firebase Auth в Nuxt
 - [/archive/eng/toc](/archive/eng/toc): Тайный раздел с упражнениями по инглишу (пока только 3 раздел про местоимения)
 - [/cool-story](/cool-story): Витрина эпичных кулстори
-- SEO-дрочь: структурированные данные; og, twitter metadata
+- SEO-дроч: структурированные данные; og, twitter metadata
 
 ## 2.8.0 - 2021-08-07
 
