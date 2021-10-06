@@ -16,8 +16,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        'sans': ['Open Sans'],
-        'display': ['Roboto']
+        'sans': ['lato', 'sans-serif'],
+        'display': ['lato', 'sans-serif'],
       }
     }
   },

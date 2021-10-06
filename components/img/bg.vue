@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <img loading="lazy" class="bg" :src="src" :alt="alt" :style="{opacity}"/>
+    <img loading="lazy" :class="['img-bg', blur ? 'blur' : '']" :src="src" :alt="alt" :style="{opacity}"/>
     <slot></slot>
   </div>
 
@@ -30,16 +30,25 @@ export default class ImgBg extends Vue {
   @Prop({required: true}) alt!: string;
   // Прозрачность бекграунда
   @Prop({default: 1}) opacity!: number;
+  // Блюр
+  @Prop({default: false}) blur!: boolean;
 }
 </script>
 
 <style scoped>
-.bg {
-  @apply rounded object-cover;
+.img-bg {
+  @apply rounded object-cover border border-gray-500;
   pointer-events: none;
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: -1;
+
 }
+.blur {
+  filter: blur(2px);
+
+}
+
+
 </style>

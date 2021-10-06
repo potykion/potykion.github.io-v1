@@ -70,7 +70,7 @@ ol {
 }
 
 a {
-  @apply no-underline;
+  @apply no-underline text-black;
 }
 
 </style>

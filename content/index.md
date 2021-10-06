@@ -15,17 +15,20 @@ description: Блог про легкость и приятность (а так
 
 ### [Про разработку](/dev)
 
-Пишу вебчик на Python и Vue, и немножко мобилки на Flutter; рассказываю как делать это легко и приятно
+Пишу вебчик на Python и Vue, и немножко мобилки на Flutter
+
+<article-heading :page="pages.pythonGsheets" :small="true"></article-heading>
+
 
 </div>
 
 <div class="mendel-card">
 
-### [Про готовку](/food)
+### [Про еду](/food) 
 
 Именно благодаря статье про завтраки, я понял какой должна быть концепция блога:
 
-
+<article-heading :page="pages.breakfast" :small="true"></article-heading>
 
 </div>
 
@@ -35,6 +38,7 @@ description: Блог про легкость и приятность (а так
 
 Жить проще и приятнее, когда есть принципы:
 
+<article-heading :page="pages.principles" :small="true"></article-heading>
 
 
 
@@ -46,6 +50,7 @@ description: Блог про легкость и приятность (а так
 
 Тут можно почитать что происходит в моей жизни. Например, как я на гигосики хожу:
 
+<article-heading :page="pages.gigs" :small="true"></article-heading>
 
 
 </div>
