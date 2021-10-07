@@ -2,7 +2,7 @@
   <div>
     <h1>{{ exerciseInfo.topic }}</h1>
     <template v-for="(ex, exerciseIndex) in exercises">
-      <exercise-item  :key="exerciseIndex" :ex="ex" :answer="keys[exerciseIndex]"></exercise-item>
+      <exercise-item  :key="ex.exerciseNumber" :ex="ex" :answer="keys[exerciseIndex]"></exercise-item>
       <hr>
     </template>
   </div>

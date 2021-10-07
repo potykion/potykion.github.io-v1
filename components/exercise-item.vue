@@ -82,6 +82,15 @@ export default class ExerciseItem
   doneExerciseRepo!: DoneExerciseRepo;
   @ProvideReactive() exerciseProgressRepo!: ExerciseProgressRepo;
 
+  created() {
+    if (typeof this.ex.tasks[0] !== typeof this.answer.tasks[0]){
+      throw `Беда в упражнении № ${this.ex.exerciseNumber}: структура упражнения не совпадает со структурой ответа`
+    }
+    if (this.ex.tasks.length !== this.answer.tasks.length) {
+      throw `Беда в упражнении № ${this.ex.exerciseNumber}: кол-во упражнений != кол-во ответов`
+    }
+  }
+
   toggleExercise(exerciseNumber: number) {
     document.getElementById(exerciseNumber.toString())!.scrollIntoView();
 
