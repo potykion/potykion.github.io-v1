@@ -23,7 +23,7 @@ description: Блог про легкость и приятность (а так
 
 <div class="mendel-card">
 
-## [Про еду <img-emote emote="salt"></img-emote>](/food)
+## [Еда <img-emote emote="salt"></img-emote>](/food)
 
 Именно благодаря статье про завтраки, я понял какой должна быть концепция блога:
 

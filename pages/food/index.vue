@@ -37,7 +37,7 @@ export default class Food extends Vue {
   article = new CoreArticle(
     null,
     "/food",
-    "Про еду",
+    "Еда",
     'Пробую решить проблему "бля что поесть"',
     new Date(2021, 8, 11),
     [],
