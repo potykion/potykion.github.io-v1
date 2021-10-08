@@ -1,22 +1,30 @@
 <template>
-  <a href="https://ru.wiktionary.org/wiki/%D0%B8%D0%B7-%D0%BF%D0%BE%D0%B4_%D0%BF%D0%B0%D0%BB%D0%BA%D0%B8">
-    <div class="mendel-card">
-      <h2 class="header"><span class="text-gray-400">Блог</span> из-под палки</h2>
-      <div class="subheader">Значение</div>
-      <ol class="body list-outside">
-        <li>
-          <span style="color: #0645ad; font-style: italic; background: #CCFFFF">разг.</span>
-          <span style="color: #dd3333">под принуждением</span> ◆
-          <span style="color: #006400">
+  <div class="mendel-card">
+    <a href="https://ru.wiktionary.org/wiki/%D0%B8%D0%B7-%D0%BF%D0%BE%D0%B4_%D0%BF%D0%B0%D0%BB%D0%BA%D0%B8">
+      <h2 class="header bottom">из-под палки</h2>
+    </a>
+    <div class="subheader">
+      Значение
+    </div>
+    <ol class="body list-outside ">
+      <li>
+        <span style="color: #0645ad; font-style: italic; background: #CCFFFF">разг.</span>
+        <span style="color: #dd3333">под принуждением</span> ◆
+        <span style="color: #006400">
           А сыно́чек как раз всегда́ был скло́нен отве́тственность перекла́дывать, поэ́тому и реши́лась на тако́й подхо́д :-),
           о́чень больши́е опасе́ния бы́ли, что на себя́ он бу́дет брать то́лько лёгкое и прия́тное,
           а тяжёлое и ну́жное исключи́тельно <span style="color: darkgreen; font-weight: bold; background: #EDF0FF">из-по́д па́лки</span>.
-          <i>«Наши дети: Подростки», 2004 г. [<span style="color: #bb6633">НКРЯ</span>]</i>
+          <i class="wiki">«Наши дети: Подростки», 2004 г. [<span style="color: #bb6633">НКРЯ</span>]</i>
         </span>
-        </li>
-      </ol>
-    </div>
-  </a>
+      </li>
+    </ol>
+
+
+    <hr>
+    Дороу, это Блог из-под палки — блог про легкость и приятность <i>(а также про разработку, про еду, про меня, и,
+    возможно, про тебя)</i>
+  </div>
+
 </template>
 
 
@@ -35,6 +43,10 @@ export default class definition extends Vue {
 
 <style scoped>
 
+.bottom {
+  border-bottom: 1px solid #a2a9b1;
+  margin-bottom: 0.25em;
+}
 
 .header {
   font-family: "Linux Libertine", Times, sans-serif;
@@ -42,8 +54,6 @@ export default class definition extends Vue {
   font-size: 28px;
   line-height: 37px;
 
-  border-bottom: 1px solid #a2a9b1;
-  margin-bottom: 0.25em;
 }
 
 .subheader {
@@ -60,7 +70,7 @@ export default class definition extends Vue {
   line-height: 22px;
 }
 
-i {
+i.wiki {
   font-size: 12px;
 
 }
@@ -70,7 +80,8 @@ ol {
 }
 
 a {
-  @apply no-underline text-black;
+  @apply no-underline  hover:underline;
+  color: #0645ad;
 }
 
 </style>

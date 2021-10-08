@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="img-container relative ">
     <img loading="lazy" :class="['img-bg', blur ? 'blur' : '']" :src="src" :alt="alt" :style="{opacity}"/>
     <slot></slot>
   </div>
@@ -36,8 +36,13 @@ export default class ImgBg extends Vue {
 </script>
 
 <style scoped>
+
+.img-container {
+  /*@apply ;*/
+}
+
 .img-bg {
-  @apply rounded object-cover border border-gray-500;
+  @apply object-cover;
   pointer-events: none;
   position: absolute;
   width: 100%;
@@ -47,7 +52,6 @@ export default class ImgBg extends Vue {
 }
 .blur {
   filter: blur(2px);
-
 }
 
 

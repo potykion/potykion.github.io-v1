@@ -1,8 +1,7 @@
 <template>
   <div>
     <article-heading :article="article"></article-heading>
-
-    <article-preview card-class="border-4 border-black" v-for="a in jobArticles" :article="a" :key="a.title"></article-preview>
+    <hr>
 
     <h2>Python</h2>
     <article-preview v-for="a in pythonArticles" :article="a" :key="a.title"></article-preview>
@@ -49,6 +48,7 @@ import {CoreArticle} from "~/logic/core/models";
     ]) as IContentDocument[]);
 
     const otherPages = (await Promise.all([
+      $content("/dev/cv").fetch(),
       $content("/dev/how").fetch(),
       $content("/dev/base").fetch(),
     ]) as IContentDocument[]);

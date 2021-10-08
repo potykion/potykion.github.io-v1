@@ -1,6 +1,6 @@
 <template>
-  <article-cover-heading v-if="article_.cover" :article="article_" :small="small"></article-cover-heading>
-  <article-regular-heading v-else :article="article_"></article-regular-heading>
+  <article-cover-heading v-if="article_.cover" :article="article_" :preview="preview"></article-cover-heading>
+  <article-regular-heading v-else :article="article_" :preview="preview"></article-regular-heading>
 </template>
 
 <script lang="ts">
@@ -17,7 +17,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
 export default class ArticleHeading extends Vue {
   @Prop() article!: CoreArticle;
   @Prop() page!: IContentDocument;
-  @Prop({default: false}) small!: boolean;
+  @Prop({default: false}) preview!: boolean;
 
   article_ = this.article;
 

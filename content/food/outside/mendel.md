@@ -2,7 +2,6 @@
 title: Менделеевская 
 description: Кальянная философия и пониженная социальная ответственность
 cover: /images/food/mendel/mendel.jpg
-big: true
 ---
 
 

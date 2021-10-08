@@ -1,26 +1,8 @@
 <template>
   <div>
-
     <article-heading :article="article"></article-heading>
-
-    <h3 class=" text-center ">Витрина эпичных кулстори</h3>
-    <div class="flex justify-between space-x-2 ">
-      <template v-for="a in topArticles">
-        <nuxt-link :key="a.path" :to="a.path" class="no-underline flex-1 ">
-          <div class="bg-white rounded p-2 shadow text-center h-24 md:h-32 hover:bg-pink-200">
-            <div class="text-gray-500 text-sm">{{ a.createdAtStr }}</div>
-            <div class="py-1 font-bold  flex    justify-center  ">
-              <span>{{ a.title }}</span>
-            </div>
-            <div class="hidden md:block text-gray-500 text-sm">{{ a.description }}</div>
-          </div>
-
-        </nuxt-link>
-
-      </template>
-    </div>
-
     <hr/>
+
     <article-preview v-for="article in allArticles" :key="article.title" :article="article"
                      :show-extra="true"></article-preview>
   </div>
