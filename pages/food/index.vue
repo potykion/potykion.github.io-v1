@@ -29,6 +29,7 @@ import {CoreArticle} from "~/logic/core/models";
   },
 })
 export default class Food extends Vue {
+  pages!: IContentDocument[];
 
   get articles() {
     return this.pages.map(p => CoreArticle.fromNuxtContent(p));

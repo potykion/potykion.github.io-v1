@@ -2,8 +2,8 @@
 title: Обо мне 
 description: Все, что вы хотели знать обо мне
 ldjson: 
-  @type: "Person"
-  name: "Nikita Leybovich"
+  "@type": "Person"
+  "name": "Nikita Leybovich"
 ---
 
 <div class="flex flex-col   items-center md:space-x-2 space-y-1 ">
