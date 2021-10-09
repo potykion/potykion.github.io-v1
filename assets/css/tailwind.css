@@ -134,8 +134,17 @@
   a.no-style {
     @apply no-underline text-black;
   }
+
 }
 
 @tailwind components;
+
+@layer components {
+  .core-col {
+    @apply flex flex-col space-y-1 md:space-y-2;
+  }
+
+
+}
 
 @tailwind utilities;

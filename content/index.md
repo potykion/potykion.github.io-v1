@@ -14,7 +14,7 @@ cover: /images/index/cover.png
 
 Пишу вебчик на Python и Vue, а также немножко мобилки на Flutter
 
-<div class="flex flex-col space-y-1 md:space-y-1 md:space-y-2">
+<div class="core-col">
   <article-heading :page="pages.dev.pythonGsheets" :preview="true"></article-heading>
   <article-heading :page="pages.dev.vueFirebaseAuth" :preview="true"></article-heading>
   <article-heading :page="pages.dev.flutterAds" :preview="true"></article-heading>
@@ -39,7 +39,7 @@ cover: /images/index/cover.png
 
 Тут про принципы, про меня, про цели
 
-<div class="flex flex-col space-y-1 md:space-y-2">
+<div class="core-col">
   <article-heading :page="pages.n.principles" :preview="true"></article-heading>
   <article-heading :page="pages.n.n" :preview="true"></article-heading>
   <article-heading :page="pages.n.goals" :preview="true"></article-heading>
@@ -53,7 +53,7 @@ cover: /images/index/cover.png
 
 Тут можно почитать что происходит в моей жизни.
 
-<div class="flex flex-col space-y-1 md:space-y-2">
+<div class="core-col">
   <article-heading :page="pages['cool-story'].gigs" :preview="true"></article-heading>
   <article-heading :page="pages['cool-story'].badDay" :preview="true"></article-heading>
   <article-heading :page="pages['cool-story'].pure" :preview="true"></article-heading>

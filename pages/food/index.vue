@@ -2,13 +2,8 @@
   <div>
     <article-heading :article="article"></article-heading>
     <hr>
-
-    <article-preview v-for="a in articles" :article="a" :key="a.title"></article-preview>
-
-
-
+    <nuxt-content :document="article.content"/>
   </div>
-
 </template>
 
 <script lang="ts">
@@ -18,34 +13,22 @@ import {CoreArticle} from "~/logic/core/models";
 
 @Component({
   async asyncData({$content, params}) {
-    const pages = (await Promise.all([
-      $content("food/home/breakfast").fetch(),
-      $content("food/outside/mendel").fetch(),
+    let page = await $content("food/index").fetch() as IContentDocument;
+    page.pages = {
+      breakfast: await $content("food/home/breakfast").fetch(),
+      mendel: await $content("food/outside/mendel").fetch(),
+      delivery: await $content("food/home/delivery").fetch(),
+    }
 
-      $content("food/home/delivery").fetch(),
-    ]) as IContentDocument[])
-
-    return {pages};
+    return {page};
   },
 })
 export default class Food extends Vue {
-  pages!: IContentDocument[];
+  page!: IContentDocument;
 
-  get articles() {
-    return this.pages.map(p => CoreArticle.fromNuxtContent(p));
+  get article(): CoreArticle {
+    return CoreArticle.fromNuxtContent(this.page);
   }
-
-  article = new CoreArticle(
-    null,
-    "/food",
-    "Еда",
-    'Пробую решить проблему "бля что поесть"',
-    new Date(2021, 8, 11),
-    [],
-    true,
-    undefined,
-    "salt"
-  );
 
   head() {
     return this.article.seoHead;

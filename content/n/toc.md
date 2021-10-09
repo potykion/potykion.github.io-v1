@@ -5,7 +5,7 @@ big: true
 emote: kappa
 ---
 
-<div class="flex flex-col space-y-2">
+<div class="core-col">
   <article-heading :page="pages.n" :preview="true"></article-heading>
   <article-heading :page="pages.principles" :preview="true"></article-heading>
   <article-heading :page="pages.goals" :preview="true"></article-heading>

@@ -2,18 +2,7 @@
   <div>
     <article-heading :article="article"></article-heading>
     <hr>
-
-    <h2>Python</h2>
-    <article-preview v-for="a in pythonArticles" :article="a" :key="a.title"></article-preview>
-
-    <h2>Flutter</h2>
-    <article-preview v-for="a in flutterArticles" :article="a" :key="a.title"></article-preview>
-
-    <h2>Vue</h2>
-    <article-preview v-for="a in vueArticles" :article="a" :key="a.title"></article-preview>
-
-    <h2>Прочее</h2>
-    <article-preview v-for="a in otherArticles" :article="a" :key="a.title"></article-preview>
+    <nuxt-content :document="article.content"/>
   </div>
 
 </template>
@@ -25,87 +14,43 @@ import {CoreArticle} from "~/logic/core/models";
 
 @Component({
   async asyncData({$content, params}) {
-    const jobPages = (await Promise.all([
-      $content("/dev/cv").fetch(),
-    ]) as IContentDocument[]);
+    let page = await $content("dev/index").fetch() as IContentDocument;
+    page.pages = {
+      python: {
+        gsheets: await $content("/dev/python/gsheets").fetch(),
+        libs:    await $content("/dev/python/libs").fetch(),
+      },
+      vue: {
+        firebase: await $content("/dev/vue/firebase").fetch(),
+        libs:     await $content("/dev/vue/libs").fetch(),
+      },
+      flutter: {
+        ads:           await $content("/dev/flutter/ads").fetch(),
+        apk:           await $content("/dev/flutter/apk").fetch(),
+        firebase:      await $content("/dev/flutter/firebase").fetch(),
+        subscriptions: await $content("/dev/flutter/subscriptions").fetch(),
+        libs:          await $content("/dev/flutter/libs").fetch(),
+      },
+      other: {
+        cv:   await $content("/dev/cv").fetch(),
+        how:  await $content("/dev/how").fetch(),
+        base: await $content("/dev/base").fetch(),
+      },
+    }
 
-    const pythonPages = (await Promise.all([
-      $content("/dev/python/gsheets").fetch(),
-      $content("/dev/python/libs").fetch(),
-    ]) as IContentDocument[]);
-
-    const flutterPages = (await Promise.all([
-      $content("/dev/flutter/ads").fetch(),
-      $content("/dev/flutter/apk").fetch(),
-      $content("/dev/flutter/firebase").fetch(),
-      $content("/dev/flutter/subscriptions").fetch(),
-      $content("/dev/flutter/libs").fetch(),
-    ]) as IContentDocument[]);
-
-    const vuePages = (await Promise.all([
-      $content("/dev/vue/firebase").fetch(),
-      $content("/dev/vue/libs").fetch(),
-    ]) as IContentDocument[]);
-
-    const otherPages = (await Promise.all([
-      $content("/dev/cv").fetch(),
-      $content("/dev/how").fetch(),
-      $content("/dev/base").fetch(),
-    ]) as IContentDocument[]);
-
-    return {
-      jobPages,
-      pythonPages,
-      flutterPages,
-      vuePages,
-      otherPages,
-    };
+    return {page};
   },
 })
 export default class DevIndex extends Vue {
-  article = new CoreArticle(
-    null,
-    "/dev",
-    "Разработка",
-    "Тут можно почитать про мои разработческие навыки",
-    new Date(2021, 6, 26),
-    [],
-    true,
-    undefined,
-    "support",
-    undefined,
-  );
+  page!: IContentDocument;
 
-  jobPages    !: IContentDocument[];
-  pythonPages !: IContentDocument[];
-  flutterPages!: IContentDocument[];
-  vuePages    !: IContentDocument[];
-  otherPages  !: IContentDocument[];
-
-  get jobArticles() {
-    return this.jobPages.map(p => CoreArticle.fromNuxtContent(p));
-  };
-
-  get pythonArticles() {
-    return this.pythonPages.map(p => CoreArticle.fromNuxtContent(p));
-  };
-
-  get flutterArticles() {
-    return this.flutterPages.map(p => CoreArticle.fromNuxtContent(p));
-  };
-
-  get vueArticles() {
-    return this.vuePages.map(p => CoreArticle.fromNuxtContent(p));
-  };
-
-  get otherArticles() {
-    return this.otherPages.map(p => CoreArticle.fromNuxtContent(p));
-  };
+  get article(): CoreArticle {
+    return CoreArticle.fromNuxtContent(this.page);
+  }
 
   head() {
     return this.article.seoHead;
   }
-
 }
 
 
