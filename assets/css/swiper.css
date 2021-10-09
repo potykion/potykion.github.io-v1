@@ -3,5 +3,5 @@
 }
 
 .swiper-pagination-bullet {
-  @apply mb-2  !important;
+  @apply mb-5 md:mb-2 !important;
 }

@@ -96,8 +96,8 @@ export class CoreArticle {
       page.tags ?? [],
       page.big ?? false,
       page.cover,
-      undefined,
-      undefined,
+      page.emote,
+      page.ldjson,
       page.showToc
     );
   }

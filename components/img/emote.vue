@@ -19,7 +19,7 @@ import {
  * Сами картинки находятся в static/images/emote
  *
  * Пример использования:
- * <img-emote size="small" emote="coolstorybob"></img-emote>
+ * <img-emote size="preview" emote="coolstorybob"></img-emote>
  */
 @Component({})
 export default class ImgEmote extends Vue {

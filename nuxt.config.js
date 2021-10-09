@@ -55,12 +55,16 @@ export default {
       {name: "robots", content: "index, follow"},
       ],
     link: [
+      // Фав-иконы
       {rel: "apple-touch-icon", sizes: "180x180", href: "/favicon/apple-touch-icon.png"},
       {rel: "icon", type: "image/png", href: "https://potyk.io/favicon.ico"},
       {rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon/favicon-32x32.png"},
       {rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon/favicon-16x16.png"},
       {rel: "manifest", href: "/favicon/site.webmanifest"},
-    ]
+      // Шрифт Lato
+      {rel: "stylesheet", href: "https://use.typekit.net/mec1pny.css"}
+    ],
+
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -87,7 +91,7 @@ export default {
     // https://google-analytics.nuxtjs.org/
     '@nuxtjs/google-analytics',
     // https://google-fonts.nuxtjs.org/
-    '@nuxtjs/google-fonts'
+    // '@nuxtjs/google-fonts'
   ],
 
   tailwindcss: {
@@ -102,13 +106,13 @@ export default {
     }
   },
 
-  googleFonts: {
-    // subsets: 'cyrillic',
-    families: {
-      "Open+Sans": [400, 700],
-      "Roboto": [400, 700, 900],
-    }
-  },
+  // googleFonts: {
+  //   // subsets: 'cyrillic',
+  //   families: {
+  //     "Open+Sans": [400, 700],
+  //     "Roboto": [400, 700, 900],
+  //   }
+  // },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

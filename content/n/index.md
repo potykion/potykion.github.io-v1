@@ -1,6 +1,9 @@
 ---
 title: Обо мне 
 description: Все, что вы хотели знать обо мне
+ldjson: 
+  "@type": "Person"
+  "name": "Nikita Leybovich"
 ---
 
 <div class="flex flex-col   items-center md:space-x-2 space-y-1 ">
@@ -15,17 +18,6 @@ description: Все, что вы хотели знать обо мне
 
 ---
 
-<div class="card white-text bg-black">
-
-## Так, стоп, где я нахожусь?
-
-Ты находишься на моем бложике!
-
-<img-swiper>
-  <img-block  img-class="border-2 rounded border-white" src="/images/n/blog.png" alt="Главная бложика"></img-block>
-</img-swiper>
-
-</div>
 
 
 <img-bg src="/images/n/casino.jpg" alt="casino-bg" :opacity="0.2" >
@@ -35,7 +27,7 @@ description: Все, что вы хотели знать обо мне
 
 ## Ты кто такой, сука? <img-emote emote="casino"></emote>
 
-Пацан, приколист, разраб, аутист
+Пацан-приколист, разраб-аутист
 
   </div>
 

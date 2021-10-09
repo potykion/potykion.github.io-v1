@@ -14,7 +14,7 @@
   }
 
   h3 {
-    @apply text-2xl my-2 font-bold font-display;
+    @apply text-2xl my-3 font-bold font-display;
   }
 
   h4 {
@@ -70,7 +70,7 @@
   }
 
   iframe {
-    @apply max-h-52 md:max-h-96 w-full;
+    @apply h-52 max-h-60 md:h-80 md:max-h-96 w-full;
   }
 
   button {
@@ -125,32 +125,15 @@
     content: " ▲";
   }
 
-
-  @font-face {
-    font-family: 'AmazDooMLeft';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/AmazDooMLeft.ttf') format('truetype');
-  }
-
-
-  @font-face {
-    font-family: 'AmazDooMRight';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/AmazDooMRight.ttf') format('truetype');
-  }
-
-
   /* Пока используется официально только в food/outside/mendel */
   /* Есть еще подобие в /n */
   .mendel-card {
-    @apply bg-white rounded py-2 px-4 md:px-6 shadow mt-4;
+    @apply bg-white rounded py-2 md:py-4 px-4 md:px-6 shadow mt-4;
   }
 
-
+  a.no-style {
+    @apply no-underline text-black;
+  }
 }
 
 @tailwind components;

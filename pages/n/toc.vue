@@ -1,30 +1,32 @@
 <template>
-  <article>
+  <div>
     <article-heading :article="article"></article-heading>
     <hr>
-
-    <template v-if="article.showToc">
-      <article-toc :toc="article.content.toc"></article-toc>
-    </template>
-
     <nuxt-content :document="article.content"/>
-  </article>
-
-
+  </div>
 </template>
 
 <script lang="ts">
 import {Component, Vue} from "nuxt-property-decorator";
-import {Context} from "@nuxt/types";
 import {CoreArticle} from "~/logic/core/models";
+import {Context} from "@nuxt/types";
 import {IContentDocument} from "@nuxt/content/types/content";
 
 @Component({
   async asyncData({$content, params}: Context) {
-    return {page: await $content(params.pathMatch).fetch() as IContentDocument};
+    let page = await $content("n/toc").fetch() as IContentDocument;
+
+    page.pages = {
+      n: {...await $content("n/index").fetch() as IContentDocument, path: "/n"},
+      principles: await $content("n/principles").fetch() as IContentDocument,
+      goals: await $content("n/goals2021").fetch() as IContentDocument,
+    }
+
+    return {page};
   }
+
 })
-export default class ArticlePage extends Vue {
+export default class IndexPage extends Vue {
   page!: IContentDocument;
 
   get article(): CoreArticle {
@@ -34,8 +36,10 @@ export default class ArticlePage extends Vue {
   head() {
     return this.article.seoHead;
   }
+
 }
 </script>
+
 
 <style scoped>
 

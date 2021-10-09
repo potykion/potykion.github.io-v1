@@ -1,7 +1,6 @@
 ---
 title: Резюмеха
 description: "Открыт для проектной работы / part time работы, прайс от 150к руб." 
-big: true
 ---
 
 <img-card align="right" img="/n/me1.jpg" :streamline="true">
@@ -56,9 +55,9 @@ big: true
 
 ## Навыки
 
-- Английский: Intermediate
-- Бекенд: Python + Django / Flask / Aiohttp / FastAPI + Django ORM / SQLAlchemy
-- Фронтенд: TypeScript / JavaScript + Vue.js / Nuxt.js + Vuetify / TailwindCSS
-- Мобилка: Flutter + Riverpod + Freezed
-- Работа с БД: PostgreSQL / MySQL / Microsoft SQL Server / Google BigQuery
-- Прочее: Redis, RabbitMQ, ElasticSearch, Docker, Nginx, Jenkins, Firebase  
+- **Английский:** Intermediate
+- **Бекенд:** Python + Django / Flask / Aiohttp / FastAPI + Django ORM / SQLAlchemy
+- **Фронтенд:** TypeScript / JavaScript + Vue.js / Nuxt.js + Vuetify / TailwindCSS
+- **Мобилка:** Flutter + Riverpod + Freezed
+- **Работа с БД:** PostgreSQL / MySQL / Microsoft SQL Server / Google BigQuery
+- **Прочее:** Redis, RabbitMQ, ElasticSearch, Docker, Nginx, Jenkins, Firebase  

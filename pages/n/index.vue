@@ -1,6 +1,7 @@
 <template>
   <article>
     <article-heading :article="article" />
+    <hr>
     <nuxt-content :document="article.content"/>
   </article>
 </template>
@@ -20,11 +21,7 @@ export default class NPages extends Vue {
   page!: IContentDocument;
 
   get article() {
-    let article_ = CoreArticle.fromNuxtContent(this.page);
-    article_.big = true;
-    article_.emote = "kappa";
-    article_.ldjson = {"@type": "Person", "name": "Nikita Leybovich",};
-    return article_;
+    return CoreArticle.fromNuxtContent(this.page);
   }
 
   head() {
