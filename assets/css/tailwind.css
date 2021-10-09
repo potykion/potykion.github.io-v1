@@ -125,25 +125,6 @@
     content: " ▲";
   }
 
-
-  @font-face {
-    font-family: 'AmazDooMLeft';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/AmazDooMLeft.ttf') format('truetype');
-  }
-
-
-  @font-face {
-    font-family: 'AmazDooMRight';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('~assets/fonts/AmazDooMRight.ttf') format('truetype');
-  }
-
-
   /* Пока используется официально только в food/outside/mendel */
   /* Есть еще подобие в /n */
   .mendel-card {
