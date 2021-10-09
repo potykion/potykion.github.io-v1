@@ -1,6 +1,7 @@
 ---
 title: Блог из-под палки 
 description: Блог про легкость и приятность (а также про разработку, про еду, про меня, и, возможно, про тебя)
+cover: /images/index/cover.png
 ---
 
 <index-definition></index-definition>
