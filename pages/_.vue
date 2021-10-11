@@ -18,10 +18,15 @@ import {Component, Vue} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
 import {CoreArticle} from "~/logic/core/models";
 import {IContentDocument} from "@nuxt/content/types/content";
+import {fixIds} from "~/logic/core/id";
+
 
 @Component({
   async asyncData({$content, params}: Context) {
-    return {page: await $content(params.pathMatch).fetch() as IContentDocument};
+    let page = await $content(params.pathMatch).fetch() as IContentDocument;
+    fixIds(page.body.children);
+    fixIds(page.toc);
+    return {page: page};
   }
 })
 export default class ArticlePage extends Vue {
