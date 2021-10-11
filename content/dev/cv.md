@@ -9,7 +9,7 @@ description: "Открыт для проектной работы / part time р
 
 - **ФИО и возраст:** Лейбович Никита, 24 года
 - **Желаемая должность и оклад:** Full Stack разработчик, от 230 000 руб.
-- [Гитхаб](https://github.com/potykion)
+- [Телеграм](https://t.me/potykion) · [Гитхаб](https://github.com/potykion)
 
 </img-card>
 
