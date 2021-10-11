@@ -647,16 +647,56 @@
   {
     "exerciseNumber": 155,
     "tasks": [
-      "We shall go to the country on the fourth of June.",
-      "I like to go to the park in autumn.",
-      "This week we shall meet our friends at the airport. The plane arrives at seven o'clock in the evening. I think that we shall go to bed only at midnight.",
-      "Last winter he often went to the skating rink on Sundays.",
-      "Last week we went to the Russian Museum.",
-      "In summer the sun rises early in the morning and sets late in the evening.",
-      "Last summer we went to the south. When we were in the south, we went to the sea every day. We got up at sunrise and swam in the sea. We had dinner and rested at noon. We went to the park in the evening. At sunset we often went to the sea and returned home at half past ten or at eleven.",
-      "Next year we shall go to the Far East.",
-      "Next week I shall go to the theatre.",
-      "Dickens was born in 1812."
+      {
+        "tasks": [
+          "We shall go to the country on the fourth of June."
+        ]
+      },
+      {
+        "tasks": [
+          "I like to go to the park in autumn."
+        ]
+      },
+      {
+        "tasks": [
+          "This week we shall meet our friends at the airport. The plane arrives at seven o'clock in the evening. I think that we shall go to bed only at midnight."
+        ]
+      },
+      {
+        "tasks": [
+          "Last winter he often went to the skating rink on Sundays."
+        ]
+      },
+      {
+        "tasks": [
+          "Last week we went to the Russian Museum."
+        ]
+      },
+      {
+        "tasks": [
+          "In summer the sun rises early in the morning and sets late in the evening."
+        ]
+      },
+      {
+        "tasks": [
+          "Last summer we went to the south. When we were in the south, we went to the sea every day. We got up at sunrise and swam in the sea. We had dinner and rested at noon. We went to the park in the evening. At sunset we often went to the sea and returned home at half past ten or at eleven."
+        ]
+      },
+      {
+        "tasks": [
+          "Next year we shall go to the Far East."
+        ]
+      },
+      {
+        "tasks": [
+          "Next week I shall go to the theatre."
+        ]
+      },
+      {
+        "tasks": [
+          "Dickens was born in 1812."
+        ]
+      }
     ]
   },
   {
