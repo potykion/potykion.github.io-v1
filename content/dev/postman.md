@@ -57,7 +57,7 @@ showToc: true
 1. Итак, качаем с [офф-сайта](https://www.postman.com/downloads/), ставим + логинимся, видим начальный экран - он же Launchpad, жмем **Create a request**
 
 <img-swiper>
-  <img-block src="/images/dev/postman/launchpad.png" alt="Начальный экран "></img-block>
+  <img-block src="/images/dev/postman/launchpad.jpg" alt="Начальный экран "></img-block>
 </img-swiper>
 
 2. Появляется экран отправки запроса — тут все и происходит
@@ -69,7 +69,7 @@ showToc: true
 3. Кинем POST-запросик с какими-нибудь параметрами; для этого выбираем POST-метод, заполняем URL, и напишем какой-нить джсончик
 
 <img-swiper>
-    <img-block src="/images/dev/postman/post.png" alt="Результат отправки"></img-block>
+    <img-block src="/images/dev/postman/post.jpg" alt="Результат отправки"></img-block>
 </img-swiper>
 
 В ответе видим, что отправили POST-запрос на `https://httpbin.org/post` с json-данными `{"field": "value"}`
@@ -77,7 +77,7 @@ showToc: true
 4. И, для закрепа, кинем еще GET-запрос с query-параметрами:
 
 <img-swiper>
-    <img-block src="/images/dev/postman/get.png" alt="GET-запросик"></img-block>
+    <img-block src="/images/dev/postman/get.jpg" alt="GET-запросик"></img-block>
 </img-swiper>
 
 В ответе видим, что отправили GET-запрос на `https://httpbin.org/get` с query-параметрами `field=value`
@@ -118,19 +118,19 @@ eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NSIsIm5hbWUiOiJKb2huIEdvbGQ
 - Используя вкладку "Headers":
 
 <img-swiper>
-    <img-block src="/images/dev/postman/auth-token.png" alt="Токен как Authorization-хедер"></img-block>
+    <img-block src="/images/dev/postman/auth-token.jpg" alt="Токен как Authorization-хедер"></img-block>
 </img-swiper>
 
 - Используя вкладку "Authorization" и тип "API Key":
 
 <img-swiper>
-    <img-block src="/images/dev/postman/auth-header.png" alt="Вкладка Authorization + тип API Key"></img-block>
+    <img-block src="/images/dev/postman/auth-header.jpg" alt="Вкладка Authorization + тип API Key"></img-block>
 </img-swiper>
 
 - По науке передавать токен в такой схеме нужно используя префикс Bearer - для этого на той же вкладке выбираем тип "Bearer Token":
 
 <img-swiper>
-  <img-block src="/images/dev/postman/auth-bearer.png" alt="Вкладка Authorization + тип Bearer Token"></img-block>
+  <img-block src="/images/dev/postman/auth-bearer.jpg" alt="Вкладка Authorization + тип Bearer Token"></img-block>
 </img-swiper>
 
 #### Query-параметр
@@ -140,13 +140,13 @@ eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NSIsIm5hbWUiOiJKb2huIEdvbGQ
 - Используя вкладку "Params":
 
 <img-swiper>
-    <img-block src="/images/dev/postman/query-token.png" alt="Токен как query-параметр"></img-block>
+    <img-block src="/images/dev/postman/query-token.jpg" alt="Токен как query-параметр"></img-block>
 </img-swiper>
 
 - Используя вкладку "Authorization", тип "API Key" и настройку "Add to" = "Query Params":
 
 <img-swiper>
-    <img-block src="/images/dev/postman/auth-query.png" alt="Authorization + API Key + Add to Query Params"></img-block>
+    <img-block src="/images/dev/postman/auth-query.jpg" alt="Authorization + API Key + Add to Query Params"></img-block>
 </img-swiper>
 
 ### Логин и пароль ака Basic Auth
@@ -156,7 +156,7 @@ Basic Auth - это когда сразу кидаем запросы, имея 
 Для проведения такой аутентификации, в Postman, выбираем вкладку "Authorization" и тип "Basic Auth":
 
 <img-swiper>
-  <img-block src="/images/dev/postman/auth-basic.png" alt="Вводим доступы, видим что отправляется Authorization-хедер с зашифрованными BasicAuth-данными"></img-block>
+  <img-block src="/images/dev/postman/auth-basic.jpg" alt="Вводим доступы, видим что отправляется Authorization-хедер с зашифрованными BasicAuth-данными"></img-block>
 </img-swiper>
 
 </div>
@@ -168,7 +168,7 @@ Basic Auth - это когда сразу кидаем запросы, имея 
 Когда нужно кидать не один запрос и не один раз, хорошо бы завести коллекцию запросов
 
 <img-swiper>
-  <img-block src="/images/dev/postman/collection.png" alt="Так выглядят коллекции"></img-block>
+  <img-block src="/images/dev/postman/collection.jpg" alt="Так выглядят коллекции"></img-block>
 </img-swiper>
 
 Коллекция - это по сути папочка с запросиками + плюшечки:
@@ -185,7 +185,7 @@ Basic Auth - это когда сразу кидаем запросы, имея 
 Коллекцию можно создать из панели сбоку, нажав на "Create collection"; или сохранив запрос, нажав кнопку "Save" или Ctrl + S, и создав коллекцию оттуда
 
 <img-swiper>
-  <img-block src="/images/dev/postman/save-request.png" alt="Сохранение запроса с возможностью выбрать или создать коллекцию"></img-block>
+  <img-block src="/images/dev/postman/save-request.jpg" alt="Сохранение запроса с возможностью выбрать или создать коллекцию"></img-block>
 </img-swiper>
 
 ### Общие данные ака переменные
@@ -193,13 +193,13 @@ Basic Auth - это когда сразу кидаем запросы, имея 
 В окне редактирования коллекции (... > Edit) есть вкладка "Variables":
 
 <img-swiper>
-  <img-block src="/images/dev/postman/collection-variables.png" alt="Вкладка Variables"></img-block>
+  <img-block src="/images/dev/postman/collection-variables.jpg" alt="Вкладка Variables"></img-block>
 </img-swiper>
 
 Здесь можно выставлять данные, которые будут использоваться всеми запросами коллекции, такими как токены, айдишники
 
 <img-swiper>
-  <img-block src="/images/dev/postman/collection-var-creation.png" alt="Создание переменной"></img-block>
+  <img-block src="/images/dev/postman/collection-var-creation.jpg" alt="Создание переменной"></img-block>
 </img-swiper>
 
 - Variable - это название переменной
@@ -213,7 +213,7 @@ Basic Auth - это когда сразу кидаем запросы, имея 
 Эту штуку можно вставлять в любое место запроса: query-параметры, заголовки, json-body
 
 <img-swiper>
-  <img-block src="/images/dev/postman/collection-var-usage.png" alt="Использование переменной в Authorization"></img-block>
+  <img-block src="/images/dev/postman/collection-var-usage.jpg" alt="Использование переменной в Authorization"></img-block>
 </img-swiper>
 
 </div>
@@ -229,7 +229,7 @@ Basic Auth - это когда сразу кидаем запросы, имея 
 В Postman для этого существует Environment (енвайронмент, енв) - это как раз тот самый набор переменных, которые можно быстро выставлять и переключать для всех запросов
 
 <img-swiper>
-  <img-block src="/images/dev/postman/env.png" alt="Environment"></img-block>
+  <img-block src="/images/dev/postman/env.jpg" alt="Environment"></img-block>
 </img-swiper>
 
 Работает и настраивается все так же как и для коллекций, но приоритет у енвайронментов выше. Так что если выставить переменную `token` в коллекции и в енвайронменте, то значение будет взято из енва
@@ -255,7 +255,7 @@ Basic Auth - это когда сразу кидаем запросы, имея 
 Заходим в раздел "Tests" и у нас появляется возможность писать JavaScript-код:
 
 <img-swiper>
-  <img-block src="/images/dev/postman/tests.png" alt="Вкладка Tests, где можно писать код"></img-block>
+  <img-block src="/images/dev/postman/tests.jpg" alt="Вкладка Tests, где можно писать код"></img-block>
 </img-swiper>
 
 Для того чтобы взаимодействовать с Postman из кода, используется объект `pm` - в нем есть доступ к ответу на запрос, а так же возможность выставлять переменные
