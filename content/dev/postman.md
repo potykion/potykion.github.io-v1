@@ -94,10 +94,6 @@ showToc: true
 
 Рассмотрим популярные способы аутентификации и как их проводить в Postman
 
-<img-swiper>
-    <img-block src="/images/dev/postman/auth-slide-2.png" alt="Аутентификация в Postman"></img-block>
-</img-swiper>
-
 ### Токен
 
 Аутентификация с помощью токена (еще называется JWT-токен) - самая простая и понятная схема аутентификации 
