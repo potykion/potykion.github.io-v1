@@ -15,9 +15,10 @@ cover: /images/index/cover.png
 Пишу вебчик на Python и Vue, а также немножко мобилки на Flutter
 
 <div class="core-col">
-  <article-heading :page="pages.dev.pythonGsheets" :preview="true"></article-heading>
-  <article-heading :page="pages.dev.vueFirebaseAuth" :preview="true"></article-heading>
-  <article-heading :page="pages.dev.flutterAds" :preview="true"></article-heading>
+  <article-heading :page="pages['dev/postman']" :preview="true"></article-heading>
+  <article-heading :page="pages['dev/python/gsheets']" :preview="true"></article-heading>
+  <article-heading :page="pages['dev/vue/firebase']" :preview="true"></article-heading>
+  <article-heading :page="pages['dev/flutter/ads']" :preview="true"></article-heading>
 </div>
 
 </div>
@@ -28,7 +29,7 @@ cover: /images/index/cover.png
 
 Именно благодаря статье про завтраки, я понял какой должна быть концепция блога:
 
-<article-heading :page="pages.food.breakfast" :preview="true"></article-heading>
+<article-heading :page="pages['food/home/breakfast']" :preview="true"></article-heading>
 
 
 </div>
@@ -40,9 +41,9 @@ cover: /images/index/cover.png
 Тут про принципы, про меня, про цели
 
 <div class="core-col">
-  <article-heading :page="pages.n.principles" :preview="true"></article-heading>
-  <article-heading :page="pages.n.n" :preview="true"></article-heading>
-  <article-heading :page="pages.n.goals" :preview="true"></article-heading>
+  <article-heading :page="pages['n/principles']" :preview="true"></article-heading>
+  <article-heading :page="pages['n']" :preview="true"></article-heading>
+  <article-heading :page="pages['n/goals2021']" :preview="true"></article-heading>
 </div>
 
 </div>
@@ -54,9 +55,9 @@ cover: /images/index/cover.png
 Тут можно почитать что происходит в моей жизни.
 
 <div class="core-col">
-  <article-heading :page="pages['cool-story'].gigs" :preview="true"></article-heading>
-  <article-heading :page="pages['cool-story'].badDay" :preview="true"></article-heading>
-  <article-heading :page="pages['cool-story'].pure" :preview="true"></article-heading>
+  <article-heading :page="pages['cool-story/gigs-08-21']" :preview="true"></article-heading>
+  <article-heading :page="pages['cool-story/bad-day']" :preview="true"></article-heading>
+  <article-heading :page="pages['cool-story/pure']" :preview="true"></article-heading>
 </div>
 
 </div>

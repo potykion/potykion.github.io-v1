@@ -12,27 +12,22 @@ import {IContentDocument} from "@nuxt/content/types/content";
   async asyncData({$content, params}: Context) {
     let page = await $content("index").fetch() as IContentDocument;
 
-    page.pages = {
-      food: {
-        breakfast: await $content("food/home/breakfast").fetch() as IContentDocument,
-        mendel: await $content("food/outside/mendel").fetch() as IContentDocument,
-      },
-      dev: {
-        pythonGsheets: await $content("dev/python/gsheets").fetch() as IContentDocument,
-        vueFirebaseAuth: await $content("dev/vue/firebase").fetch() as IContentDocument,
-        flutterAds: await $content("dev/flutter/ads").fetch() as IContentDocument,
-      },
-      n: {
-        principles: await $content("n/principles").fetch() as IContentDocument,
-        n: {...await $content("n/index").fetch() as IContentDocument, path: "/n"},
-        goals: await $content("n/goals2021").fetch() as IContentDocument,
-      },
-      "cool-story": {
-        gigs: await $content("cool-story/gigs-08-21").fetch() as IContentDocument,
-        badDay: await $content("cool-story/bad-day").fetch() as IContentDocument,
-        pure: await $content("cool-story/pure").fetch() as IContentDocument,
-      }
-    }
+    page.pages = Object.fromEntries(
+      (await Promise.all([
+        $content("food/home/breakfast").fetch(),
+        $content("dev/postman").fetch(),
+        $content("dev/python/gsheets").fetch(),
+        $content("dev/vue/firebase").fetch(),
+        $content("dev/flutter/ads").fetch(),
+        $content("n/principles").fetch(),
+        $content("n/index").fetch(),
+        $content("n/goals2021").fetch(),
+        $content("cool-story/gigs-08-21").fetch(),
+        $content("cool-story/bad-day").fetch(),
+        $content("cool-story/pure").fetch(),
+      ]) as IContentDocument[]).map(p => [p.path.substr("/".length), p])
+    );
+    page.pages["n"] = {...page.pages["n/index"], path: "n"};
 
     return {page};
   }

@@ -20,7 +20,6 @@ import {replaceAll} from "~/logic/core/str";
       (await $content("dev", {deep: true}).fetch() as IContentDocument[])
         .map(p => [p.path.substr("/dev/".length), p])
     );
-    console.log(Object.keys(page.pages))
 
     return {page};
   },
