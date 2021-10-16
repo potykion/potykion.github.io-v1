@@ -1,6 +1,6 @@
 ---
 title: Освобождаем место на Linux и в Docker
-description: Для серва много места на диске не надо, но оно почему-то куда-то пропадает, разбираемся куда и как чистить
+description: Для серва много места на диске не надо, но оно почему-то куда-то пропадает, разбираемся куда, и как чистить
 cover: /images/dev/du/cover.jpg
 ---
 
@@ -117,6 +117,8 @@ journalctl --vacuum-size=100M
 
 ## Docker
 
+### docker system df
+
 Для Докера есть свой аналог [команды, показывающей занятое место](https://docs.docker.com/engine/reference/commandline/system_df/):
 
 ```
@@ -172,6 +174,8 @@ REPOSITORY            TAG       IMAGE ID       CREATED         SIZE      SHARED 
 <none>                <none>    0305eeb39a68   3 months ago    1.602GB   1.224GB       377.7MB       0
 ...
 ```
+
+### docker system prune
 
 Такое дело тоже нужно подчищать:
 
