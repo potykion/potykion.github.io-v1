@@ -1,6 +1,7 @@
 ---
-title: Освобождаем место на Linux
+title: Освобождаем место на Linux и в Docker
 description: Для серва много места на диске не надо, но оно почему-то куда-то пропадает, разбираемся куда и как чистить
+cover: /images/dev/du/cover.jpg
 ---
 
 ## Система
@@ -58,6 +59,7 @@ sudo du -h / --max-depth=1
 
 ```
 sudo du -h /var --max-depth=1
+
 1.4M    /var/backups
 4.0K    /var/local
 20K     /var/tmp
@@ -74,6 +76,7 @@ sudo du -h /var --max-depth=1
 
 ```
 sudo du -h /var/lib --max-depth=1
+
 24K     /var/lib/emacsen-common
 12K     /var/lib/private
 288K    /var/lib/cloud
@@ -118,6 +121,7 @@ journalctl --vacuum-size=100M
 
 ```
 docker system df -v
+
 Images space usage:
 
 REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE                SHARED SIZE         UNIQUE SIZE         CONTAINERS
@@ -152,6 +156,7 @@ CACHE ID            CACHE TYPE          SIZE                CREATED             
 
 ```
 docker system df -v
+
 Images space usage:
 
 REPOSITORY            TAG       IMAGE ID       CREATED         SIZE      SHARED SIZE   UNIQUE SIZE   CONTAINERS
