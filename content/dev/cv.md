@@ -1,6 +1,6 @@
 ---
 title: Резюмеха
-description: "Открыт для проектной работы / part time работы, прайс от 150к руб." 
+description: "Умею делать backend на Python, frontend на Vue, mobile на Flutter"
 ---
 
 <img-card align="right" img="/n/me1.jpg" :streamline="true">
@@ -8,7 +8,7 @@ description: "Открыт для проектной работы / part time р
 ## О себе
 
 - **ФИО и возраст:** Лейбович Никита, 24 года
-- **Желаемая должность и оклад:** Full Stack разработчик, от 230 000 руб.
+- **Желаемая должность и оклад:** Full Stack разработчик, 2500 руб. / час
 - [Телеграм](https://t.me/potykion) · [Гитхаб](https://github.com/potykion)
 
 </img-card>
