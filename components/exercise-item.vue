@@ -2,7 +2,7 @@
   <div>
     <div v-if="ex.rules" class="italic whitespace-pre-line">{{ ex.rules }}</div>
 
-    <details :open="exerciseDone">
+    <details :open="!ex.done">
       <summary>
             <h3 :class="['inline-block',  ex.done ? 'line-through' : '']" :id="ex.exerciseNumber">
               Упражнение {{ ex.exerciseNumber }}
@@ -76,7 +76,6 @@ export default class ExerciseItem
   extends Vue {
   @Prop() ex!: GrammarExercises.Exercise;
   @Prop() answer!: GrammarExercises.Exercise;
-  exerciseDone = false;
 
   doneExerciseRepo!: DoneExerciseRepo;
   @ProvideReactive() exerciseProgressRepo!: ExerciseProgressRepo;
@@ -110,7 +109,6 @@ export default class ExerciseItem
     this.exerciseProgressRepo = new ExerciseProgressRepo(localStorage);
     this.doneExerciseRepo = new DoneExerciseRepo(localStorage);
     this.ex.done = this.doneExerciseRepo.isExerciseDone(this.ex.exerciseNumber);
-    this.exerciseDone = !this.ex.done;
   }
 }
 </script>
