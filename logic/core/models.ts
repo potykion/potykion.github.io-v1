@@ -102,3 +102,12 @@ export class CoreArticle {
     );
   }
 }
+
+
+export type Toc = TocLink[];
+
+export interface TocLink {
+  id: number;
+  depth: number;
+  text: string;
+}

@@ -22,10 +22,11 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import {Toc} from "~/logic/core/models";
 
 @Component({})
 export default class ArticleToc extends Vue {
-  @Prop({required: true}) toc!: object;
+  @Prop({required: true}) toc!: Toc;
 }
 </script>
 

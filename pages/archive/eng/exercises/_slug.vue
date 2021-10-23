@@ -1,8 +1,12 @@
 <template>
   <div>
     <h1>{{ exerciseInfo.topic }}</h1>
+
+    <article-toc :toc="toc"></article-toc>
+
+
     <template v-for="(ex, exerciseIndex) in exercises">
-      <exercise-item  :key="ex.exerciseNumber" :ex="ex" :answer="keys[exerciseIndex]"></exercise-item>
+      <exercise-item :key="ex.exerciseNumber" :ex="ex" :answer="keys[exerciseIndex]"></exercise-item>
       <hr>
     </template>
   </div>
@@ -13,6 +17,7 @@ import {Vue, Component, Prop} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
 import ExerciseItem from "~/components/exercise-item.vue";
 import {IContentDocument} from "@nuxt/content/types/content";
+import {Toc} from "~/logic/core/models";
 
 @Component({
   components: {ExerciseItem},
@@ -36,6 +41,17 @@ export default class ExercisePage extends Vue {
   get exerciseInfo(): GrammarExercises.TocItem {
     return this.grammarExercisesToc.find(toc => toc.slug === this.$route.params.slug)!;
   }
+
+  get toc(): Toc {
+    return this.exercises.map(
+      e => ({
+        id: e.exerciseNumber,
+        text: `Упражнение ${e.exerciseNumber}`,
+        depth: 2,
+      })
+    );
+  }
+
 
 }
 </script>
