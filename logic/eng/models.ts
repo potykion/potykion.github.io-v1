@@ -13,6 +13,7 @@ namespace GrammarExercises {
     exerciseNumber: number;
     exerciseText: string;
     tasks: Array<Task | string>;
+    done?: boolean;
   }
 
   export interface Task {

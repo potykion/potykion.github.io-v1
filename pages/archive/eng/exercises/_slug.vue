@@ -25,7 +25,7 @@ import {Toc} from "~/logic/core/models";
     const grammarExercisesToc = await $content("archive/eng/grammar-exercises-toc").fetch();
 
     const eng = await $content("archive/eng").fetch() as IContentDocument[];
-    const exercises = eng.filter(item => item.slug === params.slug);
+    const exercises = eng.filter(item => item.slug === params.slug).map(e => ({...e, done: false}));
     const keys = eng.filter(item => item.slug === `${params.slug}_answers`);
 
     return {grammarExercisesToc, exercises, keys};
@@ -46,7 +46,7 @@ export default class ExercisePage extends Vue {
     return this.exercises.map(
       e => ({
         id: e.exerciseNumber,
-        text: `Упражнение ${e.exerciseNumber}`,
+        text: e.done ? `<s>Упражнение ${e.exerciseNumber}</s>` : `Упражнение ${e.exerciseNumber}`,
         depth: 2,
       })
     );
