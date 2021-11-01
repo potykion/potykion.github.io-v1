@@ -482,21 +482,81 @@
   {
     "exerciseNumber": 151,
     "tasks": [
-      "They always go to the south in summer.",
-      "My father works in a car factory and my mother works in a library. My elder brother studies at our university and I go to school. In the morning father goes to the car factory, mother goes to the library, my brother goes to the university and I go to school. Our grandmother usually goes to the shop in the morning. At the shop she buys bread and milk.",
-      "My friend lives in the north.",
-      "We spent the summer in the south.",
-      "It was very hot in town, and we decided to go to the country. After breakfast we went to the railway station. At the rail way station there were a lot of people. The people were standing on the platform and waiting for the train. It was wonderful in the country. At first we went to the woods. It was hot, but when we went into the woods, it became cool. Then we came to a river. We swam in the river, and grandmother was sitting on the grass at the river. In the evening we went to town.",
-      "Vladivostok is situated in the Far East.",
-      "We were at the theatre yesterday.",
-      "The day before yesterday we were in the park.",
-      "Tomorrow we shall go to the cinema or to the museum.",
-      "Where is your brother? - He is in the room, standing at the window.",
-      "Where is your sister? - She is at school.",
-      "Where is the child? - He is in bed. Mother put him to bed half an hour ago.",
-      "Where is your father? - He is at work.",
-      "Where is your grandfather? - He is at home.",
-      "Where is Nick? - He is at the stadium."
+      {
+        "tasks": [
+          "They always go to the south in summer."
+        ]
+      },
+      {
+        "tasks": [
+          "My father works in a car factory and my mother works in a library. My elder brother studies at our university and I go to school. In the morning father goes to the car factory, mother goes to the library, my brother goes to the university and I go to school. Our grandmother usually goes to the shop in the morning. At the shop she buys bread and milk."
+        ]
+      },
+      {
+        "tasks": [
+          "My friend lives in the north."
+        ]
+      },
+      {
+        "tasks": [
+          "We spent the summer in the south."
+        ]
+      },
+      {
+        "tasks": [
+          "It was very hot in town, and we decided to go to the country. After breakfast we went to the railway station. At the rail way station there were a lot of people. The people were standing on the platform and waiting for the train. It was wonderful in the country. At first we went to the woods. It was hot, but when we went into the woods, it became cool. Then we came to a river. We swam in the river, and grandmother was sitting on the grass at the river. In the evening we went to town."
+        ]
+      },
+      {
+        "tasks": [
+          "Vladivostok is situated in the Far East."
+        ]
+      },
+      {
+        "tasks": [
+          "We were at the theatre yesterday."
+        ]
+      },
+      {
+        "tasks": [
+          "The day before yesterday we were in the park."
+        ]
+      },
+      {
+        "tasks": [
+          "Tomorrow we shall go to the cinema or to the museum."
+        ]
+      },
+      {
+        "tasks": [
+          "Where is your brother? - He is in the room, standing at the window."
+        ]
+      },
+      {
+        "tasks": [
+          "Where is your sister? - She is at school."
+        ]
+      },
+      {
+        "tasks": [
+          "Where is the child? - He is in bed. Mother put him to bed half an hour ago."
+        ]
+      },
+      {
+        "tasks": [
+          "Where is your father? - He is at work."
+        ]
+      },
+      {
+        "tasks": [
+          "Where is your grandfather? - He is at home."
+        ]
+      },
+      {
+        "tasks": [
+          "Where is Nick? - He is at the stadium."
+        ]
+      }
     ]
   },
   {
