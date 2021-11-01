@@ -1,8 +1,12 @@
 <template>
   <div>
     <h1>{{ exerciseInfo.topic }}</h1>
+
+    <article-toc :toc="toc"></article-toc>
+
+
     <template v-for="(ex, exerciseIndex) in exercises">
-      <exercise-item  :key="ex.exerciseNumber" :ex="ex" :answer="keys[exerciseIndex]"></exercise-item>
+      <exercise-item :key="ex.exerciseNumber" :ex="ex" :answer="keys[exerciseIndex]"></exercise-item>
       <hr>
     </template>
   </div>
@@ -13,6 +17,7 @@ import {Vue, Component, Prop} from "nuxt-property-decorator";
 import {Context} from "@nuxt/types";
 import ExerciseItem from "~/components/exercise-item.vue";
 import {IContentDocument} from "@nuxt/content/types/content";
+import {Toc} from "~/logic/core/models";
 
 @Component({
   components: {ExerciseItem},
@@ -20,7 +25,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
     const grammarExercisesToc = await $content("archive/eng/grammar-exercises-toc").fetch();
 
     const eng = await $content("archive/eng").fetch() as IContentDocument[];
-    const exercises = eng.filter(item => item.slug === params.slug);
+    const exercises = eng.filter(item => item.slug === params.slug).map(e => ({...e, done: false}));
     const keys = eng.filter(item => item.slug === `${params.slug}_answers`);
 
     return {grammarExercisesToc, exercises, keys};
@@ -36,6 +41,17 @@ export default class ExercisePage extends Vue {
   get exerciseInfo(): GrammarExercises.TocItem {
     return this.grammarExercisesToc.find(toc => toc.slug === this.$route.params.slug)!;
   }
+
+  get toc(): Toc {
+    return this.exercises.map(
+      e => ({
+        id: e.exerciseNumber,
+        text: e.done ? `<s>Упражнение ${e.exerciseNumber}</s>` : `Упражнение ${e.exerciseNumber}`,
+        depth: 2,
+      })
+    );
+  }
+
 
 }
 </script>

@@ -7,7 +7,7 @@
         :key="link.id"
         :class="['toc', link.depth === 2 ? 'toc2' : 'toc3']"
       >
-        <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+        <NuxtLink :to="`#${link.id}`" v-html="link.text"></NuxtLink>
       </li>
     </ul>
 
@@ -22,10 +22,11 @@ import {
   Prop,
   Vue,
 } from "nuxt-property-decorator"
+import {Toc} from "~/logic/core/models";
 
 @Component({})
 export default class ArticleToc extends Vue {
-  @Prop({required: true}) toc!: object;
+  @Prop({required: true}) toc!: Toc;
 }
 </script>
 
