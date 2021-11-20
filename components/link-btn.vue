@@ -31,6 +31,7 @@ export default class LinkBtn
     if (this.href.includes("instagram.com")) return "ig";
     if (this.href.includes("tinkoff.ru")) return "tinkoff";
     if (this.href.includes("calendly.com")) return "calendly";
+    if (this.href.includes("cian.ru")) return "calendly";
     if (this.href.includes("kinopoisk.ru")) return "kp";
     if (this.href.includes("youtube.com")) return "yt";
     if (this.href.includes("github.com")) return "gh";
