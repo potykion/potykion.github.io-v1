@@ -19,6 +19,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
         $content("dev/python/gsheets").fetch(),
         $content("dev/vue/firebase").fetch(),
         $content("dev/flutter/ads").fetch(),
+        $content("n/rent").fetch(),
         $content("n/principles").fetch(),
         $content("n/index").fetch(),
         $content("n/goals2021").fetch(),

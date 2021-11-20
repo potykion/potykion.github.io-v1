@@ -25,7 +25,9 @@ cover: /images/n/rent/cover.png
 
 Объявы мало посмотреть и отлайкать, объявы нужно менеджерить: отсортировать по различным характеристикам (типа метро, прайс, наличие ништяков); отфильтровать, добавить заметочек, занести дату смотра и тд
 
-<img-block src="/images/n/rent/cian-liked-management.png" alt="У Циана с менеджментом понравившихся объяв беда - всего 2 вида сортировки" ></img-block>
+<img-swiper>
+  <img-block src="/images/n/rent/cian-liked-management.jpg" alt="У Циана с менеджментом понравившихся объяв беда - всего 2 вида сортировки" ></img-block>
+</img-swiper>
 
 Так что Циан реально только для просмотра объяв, а так у меня все летит в Ноушн *(ебучий конечно же)*
 
@@ -39,7 +41,9 @@ cover: /images/n/rent/cover.png
 
 Создаем табличку, добавляем колоночки, у меня такие:
 
+<img-swiper>
 <img-block src='/images/n/rent/ad.png' alt='Колоночки объявы' ></img-block>
+</img-swiper>
 
 Тут все довольно очевидно:
 
@@ -74,15 +78,22 @@ cover: /images/n/rent/cover.png
 
 - **Не звонил** - сюда попадают все новые объявы, видно все характеристики хаты, есть возможность позвонить
 
-<img-block src="/images/n/rent/not-called.png" alt="Не звонил" ></img-block>
+
+<img-swiper>
+<img-block src="/images/n/rent/not-called.jpg" alt="Не звонил" ></img-block>
+</img-swiper>
 
 - **Звонил** - сюда попадают объявы, для которых прожат флажок "Звонил", появляются пара новых колонок - дата смотра хаты + заметки, а также флажок "Дроп"  
 
+<img-swiper>
 <img-block src="/images/n/rent/called.png"     alt="Звонил" ></img-block>
+</img-swiper>
 
 - **Дроп** - тут объявы с прожатым флажком "Дроп" - хаты, с которыми *не сложилась любовь*
 
+<img-swiper>
 <img-block src="/images/n/rent/drop.png"       alt="Дроп" ></img-block>
+</img-swiper>
 
 ---
 
@@ -110,7 +121,9 @@ cover: /images/n/rent/cover.png
 
 Метров должно быть много!
 
+<img-swiper>
 <img-block src="/images/n/rent/small-af.png" alt="Двушечка-девочка"></img-block> 
+</img-swiper>
 
 Потому что вот есть двушка - 36м - и это пиздец коробка нахуй, кроха ебучая. 
 
@@ -150,7 +163,9 @@ cover: /images/n/rent/cover.png
 
 Хотя бывают рофлы:
 
+<img-swiper>
 <img-block src='/images/n/rent/tribe.jpg' alt='Соплеменники блядь'></img-block>
+</img-swiper>
 
 </div>
 
@@ -235,7 +250,9 @@ cover: /images/n/rent/cover.png
 
 Так я взял классическую кровать - 200 см, но есть нюанс - бортики
 
+<img-swiper>
 <img-block src="/images/n/rent/sideboard.jpg" alt="БОРТИКИ!" ></img-block>
+</img-swiper>
 
 И при росте в 183 и подушке 60х60, приходится либо ногами упираться в бортик, либо подушку как-то скукоживать.
 

@@ -23,16 +23,7 @@ cover: /images/index/cover.png
 
 </div>
 
-<div class="mendel-card">
 
-## [Еда <img-emote emote="salt"></img-emote>](/food)
-
-Именно благодаря статье про завтраки, я понял какой должна быть концепция блога:
-
-<article-heading :page="pages['food/home/breakfast']" :preview="true"></article-heading>
-
-
-</div>
 
 <div class="mendel-card">
 
@@ -41,10 +32,22 @@ cover: /images/index/cover.png
 Тут про принципы, про меня, про цели
 
 <div class="core-col">
+  <article-heading :page="pages['n/rent']" :preview="true"></article-heading>
   <article-heading :page="pages['n/principles']" :preview="true"></article-heading>
   <article-heading :page="pages['n']" :preview="true"></article-heading>
   <article-heading :page="pages['n/goals2021']" :preview="true"></article-heading>
 </div>
+
+</div>
+
+<div class="mendel-card">
+
+## [Еда <img-emote emote="salt"></img-emote>](/food)
+
+Именно благодаря статье про завтраки, я понял какой должна быть концепция блога:
+
+<article-heading :page="pages['food/home/breakfast']" :preview="true"></article-heading>
+
 
 </div>
 
@@ -61,22 +64,3 @@ cover: /images/index/cover.png
 </div>
 
 </div>
-
-<div class="mendel-card">
-
-## ФАК
-
-### Зачем этот блог?
-
-1. Творческая самореализация
-2. Научиться рассказывать о себе больше чем 2 предложения
-3. Привлекать в свою жизнь новых людей
-
-### Что нового в блоге?
-
-Об этом можно почитать в [ченжлоге](/changelog)
-
-</div>
-
-
- 

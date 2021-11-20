@@ -5,8 +5,8 @@
         <brand/>
         <div class="flex-grow flex justify-between space-x-2 lg:space-x-6">
           <nav-item class="flex-grow lg:flex-grow-0" to="/dev" title="Разработка" emote="support"/>
-          <nav-item class="flex-grow lg:flex-grow-0" to="/food" title="Еда" emote="salt"/>
           <nav-item class="flex-grow lg:flex-grow-0" to="/n/toc" title="Лайфстайл" emote="kappa"/>
+          <nav-item class="flex-grow lg:flex-grow-0" to="/food" title="Еда" emote="salt"/>
           <nav-item class="flex-grow lg:flex-grow-0" to="/cool-story" title="Кулстори" emote="coolstorybob"/>
           <div class="hidden lg:inline lg:flex-grow"></div>
 
@@ -15,7 +15,7 @@
 <!--            🔍-->
 <!--          </button>-->
 
-          <nav-item class="hidden lg:block" to="/changelog" title="v3.0.0"/>
+          <nav-item class="hidden lg:block" to="/changelog" title="v3.2.0"/>
         </div>
       </div>
 
