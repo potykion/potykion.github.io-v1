@@ -2,7 +2,7 @@
   <div>
     <div v-if="ex.rules" class="italic whitespace-pre-line">{{ ex.rules }}</div>
 
-    <details :open="!ex.done">
+    <details :open="opened">
       <summary>
             <h3 :class="['inline-block',  ex.done ? 'line-through' : '']" :id="ex.exerciseNumber">
               Упражнение {{ ex.exerciseNumber }}
@@ -76,6 +76,12 @@ export default class ExerciseItem
   extends Vue {
   @Prop() ex!: GrammarExercises.Exercise;
   @Prop() answer!: GrammarExercises.Exercise;
+  /*
+   * Если true, то details открыт
+   * Использовать {ex.done} для этого нельзя,
+   *   тк после выполнения упражнения закрывать details не надо
+   */
+  opened = true;
 
   doneExerciseRepo!: DoneExerciseRepo;
   @ProvideReactive() exerciseProgressRepo!: ExerciseProgressRepo;
@@ -109,6 +115,7 @@ export default class ExerciseItem
     this.exerciseProgressRepo = new ExerciseProgressRepo(localStorage);
     this.doneExerciseRepo = new DoneExerciseRepo(localStorage);
     this.ex.done = this.doneExerciseRepo.isExerciseDone(this.ex.exerciseNumber);
+    this.opened = !this.ex.done;
   }
 }
 </script>
