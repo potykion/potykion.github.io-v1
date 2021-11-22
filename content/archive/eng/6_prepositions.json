@@ -1195,7 +1195,7 @@
   {
     "exerciseNumber": 158,
     "exerciseText": "Переведите на английский язык.",
-    "rules": "Запомните:\n\nчерез час - in an hour\nчерез год - /ла year\nчерез два дня - in two days\nчерез несколько минут - in a few minutes\n",
+    "rules": "Запомните:\n\nчерез час - in an hour\nчерез год - in a year\nчерез два дня - in two days\nчерез несколько минут - in a few minutes\n",
     "tasks": [
       {
         "exerciseText": "Он придет через час.",

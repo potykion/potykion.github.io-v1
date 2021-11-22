@@ -113,7 +113,13 @@ export default class TaskItem extends Vue {
 
     }
 
-    this.doneTask = this.exerciseProgressRepo.tryGetTask(this.exercise.exerciseNumber, this.task) ?? this.task;
+    this.doneTask = (
+      this.exerciseProgressRepo.tryGetTask(
+        this.exercise.exerciseNumber,
+        this.$vnode.key as string
+      ) ??
+      this.task
+    );
 
   }
 
@@ -132,10 +138,9 @@ export default class TaskItem extends Vue {
   }
 
   saveTask() {
-
     this.exerciseProgressRepo.save(
       this.exercise.exerciseNumber,
-      this.task,
+      this.$vnode.key as string,
       this.doneTask
     )
   }
