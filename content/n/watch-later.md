@@ -1,6 +1,6 @@
 ---
 title: Че глянуть можно 
-description:
+description: Видики и каналы из "Смотреть позже" с описаниями
 ---
 
 ## [Lenta.ru](https://www.youtube.com/c/LentaruVideo)
