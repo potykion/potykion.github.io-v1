@@ -16,7 +16,7 @@ cover: /images/index/cover.png
 
 <div class="core-col">
   <article-heading :page="pages['dev/postman']" :preview="true"></article-heading>
-  <article-heading :page="pages['dev/python/gsheets']" :preview="true"></article-heading>
+  <article-heading :page="pages['dev/py/gsheets']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/vue/firebase']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/flutter/ads']" :preview="true"></article-heading>
 </div>

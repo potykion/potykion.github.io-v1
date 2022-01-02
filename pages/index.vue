@@ -16,7 +16,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
       (await Promise.all([
         $content("food/home/breakfast").fetch(),
         $content("dev/postman").fetch(),
-        $content("dev/python/gsheets").fetch(),
+        $content("dev/py/gsheets").fetch(),
         $content("dev/vue/firebase").fetch(),
         $content("dev/flutter/ads").fetch(),
         $content("n/rent").fetch(),
