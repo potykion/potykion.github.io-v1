@@ -144,6 +144,9 @@
     @apply flex flex-col space-y-1 md:space-y-2;
   }
 
+  .spotify-sm {
+    @apply h-20 rounded;
+  }
 
 }
 
