@@ -1,6 +1,7 @@
 ---
 title: Справка по openpyxl
 description: openpyxl - лучшая либа для работы с Excel-файлами, тут будут рецепты как ей пользоваться
+showToc: true
 ---
 
 <div class="mendel-card">
@@ -88,6 +89,44 @@ wb.create_sheet("sheet-name")
 
 <div class="mendel-card">
 
+## Стилизовочка
+
+Считаем что, `cell = sheet.cell(row, col)` и `from openpyxl.styles import *`
+
+### Жирный шрифт
+
+```python
+cell.font = Font(bold=True)
+```
+
+### Границы
+
+```python
+side = Side(style='thin', color='000000')
+thin_border = Border(left=side, top=side, right=side, bottom=side)
+cell.border = thin_border
+```
+
+### Выравнивание по центру
+
+```python
+cell.alignment = Alignment(horizontal='center')
+```
+
+### Заливка / цвет бекграунда
+
+```python
+color = 'D0F5A9'
+cell.fill = PatternFill(
+    start_color=Color(color), end_color=Color(color),
+    fill_type='solid',
+)
+```
+
+</div>
+
+
+<div class="mendel-card">
 
 ## Сложный эксель
 
@@ -127,7 +166,7 @@ sheet.merge_cells(start_row=2, start_column=col + 12, end_row=3, end_column=col 
 </table>
 ```
 
-А поможет в генерации экселя из html моя библиотечка - [jinja2xlsx](https://github.com/potykion/jinja2xlsx):
+А поможет в генерации экселя из html *моя* библиотечка - [jinja2xlsx](https://github.com/potykion/jinja2xlsx):
 
 ```python
 from jinja2xlsx import render_xlsx
