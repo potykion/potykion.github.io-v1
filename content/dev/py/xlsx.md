@@ -15,7 +15,7 @@ showToc: true
 
 <div class="mendel-card">
 
-## Workbook   
+## Workbook / Книга
 
 `Workbook` - эксель-файл - т.е. полный эксель-файл, со всеми вкладочками и мета-инфой
 
@@ -59,9 +59,9 @@ stream.getvalue() # type: bytes
 <div class="mendel-card">
 
 
-## Worksheet
+## Worksheet / Лист
 
-`Worksheet` - вкладка эксель-файла
+`Worksheet` - лист / вкладка / страница эксель-файла
 
 Находится тут: `openpyxl.worksheet.worksheet.Worksheet`
 
@@ -89,9 +89,54 @@ wb.create_sheet("sheet-name")
 
 <div class="mendel-card">
 
+## Cell / Ячейка
+
+Считаем, что `sheet = wb.active` 
+
+Ячейки нумеруются с 1: (1, 1) = A1
+
+### Получение ячейки
+
+```python
+sheet.cell(row=1, column=1)
+sheet['A1']
+```
+
+### Выставление значения 
+
+```python
+sheet.cell(row=1, column=1, value='val')
+sheet.cell(row=1, column=1).value = 'val'
+```
+
+### Строчки (row)
+
+Сущности Row как таковой нет, в openpyxl Row - массив ячеек:
+
+```python
+rows: Iterable[Tuple[Cell, ...]] = sheet.rows
+```
+
+### Объединение ячеек
+
+```python
+sheet.merge_cells(
+  start_row=1, start_col=1,
+  end_row=2, end_column=2
+)
+```
+
+
+Код выше объединяет ячейки A1, A2, B1, B2
+
+</div>
+
+
+<div class="mendel-card">
+
 ## Стилизовочка
 
-Считаем что, `cell = sheet.cell(row, col)` и `from openpyxl.styles import *`
+Считаем, что `cell = sheet.cell(row, col)` и `from openpyxl.styles import *`
 
 ### Жирный шрифт
 
@@ -123,7 +168,30 @@ cell.fill = PatternFill(
 )
 ```
 
+### Стили и объединение ячеек
+
+Если требуется применить стили для объединенных ячеек, 
+то лучше применить стиль для одной ячейки, а затем произвести объединение
+
 </div>
+
+
+[comment]: <> (<div class="mendel-card">)
+
+[comment]: <> (##  ColumnDimension, RowDimension &#40;Колонки и строки&#41; )
+
+[comment]: <> (`from openpyxl.worksheet.dimensions import RowDimension, ColumnDimension`)
+
+[comment]: <> (### Свертка)
+
+
+
+[comment]: <> (### Ширина)
+
+[comment]: <> (</div>)
+
+
+
 
 
 <div class="mendel-card">
