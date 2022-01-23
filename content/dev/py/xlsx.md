@@ -8,33 +8,37 @@ showToc: true
 
 ## Начало работы
 
-1. `pip install openpyxl`
-2. `import openpyxl`
+- Документация: https://openpyxl.readthedocs.io/en/stable/
+- Установка: `pip install openpyxl`
 
 </div>
 
 <div class="mendel-card">
 
-## Workbook / Книга
+## Книга / Workbook
 
-`Workbook` - эксель-файл - т.е. полный эксель-файл, со всеми вкладочками и мета-инфой
+`openpyxl.Workbook` - книга - полный эксель-файл, со всеми вкладочками и мета-инфой
 
-### Пустой Workbook
+### Пустая книга
 
 ```python
-wb = openpyxl.Workbook()
+from openpyxl import Workbook
+
+wb = Workbook()
 ```
 
-### Workbook из файла
+### Книга из файла
   
 ```python
-wb = openpyxl.load_workbook("path/to/file.xlsx")
+from openpyxl import load_workbook
+
+wb = load_workbook("path/to/file.xlsx")
 ```
 
 Можно передавать file-like объекты, напр. `io.BytesIO`:
 
 ```python
-wb = openpyxl.load_workbook(io.BytesIO(...))
+wb = load_workbook(io.BytesIO(...))
 ```
 
 
@@ -49,9 +53,11 @@ wb.save("path/to/file.xlsx")
 Удобно, когда нужно отдать эксель наружу, напр. в ответе на запрос:
 
 ```python
+import io
+
 stream = io.BytesIO()
 wb.save(stream)
-stream.getvalue() # type: bytes
+raw: bytes = stream.getvalue()
 ```
 
 </div>
@@ -59,25 +65,23 @@ stream.getvalue() # type: bytes
 <div class="mendel-card">
 
 
-## Worksheet / Лист
+## Лист / Worksheet 
 
-`Worksheet` - лист / вкладка / страница эксель-файла
+`openpyxl.worksheet.worksheet.Worksheet` - лист / вкладка / страница эксель-файла
 
-Находится тут: `openpyxl.worksheet.worksheet.Worksheet`
-
-### Первая вкладка 
+### Первый лист 
 
 ```python
-wb.active
+sheet = wb.active
 ```
 
-### Вкладка по имени
+### Лист по имени
 
 ```python
-wb["sheet-name"]
+sheet = wb["sheet-name"]
 ```
 
-### Создание вкладки 
+### Создание листа 
 
 ```python
 wb.create_sheet("sheet-name")
@@ -85,21 +89,19 @@ wb.create_sheet("sheet-name")
 
 </div>
 
-[comment]: <TODO> (## Объединение ячеек)
-
 <div class="mendel-card">
 
-## Cell / Ячейка
+## Ячейка / Cell
 
-Считаем, что `sheet = wb.active` 
+`openpyxl.cell.Cell` - ячейка; нумеруются с 1 - напр. ячейка A1 имеет координаты (1, 1) 
 
-Ячейки нумеруются с 1: (1, 1) = A1
+*(считаем, что `sheet = wb.active`)* 
 
 ### Получение ячейки
 
 ```python
-sheet.cell(row=1, column=1)
-sheet['A1']
+cell = sheet.cell(row=1, column=1)
+cell = sheet['A1']
 ```
 
 ### Выставление значения 
@@ -109,12 +111,18 @@ sheet.cell(row=1, column=1, value='val')
 sheet.cell(row=1, column=1).value = 'val'
 ```
 
-### Строчки (row)
+### Строка
 
-Сущности Row как таковой нет, в openpyxl Row - массив ячеек:
+Как таковой сущности Строка нет, в openpyxl строка - это массив ячеек:
 
 ```python
 rows: Iterable[Tuple[Cell, ...]] = sheet.rows
+```
+
+### Ячейки в промежутке
+
+```python
+cells = sheet['A1:B2']
 ```
 
 ### Объединение ячеек
@@ -136,7 +144,7 @@ sheet.merge_cells(
 
 ## Стилизовочка
 
-Считаем, что `cell = sheet.cell(row, col)` и `from openpyxl.styles import *`
+*(считаем, что `cell = sheet.cell(row, col)` и `from openpyxl.styles import *`)*
 
 ### Жирный шрифт
 
