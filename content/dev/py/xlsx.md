@@ -156,8 +156,7 @@ cell.font = Font(bold=True)
 
 ```python
 side = Side(style='thin', color='000000')
-thin_border = Border(left=side, top=side, right=side, bottom=side)
-cell.border = thin_border
+cell.border = Border(left=side, top=side, right=side, bottom=side)
 ```
 
 ### Выравнивание по центру
@@ -181,6 +180,11 @@ cell.fill = PatternFill(
 Если требуется применить стили для объединенных ячеек, 
 то лучше применить стиль для одной ячейки, а затем произвести объединение
 
+### Генератор стилей
+
+<dev-py-xlsx-style-gen></dev-py-xlsx-style-gen>
+
+
 </div>
 
 
@@ -197,9 +201,6 @@ cell.fill = PatternFill(
 [comment]: <> (### Ширина)
 
 [comment]: <> (</div>)
-
-
-
 
 
 <div class="mendel-card">
