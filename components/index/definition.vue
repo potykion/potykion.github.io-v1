@@ -31,7 +31,7 @@
     <div class="flex md:justify-start md:space-x-2 justify-between">
         <link-btn href="/changelog">Новое</link-btn>
         <link-btn href="/n">Обо мне</link-btn>
-        <link-btn href="/n/goals2021">Цели</link-btn>
+        <link-btn href="/n/goals-2022">Цели 2022</link-btn>
         <link-btn href="/n/wishlist">Вишлист</link-btn>
     </div>
 

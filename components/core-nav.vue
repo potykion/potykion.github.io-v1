@@ -15,7 +15,7 @@
 <!--            🔍-->
 <!--          </button>-->
 
-          <nav-item class="hidden lg:block" to="/changelog" title="v3.2.0"/>
+          <nav-item class="hidden lg:block" to="/changelog" title="v3.3.0"/>
         </div>
       </div>
 

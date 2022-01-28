@@ -28,7 +28,9 @@ big: true
 - Любой спец шмот, напр. [костюм рабочего](https://www.ozon.ru/product/kostyum-rabochiy-avangard-professionalnaya-ekipirovka-194176871)
 - Спортивный костюм адик с 3 полосками, напр. [такой](https://www.ozon.ru/product/sportivnyy-kostyum-adidas-essentials-tracksuit-211139784)
 
-## Куплено/получено
+---
+
+## Куплено / получено
 
 - Рюкзак, в который можно положить ноутбук, 2 двухлитровых бутылок, и еще место будет
 - Спорт инвентарь: [беговая дорожка](https://www.ozon.ru/product/begovaya-dorozhka-walkingpad-mi-walkingpad-a1-wpa1f-russkaya-versiya-174250077/), велотренажер покруче [этого](https://www.ozon.ru/context/detail/id/166261877)
