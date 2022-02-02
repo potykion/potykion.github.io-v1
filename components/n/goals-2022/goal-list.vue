@@ -1,12 +1,22 @@
 <template>
   <div>
     <ul>
-      <template v-for="goal in goalsWithChildren">
-        <li :class="goal.type">
+      <template v-for="goal in this.goals">
+        <li :class="goal.type" :key="goal.text">
           <div class="inline" v-html="goal.text"></div>
 
           <ul v-if="(goal.children || []).length">
-            <li v-for="child in goal.children" :key="child.text" :class="child.type" v-html="child.text"></li>
+            <template v-for="child in goal.children">
+
+              <li :key="child.text" :class="child.type">
+                <div class="inline" v-html="child.text"/>
+
+                <ul v-if="(child.children || []).length">
+                    <li v-for="child2 in child.children" :key="child2.text"
+                        :class="child2.type" v-html="child2.text" />
+                </ul>
+              </li>
+            </template>
           </ul>
         </li>
       </template>
@@ -24,15 +34,6 @@ import {Goal} from "~/logic/n/models";
 export default class GoalList
   extends Vue {
   @Prop() goals!: Goal[];
-
-  get goalsWithChildren() {
-    return this.goals
-      // .filter(g => g.children?.length)
-      // .map(g => ({
-      //   ...g,
-      //   children: g.children ?? this.goalsWithParents.filter(c => c.parent === g.id),
-      // }));
-  }
 }
 </script>
 
@@ -45,6 +46,7 @@ li {
 li.note {
   list-style: none;
 }
+
 li.note:before {
   content: '– ';
 }
@@ -52,6 +54,7 @@ li.note:before {
 li.done {
   list-style: none;
 }
+
 li.done:before {
   content: '✅ ';
 }

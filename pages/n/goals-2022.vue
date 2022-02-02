@@ -103,16 +103,14 @@ import {Goal} from "~/logic/n/models";
       ]},
 
       {category: 'rel', type: 'note', text: 'В планах такое:', children: [
-          {category: 'rel', type: 'wait', text: 'Сгонять в Алмазный фонд'},
-          {category: 'rel', type: 'wait', text: 'Мастер класс по римской мозаике'},
+          {category: 'rel', type: 'wip', text: 'Сгонять в Алмазный фонд'},
+          {category: 'rel', type: 'wip', text: 'Мастер класс по римской мозаике'},
           {category: 'rel', type: 'wait', text: 'Сгонять в Заповедник с зубрами'},
           {category: 'rel', type: 'wait', text: 'Сгонять на выставку Врубеля'},
           {category: 'rel', type: 'wait', text: 'Сгонять в FRANK by БАСТА'},
           {category: 'rel', type: 'wait', text: 'Сгонять в Chick O\'Rico'},
           {category: 'rel', type: 'wait', text: 'На море'},
         ]},
-
-
 
       {category:'friends', type: 'note', text: 'Что вы скажите про цели в сфере "Друзья"? - "Пацанское, хули"'},
       {category:'friends', type: 'wait', text: 'Сходить в чебуречную'},
@@ -126,16 +124,11 @@ import {Goal} from "~/logic/n/models";
           {category: 'growth', type: 'wip', text: "То как мы работаем не работает Шварца (Тони)"},
       ]},
       {category: 'growth', type: 'wait', text: "Права получить"},
+      {category: "growth", type: "wip", text: "Сделать загран"},
+      {category: "growth", type: "wip", text: "Получить латвийское гражданство (нихуясебе)"},
 
-
-      {category: "rest", type: "wip", text: "Сделать загран"},
-      {category: "rest", type: "wip", text: "Получить латвийское гражданство (нихуясебе)"},
       {category: "rest", type: "wip", text: "Дальше айзека дрочить - сейчас: 423 из 637"},
-      {
-        category: "rest",
-        type: "wip",
-        text: "Дальше блог пилить - теперь в <a href='/changelog'>ченжлоге</a> всегда есть секция WIP - о том, какие статьи пилятся в данный момент"
-      },
+      {category: "rest",  type: "wip", text: "Дальше блог пилить - теперь в <a href='/changelog'>ченжлоге</a> всегда есть секция WIP - о том, какие статьи пилятся в данный момент"},
       {category: "rest", type: "wait", text: "Винду 11 потраить - на ноуте доступна!"},
       {category: 'rest', type:'wait', text: "<a href='https://github.com/potykion/repka'>Репку</a> допилить, а то <a href='https://github.com/potykion/repka/issues/65'>она нужна кому-то</a>"},
 

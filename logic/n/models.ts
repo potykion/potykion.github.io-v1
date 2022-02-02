@@ -1,16 +1,22 @@
 export interface Goal {
   category:
-    'soul'
-    | 'friends'
-    | 'growth'
-    | 'rest';
+    'health' |
+    'money' |
+    'work' |
+    'rel' |
+    'friends' |
+    'growth' |
+    "rest" |
+    "soul";
   type:
-    // Заметка
-    "note"
+  // Заметка
+    "note" |
     // Не начатая цель
-    | "wait"
+    "wait" |
     // Начатая цель
-    | "wip";
+    "wip" |
+    // Выполненная
+    "done";
   text: string;
 
 

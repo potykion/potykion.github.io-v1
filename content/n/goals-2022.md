@@ -26,7 +26,7 @@ cover: /images/n/goals-2022/cover.jpg
 
 ## Прогресс
 
-<n-goals-2022-progress :goals="goals"></n-goals-2022-progress>
+<n-goals-2022-progress-chart :goals="goals"></n-goals-2022-progress>
 
 
  </div>
