@@ -50,6 +50,7 @@ export default class ProgressChart extends Vue {
 
     return Object.keys(this.typeLabels).map(
       type => ({
+        // @ts-ignore
         name: this.typeLabels[type],
         data: [
           ...this.categories
