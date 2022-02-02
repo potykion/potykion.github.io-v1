@@ -5,7 +5,7 @@
         <li :class="goal.type">
           <div class="inline" v-html="goal.text"></div>
 
-          <ul v-if="goal.children.length">
+          <ul v-if="(goal.children || []).length">
             <li v-for="child in goal.children" :key="child.text" :class="child.type" v-html="child.text"></li>
           </ul>
         </li>
@@ -25,21 +25,22 @@ export default class GoalList
   extends Vue {
   @Prop() goals!: Goal[];
 
-  get goalsWithParents() {
-    return this.goals.filter(g => !!g.parent);
-  }
-
   get goalsWithChildren() {
-    return this.goals.filter(g => !g.parent)
-      .map(g => ({
-        ...g,
-        children: this.goalsWithParents.filter(c => c.parent === g.id),
-      }));
+    return this.goals
+      // .filter(g => g.children?.length)
+      // .map(g => ({
+      //   ...g,
+      //   children: g.children ?? this.goalsWithParents.filter(c => c.parent === g.id),
+      // }));
   }
 }
 </script>
 
 <style scoped>
+
+li {
+  @apply my-3;
+}
 
 li.note {
   list-style: none;
@@ -52,7 +53,7 @@ li.done {
   list-style: none;
 }
 li.done:before {
-  content: '✔ ';
+  content: '✅ ';
 }
 
 li.wip {
@@ -68,7 +69,7 @@ li.wait {
 }
 
 li.wait:before {
-  content: '⌛ ';
+  content: '🔜 ';
 }
 
 </style>
