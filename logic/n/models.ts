@@ -1,5 +1,9 @@
 export interface Goal {
-  category: 'soul';
+  category:
+    'soul'
+    | 'friends'
+    | 'growth'
+    | 'rest';
   type:
     // Заметка
     "note"

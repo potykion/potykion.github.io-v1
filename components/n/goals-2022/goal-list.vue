@@ -41,6 +41,20 @@ export default class GoalList
 
 <style scoped>
 
+li.note {
+  list-style: none;
+}
+li.note:before {
+  content: '– ';
+}
+
+li.done {
+  list-style: none;
+}
+li.done:before {
+  content: '✔ ';
+}
+
 li.wip {
   list-style: none;
 }
