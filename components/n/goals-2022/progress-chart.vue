@@ -39,8 +39,15 @@ export default class ProgressChart extends Vue {
   typeLabels = {
     'wait': '🔜 На очереди',
     'wip': '🚧 В процессе',
+    'habit': '🔁 Привычка',
     'done': '✅ Выполнено',
   }
+  typeColors = {
+    'wait': '#82b0ee',
+    'wip': '#ffd75e',
+    'habit': '#c08eef',
+    'done': '#89ef84',
+ }
 
 
   get series() {
@@ -60,7 +67,9 @@ export default class ProgressChart extends Vue {
                 .filter(g => g.type === type)
                 .length
             )
-        ]
+        ],
+        // @ts-ignore
+        color: this.typeColors[type],
       })
     );
 

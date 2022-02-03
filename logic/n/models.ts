@@ -15,6 +15,8 @@ export interface Goal {
     "wait" |
     // Начатая цель
     "wip" |
+    // Привычка
+    "habit" |
     // Выполненная
     "done";
   text: string;

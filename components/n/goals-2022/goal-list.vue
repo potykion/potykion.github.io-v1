@@ -75,4 +75,12 @@ li.wait:before {
   content: '🔜 ';
 }
 
+li.habit {
+  list-style: none;
+}
+
+li.habit:before {
+  content: '🔁 ';
+}
+
 </style>

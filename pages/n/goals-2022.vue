@@ -23,7 +23,7 @@ import {Goal} from "~/logic/n/models";
     page.goals = [
       // HEALTH
       {category:'health', type: 'note',  text:'Еще больше спорта', children: [
-          {category:'health', type:'wip',  text:'<a href="https://seven.app/">7 минут</a> - приложуха с тренировками по 7 минут (12 упражнений по 30 сек с перерывами по 10 сек) - ну уж это скипать совсем стыдно'},
+          {category:'health', type:'habit',  text:'<a href="https://seven.app/">7 минут</a> - приложуха с тренировками по 7 минут (12 упражнений по 30 сек с перерывами по 10 сек) - ну уж это скипать совсем стыдно'},
           {category:'health', type:'wait',  text:'Пилатез - должно быть забавная темка'},
       ]},
       {category:'health', type:'note',  text:'Зубки', children: [
@@ -47,7 +47,7 @@ import {Goal} from "~/logic/n/models";
       ]},
       {category: 'work', type:'note', text: "Почитать книжки:", children: [
           {category: 'work', type:'wait', text: "Проект Феникс"},
-          {category: 'work', type:'wait', text: "Девопс хэндбук"},
+          {category: 'work', type:'wip', text: "Девопс хэндбук"},
           {category: 'work', type:'wait', text: "Шаблоны корпоративных приложений"},
           {category: 'work', type:'wait', text: "Имплементинг домейн дривен дезигн"},
           {category: 'work', type:'done', text: "Статистика и котики - не оч, написано что зачем, напр. зач нужна линейная регрессия, но как ее считать не написано"},
@@ -120,7 +120,7 @@ import {Goal} from "~/logic/n/models";
       {category:'friends', type: 'wait', text: 'Сделать все настоечки, которые подарил Андрей с Машей'},
 
       // GROWTH
-      {category: 'growth', type: 'note', text: "Книги читать много", children: [
+      {category: 'growth', type: 'habit', text: "Книги читать много", children: [
           {category: 'growth', type: 'note', text: "Я какие-то книги в прошлом году купил, надо их читать бля!"},
           {category: 'growth', type: 'wip', text: "Биография Шварца"},
           {category: 'growth', type: 'wip', text: "Искусство любить Фрома"},
