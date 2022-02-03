@@ -20,7 +20,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
       n: {...await $content("n/index").fetch() as IContentDocument, path: "/n"},
       rent: await $content("n/rent").fetch() as IContentDocument,
       principles: await $content("n/principles").fetch() as IContentDocument,
-      goals: await $content("n/goals2021").fetch() as IContentDocument,
+      goals: await $content("n/goals-2022").fetch() as IContentDocument,
     }
 
     return {page};

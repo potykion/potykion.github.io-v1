@@ -1,12 +1,13 @@
 <template>
   <div class="flex justify-center flex-col content-center items-center space-y-6">
 
-    <div :class="['px-0.5 py-1 border w-24 ', textAlignment, fontBold, fontItalic, borderStyle]"
+    <div :class="['px-0.5 py-1 border w-24 ', alignment, fontBold, fontItalic, borderStyle]"
          :style="{background: fillColor}">
       Ячеечка
     </div>
 
-    <div class="flex md:space-x-2 md:flex-row flex-col md:space-y-0 space-y-2  md:justify-between items-center md:items-start w-full">
+    <div
+      class="flex md:space-x-2 md:flex-row flex-col md:space-y-0 space-y-2  md:justify-between items-center md:items-start w-full">
       <div class="flex ">
         <div :class="['btn start', alignment === 'left' ? 'bg-pink-50'  : '' ]" @click="alignment = 'left'">a__</div>
         <div :class="['btn', alignment === 'center' ? 'bg-pink-50'  : '' ]" @click="alignment = 'center'">_a_</div>
@@ -26,7 +27,9 @@
       </div>
     </div>
 
-    <div class="nuxt-content-highlight w-full" v-if="cellCode"><pre class="language-python"><code>{{cellCode}}</code></pre></div>
+    <div class="nuxt-content-highlight w-full" v-if="cellCode">
+      <pre class="language-python"><code>{{ cellCode }}</code></pre>
+    </div>
 
   </div>
 </template>
@@ -47,10 +50,6 @@ export default class StyleGen extends Vue {
   italic = false;
   border = false;
   fillColor = "000000";
-
-  get textAlignment() {
-    return `text-${this.alignment}`;
-  }
 
   get fontBold() {
     return this.bold ? 'font-bold' : '';
@@ -103,6 +102,18 @@ cell.fill = PatternFill(
 </script>
 
 <style scoped>
+/* Делаем так, чтобы таилвинд оставил text-классы */
+.left {
+  @apply text-left;
+}
+.center {
+  @apply text-center;
+}
+.right {
+  @apply text-right;
+}
+
+
 .btn {
   @apply border px-2 py-1 hover:bg-pink-100 cursor-pointer min-w-max w-10 text-center;
 }

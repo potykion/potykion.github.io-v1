@@ -16,6 +16,7 @@ emote: support
 ## Python
 
 <div class="core-col">
+  <article-heading :page="pages['py/xlsx']" :preview="true"></article-heading>
   <article-heading :page="pages['py/gsheets']" :preview="true"></article-heading>
   <article-heading :page="pages['py/libs']" :preview="true"></article-heading>
 </div>

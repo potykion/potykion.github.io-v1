@@ -3,6 +3,8 @@ title: Че глянуть можно
 description: Видики и каналы из "Смотреть позже" с описаниями
 ---
 
+<div class="mendel-card">
+
 ## [Lenta.ru](https://www.youtube.com/c/LentaruVideo)
 
 Внезапно, у Lenta.ru есть канал на ютубе с охуевшившим монтажем и интересным содержимым
@@ -24,6 +26,9 @@ description: Видики и каналы из "Смотреть позже" с 
 
 И многие другие кликбейтные видики
 
+</div>
+<div class="mendel-card">
+
 ## [ТОК](https://www.youtube.com/c/TOKmedia)
 
 Видики, типа интервью, но не с какими-то популярными личностями, а с простыми людьми с приколами
@@ -36,3 +41,18 @@ description: Видики и каналы из "Смотреть позже" с 
 Из того, что я смотрел и мне понравилось:
 - [Мухоморная лихорадка. Почему в России стало модно есть ядовитые грибы | ТОК](https://www.youtube.com/watch?v=FqXjVJ92wVs)
 - [Как работают мошенники на «Авито»: схемы, «мамонты» и перловка вместо айфона | ТОК](https://www.youtube.com/watch?v=cPL3k9YXLlo)
+
+</div>
+<div class="mendel-card">
+
+## [Стас Аскет](https://www.youtube.com/channel/UCRxPHKOOwFxW2Ej2svBh3lw) 
+
+Чел реально аскетит жёстко - живёт один, питается едой с **базы** (помойки), и при этом хорошо живёт, всегда опрятно выглядит.
+
+Если жизнь кажется хуевой, то его видики очень отрезвляют, и начинаешь понимать, что все не так уж и плохо
+
+Все видео примерно одного характера, так что можно начать с любого, напр. с самого популярного - солянка из б\у продуктов:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QEyVRkDkQaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>

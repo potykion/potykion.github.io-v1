@@ -1,26 +1,5 @@
 <template>
   <div class="mendel-card">
-    <a href="https://ru.wiktionary.org/wiki/%D0%B8%D0%B7-%D0%BF%D0%BE%D0%B4_%D0%BF%D0%B0%D0%BB%D0%BA%D0%B8">
-      <h2 class="header bottom">из-под палки</h2>
-    </a>
-    <div class="subheader">
-      Значение
-    </div>
-    <ol class="body list-outside ">
-      <li>
-        <span style="color: #0645ad; font-style: italic; background: #CCFFFF">разг.</span>
-        <span style="color: #dd3333">под принуждением</span> ◆
-        <span style="color: #006400">
-          А сыно́чек как раз всегда́ был скло́нен отве́тственность перекла́дывать, поэ́тому и реши́лась на тако́й подхо́д :-),
-          о́чень больши́е опасе́ния бы́ли, что на себя́ он бу́дет брать то́лько лёгкое и прия́тное,
-          а тяжёлое и ну́жное исключи́тельно <span style="color: darkgreen; font-weight: bold; background: #EDF0FF">из-по́д па́лки</span>.
-          <i class="wiki">«Наши дети: Подростки», 2004 г. [<span style="color: #bb6633">НКРЯ</span>]</i>
-        </span>
-      </li>
-    </ol>
-
-    <hr>
-
     <p>
       Дороу, это Блог из-под палки — блог про легкость и приятность <i>(а также про разработку, про еду, про меня, и,
       возможно, про тебя)</i>
@@ -30,8 +9,8 @@
 
     <div class="space-x-2 overflow-x-auto flex ">
         <link-btn class="flex-shrink-0" href="/changelog">Новое</link-btn>
-        <link-btn class="flex-shrink-0" href="/n">Обо мне</link-btn>
-        <link-btn class="flex-shrink-0" href="/n/goals-2022">Цели 2022</link-btn>
+      <link-btn class="flex-shrink-0" href="/n/goals-2022">Цели 2022</link-btn>
+      <link-btn class="flex-shrink-0" href="/n">Обо мне</link-btn>
         <link-btn class="flex-shrink-0" href="/n/wishlist">Вишлист</link-btn>
     </div>
 

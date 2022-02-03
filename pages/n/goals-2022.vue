@@ -21,6 +21,7 @@ import {Goal} from "~/logic/n/models";
 
     // @ts-ignore
     page.goals = [
+      // HEALTH
       {category:'health', type: 'note',  text:'Еще больше спорта', children: [
           {category:'health', type:'wip',  text:'<a href="https://seven.app/">7 минут</a> - приложуха с тренировками по 7 минут (12 упражнений по 30 сек с перерывами по 10 сек) - ну уж это скипать совсем стыдно'},
           {category:'health', type:'wait',  text:'Пилатез - должно быть забавная темка'},
@@ -30,14 +31,13 @@ import {Goal} from "~/logic/n/models";
           {category:'health', type:'wait',  text:'Говорят пора зубы мудрости дергать - пизда стремно, но что поделать'},
       ]},
 
-
-    {category:'money', type: 'wip', text: '3кк ', children: [
-          {category: 'money', type: 'note', text: 'Хочется не просто зп откладывать, но и чтобы инвестиции свои плоды принести'}
-        ]},
-
+      // MONEY
+      {category:'money', type: 'wip', text: '3кк ', children: [
+        {category: 'money', type: 'note', text: 'Хочется не просто зп откладывать, но и чтобы инвестиции свои плоды принести'}
+      ]},
       {category:'money', type: 'wait', text: 'Ипотека?'},
 
-
+      // WORK
       {category: 'work', type:'note', text: "Ой, это проще всего, тут явный перекос на лицо, а я и не против))"},
       {category: 'work', type:'note', text: "В прошлом году я вкатывался в мобилку, в этом буду вкатываться в девопс и немного статы"},
       {category: 'work', type:'note', text: "Курсы:", children: [
@@ -58,6 +58,8 @@ import {Goal} from "~/logic/n/models";
           {category: 'work', type:'wait', text: "<a href='https://youtube.com/playlist?list=PLpTASIMYgCp80c4YXgJDneAiGrAekOv4M'>Мб видики про сварм</a>"},
           {category: 'work', type:'wait', text: "<a href='https://dockerswarm.rocks/'>Еще про докер-сварм</a>"},
           {category: 'work', type:'wait', text: "<a href='https://docs.docker.com/network/'>Про сети в докере</a>"},
+          {category: 'work', type:'wait', text: "<a href='https://ru.stackoverflow.com/a/241269/348589'>Про сетевые масочки</a>"},
+          {category: 'work', type:'wait', text: "<a href='https://swagger.io/docs/specification/about/'>Про openapi3</a>"},
 
       ]},
       {category: 'work', type:'done', text: "Позырить <a href='https://scale.yandex.ru/'>Yandex Scale 2021</a>", children: [
@@ -77,9 +79,8 @@ import {Goal} from "~/logic/n/models";
           {category: 'work', type:'note', text: "Респект Паше за доку, но дизреспект за то, что уволился и девопсом теперь мне заниматься(((((((((((("},
       ]},
 
-
-
-  {category: 'rel', type: 'note', text: 'Тут Мила сама все придумает'},
+      // REL
+      {category: 'rel', type: 'note', text: 'Тут Мила сама все придумает'},
       {category: 'rel', type: 'note', text: 'За январь вон сколько всего было:', children: [
           {category: 'rel',  type: 'done', text: 'Ебланить дома и смотреть уебищный серик - Sex/Life'},
           {category: 'rel',  type: 'done', text: 'На морозе пидорить несколько километров, а потом в киношку'},
@@ -101,7 +102,6 @@ import {Goal} from "~/logic/n/models";
           {category: 'rel',  type: 'done', text: 'Глинтвейн сделать'},
           {category: 'rel',  type: 'done', text: 'И все это сопровождается сексом'},
       ]},
-
       {category: 'rel', type: 'note', text: 'В планах такое:', children: [
           {category: 'rel', type: 'wip', text: 'Сгонять в Алмазный фонд'},
           {category: 'rel', type: 'wip', text: 'Мастер класс по римской мозаике'},
@@ -110,13 +110,16 @@ import {Goal} from "~/logic/n/models";
           {category: 'rel', type: 'wait', text: 'Сгонять в FRANK by БАСТА'},
           {category: 'rel', type: 'wait', text: 'Сгонять в Chick O\'Rico'},
           {category: 'rel', type: 'wait', text: 'На море'},
-        ]},
+      ]},
 
+      // FRIENDS
       {category:'friends', type: 'note', text: 'Что вы скажите про цели в сфере "Друзья"? - "Пацанское, хули"'},
       {category:'friends', type: 'wait', text: 'Сходить в чебуречную'},
       {category:'friends', type: 'wip', text: 'Сходить в раковую'},
       {category:'friends', type: 'wait', text: 'Ежегодное тетатет бухалово пивка с Михой и сватанье его'},
+      {category:'friends', type: 'wait', text: 'Сделать все настоечки, которые подарил Андрей с Машей'},
 
+      // GROWTH
       {category: 'growth', type: 'note', text: "Книги читать много", children: [
           {category: 'growth', type: 'note', text: "Я какие-то книги в прошлом году купил, надо их читать бля!"},
           {category: 'growth', type: 'wip', text: "Биография Шварца"},
@@ -127,15 +130,35 @@ import {Goal} from "~/logic/n/models";
       {category: "growth", type: "wip", text: "Сделать загран"},
       {category: "growth", type: "wip", text: "Получить латвийское гражданство (нихуясебе)"},
 
+      // REST
       {category: "rest", type: "wip", text: "Дальше айзека дрочить - сейчас: 423 из 637"},
-      {category: "rest",  type: "wip", text: "Дальше блог пилить - теперь в <a href='/changelog'>ченжлоге</a> всегда есть секция WIP - о том, какие статьи пилятся в данный момент"},
+      {category: "rest",  type: "note", text: "Дальше блог пилить", children: [
+          {category: "rest", type: "note", text: "Теперь в <a href='/changelog'>ченжлоге</a> всегда есть секция WIP - о том, какие статьи пилятся в данный момент"},
+          {category: "rest", type: "done", text: "Цели 2022"},
+          {category: "rest", type: "wip", text: "Итоги 2021"},
+          {category: "rest", type: "wip", text: "Че глянуть можно"},
+          {category: "rest", type: "done", text: "Openpyxl"},
+          {category: "rest", type: "wip", text: "Че слушаешь"},
+          {category: "rest", type: "wip", text: "Джанго рецепты"},
+      ]},
       {category: "rest", type: "wait", text: "Винду 11 потраить - на ноуте доступна!"},
       {category: 'rest', type:'wait', text: "<a href='https://github.com/potykion/repka'>Репку</a> допилить, а то <a href='https://github.com/potykion/repka/issues/65'>она нужна кому-то</a>"},
+      {category: 'rest', type:'note', text: "Диджитал уборочка", children: [
+          {category: 'rest', type:'done', text: "Удалить ненужные приложухи"},
+          {category: 'rest', type:'wait', text: "Разобраться с контактами"},
+          {category: 'rest', type:'wait', text: "Прибраться в закладках"},
+          {category: 'rest', type:'wait', text: "Разобрать аудюхи / дневники / заметки - все в OneNote"},
+      ]},
+      {category: "rest", type: "wait", text: "Пазл склеить"},
 
+
+      // SOUL
+      {category: "soul", type: 'note', text: '<i>Поиск чего-то большего, чем сам человек: смысла жизни, Бога, идеи, предназначения, принципа, мокши</i>'},
       {category: "soul", type: 'note', text: 'Вот тут хз'},
       {category: "soul", type: 'note', text: 'Надо больше отдыхать, больше цели пилить, а не ебланить'},
-      {category: "soul", type: 'note', text: 'Сделать сервис, типа "Чем заняться"'},
-      {category: "soul", type: 'note', text: 'Сделать интерактивное колесо жизни, чтобы видеть перекосы'},
+      {category: "soul", type: 'wait', text: 'Прочитать <a href="https://goal-life.com/page/kniga/viktor-frankl/chto-takoe-smisl-zhizni-cheloveka">про смысл жизни</a>'},
+      {category: "soul", type: 'wait', text: 'Сделать сервис, типа "Чем заняться"'},
+      {category: "soul", type: 'done', text: 'Сделать интерактивное колесо жизни, чтобы видеть перекосы'},
     ] as Goal[];
 
     return {page};

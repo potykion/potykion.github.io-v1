@@ -15,10 +15,9 @@ cover: /images/index/cover.png
 Пишу вебчик на Python и Vue, а также немножко мобилки на Flutter
 
 <div class="core-col">
+  <article-heading :page="pages['dev/py/xlsx']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/postman']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/gsheets']" :preview="true"></article-heading>
-  <article-heading :page="pages['dev/vue/firebase']" :preview="true"></article-heading>
-  <article-heading :page="pages['dev/flutter/ads']" :preview="true"></article-heading>
 </div>
 
 </div>
@@ -32,10 +31,10 @@ cover: /images/index/cover.png
 Тут про принципы, про меня, про цели
 
 <div class="core-col">
+  <article-heading :page="pages['n/goals-2022']" :preview="true"></article-heading>
   <article-heading :page="pages['n/rent']" :preview="true"></article-heading>
   <article-heading :page="pages['n/principles']" :preview="true"></article-heading>
   <article-heading :page="pages['n']" :preview="true"></article-heading>
-  <article-heading :page="pages['n/goals2021']" :preview="true"></article-heading>
 </div>
 
 </div>

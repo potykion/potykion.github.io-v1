@@ -1,5 +1,5 @@
 ---
-title: Справка по openpyxl
+title: Шпаргалка по openpyxl
 description: openpyxl - лучшая либа для работы с Excel-файлами, тут будут рецепты как ей пользоваться
 showToc: true
 ---
