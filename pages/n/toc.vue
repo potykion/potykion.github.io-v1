@@ -21,6 +21,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
       rent: await $content("n/rent").fetch() as IContentDocument,
       principles: await $content("n/principles").fetch() as IContentDocument,
       goals: await $content("n/goals-2022").fetch() as IContentDocument,
+      results: await $content("n/results-2021").fetch() as IContentDocument,
     }
 
     return {page};

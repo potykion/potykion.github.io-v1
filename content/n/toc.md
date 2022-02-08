@@ -10,4 +10,5 @@ emote: kappa
   <article-heading :page="pages.principles" :preview="true"></article-heading>
   <article-heading :page="pages.goals" :preview="true"></article-heading>
   <article-heading :page="pages.n" :preview="true"></article-heading>
+  <article-heading :page="pages.results" :preview="true"></article-heading>
  </div>
