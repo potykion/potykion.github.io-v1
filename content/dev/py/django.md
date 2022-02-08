@@ -40,3 +40,22 @@ self.assertEqual(
 } 
 ```
 
+---
+
+Аналогично для типов, которые при сериализации переводятся в особую строку, стоит использовать метод `to_representation`.
+
+Напр. для Decimal: `DecimalField(max_digits=..., decimal_places=...).to_representation(decimal_)`
+
+## Генерация тестовых данных
+
+Используем [factory-boy](https://factoryboy.readthedocs.io/en/stable/index.html)
+
+### Генерация тестовых данных в виде словарей
+
+Для простых объектов тоже используем [factory-boy](https://factoryboy.readthedocs.io/en/stable/recipes.html#converting-a-factory-s-output-to-a-dict):
+
+```
+factory.build(dict, FACTORY_CLASS=UserFactory)
+```
+
+Для непростых объектов (с вложенными сущностями) - проследуйте на [стек](https://stackoverflow.com/a/66596431/5500609)
