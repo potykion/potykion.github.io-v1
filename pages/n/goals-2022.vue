@@ -56,15 +56,15 @@ import {Goal} from "~/logic/n/models";
       {category: 'work', type:'note', text: "Почитать всякие статьи, документации:", children: [
           {category: 'work', type:'wait', text: "<a href='https://docs.docker.com/get-started/orchestration/'>Про докер-сварм</a>"},
           {category: 'work', type:'wait', text: "<a href='https://youtube.com/playlist?list=PLpTASIMYgCp80c4YXgJDneAiGrAekOv4M'>Мб видики про сварм</a>"},
-          {category: 'work', type:'wait', text: "<a href='https://dockerswarm.rocks/'>Еще про докер-сварм</a>"},
+          {category: 'work', type:'done', text: "<a href='https://dockerswarm.rocks/'>Еще про докер-сварм</a>"},
           {category: 'work', type:'wait', text: "<a href='https://docs.docker.com/network/'>Про сети в докере</a>"},
-          {category: 'work', type:'wait', text: "<a href='https://ru.stackoverflow.com/a/241269/348589'>Про сетевые масочки</a>"},
-          {category: 'work', type:'wait', text: "<a href='https://swagger.io/docs/specification/about/'>Про openapi3</a>"},
+          {category: 'work', type:'done', text: "<a href='https://ru.stackoverflow.com/a/241269/348589'>Про сетевые масочки</a>"},
+          {category: 'work', type:'done', text: "<a href='https://swagger.io/docs/specification/about/'>Про openapi3</a>"},
 
       ]},
       {category: 'work', type:'done', text: "Позырить <a href='https://scale.yandex.ru/'>Yandex Scale 2021</a>", children: [
-          {category: 'work', type: 'note', text: "Serverless Containers - прикольно, но мб нам не подойдет по деньгам"},
-          {category: 'work', type: 'note', text: "Есть плагин для Idea"},
+          {category: 'work', type: 'note', text: "Serverless Containers - прикольно, но только для сервов"},
+          {category: 'work', type: 'note', text: "Есть <a href='https://github.com/yandex-cloud/ide-plugin-jetbrains'>плагин для Idea</a>"},
           {category: 'work', type: 'note', text: "<a href='https://github.com/yandex-cloud/examples'>Примерчики всякие</a>"},
           {category: 'work', type: 'note', text: "DataLens - прикольно, можно вместо своих отчетов эту темку юзать"},
         ]},
@@ -115,7 +115,9 @@ import {Goal} from "~/logic/n/models";
       // FRIENDS
       {category:'friends', type: 'note', text: 'Что вы скажите про цели в сфере "Друзья"? - "Пацанское, хули"'},
       {category:'friends', type: 'wait', text: 'Сходить в чебуречную'},
-      {category:'friends', type: 'wip', text: 'Сходить в раковую'},
+      {category:'friends', type: 'done', text: 'Сходить в раковую', children: [
+        {category: 'friends', type: 'note', text: 'Раки - ну такое - мяса мало, возни много - лучше взять креветок или крабов'},
+      ]},
       {category:'friends', type: 'wait', text: 'Ежегодное тетатет бухалово пивка с Михой и сватанье его'},
       {category:'friends', type: 'wait', text: 'Сделать все настоечки, которые подарил Андрей с Машей'},
 
@@ -146,10 +148,12 @@ import {Goal} from "~/logic/n/models";
       {category: 'rest', type:'note', text: "Диджитал уборочка", children: [
           {category: 'rest', type:'done', text: "Удалить ненужные приложухи"},
           {category: 'rest', type:'wait', text: "Разобраться с контактами"},
-          {category: 'rest', type:'wait', text: "Прибраться в закладках"},
-          {category: 'rest', type:'wait', text: "Разобрать аудюхи / дневники / заметки - все в OneNote"},
+          {category: 'rest', type:'done', text: "Прибраться в закладках"},
+          {category: 'rest', type:'done', text: "Разобрать аудюхи / дневники / заметки - все в OneNote"},
       ]},
-      {category: "rest", type: "wait", text: "Пазл склеить"},
+      {category: "rest", type: "done", text: "Пазл склеить"},
+      {category: "rest", type: 'wip', text: 'Сделать сервис, типа "Чем заняться"'},
+
 
 
       // SOUL
@@ -157,7 +161,6 @@ import {Goal} from "~/logic/n/models";
       {category: "soul", type: 'note', text: 'Вот тут хз'},
       {category: "soul", type: 'note', text: 'Надо больше отдыхать, больше цели пилить, а не ебланить'},
       {category: "soul", type: 'wait', text: 'Прочитать <a href="https://goal-life.com/page/kniga/viktor-frankl/chto-takoe-smisl-zhizni-cheloveka">про смысл жизни</a>'},
-      {category: "soul", type: 'wait', text: 'Сделать сервис, типа "Чем заняться"'},
       {category: "soul", type: 'done', text: 'Сделать интерактивное колесо жизни, чтобы видеть перекосы'},
     ] as Goal[];
 
