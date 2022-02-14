@@ -59,3 +59,43 @@ factory.build(dict, FACTORY_CLASS=UserFactory)
 ```
 
 Для непростых объектов (с вложенными сущностями) - проследуйте на [стек](https://stackoverflow.com/a/66596431/5500609)
+
+
+## Еще о датах
+
+Допустим, есть сущность с полем - `created` - датой создания объекта, которая проставляется автоматически при первом сохранении в бд:
+
+```python
+class Note(models.Model):
+  text = models.CharField(...)
+  created = models.DateTimeField(auto_now_add=True)
+```
+
+И мы хотим генерировать тестовые сущности, но с определенной датой:
+
+```python
+class NoteFactory(factory.django.DjangoModelFactory):
+  class Meta:
+    model = Note
+    
+    
+test_note = NoteFactory(created=dt.datetime(2022, 2, 14))
+```
+
+У `test_note` поле `created` будет равняться не `dt.datetime(2022, 2, 14)`, а текущей, потому что `auto_now_add=True`
+
+Чтобы была возможность указывать произвольное значение поля `created`, нужно использовать `default=timezone.now`:
+
+```python
+created = models.DateTimeField(default=timezone.now)
+```
+
+Тогда, если не указывать `created`, то оно заполнится текущей датой, а если указывать, то оно будет таким, каким хотим:
+
+```python
+test_note = NoteFactory(created=dt.datetime(2022, 2, 14))
+
+assert test_note.created == dt.datetime(2022, 2, 14) 
+```
+
+
