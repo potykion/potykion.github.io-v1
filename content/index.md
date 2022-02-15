@@ -12,9 +12,10 @@ cover: /images/index/cover.png
 
 ## [Разработка <img-emote emote="support"></img-emote>](/dev)
 
-Пишу вебчик на Python и Vue, а также немножко мобилки на Flutter
+Пишу вебчик на Python ~~и Vue, а также немножко мобилки на Flutter~~
 
 <div class="core-col">
+  <article-heading :page="pages['dev/py/pyenv']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/xlsx']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/postman']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/gsheets']" :preview="true"></article-heading>

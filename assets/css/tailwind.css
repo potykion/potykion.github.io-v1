@@ -35,7 +35,7 @@
 
 
   ul {
-    @apply list-inside list-disc;
+    @apply list-inside;
   }
 
   ol {
@@ -43,7 +43,11 @@
   }
 
   li {
-    @apply my-2;
+    @apply my-2 ;
+  }
+  li:before {
+    @apply mr-1;
+    content: '·';
   }
 
   li p {
@@ -54,15 +58,15 @@
   /*  @apply ml-5;*/
   /*}*/
   ul ul {
-    @apply ml-5;
+    @apply ml-6;
   }
 
   ol ul {
-    @apply ml-5;
+    @apply ml-6;
   }
 
   ol ol {
-    @apply ml-5;
+    @apply ml-6;
   }
 
   hr {
@@ -84,11 +88,30 @@
     @apply bg-pink-500;
   }
 
+  :not(pre) > code {
+    font-weight: bold;
 
-  code {
-    @apply bg-gray-100;
+    /* https://github.com/PrismJS/prism-themes/blob/master/themes/prism-one-light.css */
+    background: hsl(230, 1%, 98%);
+    color: hsl(230, 8%, 24%);
+    font-family: "Fira Code", "Fira Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    padding: 0.2em 0.3em;
+    border-radius: 0.3em;
+    white-space: normal;
   }
-
 
   pre {
     @apply my-2;

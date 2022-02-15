@@ -1,6 +1,6 @@
 <template>
   <nuxt-link :to="article.path" class="no-style">
-    <div :class="[' rounded', preview ? 'px-4 py-2 hover:border-pink-300 border-gray-100 border-2' : 'py-2']">
+    <div :class="[' rounded', preview ? 'px-4 py-2 hover:border-pink-300 border-gray-100 border-2' : 'py-2', article.content.color]">
       <h1 v-if="article.big">
         {{ article.title }}
         <img-emote v-if="article.emote" :emote="article.emote"></img-emote>

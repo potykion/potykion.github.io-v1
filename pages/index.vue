@@ -17,6 +17,7 @@ import {IContentDocument} from "@nuxt/content/types/content";
         $content("food/home/breakfast").fetch(),
         $content("dev/postman").fetch(),
         $content("dev/py/gsheets").fetch(),
+        $content("dev/py/pyenv").fetch(),
         $content("dev/py/xlsx").fetch(),
         $content("n/rent").fetch(),
         $content("n/principles").fetch(),

@@ -1,7 +1,9 @@
 <template>
   <article>
+    <template v-if="!article.hideHeading">
     <article-heading :article="article"></article-heading>
     <hr>
+    </template>
 
     <template v-if="article.showToc">
       <article-toc :toc="article.content.toc"></article-toc>

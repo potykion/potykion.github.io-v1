@@ -184,6 +184,12 @@ export default {
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
     liveEdit: false,
+    markdown: {
+      prism: {
+        // https://github.com/PrismJS/prism-themes/blob/master/themes/prism-one-light.css
+        theme: 'prism-themes/themes/prism-one-light.css',
+      }
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

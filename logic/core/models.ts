@@ -39,6 +39,10 @@ export class CoreArticle {
      */
     public big: boolean,
     /**
+     * Если true, то заголовок будет скрыт
+     */
+    public hideHeading: boolean,
+    /**
      * Обложка статьи
      */
     public cover?: string,
@@ -95,6 +99,7 @@ export class CoreArticle {
       page.createdAt ?? new Date(),
       page.tags ?? [],
       page.big ?? false,
+      page.hideHeading ?? false,
       page.cover,
       page.emote,
       page.ldjson,
