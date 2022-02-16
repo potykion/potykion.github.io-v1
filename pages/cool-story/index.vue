@@ -55,6 +55,7 @@ export default class coolStory extends Vue {
     new Date(2021, 6, 26),
     [],
     true,
+    false,
     undefined,
     "coolstorybob",
   )

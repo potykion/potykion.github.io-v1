@@ -28,6 +28,7 @@ export default class ArchivePage extends Vue {
     new Date(2021, 8, 2),
     [],
     true,
+    false,
     undefined,
     "sleep",
   );
