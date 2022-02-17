@@ -26,7 +26,7 @@
   }
 
   a {
-    @apply text-pink-400 visited:text-black underline;
+    @apply text-blue-600 visited:text-blue-600 underline;
   }
 
   p {
@@ -39,20 +39,21 @@
   }
 
   ol {
-    @apply list-decimal list-inside;
+    @apply list-decimal list-outside ml-6;
   }
 
   li {
     @apply my-2 ;
   }
-  li:before {
+
+  ul li:before {
     @apply mr-1;
     content: '·';
   }
 
-  li p {
-    @apply inline;
-  }
+  /*li p {*/
+  /*  @apply inline;*/
+  /*}*/
 
   /*ul div {*/
   /*  @apply ml-5;*/
@@ -151,7 +152,7 @@
   /* Пока используется официально только в food/outside/mendel */
   /* Есть еще подобие в /n */
   .mendel-card {
-    @apply bg-white rounded py-2 md:py-4 px-4 md:px-6 shadow mt-4;
+    @apply bg-white rounded pt-2 pb-4 md:py-4 px-4 md:px-6 shadow mt-4;
   }
 
   a.no-style {
