@@ -15,6 +15,7 @@ cover: /images/index/cover.png
 Пишу вебчик на Python ~~и Vue, а также немножко мобилки на Flutter~~
 
 <div class="core-col">
+  <article-heading :page="pages['dev/py/test-gae']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/pyenv']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/xlsx']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/postman']" :preview="true"></article-heading>
