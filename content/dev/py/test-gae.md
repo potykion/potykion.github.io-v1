@@ -9,7 +9,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 <div class="bg-white md:py-4 md:px-6 py-2 px-4 rounded-lg md:text-xl text-lg space-y-8">
 
-<h1 class="uppercase font-bold italic"> Как тестировать Python 2 приложухи на GAE? <img-inline-block src="/images/dev/py/test-gae/gae.jpg"></img-inline-block> </h1> 
+<h1 class="uppercase font-bold italic"> Как тестировать Python 2 приложухи на GAE? </h1> 
 
 
 <img-swiper>
@@ -65,7 +65,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 Но его можно разбить на кучки:
 
-<h4 class="flex items-end ">GAE SDK <img-inline-block class="ml-2"  src="/images/dev/py/test-gae/gae.jpg"></img-inline-block></h4> 
+<h4 >GAE SDK</h4> 
 
 
 `google.appengine.api.app_identity`, `google.appengine.api.modules`
