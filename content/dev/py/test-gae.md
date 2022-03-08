@@ -1,13 +1,13 @@
 ---
 title: Как тестировать Python 2 приложухи на GAE?
-description: Использовать моки!
+description: Хардкод, моки, удаление лишнего
 hideHeading: true
 cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 ---
 
 <div class="space-y-4"> 
 
-<div class="bg-white md:py-4 md:px-6 py-2 px-4 rounded-lg md:text-xl text-lg space-y-8">
+<div class="bg-white md:py-4 md:px-6 py-2 px-4 rounded-lg md:text-xl text-lg space-y-4">
 
 <h1 class="uppercase font-bold italic"> Как тестировать Python 2 приложухи на GAE? </h1> 
 
@@ -51,7 +51,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 Сначала надо запустить хоть какой-то код. 
 
-Ведь, когда у тебя <span class=" font-bold italic">7-летнее</span> легаси, которое тестится <span class=" font-bold italic">только в проде</span>, - это непростая задачка
+*Ведь, когда у тебя <span class=" font-bold italic">7-летнее</span> легаси, которое тестится <span class=" font-bold italic">только в проде</span>, - это непростая задачка*
 
 ---
 
@@ -71,7 +71,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 `google.appengine.api.app_identity`, `google.appengine.api.modules`
 
 
-Тут всякая инфа о приложении (проекте), типа айди, GCS-бакет - это *хардкодим* при получении исключения:
+Тут всякая инфа о приложении (проекте), типа айди, GCS-бакет - это ***хардкодим*** при получении исключения:
 
 
 `app_identity.get_application_id()` > `'project-id'`
@@ -87,7 +87,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 Создает апи-клиент для работы с гугл-сервисами, типа BigQuery
 
-Это дело *мокаем* при ошибках: 
+Это дело ***мокаем*** при ошибках: 
 
 
 
@@ -98,7 +98,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 #### Хз что
 
-Скорее всего, это мусор - *удаляем* его
+Скорее всего, это мусор - ***удаляем*** его
 
 ---
 
