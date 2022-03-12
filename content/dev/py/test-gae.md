@@ -25,7 +25,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 Сперва, хочу сказать, что я...
 
-<div class="text-3xl md:text-5xl text-center font-black tracking-widest">ПОЕБАЛСЯ ИЗРЯДНО</div>
+<div class="text-3xl md:text-5xl  font-black tracking-widest">ПОЕБАЛСЯ ИЗРЯДНО</div>
 
 но в итоге все ± робит
 
@@ -35,7 +35,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 Итак,
 
-<h2 class="font-bold text-center">
+<h2 class="font-bold ">
 Чего мы хотим от тестирования?
 </h2>
 
@@ -47,7 +47,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 <div class="bg-white md:py-4 md:px-6 py-2 px-4 rounded-lg md:text-xl text-lg">
 
-<h2 class="font-bold text-center">⛅ Легкость запуска ⛅</h2>
+<h2 class="font-bold "> Легкость запуска </h2>
 
 Сначала надо запустить хоть какой-то код. 
 
@@ -57,7 +57,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 ### Жмем <span class='text-green-500'>▶</span>, и что получаем?
 
-<div class="text-xl md:text-3xl text-red-500 font-black text-center tracking-widest">
+<div class="text-xl md:text-3xl text-red-500 font-black  tracking-widest">
 
 КУЧА КРАСНОГО ТЕКСТА
 
@@ -140,7 +140,7 @@ cover: /images/dev/py/test-gae/py2-gae-testing.jpg
 
 <div class="bg-white md:py-4 md:px-6 py-2 px-4 rounded-lg md:text-xl text-lg">
 
-<h2 class="font-bold text-center">⛅ Легкость написания ⛅</h2>
+<h2 class="font-bold "> Легкость написания </h2>
 
 pytest сам по себе простой - тесты можно писать как функции с assert-ами, но для GAE нужно пару приблуд
 
