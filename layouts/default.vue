@@ -12,7 +12,7 @@
       <div class="article-container">
         <hr/>
         <div class="h-12 ">
-          Есть что сказать? Напиши мне в <a href="https://t.me/potykion">тг</a> или <a href="https://new.donatepay.ru/@970433">анонимно</a>!
+          Есть что сказать? Напиши мне в <a href="https://t.me/potykion">тг</a> или <a href="https://new.donatepay.ru/@potyk">анонимно</a>!
         </div>
       </div>
     </footer>
