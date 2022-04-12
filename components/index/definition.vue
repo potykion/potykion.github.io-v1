@@ -9,9 +9,9 @@
 
     <div class="space-x-2 overflow-x-auto flex ">
       <link-btn class="flex-shrink-0" href="/changelog">Новое</link-btn>
+      <link-btn class="flex-shrink-0" href="/n/reviews">Отзывы</link-btn>
       <link-btn class="flex-shrink-0" href="/n/goals-2022">Цели 2022</link-btn>
       <link-btn class="flex-shrink-0" href="/n">Обо мне</link-btn>
-      <link-btn class="flex-shrink-0" href="/n/reviews">Книга отзывов и предложений</link-btn>
       <link-btn class="flex-shrink-0" href="/n/wishlist">Вишлист</link-btn>
     </div>
 
