@@ -65,3 +65,11 @@ cover: /images/index/cover.png
 </div>
 
 </div>
+
+<div class="mendel-card">
+
+## [Архив 📦](/archive) 
+
+Тут лежит все, что скрыто
+
+</div>

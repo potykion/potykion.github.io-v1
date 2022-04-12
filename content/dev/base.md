@@ -6,8 +6,7 @@ description: Здесь будут проекты, которые так или 
 ### Вебчик
 
 - [Postman](https://www.postman.com/) - лучший десктопный http-клиент; альтернатив
-  дохрена: [опенсурный](https://insomnia.rest/), [клишный](https://github.com/httpie/httpie)
-  , [вебный](https://hoppscotch.io/)
+  дохрена: [опенсурный](https://insomnia.rest/), [клишный](https://github.com/httpie/httpie), [вебный](https://hoppscotch.io/)
 - [jsoneditoronline](https://jsoneditoronline.org/) - лучший веб просмотрщик джсонок: есть поиск, форматирование,
   редактирование; альтернативы: [клишный](https://github.com/antonmedv/fx)
 - [Firebase](https://firebase.google.com/) - гугловский BAAS - backend as a service - решение, когда лень писать серв:
@@ -16,21 +15,12 @@ description: Здесь будут проекты, которые так или 
 
 ### Контент
 
-- [carbon](https://github.com/carbon-app/carbon) - позволяет делать красивые скрины с кодом; есть
-  еще [polacode](https://github.com/octref/polacode) - то же самое, ток сразу из vscode можно делать
-- [marktext](https://github.com/marktext/marktext) - лучший маркдаун редактор;
-  альтернативы: [Zettlr](https://github.com/Zettlr/Zettlr), вскод, интелледжи идея
-- [mermaid](https://github.com/mermaid-js/mermaid) - язык для описания диаграмм; есть куча очерток, напр.
-  для [Sphinx](https://github.com/mgaitan/sphinxcontrib-mermaid);
-  альтернативы: [diagrams](https://github.com/mingrammer/diagrams) - описания диаграммы на питоне
-- [wikijs](https://github.com/Requarks/wiki) - локальная вики,
-  альтернативы: [Sphinx](https://www.sphinx-doc.org/en/master/), [Notion](https://www.notion.so/),
-  [gitbook](https://github.com/GitbookIO/gitbook)
-
-- [ShareX](https://github.com/ShareX/ShareX) - штука для создания гифок на винде;
-  альтернативы: [terminalizer](https://github.com/faressoft/terminalizer) - штука для создания гифок с кли командами
-- [you-get](https://github.com/soimort/you-get) - качает видос с ютуба;
-  альтернативы: [youtube-dl](https://github.com/ytdl-org/youtube-dl)
+- [carbon](https://github.com/carbon-app/carbon) - позволяет делать красивые скрины с кодом; есть еще [polacode](https://github.com/octref/polacode) - то же самое, ток сразу vscode можно делать
+- [marktext](https://github.com/marktext/marktext) - лучший маркдаун редактор; альтернативы: [Zettlr](https://github.com/Zettlr/Zettlr), вскод, интелледжи идея
+- [mermaid](https://github.com/mermaid-js/mermaid) - язык для описания диаграмм; есть куча очерток, напр. для [Sphinx](https://github.com/mgaitan/sphinxcontrib-mermaid); альтернативы: [diagrams](https://github.com/mingrammer/diagrams) - описания диаграммы на питоне
+- [wikijs](https://github.com/Requarks/wiki) - локальная вики, альтернативы: [Sphinx](https://www.sphinx-doc.org/en/master/), [Notion](https://www.notion.so/), [gitbook](https://github.com/GitbookIO/gitbook)
+- [ShareX](https://github.com/ShareX/ShareX) - штука для создания гифок на винде; альтернативы: [terminalizer](https://github.com/faressoft/terminalizer) - штука для создания гифок с кли командами
+- [you-get](https://github.com/soimort/you-get) - качает видос с ютуба; альтернативы: [youtube-dl](https://github.com/ytdl-org/youtube-dl)
 
 ### Винда-специфик
 

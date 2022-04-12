@@ -2,7 +2,10 @@
 title: Python / Работа с Google таблицами с помощью Sheets API
 description: Sheets API - одна из самых непонятных апишек, здесь я опишу понятное руководство по этой апишке на примере задачи обновления ссылок в таблице
 cover: /images/dev/python/gsheets/cover.png
+showToc: true
 ---
+
+<div class="mendel-card">
 
 Чтобы работать с Гугл шитс апи, надо авторизоваться, а потом можно запросики кидать.
 
@@ -13,9 +16,13 @@ cover: /images/dev/python/gsheets/cover.png
 - Создать проект в Google Cloud + включить [Sheets API](https://console.cloud.google.com/apis/library/sheets.googleapis.com)
 - Поставить клиентские либы:
 
-  ```
-  pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
-  ```
+```
+pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+
+</div>
+
+<div class="mendel-card"> 
 
 ### Авторизация
 
@@ -135,6 +142,10 @@ cover: /images/dev/python/gsheets/cover.png
   )
   ```
 
+</div>
+
+<div class="mendel-card"> 
+
 
 ### Кидание запросиков
 
@@ -152,6 +163,11 @@ cover: /images/dev/python/gsheets/cover.png
     ```python
     resp = service.spreadsheets().get(**params).execute()
     ```
+
+</div>
+
+<div class="mendel-card"> 
+
 
 ### Данные, передаваемые в параметрах
 
@@ -215,6 +231,9 @@ RANGE = {
 
 > Для перевода буквенных колонок в число, можно использовать метод `column_index_from_string` из библиотеки [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 
+</div>
+
+<div class="mendel-card"> 
 
 ### Пример: обновление ссылок в ячейках 
 
@@ -307,10 +326,19 @@ service.spreadsheets().batchUpdate(
 
 Код выгрузит ячейки таблицы в диапазоне и заменит ссылки, содержащие google.com, на yandex.ru.
 
+</div>
+
+<div class="mendel-card"> 
+
+
 ### Ссылочки
 
 - [Итоговый код скрипта](https://gist.github.com/potykion/880b9971cfd54700ddc93410722a2149)
 - [Начало работы с Sheets API в Python](https://developers.google.com/sheets/api/quickstart/python)
+
+</div>
+
+<div class="mendel-card"> 
 
 
 ### Apps Script
@@ -319,7 +347,7 @@ service.spreadsheets().batchUpdate(
 - И самое главное - не нужно вообще писать код для авторизации / делать какие-либо телодвижения по этому поводу
 - То есть для Apps Script часть с Авторизацией можно пропустить и сразу юзать методы апи:
 
-  ```js
+```js
   // Метод spreadsheets.get
   const resp = Sheets.Spreadsheets.get(
     TABLE, 
@@ -349,17 +377,19 @@ service.spreadsheets().batchUpdate(
 
 - Запускать это дело можно из [редактора](https://script.google.com/home):
 
-  <img-swiper>
-    <img-block src="/images/dev/python/gsheets/apps-script-editor.png" alt="Apps Script редактор"></img-block>
-  </img-swiper>
+<img-swiper>
+  <img-block src="/images/dev/python/gsheets/apps-script-editor.png" alt="Apps Script редактор"></img-block>
+</img-swiper>
 
 #### Плагины
 
 - Как я говорил, можно плагины писать для тех же Гугл таблиц
 - Вот [пример работы с Youtube API](https://developers.google.com/youtube/v3/quickstart/apps-script), который добавляет в Гугл таблицу кастомную кнопулю, которая подгружает данные о YT-канале:
 
-  <img-swiper>
-    <img-block src="/images/dev/python/gsheets/apps-script-gsheet-integration.png" alt="Кастомная кнопочка в Google Sheets"></img-block>
-  </img-swiper>
+<img-swiper>
+  <img-block src="/images/dev/python/gsheets/apps-script-gsheet-integration.png" alt="Кастомная кнопочка в Google Sheets"></img-block>
+</img-swiper>
 
 - Возможно, это не так удобно как из Питона, но суть в том, что такой инструмент существует, и мб для каких-то задач он пригоден
+
+</div>
