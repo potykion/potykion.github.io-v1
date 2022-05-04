@@ -26,7 +26,7 @@ description: Список того, что хотелось сделать в 20
 
 #### Хорошие статьи про еду
 
-✅ [Про мендель](/food/outside/mendel)<br>
+✅ [Про мендель](/archive/food/outside/mendel)<br>
 ✅ Про завтраки ([#186](https://github.com/potykion/potykion.github.io/issues/186))<br>
 🚧 Про стейки ([#140](https://github.com/potykion/potykion.github.io/issues/140))<br>
 
