@@ -15,6 +15,7 @@ cover: /images/index/cover.png
 Пишу вебчик на Python ~~и Vue, а также немножко мобилки на Flutter~~
 
 <div class="core-col">
+  <article-heading :page="pages['dev/py/test']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/test-gae']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/pyenv']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/xlsx']" :preview="true"></article-heading>
@@ -38,17 +39,6 @@ cover: /images/index/cover.png
   <article-heading :page="pages['n/principles']" :preview="true"></article-heading>
   <article-heading :page="pages['n']" :preview="true"></article-heading>
 </div>
-
-</div>
-
-<div class="mendel-card">
-
-## [Еда <img-emote emote="salt"></img-emote>](/food)
-
-Именно благодаря статье про завтраки, я понял какой должна быть концепция блога:
-
-<article-heading :page="pages['food/home/breakfast']" :preview="true"></article-heading>
-
 
 </div>
 

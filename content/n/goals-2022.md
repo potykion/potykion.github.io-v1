@@ -6,6 +6,13 @@ cover: /images/n/goals-2022/cover.jpg
 
 <div class="mendel-card">
 
+# В КОНЦЕ ГОДА НАПИШУ РЕЗУЛЬТАТЫ
+## КАЖДЫЙ ДЕНЬ/НЕДЕЛЮ/МЕСЯЦ ОБНОВЛЯТЬ ПРОГРЕСС ЛЕНЬ
+
+</div>
+
+<div class="mendel-card">
+
 <details>
 <summary><h2 class='inline'>Вступление</h2></summary>
 
