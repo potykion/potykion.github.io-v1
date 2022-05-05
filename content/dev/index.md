@@ -5,6 +5,12 @@ big: true
 emote: support
 ---
 
+## Тулзы
+
+  <div class="space-x-2 overflow-x-auto flex ">
+    <link-btn class="flex-shrink-0" href="/dev/dict_to_json">dict_to_json</link-btn>
+  </div>
+
 ## Это база
 
 
