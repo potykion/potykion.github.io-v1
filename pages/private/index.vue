@@ -1,6 +1,6 @@
 <template>
  <div>
-   <nuxt-link to="/private/fin">fin</nuxt-link>
+   PRIVATO4KA
  </div>
 </template>
 
