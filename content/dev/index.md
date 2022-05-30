@@ -5,11 +5,6 @@ big: true
 emote: support
 ---
 
-## Тулзы
-
-  <div class="space-x-2 overflow-x-auto flex ">
-    <link-btn class="flex-shrink-0" href="/dev/dict_to_json">dict_to_json</link-btn>
-  </div>
 
 ## Это база
 
@@ -54,3 +49,9 @@ emote: support
   <article-heading :page="pages['how']" :preview="true"></article-heading>
   <article-heading :page="pages['base']" :preview="true"></article-heading>
 </div>
+
+## Тулзы
+
+  <div class="space-x-2 overflow-x-auto flex ">
+    <link-btn class="flex-shrink-0" href="/dev/dict_to_json">dict_to_json</link-btn>
+  </div>
