@@ -1,4 +1,4 @@
-import {Context} from "@nuxt/types";
+import {hash} from "~/logic/core/hash";
 
 interface AuthState {
   isAuthorized: boolean;
@@ -23,11 +23,11 @@ export const mutations = {
 
 export const actions = {
   nuxtServerInit({commit}: any, {$config}: any) {
-    commit('setPassword', $config.password);
+    commit('setPassword', hash($config.password));
   },
 
   tryAuth({commit, state}: any, pass: string) {
-    if (pass === state.password) {
+    if (hash(pass) === state.password) {
       commit('setAuthorized');
       return [true, ""];
     } else {
