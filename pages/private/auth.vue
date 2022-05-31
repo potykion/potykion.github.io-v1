@@ -19,6 +19,8 @@ import {
 } from "nuxt-property-decorator"
 
 @Component({
+  layout: 'private'
+
 })
 export default class auth extends Vue {
   password = "";

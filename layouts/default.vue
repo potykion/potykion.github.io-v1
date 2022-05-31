@@ -31,7 +31,6 @@ import {
 import {annotate, annotationGroup} from 'rough-notation';
 
 @Component({
-  middleware: 'auth'
 })
 export default class Default extends Vue {
 

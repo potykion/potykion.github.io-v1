@@ -1,6 +1,10 @@
 <template>
  <div>
    PRIVATO4KA
+
+   <ul>
+     <li><nuxt-link to="/private/fin">fin</nuxt-link> </li>
+   </ul>
  </div>
 </template>
 
@@ -14,7 +18,7 @@ import {
 } from "nuxt-property-decorator"
 
 @Component({
-
+   layout: 'private'
 })
 export default class index extends Vue {
 
