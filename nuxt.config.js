@@ -130,6 +130,8 @@ export default {
 
     //https://www.npmjs.com/package/nuxt-highcharts
     'nuxt-highcharts',
+
+    '@nuxtjs/dotenv',
   ],
 
   yandexTurboFeed: {
