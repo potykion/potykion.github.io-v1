@@ -36,7 +36,7 @@ async function main() {
   }
 
   // Чекаем заполненность енвов
-  ['NODE_ENV', 'PASSWORD'].forEach(
+  ['PASSWORD'].forEach(
     (env) => {
       console.log(process.env[env]);
       if (!process.env[env]) {

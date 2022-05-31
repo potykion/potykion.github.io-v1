@@ -10,12 +10,12 @@ branches:
   only:
     - main
 
+script:
+  - npm run lint
+
 install:
   - npm install
   - npm run generate
-
-script:
-  - npm run lint
 
 deploy:
   provider: pages

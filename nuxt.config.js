@@ -199,7 +199,7 @@ export default {
       // https://stackoverflow.com/a/57392125/5500609
       // Для дебага asyncData используй
       // fetchOnServer: false
-      if (isClient && process.env.NODE_ENV !== 'production') {
+      if (isClient && process.env.NODE_ENV === 'dev') {
         config.devtool = '#source-map'
       }
     }
