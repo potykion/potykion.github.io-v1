@@ -15,6 +15,7 @@ export const mutations = {
 
 export const actions = {
   tryAuth({commit}: { commit: (mutation: string) => void }, pass: string) {
+    console.log(process.env.PASSWORD);
     if (pass === process.env.PASSWORD) {
       commit('setAuthorized');
       return [true, ""];
