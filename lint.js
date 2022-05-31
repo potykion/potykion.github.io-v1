@@ -35,6 +35,16 @@ async function main() {
     }
   }
 
+  // Чекаем заполненность енвов
+  ['NODE_ENV', 'PASSWORD'].forEach(
+    (env) => {
+      console.log(process.env[env]);
+      if (!process.env[env]) {
+        errors.push(`Не заполнен env: ${env}`);
+      }
+    }
+  )
+
   if (errors.length) {
     throw errors;
   }
