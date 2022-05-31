@@ -14,11 +14,6 @@ cover: /images/index/cover.png
 
 Пишу вебчик на Python ~~и Vue, а также немножко мобилки на Flutter~~
 
-### Тулзы
-
-  <div class="space-x-2 overflow-x-auto flex ">
-    <link-btn class="flex-shrink-0" href="/dev/dict_to_json">dict_to_json</link-btn>
-  </div>
 
 
 ### Последние статеечки
@@ -31,6 +26,14 @@ cover: /images/index/cover.png
   <article-heading :page="pages['dev/postman']" :preview="true"></article-heading>
   <article-heading :page="pages['dev/py/gsheets']" :preview="true"></article-heading>
 </div>
+
+### Тулзы
+
+  <div class="space-x-2 overflow-x-auto flex ">
+    <link-btn class="flex-shrink-0" href="/dev/dict_to_json">dict_to_json</link-btn>
+  </div>
+
+
 
 </div>
 

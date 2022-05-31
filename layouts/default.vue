@@ -30,8 +30,11 @@ import {
 
 import {annotate, annotationGroup} from 'rough-notation';
 
-@Component
+@Component({
+  middleware: 'auth'
+})
 export default class Default extends Vue {
+
   mounted() {
     // annotationGroup(
     //   Array.from(document.querySelectorAll(".nav-link-text"))
