@@ -1,24 +1,24 @@
 <template>
   <div class="bg">
     <div class="container">
-      <h1>FIN CALC</h1>
+      <h1>FIN / Цели</h1>
 
-      <h2>Текущие цели</h2>
 
       <div class="goal-container">
-        <div v-for="g in goals" :key="g.name" class="goal">
-          <div class="relative z-10">
-            <div class="opacity-40 z-0 absolute top-0 bg-green-400 h-full" :style="{width: `${Math.min(g.curSum / g.reqSum * 100, 100)}%`}"></div>
+        <div v-for="g in goals" :key="g.name" class="">
+          <div >
 
 
             <div class="p-2 ">
               <div class="flex justify-between">
                 <div></div>
-                <div class="text-sm">{{ g.name }}</div>
+                <div class="">{{ g.name }}</div>
                 <div></div>
               </div>
 
-              <div class="text-xl text-center">{{ g.curSum }} ({{ Math.round(g.curSum / g.reqSum * 100) }} %)</div>
+              <div :style="{background: `linear-gradient(to right, #41d453 ${Math.round(Math.min(g.curSum / g.reqSum * 100, 100))}%, transparent 0)`}"
+                   class="text-xl text-center font-bold py-1 rounded border bg-gray-50">{{ g.curSum }} ({{ Math.round(g.curSum / g.reqSum * 100) }}%)</div>
+
               <div class="flex ">
                 <div class="flex-1">0</div>
                 <div class="flex-1 text-center">{{ Math.round((g.deadline - new Date()) / 1000 / 3600 / 24) }} дней
@@ -78,16 +78,14 @@ export default class fin extends Vue {
 }
 
 .container {
-  @apply bg-white mx-auto w-4/5 rounded-l p-4 mt-2;
+  @apply bg-white mx-auto w-4/5 rounded-xl p-4 mt-2;
 }
 
 h1 {
-  @apply text-left;
+  @apply text-left font-normal text-3xl p-0;
 }
 
-.goal {
-  @apply border  rounded;
-}
+
 
 .goal-container {
   @apply space-y-2;
