@@ -204,6 +204,10 @@ export default {
       }
     }
   },
+
+  privateRuntimeConfig: {
+    password: process.env.PASSWORD,
+  }
 }
 
 
