@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/dev/dict_to_json", {data:[{}],fetch:{},mutations:[]});
