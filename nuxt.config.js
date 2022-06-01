@@ -206,7 +206,12 @@ export default {
   },
 
   privateRuntimeConfig: {
+    // prod / dev
+    NODE_ENV: process.env.NODE_ENV || 'prod',
     password: process.env.PASSWORD,
+    GOOGLE_SERVICE_ACCOUNT_EMAIL: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
+    GOOGLE_PRIVATE_KEY: process.env.GOOGLE_PRIVATE_KEY,
+    GOOGLE_SHEET_ID: process.env.GOOGLE_SHEET_ID,
   }
 }
 
