@@ -195,6 +195,14 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config, {isClient}) {
+      config.node = {
+        fs: 'empty',
+        child_process: 'empty',
+        net: 'empty',
+        dns: 'empty',
+        tls: 'empty',
+      };
+
       // Чтоб дебажить можно было
       // https://stackoverflow.com/a/57392125/5500609
       // Для дебага asyncData используй
@@ -211,7 +219,8 @@ export default {
     password: process.env.PASSWORD,
     GOOGLE_SERVICE_ACCOUNT_EMAIL: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
     GOOGLE_PRIVATE_KEY: process.env.GOOGLE_PRIVATE_KEY,
-    GOOGLE_SHEET_ID: process.env.GOOGLE_SHEET_ID,
+    GOOGLE_SHEETS_TABLE_ID: process.env.GOOGLE_SHEETS_TABLE_ID,
+    GOOGLE_SHEETS_SHEET_ID: process.env.GOOGLE_SHEETS_SHEET_ID,
   }
 }
 

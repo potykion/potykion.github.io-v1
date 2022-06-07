@@ -1,7 +1,15 @@
 <template>
   <div class="bg">
     <div class="container">
-      <h1>FIN / Цели</h1>
+      <div class="flex justify-between">
+        <div>
+          <h1>FIN / Цели</h1>
+        </div>
+        <div>
+          <button class="btn" @click="updateGoals">🔃 Синхронуть</button>
+        </div>
+
+      </div>
 
 
       <div class="goal-container">
@@ -52,54 +60,21 @@ import {
   Vue,
 } from "nuxt-property-decorator"
 import {Context} from "@nuxt/types";
-import {GoogleSpreadsheet} from "google-spreadsheet";
-
-
-interface FinGoal {
-  name: string;
-  reqSum: number;
-  curSum: number;
-  deadline: Date;
-}
+import {loadFinGoals} from "~/logic/private/fin/cases";
+import {FinGoal} from "~/logic/private/fin/models";
+import {getGoalsFromCache, loadFinGoalsFromGSheets} from "~/logic/private/fin/utils";
 
 @Component({
   layout: 'private',
-  async asyncData(ctx: Context) {
-
-    const doc = new GoogleSpreadsheet(ctx.$config.GOOGLE_SHEET_ID);
-
-    await doc.useServiceAccountAuth({
-      client_email: ctx.$config.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-      private_key: ctx.$config.GOOGLE_PRIVATE_KEY,
-    });
-
-    await doc.loadInfo();
-
-    const sheet = doc.sheetsById[540559671];
-    // await sheet.loadHeaderRow();
-
-    const goalRows = await sheet.getRows();
-    const goals = goalRows.map(r => ({
-      name: r.name,
-      reqSum: r.reqSum,
-      curSum: r.curSum,
-      deadline: r.deadline,
-
-    }));
-
-    return {goals};
-  }
+  async asyncData({$config}) {
+    return {goals: await loadFinGoalsFromGSheets($config)};
+  },
+  fetchKey: "goals",
+  fetchOnServer: false,
 })
 export default class fin extends Vue {
-  goals!: FinGoal[];
-  // = [
-    // {name: 'Абик', reqSum: 90 * 1000, curSum: 7173.42, deadline: new Date(2023, 3 - 1, 24)},
-    // {name: 'Хата', reqSum: 75 * 1000, curSum: 75369.59, deadline: new Date(2022, 6 - 1, 30)},
-    // {name: 'Отпуск', reqSum: 100 * 1000, curSum: 35132.28, deadline: new Date(2022, 8 - 1, 23)},
-    // {name: 'Новая хаточка', reqSum: 170 * 1000, curSum: 42 * 1000, deadline: new Date(2022, 11 - 1, 5)},
-    // {name: 'Колечко', reqSum: 45 * 1000, curSum: 24 * 1000, deadline: new Date(2022, 11 - 1, 15)},
-    // {name: 'Инвестиции', reqSum: 50 * 1000, curSum: 0, deadline: new Date(2022, 6 - 1, 30)},
-  // ]
+  goals: FinGoal[] = [];
+
 }
 </script>
 
@@ -119,6 +94,10 @@ h1 {
 
 .goal-container {
   @apply space-y-2;
+}
+
+.btn {
+  @apply bg-transparent hover:bg-green-100 p-3 rounded-3xl border-4 border-gray-100;
 }
 
 </style>
