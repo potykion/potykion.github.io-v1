@@ -40,6 +40,7 @@ export default {
 
   router: {
     trailingSlash: false,
+    base: "/potykion.github.io-v1/",
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
